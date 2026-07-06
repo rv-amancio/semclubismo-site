@@ -1,14 +1,18 @@
-Substitua no repositório:
-- src/app.html
-- src/app.css
-- src/styles.css
+# Sem Clubismo
 
-Fotos:
-- src/assets/team/rodrigo.jpeg
-- src/assets/team/daniel.jpeg
-- src/assets/team/tadeu.jpeg
+Tapume temporário do projeto **Sem Clubismo**.
 
-Depois:
-git add .
-git commit -m "landing final sem clubismo"
-git push
+## Como rodar
+
+```bash
+npm install
+npm start
+```
+
+Site Angular: `http://localhost:4200`
+
+## Conteúdo
+
+- Fundo preto
+- Imagem centralizada em tela cheia
+- Asset principal em `src/assets/images/tapume.png`
