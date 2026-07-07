@@ -1,0 +1,178 @@
+<sc-header />
+
+<main>
+  <!-- ═══ HERO ═══ -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg" aria-hidden="true">
+      <img class="hero__photo" [src]="images.hero.background" alt="" />
+      <div class="hero__glow"></div>
+      <div class="hero__overlay"></div>
+    </div>
+
+    <div class="sc-shell hero__content">
+      <div class="hero__copy">
+        <h1>
+          <span class="hero__line">Futebol <span class="hero__highlight">sem clubismo.</span></span>
+          <span class="hero__line">Debate de verdade.</span>
+        </h1>
+        <p class="hero__desc">
+          Notícias, opinião e análise com a cara de quem ama o futebol de verdade.
+          Debate aberto, resenha boa, diversão garantida e respeito acima de qualquer rivalidade.
+        </p>
+        <p class="hero__motto">Nem sempre imparciais. Sempre sinceros.</p>
+        <div class="hero__actions">
+          <sc-button href="#episodios" icon="play">Assista agora</sc-button>
+          <sc-button variant="secondary" href="#sobre">Conheça o podcast</sc-button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ STATS ═══ -->
+  <section class="stats" aria-label="Números do podcast">
+    <div class="sc-shell">
+      <div class="stats__bar">
+        <sc-stat value="+50" label="Episódios publicados" icon="episodes" />
+        <sc-stat value="+100K" label="Visualizações no YouTube" icon="views" />
+        <sc-stat value="5" label="Plataformas presentes" icon="platforms" />
+        <sc-stat value="Toda semana" label="Novos episódios e lives" icon="weekly" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ EPISÓDIOS ═══ -->
+  <section class="section" id="episodios">
+    <div class="sc-shell">
+      <div class="sc-section-head">
+        <div>
+          <p class="sc-kicker">Conteúdo</p>
+          <h2>Episódios em destaque</h2>
+        </div>
+        <a class="sc-link-arrow" href="#">Ver todos os episódios &gt;&gt;</a>
+      </div>
+      <div class="episodes-grid">
+        @for (ep of episodes; track ep.episode) {
+          <sc-episode-card [episode]="ep" />
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SOBRE + EQUIPE ═══ -->
+  <section class="section about" id="sobre">
+    <div class="about__bg" aria-hidden="true">
+      <img [src]="images.sections.about" alt="" loading="lazy" />
+      <div class="about__bg-overlay"></div>
+    </div>
+    <div class="sc-shell about__grid">
+      <div class="about__text">
+        <p class="sc-kicker">Nossa missão</p>
+        <h2>Por que existimos?</h2>
+        <p>
+          O Sem Clubismo nasceu da vontade de falar de futebol com paixão,
+          opinião e honestidade. Aqui tem debate, resenha e diversão —
+          sempre com respeito em primeiro lugar.
+        </p>
+        <div class="about__pillars">
+          @for (pillar of pillars; track pillar.label) {
+            <div class="about__pillar">
+              <span class="about__pillar-icon">{{ pillar.icon }}</span>
+              <span>{{ pillar.label }}</span>
+            </div>
+          }
+        </div>
+      </div>
+      <div class="about__team" id="bastidores">
+        <p class="sc-kicker">Bastidores</p>
+        <h2>Quem está por trás</h2>
+        <div class="team-grid">
+          <sc-host-card name="Rodrigo" />
+          <sc-host-card name="Daniel" gradient="linear-gradient(180deg, #1a1e2a 0%, #0d0d0d 100%)" />
+          <sc-host-card name="Tadeu" gradient="linear-gradient(180deg, #1a1814 0%, #0d0d0d 100%)" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ NEWSLETTER ═══ -->
+  <section class="newsletter" id="comunidade">
+    <div class="sc-shell">
+      <div class="newsletter__brush">
+        <div class="newsletter__inner">
+          <div class="newsletter__copy">
+            <span class="newsletter__icon" aria-hidden="true">✉</span>
+            <div>
+              <h2>Faça parte da comunidade</h2>
+              <p>Receba novidades, cortes exclusivos, resenha e o calendário de lives.</p>
+            </div>
+          </div>
+          <form class="newsletter__form" (submit)="$event.preventDefault()">
+            <input type="email" placeholder="Seu melhor e-mail" aria-label="E-mail" />
+            <button type="submit">Quero receber →</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ LIVE + MAIS ASSISTIDO ═══ -->
+  <section class="section highlights-section">
+    <div class="sc-shell highlights">
+      <div class="highlight-card highlight-card--live">
+        <div class="highlight-card__media">
+          <img class="highlight-card__img" [src]="images.highlights.live" alt="" loading="lazy" />
+          <span class="sc-tag highlight-card__live-tag">Ao vivo</span>
+        </div>
+        <div class="highlight-card__body">
+          <p class="sc-kicker">Próxima live</p>
+          <div class="highlight-card__match">
+            <span class="highlight-card__team">COR</span>
+            <span class="highlight-card__vs">×</span>
+            <span class="highlight-card__team">PAL</span>
+          </div>
+          <p class="highlight-card__date">12/07/2026 • 20h30</p>
+          <sc-button variant="secondary" href="#">Definir lembrete</sc-button>
+        </div>
+      </div>
+
+      <div class="highlight-card highlight-card--featured">
+        <div class="highlight-card__media">
+          <img class="highlight-card__img" [src]="images.highlights.featured" alt="" loading="lazy" />
+          <span class="sc-tag">Mercado da Bola</span>
+        </div>
+        <div class="highlight-card__body">
+          <p class="sc-kicker">Episódio mais assistido</p>
+          <div class="highlight-card__footer">
+            <div>
+              <h3>A verdade sobre Neymar no Brasil!</h3>
+              <p class="highlight-card__views">+85K visualizações</p>
+            </div>
+            <button class="highlight-card__play" type="button" aria-label="Reproduzir">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PARCEIROS ═══ -->
+  <section class="section partners" id="blog">
+    <div class="sc-shell">
+      <div class="sc-section-head">
+        <div>
+          <p class="sc-kicker">Marcas</p>
+          <h2>Parceiros</h2>
+        </div>
+        <sc-button variant="ghost" href="#">Seja um parceiro →</sc-button>
+      </div>
+      <div class="partners__logos">
+        @for (partner of partners; track partner) {
+          <span class="partners__logo">{{ partner }}</span>
+        }
+      </div>
+    </div>
+  </section>
+</main>
+
+<sc-footer />
