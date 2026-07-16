@@ -1,7 +1,9 @@
 /** Imagens locais em src/assets/images */
 export const SITE_IMAGES = {
   hero: {
-    background: 'assets/images/hero/stadium-green.jpg',
+    background: 'assets/images/hero/generated/podcast-studio-hero-v2.jpg',
+    fallback: 'assets/images/hero/football-dark.jpg',
+    brand: 'assets/images/hero/promo-brand.jpg',
   },
   episodes: {
     var: 'assets/images/episodes/var.jpg',
@@ -14,6 +16,7 @@ export const SITE_IMAGES = {
     featured: 'assets/images/highlights/featured-player.jpg',
   },
   sections: {
-    about: 'assets/images/sections/crowd.jpg',
+    manifesto: 'assets/images/hero/football-dark.jpg',
+    live: 'assets/images/hero/arena-night.jpg',
   },
 } as const;

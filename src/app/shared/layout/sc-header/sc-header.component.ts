@@ -11,6 +11,7 @@ import { ScLogoComponent } from '../../ui/sc-logo/sc-logo.component';
 import { ScButtonComponent } from '../../ui/sc-button/sc-button.component';
 
 interface NavLink {
+  index: string;
   label: string;
   href: string;
   sectionId: string;
@@ -21,7 +22,7 @@ interface NavLink {
   standalone: true,
   imports: [ScLogoComponent, ScButtonComponent],
   template: `
-    <header class="header">
+    <header class="header" [class.is-scrolled]="isScrolled()" [class.is-menu-open]="menuOpen()">
       <div class="sc-shell header__inner">
         <sc-logo variant="compact" href="#inicio" />
 
@@ -30,35 +31,51 @@ interface NavLink {
             <a
               [href]="link.href"
               [class.is-active]="isLinkActive(link)"
-              [attr.aria-current]="isLinkActive(link) ? 'page' : null"
+              [attr.aria-current]="isLinkActive(link) ? 'location' : null"
             >{{ link.label }}</a>
           }
         </nav>
 
         <div class="header__actions">
-          <div class="header__social" aria-label="Redes sociais">
-            @for (social of socials; track social.label) {
-              <a [href]="social.href" [attr.aria-label]="social.label" target="_blank" rel="noopener">
-                <span [innerHTML]="social.icon"></span>
-              </a>
-            }
-          </div>
-          <sc-button href="#episodios" icon="play">Assista agora</sc-button>
-          <button class="header__menu" type="button" aria-label="Abrir menu" (click)="menuOpen = !menuOpen">
+          <span class="header__status"><i></i> Toda semana</span>
+          <sc-button href="https://www.youtube.com/" icon="play">Último episódio</sc-button>
+          <button
+            class="header__menu"
+            type="button"
+            [attr.aria-label]="menuOpen() ? 'Fechar menu' : 'Abrir menu'"
+            [attr.aria-expanded]="menuOpen()"
+            aria-controls="mobile-menu"
+            (click)="toggleMenu()"
+          >
             <span></span><span></span><span></span>
           </button>
         </div>
       </div>
 
-      @if (menuOpen) {
-        <nav class="header__mobile" aria-label="Menu mobile">
-          @for (link of navLinks; track link.sectionId) {
-            <a
-              [href]="link.href"
-              [class.is-active]="isLinkActive(link)"
-              (click)="menuOpen = false"
-            >{{ link.label }}</a>
-          }
+      <span class="header__line" aria-hidden="true"></span>
+
+      @if (menuOpen()) {
+        <nav id="mobile-menu" class="header__mobile" aria-label="Menu mobile">
+          <div class="header__mobile-links">
+            @for (link of navLinks; track link.sectionId) {
+              <a
+                [href]="link.href"
+                [class.is-active]="isLinkActive(link)"
+                (click)="closeMenu()"
+              >
+                <span>{{ link.index }}</span>
+                {{ link.label }}
+              </a>
+            }
+          </div>
+          <div class="header__mobile-bottom">
+            <p>O futebol acima das cores.</p>
+            <div>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+              <a href="https://open.spotify.com/" target="_blank" rel="noopener">Spotify</a>
+            </div>
+          </div>
         </nav>
       }
     </header>
@@ -68,91 +85,200 @@ interface NavLink {
       position: fixed;
       inset: 0 0 auto;
       z-index: 100;
-      background: linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.6));
-      backdrop-filter: blur(16px);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      background: linear-gradient(180deg, rgba(5, 5, 5, 0.9), rgba(5, 5, 5, 0.16));
+      transition: background 240ms ease, backdrop-filter 240ms ease;
+    }
+    .header.is-scrolled,
+    .header.is-menu-open {
+      background: rgba(5, 5, 5, 0.94);
+      backdrop-filter: blur(18px);
     }
     .header__inner {
-      height: 72px;
+      height: 84px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 24px;
+      gap: 28px;
+      transition: height 240ms ease;
     }
+    .header.is-scrolled .header__inner { height: 70px; }
     .header__nav {
       display: flex;
       align-items: center;
-      gap: clamp(16px, 2.5vw, 32px);
+      gap: clamp(18px, 2.5vw, 38px);
     }
     .header__nav a {
-      font-family: var(--sc-font-heading);
-      font-size: 0.78rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
       color: var(--sc-gray-300);
-      transition: color 0.2s;
+      font-family: var(--sc-font-heading);
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
       white-space: nowrap;
+      transition: color 180ms ease;
+    }
+    .header__nav a::after {
+      position: absolute;
+      right: 0;
+      bottom: 6px;
+      left: 0;
+      height: 2px;
+      background: var(--sc-yellow);
+      content: '';
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 220ms ease;
     }
     .header__nav a:hover,
-    .header__nav a.is-active { color: var(--sc-yellow); }
+    .header__nav a.is-active { color: var(--sc-white); }
+    .header__nav a:hover::after,
+    .header__nav a.is-active::after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
     .header__actions {
       display: flex;
       align-items: center;
-      gap: 16px;
+      gap: 18px;
     }
-    .header__social {
-      display: flex;
+    .header__status {
+      display: inline-flex;
       align-items: center;
-      gap: 12px;
-    }
-    .header__social a {
-      width: 20px;
-      height: 20px;
+      gap: 8px;
       color: var(--sc-gray-300);
-      transition: color 0.2s;
+      font-family: var(--sc-font-heading);
+      font-size: 0.62rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      white-space: nowrap;
     }
-    .header__social a:hover { color: var(--sc-yellow); }
+    .header__status i {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--sc-red);
+      box-shadow: 0 0 12px rgba(255, 59, 48, 0.7);
+    }
     .header__menu {
+      width: 48px;
+      height: 48px;
       display: none;
-      flex-direction: column;
+      place-items: center;
       gap: 5px;
-      padding: 8px;
-      background: none;
-      border: none;
+      padding: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      background: transparent;
+      color: var(--sc-white);
       cursor: pointer;
     }
     .header__menu span {
       display: block;
       width: 22px;
       height: 2px;
-      background: var(--sc-white);
+      background: currentColor;
+      transition: transform 220ms ease, opacity 180ms ease;
+    }
+    .header__menu span:nth-child(2) { width: 15px; justify-self: end; }
+    .header.is-menu-open .header__menu span:first-child { transform: translateY(7px) rotate(45deg); }
+    .header.is-menu-open .header__menu span:nth-child(2) { opacity: 0; }
+    .header.is-menu-open .header__menu span:last-child { transform: translateY(-7px) rotate(-45deg); }
+    .header__line {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height: 1px;
+      background: linear-gradient(90deg, var(--sc-yellow) 0 12%, rgba(255, 255, 255, 0.1) 12% 100%);
+      transform-origin: left;
     }
     .header__mobile {
-      display: none;
+      position: fixed;
+      inset: 70px 0 0;
+      min-height: calc(100dvh - 70px);
+      display: flex;
       flex-direction: column;
-      padding: 16px var(--sc-shell-pad) 24px;
-      border-top: 1px solid rgba(255, 255, 255, 0.06);
-      background: rgba(0, 0, 0, 0.95);
+      justify-content: space-between;
+      padding: clamp(32px, 8vw, 70px) var(--sc-shell-pad) 34px;
+      overflow-y: auto;
+      background:
+        linear-gradient(135deg, transparent 0 65%, rgba(var(--sc-yellow-rgb), 0.08) 65%),
+        var(--sc-black);
+      animation: menu-reveal 320ms cubic-bezier(0.2, 0.75, 0.2, 1) both;
     }
-    .header__mobile a {
+    .header__mobile-links {
+      display: flex;
+      flex-direction: column;
+    }
+    .header__mobile-links a {
+      display: grid;
+      grid-template-columns: 46px minmax(0, 1fr);
+      align-items: center;
+      gap: 18px;
       padding: 12px 0;
-      font-family: var(--sc-font-heading);
-      font-size: 0.9rem;
-      font-weight: 600;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      font-family: var(--sc-font-display);
+      font-size: clamp(2.6rem, 10vw, 5.8rem);
       text-transform: uppercase;
-      letter-spacing: 0.06em;
+      line-height: 1;
+      transition: color 180ms ease, padding-left 180ms ease;
+    }
+    .header__mobile-links a:hover,
+    .header__mobile-links a.is-active {
+      padding-left: 10px;
+      color: var(--sc-yellow);
+    }
+    .header__mobile-links a span {
+      align-self: start;
+      padding-top: 5px;
+      color: var(--sc-yellow);
+      font-family: var(--sc-font-heading);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+    }
+    .header__mobile-bottom {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 28px;
+      margin-top: 50px;
+    }
+    .header__mobile-bottom p {
+      margin: 0;
+      color: var(--sc-yellow);
+      font-family: var(--sc-font-heading);
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.13em;
+    }
+    .header__mobile-bottom div { display: flex; flex-wrap: wrap; gap: 18px; }
+    .header__mobile-bottom a {
       color: var(--sc-gray-300);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      font-family: var(--sc-font-heading);
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
     }
-    .header__mobile a.is-active { color: var(--sc-yellow); }
-    @media (max-width: 1024px) {
-      .header__nav, .header__social { display: none; }
-      .header__menu { display: flex; }
-      .header__mobile { display: flex; }
+    @keyframes menu-reveal {
+      from { opacity: 0; clip-path: polygon(0 0, 100% 0, 100% 0, 0 20%); }
+      to { opacity: 1; clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
     }
-    @media (max-width: 480px) {
+    @media (max-width: 1180px) {
+      .header__nav, .header__status { display: none; }
+      .header__menu { display: grid; }
+    }
+    @media (max-width: 560px) {
+      .header__inner { height: 72px; }
+      .header.is-scrolled .header__inner { height: 64px; }
       .header__actions sc-button { display: none; }
+      .header__mobile { inset: 64px 0 0; min-height: calc(100dvh - 64px); }
+      .header__mobile-bottom { align-items: flex-start; flex-direction: column; }
     }
   `],
 })
@@ -160,39 +286,16 @@ export class ScHeaderComponent implements OnDestroy {
   private readonly platformId = inject(PLATFORM_ID);
   private observer?: IntersectionObserver;
 
-  menuOpen = false;
-  activeSection = signal('inicio');
+  readonly menuOpen = signal(false);
+  readonly isScrolled = signal(false);
+  readonly activeSection = signal('inicio');
 
   readonly navLinks: NavLink[] = [
-    { label: 'Início', href: '#inicio', sectionId: 'inicio' },
-    { label: 'Sobre', href: '#sobre', sectionId: 'sobre' },
-    { label: 'Episódios', href: '#episodios', sectionId: 'episodios' },
-    { label: 'Bastidores', href: '#bastidores', sectionId: 'bastidores' },
-    { label: 'Blog', href: '#blog', sectionId: 'blog' },
-    { label: 'Contato', href: '#contato', sectionId: 'contato' },
-  ];
-
-  socials = [
-    {
-      label: 'YouTube',
-      href: 'https://youtube.com',
-      icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/></svg>`,
-    },
-    {
-      label: 'Instagram',
-      href: 'https://instagram.com',
-      icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2c2.7 0 3 0 4.1.1 1 0 1.5.2 1.9.3.5.2.8.4 1.2.8.4.4.6.7.8 1.2.1.4.3.9.3 1.9.1 1.1.1 1.4.1 4.1s0 3-.1 4.1c0 1-.2 1.5-.3 1.9-.2.5-.4.8-.8 1.2-.4.4-.7.6-1.2.8-.4.1-.9.3-1.9.3-1.1.1-1.4.1-4.1.1s-3 0-4.1-.1c-1 0-1.5-.2-1.9-.3-.5-.2-.8-.4-1.2-.8-.4-.4-.6-.7-.8-1.2-.1-.4-.3-.9-.3-1.9-.1-1.1-.1-1.4-.1-4.1s0-3 .1-4.1c0-1 .2-1.5.3-1.9.2-.5.4-.8.8-1.2.4-.4.7-.6 1.2-.8.4-.1.9-.3 1.9-.3 1.1-.1 1.4-.1 4.1-.1zM12 0C9.3 0 8.9 0 7.8.1 6.7.1 6 .3 5.4.6c-.7.3-1.2.6-1.8 1.2C3 2.4 2.7 2.9 2.4 3.6 2.1 4.2 1.9 4.9 1.9 6 1.8 7.1 1.8 7.5 1.8 10.2v3.6c0 2.7 0 3.1.1 4.2 0 1.1.2 1.8.5 2.4.3.7.6 1.2 1.2 1.8.6.6 1.1.9 1.8 1.2.6.3 1.3.5 2.4.5 1.1.1 1.5.1 4.2.1s3.1 0 4.2-.1c1.1 0 1.8-.2 2.4-.5.7-.3 1.2-.6 1.8-1.2.6-.6.9-1.1 1.2-1.8.3-.6.5-1.3.5-2.4.1-1.1.1-1.5.1-4.2V10.2c0-2.7 0-3.1-.1-4.2 0-1.1-.2-1.8-.5-2.4-.3-.7-.6-1.2-1.2-1.8-.6-.6-1.1-.9-1.8-1.2-.6-.3-1.3-.5-2.4-.5C15.1 0 14.7 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zm0 10.2a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.9a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9z"/></svg>`,
-    },
-    {
-      label: 'TikTok',
-      href: 'https://tiktok.com',
-      icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.77a4.85 4.85 0 0 1-1.01-.08z"/></svg>`,
-    },
-    {
-      label: 'Spotify',
-      href: 'https://spotify.com',
-      icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.52 17.34c-.24.39-.74.51-1.13.27-3.09-1.89-6.98-2.31-11.57-1.26-.44.1-.88-.17-.98-.61-.1-.44.17-.88.61-.98 4.97-1.13 9.23-.66 12.64 1.4.39.24.51.74.27 1.13l.16.05zm1.47-3.27c-.3.49-.93.64-1.42.34-3.53-2.17-8.92-2.8-13.1-1.53-.55.17-1.13-.14-1.3-.69-.17-.55.14-1.13.69-1.3 4.77-1.45 10.8-.76 14.87 1.77.49.3.64.93.34 1.42l-.08-.01z"/></svg>`,
-    },
+    { index: '01', label: 'Episódios', href: '#episodios', sectionId: 'episodios' },
+    { index: '02', label: 'Cortes', href: '#cortes', sectionId: 'cortes' },
+    { index: '03', label: 'Manifesto', href: '#manifesto', sectionId: 'manifesto' },
+    { index: '04', label: 'Ao vivo', href: '#agenda', sectionId: 'agenda' },
+    { index: '05', label: 'O time', href: '#time', sectionId: 'time' },
   ];
 
   constructor() {
@@ -200,19 +303,50 @@ export class ScHeaderComponent implements OnDestroy {
       if (!isPlatformBrowser(this.platformId)) return;
       this.setupSectionObserver();
       this.syncFromHash();
+      this.updateScrollState();
       window.addEventListener('hashchange', this.syncFromHash);
+      window.addEventListener('scroll', this.updateScrollState, { passive: true });
+      window.addEventListener('keydown', this.handleKeydown);
     });
   }
 
   ngOnDestroy(): void {
     if (!isPlatformBrowser(this.platformId)) return;
     this.observer?.disconnect();
+    document.body.classList.remove('is-menu-open');
     window.removeEventListener('hashchange', this.syncFromHash);
+    window.removeEventListener('scroll', this.updateScrollState);
+    window.removeEventListener('keydown', this.handleKeydown);
+  }
+
+  toggleMenu(): void {
+    this.setMenuState(!this.menuOpen());
+  }
+
+  closeMenu(): void {
+    this.setMenuState(false);
   }
 
   isLinkActive(link: NavLink): boolean {
     return this.activeSection() === link.sectionId;
   }
+
+  private setMenuState(open: boolean): void {
+    this.menuOpen.set(open);
+    if (isPlatformBrowser(this.platformId)) {
+      document.body.classList.toggle('is-menu-open', open);
+    }
+  }
+
+  private readonly handleKeydown = (event: KeyboardEvent): void => {
+    if (event.key === 'Escape' && this.menuOpen()) {
+      this.closeMenu();
+    }
+  };
+
+  private readonly updateScrollState = (): void => {
+    this.isScrolled.set(window.scrollY > 36);
+  };
 
   private readonly syncFromHash = (): void => {
     const id = window.location.hash.replace('#', '');
@@ -224,52 +358,29 @@ export class ScHeaderComponent implements OnDestroy {
   private setupSectionObserver(): void {
     const sections = this.navLinks
       .map((link) => document.getElementById(link.sectionId))
-      .filter((el): el is HTMLElement => !!el);
+      .filter((element): element is HTMLElement => !!element);
 
     if (!sections.length) return;
 
     const visible = new Map<string, number>();
-
     this.observer = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {
-          const id = entry.target.id;
           if (entry.isIntersecting) {
-            visible.set(id, entry.intersectionRatio);
+            visible.set(entry.target.id, entry.intersectionRatio);
           } else {
-            visible.delete(id);
+            visible.delete(entry.target.id);
           }
         }
 
         if (visible.size) {
-          const best = [...visible.entries()].sort((a, b) => b[1] - a[1])[0][0];
-          this.activeSection.set(best);
-          return;
+          const current = [...visible.entries()].sort((a, b) => b[1] - a[1])[0][0];
+          this.activeSection.set(current);
         }
-
-        this.fallbackActiveSection(sections);
       },
-      {
-        rootMargin: '-88px 0px -45% 0px',
-        threshold: [0, 0.15, 0.35, 0.55, 0.75, 1],
-      },
+      { rootMargin: '-84px 0px -52% 0px', threshold: [0.12, 0.3, 0.55, 0.75] },
     );
 
-    sections.forEach((section) => this.observer!.observe(section));
-    this.fallbackActiveSection(sections);
-  }
-
-  private fallbackActiveSection(sections: HTMLElement[]): void {
-    const ordered = [...sections].sort((a, b) => a.offsetTop - b.offsetTop);
-    const marker = window.scrollY + 120;
-    let current = ordered[0].id;
-
-    for (const section of ordered) {
-      if (section.offsetTop <= marker) {
-        current = section.id;
-      }
-    }
-
-    this.activeSection.set(current);
+    sections.forEach((section) => this.observer?.observe(section));
   }
 }
