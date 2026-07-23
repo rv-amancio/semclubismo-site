@@ -1,8 +1,8 @@
-import { buildRadarPayload, RADAR_COMPETITIONS } from '../src/app/core/radar/radar.mapper';
-import {
+import { buildRadarPayload, RADAR_COMPETITIONS } from '../src/app/core/radar/radar.mapper.js';
+import type {
   RadarProviderInput,
   RadarScoreboardInput,
-} from '../src/app/core/radar/radar.models';
+} from '../src/app/core/radar/radar.models.js';
 
 const PROVIDER_BASE = 'https://site.api.espn.com/apis/site/v2/sports/soccer';
 const STANDINGS_BASE = 'https://site.api.espn.com/apis/v2/sports/soccer';

@@ -1,9 +1,14 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "angular",
-  "buildCommand": "npm run build",
+  "buildCommand": "npm run check",
   "outputDirectory": "dist/sem-clubismo",
   "regions": ["gru1"],
+  "functions": {
+    "api/radar.ts": {
+      "maxDuration": 15
+    }
+  },
   "rewrites": [
     {
       "source": "/(.*)",
