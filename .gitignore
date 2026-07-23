@@ -2,3 +2,6 @@ node_modules
 .angular/
 storybook-static/
 *.log
+.env
+.env.*
+!.env.example

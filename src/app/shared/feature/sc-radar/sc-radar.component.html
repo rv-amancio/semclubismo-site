@@ -1,0 +1,454 @@
+<section class="radar" id="radar" aria-labelledby="radar-title">
+  <div class="sc-shell">
+    <header class="radar__hero">
+      <div class="radar__headline">
+        <span class="sc-section-index">01</span>
+        <div>
+          <p class="sc-kicker">Inteligência de rodada</p>
+          <h2 id="radar-title">Radar do futebol brasileiro</h2>
+          <p class="radar__lead">
+            Placar, agenda, tabela e mercado em uma central que se atualiza sozinha.
+          </p>
+        </div>
+      </div>
+
+      <div class="radar__sync">
+        <span class="sc-sr-only" aria-live="polite">{{ statusLabel() }}</span>
+        <div class="radar__sync-top">
+          <span
+            class="radar__pulse"
+            [class.radar__pulse--live]="radar.hasLiveMatches()"
+            [class.radar__pulse--loading]="isRefreshing()"
+            aria-hidden="true"
+          ></span>
+          <strong>{{ statusLabel() }}</strong>
+          <span class="radar__frequency">AUTO • 5 MIN</span>
+        </div>
+        @if (state().source === 'fallback') {
+          <p>Primeira sincronização em andamento</p>
+        } @else {
+          <p>
+            Atualizado em <time [attr.datetime]="data().generatedAt">{{ formatUpdatedAt(data().generatedAt) }}</time>
+          </p>
+        }
+        <p class="radar__sync-source">{{ sourceLabel() }} • {{ data().provider }}</p>
+        <button
+          class="radar__refresh"
+          type="button"
+          (click)="refresh()"
+          [disabled]="isRefreshing()"
+          [attr.aria-label]="isRefreshing() ? 'Radar sendo atualizado' : 'Atualizar o radar agora'"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            aria-hidden="true"
+            [class.is-spinning]="isRefreshing()"
+          >
+            <path d="M20 7v5h-5M4 17v-5h5" stroke="currentColor" stroke-width="2" />
+            <path d="M18.5 11a7 7 0 0 0-12-3L4 11M5.5 13a7 7 0 0 0 12 3l2.5-3" stroke="currentColor" stroke-width="2" />
+          </svg>
+          <span>{{ isRefreshing() ? 'Atualizando' : 'Atualizar agora' }}</span>
+        </button>
+      </div>
+    </header>
+
+    @if (state().message) {
+      <div
+        class="radar__notice"
+        [class.radar__notice--warning]="state().status === 'stale'"
+        role="status"
+      >
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 3 2.7 20h18.6L12 3Z" stroke="currentColor" stroke-width="1.8" />
+          <path d="M12 9v5m0 3h.01" stroke="currentColor" stroke-width="2" />
+        </svg>
+        <p>{{ state().message }}</p>
+        @if (state().status === 'stale') {
+          <button type="button" (click)="refresh()">Tentar novamente</button>
+        }
+      </div>
+    }
+
+    @if (state().status === 'loading' && !hasSnapshot()) {
+      <div class="radar__loading" role="status" aria-label="Carregando informações do futebol brasileiro">
+        <div class="radar__loading-head"></div>
+        <div class="radar__loading-grid">
+          @for (item of [1, 2, 3, 4]; track item) {
+            <span></span>
+          }
+        </div>
+        <p>Buscando a rodada mais recente...</p>
+      </div>
+    } @else if (!hasSnapshot()) {
+      <div class="radar__empty radar__empty--large" role="status">
+        <span>SEM SINAL</span>
+        <h3>O radar não recebeu dados agora.</h3>
+        <p>A conexão pode estar instável. O serviço tentará de novo automaticamente.</p>
+        <button type="button" (click)="refresh()">Reconectar radar</button>
+      </div>
+    } @else {
+      <nav class="competition-tabs" aria-label="Selecionar campeonato">
+        <div class="competition-tabs__rail" role="tablist" aria-label="Campeonatos monitorados">
+          @for (competition of competitions(); track competition.id; let index = $index) {
+            <button
+              type="button"
+              role="tab"
+              [id]="'radar-tab-' + competition.id"
+              aria-controls="radar-competition-panel"
+              [attr.aria-selected]="selectedCompetition() === competition.id"
+              [attr.tabindex]="selectedCompetition() === competition.id ? 0 : -1"
+              [class.is-active]="selectedCompetition() === competition.id"
+              (click)="selectCompetition(competition.id)"
+              (keydown)="onCompetitionKeydown($event, index)"
+            >
+              <span class="competition-tabs__number">0{{ index + 1 }}</span>
+              <span class="competition-tabs__name">{{ competition.shortName }}</span>
+              <span class="competition-tabs__meta">
+                @if (competition.liveCount) {
+                  <i aria-hidden="true"></i>{{ competition.liveCount }} ao vivo
+                } @else {
+                  {{ competition.matchCount }} jogos
+                }
+              </span>
+            </button>
+          }
+        </div>
+      </nav>
+
+      <div
+        class="match-center"
+        id="radar-competition-panel"
+        role="tabpanel"
+        [attr.aria-labelledby]="'radar-tab-' + selectedCompetition()"
+        tabindex="0"
+      >
+        <div class="match-center__topline">
+          <div>
+            <span>Competição ativa</span>
+            <h3>{{ selectedCompetitionData()?.name ?? 'Campeonato' }}</h3>
+          </div>
+          <p>
+            Próximo evento
+            <strong>{{ formatCompactDate(selectedCompetitionData()?.nextMatchAt ?? null) }}</strong>
+          </p>
+        </div>
+
+        <div class="match-center__grid">
+          <section class="match-lane" aria-labelledby="latest-results-title">
+            <header class="match-lane__head">
+              <div>
+                <span class="match-lane__eyebrow">Apito final</span>
+                <h4 id="latest-results-title">Últimos resultados</h4>
+              </div>
+              <span>{{ twoDigits(latestResults().length) }}</span>
+            </header>
+
+            <div class="match-list">
+              @for (match of latestResults(); track match.id) {
+                <article class="match-card match-card--finished">
+                  <div class="match-card__meta">
+                    <time [attr.datetime]="match.date">{{ formatMatchDate(match.date) }}</time>
+                    <span>{{ match.statusLabel }}</span>
+                  </div>
+                  <div class="match-card__team">
+                    <span class="match-card__crest">
+                      @if (match.home.logo; as homeLogo) {
+                        <img [src]="homeLogo" [alt]="'Escudo do ' + match.home.name" width="38" height="38" loading="lazy" referrerpolicy="no-referrer" />
+                      } @else {
+                        <b>{{ match.home.abbreviation }}</b>
+                      }
+                    </span>
+                    <strong>{{ match.home.shortName }}</strong>
+                    <em>{{ score(match, 'home') }}</em>
+                  </div>
+                  <div class="match-card__team">
+                    <span class="match-card__crest">
+                      @if (match.away.logo; as awayLogo) {
+                        <img [src]="awayLogo" [alt]="'Escudo do ' + match.away.name" width="38" height="38" loading="lazy" referrerpolicy="no-referrer" />
+                      } @else {
+                        <b>{{ match.away.abbreviation }}</b>
+                      }
+                    </span>
+                    <strong>{{ match.away.shortName }}</strong>
+                    <em>{{ score(match, 'away') }}</em>
+                  </div>
+                  <div class="match-card__foot">
+                    <span>{{ match.venue || 'Local não informado' }}</span>
+                    @if (match.link) {
+                      <a [href]="match.link" target="_blank" rel="noopener noreferrer">
+                        Detalhes <span class="sc-sr-only">(abre em nova guia)</span><i aria-hidden="true">↗</i>
+                      </a>
+                    }
+                  </div>
+                </article>
+              } @empty {
+                <div class="match-list__empty">
+                  <strong>Sem placares nesta janela.</strong>
+                  <span>Os resultados entram aqui assim que forem publicados.</span>
+                </div>
+              }
+            </div>
+          </section>
+
+          <section class="match-lane match-lane--next" aria-labelledby="upcoming-matches-title">
+            <header class="match-lane__head">
+              <div>
+                <span class="match-lane__eyebrow">Na mira</span>
+                <h4 id="upcoming-matches-title">Próximos jogos</h4>
+              </div>
+              <span>{{ twoDigits(upcomingMatches().length) }}</span>
+            </header>
+
+            <div class="match-list">
+              @for (match of upcomingMatches(); track match.id) {
+                <article class="match-card match-card--upcoming" [class.match-card--live]="match.status === 'live'">
+                  <div class="match-card__meta">
+                    <time [attr.datetime]="match.date">{{ formatMatchDate(match.date) }}</time>
+                    <span>{{ match.clock || match.statusLabel }}</span>
+                  </div>
+                  <div class="match-card__versus">
+                    <div>
+                      <span class="match-card__crest match-card__crest--large">
+                        @if (match.home.logo; as homeLogo) {
+                          <img [src]="homeLogo" [alt]="'Escudo do ' + match.home.name" width="48" height="48" loading="lazy" referrerpolicy="no-referrer" />
+                        } @else {
+                          <b>{{ match.home.abbreviation }}</b>
+                        }
+                      </span>
+                      <strong>{{ match.home.shortName }}</strong>
+                    </div>
+                    <span class="match-card__x">
+                      @if (match.status === 'live') {
+                        <b>{{ score(match, 'home') }} × {{ score(match, 'away') }}</b>
+                      } @else {
+                        ×
+                      }
+                    </span>
+                    <div>
+                      <span class="match-card__crest match-card__crest--large">
+                        @if (match.away.logo; as awayLogo) {
+                          <img [src]="awayLogo" [alt]="'Escudo do ' + match.away.name" width="48" height="48" loading="lazy" referrerpolicy="no-referrer" />
+                        } @else {
+                          <b>{{ match.away.abbreviation }}</b>
+                        }
+                      </span>
+                      <strong>{{ match.away.shortName }}</strong>
+                    </div>
+                  </div>
+                  <div class="match-card__foot">
+                    <span>{{ match.venue || 'Local não informado' }}</span>
+                    @if (match.link) {
+                      <a [href]="match.link" target="_blank" rel="noopener noreferrer">
+                        Pré-jogo <span class="sc-sr-only">(abre em nova guia)</span><i aria-hidden="true">↗</i>
+                      </a>
+                    }
+                  </div>
+                </article>
+              } @empty {
+                <div class="match-list__empty">
+                  <strong>Agenda em atualização.</strong>
+                  <span>Novas partidas aparecerão sem precisar recarregar a página.</span>
+                </div>
+              }
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div class="data-grid">
+        <section class="standings" id="tabela" aria-labelledby="standings-title">
+          <header class="data-grid__head">
+            <div>
+              <span>Tabela instantânea</span>
+              <h3 id="standings-title">Brasileirão Série A</h3>
+            </div>
+            <strong>{{ data().season }}</strong>
+          </header>
+
+          @if (data().standings.length) {
+            <div class="standings__scroll" tabindex="0" aria-label="Tabela com rolagem horizontal em telas pequenas">
+              <table>
+                <caption class="sc-sr-only">Classificação do Campeonato Brasileiro Série A</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Pos</th>
+                    <th scope="col">Clube</th>
+                    <th scope="col">Pts</th>
+                    <th scope="col">J</th>
+                    <th scope="col">V</th>
+                    <th scope="col">E</th>
+                    <th scope="col">D</th>
+                    <th scope="col">SG</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  @for (row of displayedStandings(); track row.team.id) {
+                    <tr [attr.data-zone]="standingZone(row)">
+                      <td>
+                        <span>{{ row.position }}</span>
+                        <span class="sc-sr-only"> — {{ standingZoneLabel(row) }}</span>
+                      </td>
+                      <th scope="row">
+                        <span class="standings__crest">
+                          @if (row.team.logo; as teamLogo) {
+                            <img [src]="teamLogo" [alt]="'Escudo do ' + row.team.name" width="28" height="28" loading="lazy" referrerpolicy="no-referrer" />
+                          } @else {
+                            {{ row.team.abbreviation }}
+                          }
+                        </span>
+                        <strong>{{ row.team.shortName }}</strong>
+                      </th>
+                      <td><b>{{ row.points }}</b></td>
+                      <td>{{ row.played }}</td>
+                      <td>{{ row.wins }}</td>
+                      <td>{{ row.draws }}</td>
+                      <td>{{ row.losses }}</td>
+                      <td>{{ row.goalDifference > 0 ? '+' : '' }}{{ row.goalDifference }}</td>
+                    </tr>
+                  }
+                </tbody>
+              </table>
+            </div>
+            <div class="standings__bottom">
+              <ul aria-label="Legenda da classificação">
+                <li><i class="is-libertadores"></i> Faixa Libertadores*</li>
+                <li><i class="is-sul-americana"></i> Faixa Sul-Americana*</li>
+                <li><i class="is-rebaixamento"></i> Rebaixamento</li>
+              </ul>
+              @if (data().standings.length > 10) {
+                <button type="button" (click)="toggleStandings()" [attr.aria-expanded]="showFullStandings()">
+                  {{ showFullStandings() ? 'Ver G10' : 'Ver tabela completa' }}
+                </button>
+              }
+            </div>
+            <p class="standings__disclaimer">*Faixas indicativas. As vagas variam conforme regulamento e campeões da temporada.</p>
+          } @else {
+            <div class="data-grid__empty">
+              <strong>Classificação indisponível.</strong>
+              <span>O radar seguirá consultando a fonte automaticamente.</span>
+            </div>
+          }
+        </section>
+
+        <section class="competitions" id="competicoes" aria-labelledby="competitions-title">
+          <header class="data-grid__head">
+            <div>
+              <span>Cobertura nacional</span>
+              <h3 id="competitions-title">Competições no radar</h3>
+            </div>
+            <strong>04</strong>
+          </header>
+
+          <div class="competitions__list">
+            @for (competition of competitions(); track competition.id; let index = $index) {
+              <button
+                type="button"
+                [class.is-active]="selectedCompetition() === competition.id"
+                (click)="selectCompetition(competition.id)"
+                [attr.aria-label]="'Mostrar jogos de ' + competition.name"
+              >
+                <span class="competitions__index">0{{ index + 1 }}</span>
+                <span class="competitions__copy">
+                  <strong>{{ competition.name }}</strong>
+                  <small>
+                    {{ competition.matchCount }} jogos monitorados
+                    @if (competition.liveCount) { • {{ competition.liveCount }} ao vivo }
+                  </small>
+                </span>
+                <span class="competitions__next">
+                  <small>Próximo</small>
+                  <b>{{ formatCompactDate(competition.nextMatchAt) }}</b>
+                </span>
+                <i aria-hidden="true">↗</i>
+              </button>
+            }
+          </div>
+
+          <div class="competitions__source">
+            <span>Transparência de dados</span>
+            <p>Informações esportivas por {{ data().provider }}. Regulamentos e dados oficiais devem ser conferidos na entidade organizadora.</p>
+            <div>
+              <a [href]="data().providerUrl" target="_blank" rel="noopener noreferrer">
+                Fonte esportiva <span class="sc-sr-only">(abre em nova guia)</span> ↗
+              </a>
+              <a [href]="data().officialReferenceUrl" target="_blank" rel="noopener noreferrer">
+                Referência oficial <span class="sc-sr-only">(abre em nova guia)</span> ↗
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="market" id="mercado" aria-labelledby="market-title">
+        <header class="market__head">
+          <div class="market__headline">
+            <span class="sc-section-index">02</span>
+            <div>
+              <p class="sc-kicker">Giro quente</p>
+              <h2 id="market-title">Mercado & notícias</h2>
+            </div>
+          </div>
+          <div class="market__filters" aria-label="Filtrar notícias">
+            <button type="button" [class.is-active]="newsFilter() === 'all'" [attr.aria-pressed]="newsFilter() === 'all'" (click)="selectNewsFilter('all')">Tudo</button>
+            <button type="button" [class.is-active]="newsFilter() === 'market'" [attr.aria-pressed]="newsFilter() === 'market'" (click)="selectNewsFilter('market')">Mercado</button>
+            <button type="button" [class.is-active]="newsFilter() === 'news'" [attr.aria-pressed]="newsFilter() === 'news'" (click)="selectNewsFilter('news')">Notícias</button>
+          </div>
+        </header>
+
+        <div class="market__grid">
+          @for (item of filteredNews(); track item.id; let index = $index) {
+            <article class="news-card" [class.news-card--lead]="index === 0">
+              <a [href]="item.url" target="_blank" rel="noopener noreferrer">
+                @if (item.imageUrl; as imageUrl) {
+                  <figure class="news-card__media">
+                    <img [src]="imageUrl" [alt]="item.imageAlt" width="1200" height="675" loading="lazy" referrerpolicy="no-referrer" />
+                    @if (item.imageCredit) {
+                      <figcaption>Foto: {{ item.imageCredit }}</figcaption>
+                    }
+                  </figure>
+                } @else {
+                  <div class="news-card__media news-card__media--empty" aria-hidden="true">
+                    <span>SEM<br />CLUBISMO</span>
+                  </div>
+                }
+                <div class="news-card__body">
+                  <div class="news-card__meta">
+                    <span [class.is-market]="item.category === 'market'">
+                      {{ item.category === 'market' ? 'Mercado' : 'Notícia' }}
+                    </span>
+                    <time [attr.datetime]="item.publishedAt">{{ relativePublishedAt(item.publishedAt) }}</time>
+                  </div>
+                  <h3>{{ item.title }}</h3>
+                  @if (item.summary) {
+                    <p>{{ item.summary }}</p>
+                  }
+                  <div class="news-card__foot">
+                    <span>
+                      @for (team of item.teams.slice(0, 2); track team) {
+                        <b>{{ team }}</b>
+                      } @empty {
+                        Futebol brasileiro
+                      }
+                    </span>
+                    <strong aria-hidden="true">↗</strong>
+                    <span class="sc-sr-only">Abrir notícia em nova guia</span>
+                  </div>
+                </div>
+              </a>
+            </article>
+          } @empty {
+            <div class="market__empty">
+              <span>PAUTA ABERTA</span>
+              <h3>Nenhuma publicação nesta categoria.</h3>
+              <p>O feed será preenchido automaticamente quando novas informações forem publicadas.</p>
+              @if (newsFilter() !== 'all') {
+                <button type="button" (click)="selectNewsFilter('all')">Ver todas as notícias</button>
+              }
+            </div>
+          }
+        </div>
+      </section>
+    }
+  </div>
+</section>

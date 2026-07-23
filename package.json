@@ -4,6 +4,8 @@
   "scripts": {
     "start": "ng serve",
     "build": "ng build",
+    "typecheck:api": "tsc -p tsconfig.api.json",
+    "check": "npm run build && npm run typecheck:api",
     "storybook": "ng run sem-clubismo:storybook",
     "build-storybook": "ng run sem-clubismo:build-storybook",
     "postinstall": "node scripts/patch-storybook-angular.cjs"

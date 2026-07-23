@@ -37,9 +37,10 @@ interface NavLink {
         </nav>
 
         <div class="header__actions">
-          <span class="header__status"><i></i> Toda semana</span>
-          <sc-button href="https://www.youtube.com/" icon="play">Último episódio</sc-button>
+          <span class="header__status"><i></i> Radar automático</span>
+          <sc-button href="#radar">Abrir radar</sc-button>
           <button
+            id="header-menu-toggle"
             class="header__menu"
             type="button"
             [attr.aria-label]="menuOpen() ? 'Fechar menu' : 'Abrir menu'"
@@ -69,11 +70,11 @@ interface NavLink {
             }
           </div>
           <div class="header__mobile-bottom">
-            <p>O futebol acima das cores.</p>
+            <p>Podcast + radar do futebol brasileiro.</p>
             <div>
-              <a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a>
-              <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
-              <a href="https://open.spotify.com/" target="_blank" rel="noopener">Spotify</a>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+              <a href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer">Spotify</a>
             </div>
           </div>
         </nav>
@@ -291,11 +292,12 @@ export class ScHeaderComponent implements OnDestroy {
   readonly activeSection = signal('inicio');
 
   readonly navLinks: NavLink[] = [
-    { index: '01', label: 'Episódios', href: '#episodios', sectionId: 'episodios' },
-    { index: '02', label: 'Cortes', href: '#cortes', sectionId: 'cortes' },
-    { index: '03', label: 'Manifesto', href: '#manifesto', sectionId: 'manifesto' },
-    { index: '04', label: 'Ao vivo', href: '#agenda', sectionId: 'agenda' },
+    { index: '01', label: 'Radar', href: '#radar', sectionId: 'radar' },
+    { index: '02', label: 'Mercado', href: '#mercado', sectionId: 'mercado' },
+    { index: '03', label: 'Competições', href: '#competicoes', sectionId: 'competicoes' },
+    { index: '04', label: 'Manifesto', href: '#manifesto', sectionId: 'manifesto' },
     { index: '05', label: 'O time', href: '#time', sectionId: 'time' },
+    { index: '06', label: 'Comunidade', href: '#comunidade', sectionId: 'comunidade' },
   ];
 
   constructor() {
@@ -306,6 +308,7 @@ export class ScHeaderComponent implements OnDestroy {
       this.updateScrollState();
       window.addEventListener('hashchange', this.syncFromHash);
       window.addEventListener('scroll', this.updateScrollState, { passive: true });
+      window.addEventListener('resize', this.handleResize, { passive: true });
       window.addEventListener('keydown', this.handleKeydown);
     });
   }
@@ -316,7 +319,9 @@ export class ScHeaderComponent implements OnDestroy {
     document.body.classList.remove('is-menu-open');
     window.removeEventListener('hashchange', this.syncFromHash);
     window.removeEventListener('scroll', this.updateScrollState);
+    window.removeEventListener('resize', this.handleResize);
     window.removeEventListener('keydown', this.handleKeydown);
+    this.togglePageInert(false);
   }
 
   toggleMenu(): void {
@@ -335,14 +340,60 @@ export class ScHeaderComponent implements OnDestroy {
     this.menuOpen.set(open);
     if (isPlatformBrowser(this.platformId)) {
       document.body.classList.toggle('is-menu-open', open);
+      this.togglePageInert(open);
+
+      if (open) {
+        setTimeout(() => {
+          document.querySelector<HTMLElement>('#mobile-menu a')?.focus();
+        }, 0);
+      }
     }
   }
 
   private readonly handleKeydown = (event: KeyboardEvent): void => {
     if (event.key === 'Escape' && this.menuOpen()) {
       this.closeMenu();
+      setTimeout(() => {
+        document.querySelector<HTMLButtonElement>('#header-menu-toggle')?.focus();
+      }, 0);
+      return;
+    }
+
+    if (event.key !== 'Tab' || !this.menuOpen()) return;
+
+    const header = document.querySelector<HTMLElement>('.header');
+    const focusable = Array.from(
+      header?.querySelectorAll<HTMLElement>(
+        'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])',
+      ) ?? [],
+    ).filter((element) => element.getClientRects().length > 0);
+    if (!focusable.length) return;
+
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    const active = document.activeElement;
+
+    if (event.shiftKey && (active === first || !header?.contains(active))) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && active === last) {
+      event.preventDefault();
+      first.focus();
     }
   };
+
+  private readonly handleResize = (): void => {
+    if (window.innerWidth > 1180 && this.menuOpen()) {
+      this.closeMenu();
+    }
+  };
+
+  private togglePageInert(inert: boolean): void {
+    const main = document.querySelector<HTMLElement>('main');
+    const footer = document.querySelector<HTMLElement>('sc-footer');
+    if (main) main.inert = inert;
+    if (footer) footer.inert = inert;
+  }
 
   private readonly updateScrollState = (): void => {
     this.isScrolled.set(window.scrollY > 36);

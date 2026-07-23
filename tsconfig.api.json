@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "types": []
+  },
+  "include": [
+    "api/**/*.ts",
+    "src/app/core/radar/radar.mapper.ts",
+    "src/app/core/radar/radar.models.ts"
+  ]
+}

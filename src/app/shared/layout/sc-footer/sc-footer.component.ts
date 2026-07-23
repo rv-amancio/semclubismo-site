@@ -10,8 +10,8 @@ import { ScButtonComponent } from '../../ui/sc-button/sc-button.component';
     <footer class="footer" id="contato">
       <div class="sc-shell footer__cta">
         <div>
-          <span>Media kit / publicidade</span>
-          <h2>Sua marca também pode entrar nessa conversa.</h2>
+          <span>Podcast • Radar • Comunidade</span>
+          <h2>Sua marca no centro da conversa do futebol brasileiro.</h2>
         </div>
         <sc-button href="mailto:contato@semclubismo.com.br">Falar com o comercial</sc-button>
       </div>
@@ -19,30 +19,31 @@ import { ScButtonComponent } from '../../ui/sc-button/sc-button.component';
       <div class="sc-shell footer__grid">
         <div class="footer__brand">
           <sc-logo href="#inicio" />
-          <p>Notícia, debate e resenha. Futebol do tamanho da sua paixão — acima de qualquer cor.</p>
+          <p>Podcast, dados e notícias para acompanhar o futebol brasileiro com contexto, análise e opinião — acima de qualquer cor.</p>
         </div>
 
         <nav class="footer__col" aria-label="Navegação do rodapé">
           <h3>Navegue</h3>
-          <a href="#episodios">Episódios</a>
-          <a href="#cortes">Cortes</a>
+          <a href="#radar">Radar</a>
+          <a href="#mercado">Mercado da bola</a>
+          <a href="#competicoes">Competições</a>
           <a href="#manifesto">Manifesto</a>
-          <a href="#agenda">Ao vivo</a>
           <a href="#time">O time</a>
+          <a href="#comunidade">Comunidade</a>
         </nav>
 
         <div class="footer__col">
           <h3>Acompanhe</h3>
-          <a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube ↗</a>
-          <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram ↗</a>
-          <a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok ↗</a>
-          <a href="https://open.spotify.com/" target="_blank" rel="noopener">Spotify ↗</a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube ↗</a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+          <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">TikTok ↗</a>
+          <a href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer">Spotify ↗</a>
         </div>
 
         <div class="footer__col footer__contact">
           <h3>Contato</h3>
           <a href="mailto:contato@semclubismo.com.br">contato&#64;semclubismo.com.br</a>
-          <p>Imprensa, sugestões de pauta, parcerias e aquela opinião que não coube nos comentários.</p>
+          <p>Imprensa, correções, sugestões de pauta, publicidade, parcerias e aquela opinião que não coube nos comentários.</p>
         </div>
       </div>
 

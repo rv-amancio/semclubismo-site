@@ -1,3 +1,4 @@
+<a class="sc-skip-link" href="#radar">Ir direto para o Radar</a>
 <sc-header />
 
 <main>
@@ -22,8 +23,8 @@
     <div class="sc-shell hero__layout">
       <div class="hero__copy">
         <p class="hero__eyebrow">
-          <span class="hero__on-air"><i></i> No ar</span>
-          Podcast novo toda semana
+          <span class="hero__on-air"><i></i> Radar nacional</span>
+          Dados novos a cada rodada
         </p>
 
         <h1 id="hero-title">
@@ -32,42 +33,42 @@
         </h1>
 
         <p class="hero__lead">
-          Rivalidade fica na arquibancada. Aqui, notícia, análise e resenha
-          entram em campo sem roteiro pronto e sem medo de discordar.
+          Resultados, próximos jogos, classificação e mercado da bola em um só lugar.
+          Informação para alimentar a pauta — e a resenha — sem clubismo.
         </p>
 
         <div class="hero__actions">
-          <sc-button href="https://www.youtube.com/" icon="play">Assistir ao episódio</sc-button>
-          <sc-button variant="secondary" href="#episodios">Explorar o podcast</sc-button>
+          <sc-button href="#radar">Abrir o radar</sc-button>
+          <sc-button variant="secondary" href="#mercado">Mercado da bola</sc-button>
         </div>
 
-        <div class="hero__platforms" aria-label="Disponível nas plataformas">
-          <span>Ouça onde quiser</span>
-          <a href="https://open.spotify.com/" target="_blank" rel="noopener">Spotify</a>
-          <a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a>
-          <a href="https://podcasts.apple.com/" target="_blank" rel="noopener">Apple Podcasts</a>
+        <div class="hero__platforms" aria-label="Competições acompanhadas">
+          <span>Cobertura ativa</span>
+          <a href="#competicoes">Brasileirão</a>
+          <a href="#competicoes">Copa do Brasil</a>
+          <a href="#competicoes">Libertadores + Sul-Americana</a>
         </div>
       </div>
 
       <a
         class="hero-player"
-        href="https://www.youtube.com/"
-        target="_blank"
-        rel="noopener"
-        aria-label="Assistir ao episódio 47: O VAR decidiu de novo?"
+        href="#radar"
+        aria-label="Abrir Radar Sem Clubismo"
       >
         <div class="hero-player__top">
-          <span>Último episódio</span>
-          <span>1h 22min</span>
+          <span>Radar automático</span>
+          <span>A cada 5 min</span>
         </div>
         <div class="hero-player__body">
-          <span class="hero-player__number">47</span>
+          <span class="hero-player__number">24/7</span>
           <div>
-            <strong>O VAR decidiu de novo?</strong>
-            <span>Polêmica da rodada</span>
+            <strong>Rodada, tabela e mercado</strong>
+            <span>Sem edição manual</span>
           </div>
           <span class="hero-player__play" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z" /></svg>
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" />
+            </svg>
           </span>
         </div>
         <div class="hero-player__wave" aria-hidden="true">
@@ -79,8 +80,8 @@
     </div>
 
     <span class="hero__side-note" aria-hidden="true">O futebol acima das cores</span>
-    <a class="hero__scroll" href="#episodios">
-      <span>Role para o debate</span>
+    <a class="hero__scroll" href="#radar">
+      <span>Role para o radar</span>
       <i aria-hidden="true"></i>
     </a>
   </section>
@@ -100,95 +101,7 @@
     </div>
   </div>
 
-  <section class="section episodes" id="episodios" aria-labelledby="episodes-title">
-    <div class="sc-shell">
-      <header class="sc-section-head">
-        <span class="sc-section-index">01</span>
-        <div>
-          <p class="sc-kicker">Últimos episódios</p>
-          <h2 id="episodes-title">O debate começa aqui.</h2>
-        </div>
-        <a class="sc-link-arrow" href="#cortes">Ver os cortes</a>
-      </header>
-
-      <div class="episodes__layout">
-        <a
-          class="featured-episode"
-          [href]="episodes[0].href"
-          target="_blank"
-          rel="noopener"
-          [attr.aria-label]="'Assistir: ' + episodes[0].title"
-        >
-          <img
-            [src]="episodes[0].image"
-            [alt]="episodes[0].title"
-            width="900"
-            height="526"
-            loading="lazy"
-          />
-          <div class="featured-episode__shade"></div>
-          <div class="featured-episode__top">
-            <span class="sc-tag">{{ episodes[0].tag }}</span>
-            <span>{{ episodes[0].episode }} — {{ episodes[0].date }}</span>
-          </div>
-          <div class="featured-episode__body">
-            <span class="featured-episode__play" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z" /></svg>
-            </span>
-            <div>
-              <h3>{{ episodes[0].title }}</h3>
-              <p>{{ episodes[0].summary }}</p>
-            </div>
-          </div>
-        </a>
-
-        <div class="episodes__rail" aria-label="Mais episódios">
-          @for (episode of episodes.slice(1); track episode.episode) {
-            <sc-episode-card [episode]="episode" />
-          }
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section cuts" id="cortes" aria-labelledby="cuts-title">
-    <div class="sc-shell">
-      <header class="sc-section-head">
-        <span class="sc-section-index">02</span>
-        <div>
-          <p class="sc-kicker">Cortes quentes</p>
-          <h2 id="cuts-title">Pouco tempo. Muita opinião.</h2>
-        </div>
-        <a class="sc-link-arrow" href="https://www.youtube.com/" target="_blank" rel="noopener">Abrir no YouTube</a>
-      </header>
-
-      <div class="cuts__grid">
-        @for (cut of cuts; track cut.number) {
-          <a
-            class="cut-card"
-            href="https://www.youtube.com/"
-            target="_blank"
-            rel="noopener"
-            [attr.aria-label]="'Assistir corte: ' + cut.title"
-          >
-            <img [src]="cut.image" [alt]="cut.title" loading="lazy" width="900" height="600" />
-            <div class="cut-card__overlay"></div>
-            <span class="cut-card__number">{{ cut.number }}</span>
-            <span class="cut-card__tag">{{ cut.tag }}</span>
-            <div class="cut-card__content">
-              <h3>{{ cut.title }}</h3>
-              <div>
-                <span>{{ cut.views }}</span>
-                <i aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z" /></svg>
-                </i>
-              </div>
-            </div>
-          </a>
-        }
-      </div>
-    </div>
-  </section>
+  <sc-radar />
 
   <section class="manifesto" id="manifesto" aria-labelledby="manifesto-title">
     <div class="manifesto__media" aria-hidden="true">
@@ -232,11 +145,11 @@
       </div>
     </div>
 
-    <div class="manifesto__numbers sc-shell" aria-label="Números do podcast">
-      <div><strong>+50</strong><span>episódios publicados</span></div>
-      <div><strong>+100K</strong><span>visualizações</span></div>
-      <div><strong>5</strong><span>plataformas</span></div>
-      <div><strong>1×</strong><span>por semana</span></div>
+    <div class="manifesto__numbers sc-shell" aria-label="Cobertura do Radar Sem Clubismo">
+      <div><strong>20</strong><span>clubes monitorados</span></div>
+      <div><strong>4</strong><span>competições no radar</span></div>
+      <div><strong>5 min</strong><span>entre atualizações</span></div>
+      <div><strong>24/7</strong><span>radar disponível</span></div>
     </div>
   </section>
 
@@ -247,17 +160,17 @@
           <span></span><span></span><span></span><span></span><span></span>
         </div>
         <div class="live__intro">
-          <span class="live__badge"><i></i> Ao vivo</span>
-          <p>Todo domingo</p>
-          <h2 id="live-title">A rodada<br />sem filtro.</h2>
+          <span class="live__badge"><i></i> Pauta automática</span>
+          <p>A cada rodada</p>
+          <h2 id="live-title">O jogo termina.<br />A conversa começa.</h2>
         </div>
         <div class="live__time">
-          <span>Horário de Brasília</span>
-          <strong>20:30</strong>
-          <p>Pós-rodada, notas, polêmicas e a resenha que não cabe em 90 minutos.</p>
-          <sc-button variant="dark" href="https://www.youtube.com/">Ativar lembrete</sc-button>
+          <span>Radar editorial</span>
+          <strong>24/7</strong>
+          <p>O placar atualiza, a tabela se mexe e os assuntos que pedem debate chegam primeiro.</p>
+          <sc-button variant="dark" href="#comunidade">Entrar na comunidade</sc-button>
         </div>
-        <span class="live__watermark" aria-hidden="true">LIVE</span>
+        <span class="live__watermark" aria-hidden="true">RADAR</span>
       </div>
     </div>
   </section>
@@ -293,36 +206,20 @@
         <p class="sc-kicker">Comunidade Sem Clubismo</p>
         <h2 id="community-title">A resenha continua fora do estúdio.</h2>
         <p>
-          Receba o calendário das lives, pautas da semana e cortes inéditos.
+          Receba o giro da rodada, o que movimenta o mercado e as próximas pautas.
           Sem spam. Só futebol do jeito que merece ser debatido.
         </p>
       </div>
 
-      @if (!newsletterSent()) {
-        <form class="community__form" (submit)="submitNewsletter($event)">
-          <label for="community-email">Seu melhor e-mail</label>
-          <div>
-            <input
-              id="community-email"
-              type="email"
-              name="email"
-              autocomplete="email"
-              placeholder="voce@email.com"
-              required
-            />
-            <button type="submit">Quero entrar <span aria-hidden="true">↗</span></button>
-          </div>
-          <small>Ao se cadastrar, você concorda em receber novidades do podcast.</small>
-        </form>
-      } @else {
-        <div class="community__success" role="status">
-          <span aria-hidden="true">✓</span>
-          <div>
-            <strong>Você está dentro.</strong>
-            <p>Agora é só esperar o próximo apito.</p>
-          </div>
-        </div>
-      }
+      <div class="community__form">
+        <span class="community__form-label">Canal direto</span>
+        <strong>Quero receber o giro Sem Clubismo</strong>
+        <p>Envie seu contato para a equipe e entre na lista assim que as inscrições abrirem.</p>
+        <a
+          href="mailto:contato@semclubismo.com.br?subject=Quero%20entrar%20na%20comunidade%20Sem%20Clubismo"
+        >Entrar por e-mail <span aria-hidden="true">↗</span></a>
+        <small>O botão abre seu aplicativo de e-mail. Nenhum cadastro é simulado no site.</small>
+      </div>
     </div>
   </section>
 
@@ -330,11 +227,11 @@
     <div class="sc-shell platforms__inner">
       <span>Escute. Assista. Discuta.</span>
       <div>
-        <a href="https://open.spotify.com/" target="_blank" rel="noopener">Spotify</a>
-        <a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a>
-        <a href="https://podcasts.apple.com/" target="_blank" rel="noopener">Apple Podcasts</a>
-        <a href="https://music.amazon.com/podcasts" target="_blank" rel="noopener">Amazon Music</a>
-        <a href="https://www.deezer.com/" target="_blank" rel="noopener">Deezer</a>
+        <a href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer">Spotify</a>
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <a href="https://podcasts.apple.com/" target="_blank" rel="noopener noreferrer">Apple Podcasts</a>
+        <a href="https://music.amazon.com/podcasts" target="_blank" rel="noopener noreferrer">Amazon Music</a>
+        <a href="https://www.deezer.com/" target="_blank" rel="noopener noreferrer">Deezer</a>
       </div>
     </div>
   </section>

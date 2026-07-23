@@ -2,20 +2,28 @@
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
-  <title>Sem Clubismo — Futebol sem filtro</title>
+  <title>Sem Clubismo — Podcast e radar do futebol brasileiro</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#050505">
-  <meta name="description" content="Sem Clubismo: notícia, análise e resenha sobre futebol, sem roteiro pronto e sem medo de discordar. Episódios novos toda semana.">
+  <meta name="description" content="Sem Clubismo é podcast e radar do futebol brasileiro: resultados, próximos jogos, classificação, competições, mercado da bola, análise e opinião.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://semclubismo.com.br/">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pt_BR">
-  <meta property="og:title" content="Sem Clubismo — Futebol sem filtro">
-  <meta property="og:description" content="O futebol acima das cores. Debate, opinião e resenha toda semana.">
-  <meta property="og:image" content="assets/images/hero/promo-brand.jpg">
+  <meta property="og:site_name" content="Sem Clubismo">
+  <meta property="og:url" content="https://semclubismo.com.br/">
+  <meta property="og:title" content="Sem Clubismo — Podcast e radar do futebol brasileiro">
+  <meta property="og:description" content="Acompanhe resultados, próximos jogos, classificação, competições e mercado da bola — com a análise e a opinião do podcast Sem Clubismo.">
+  <meta property="og:image" content="https://semclubismo.com.br/assets/images/hero/promo-brand.jpg">
+  <meta property="og:image:width" content="1920">
+  <meta property="og:image:height" content="1080">
+  <meta property="og:image:alt" content="Sem Clubismo, podcast e radar do futebol brasileiro">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Sem Clubismo — Futebol sem filtro">
-  <meta name="twitter:description" content="Debate, opinião e resenha sobre futebol toda semana.">
-  <meta name="twitter:image" content="assets/images/hero/promo-brand.jpg">
+  <meta name="twitter:title" content="Sem Clubismo — Podcast e radar do futebol brasileiro">
+  <meta name="twitter:description" content="Resultados, próximos jogos, classificação, competições e mercado da bola, com análise e opinião.">
+  <meta name="twitter:image" content="https://semclubismo.com.br/assets/images/hero/promo-brand.jpg">
+  <meta name="twitter:image:alt" content="Sem Clubismo, podcast e radar do futebol brasileiro">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="preload" as="image" href="assets/images/hero/generated/podcast-studio-hero-v2.jpg" fetchpriority="high">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,10 +32,43 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "PodcastSeries",
-      "name": "Sem Clubismo",
-      "description": "Notícia, análise e resenha sobre futebol, sem roteiro pronto e sem medo de discordar.",
-      "inLanguage": "pt-BR"
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://semclubismo.com.br/#organization",
+          "name": "Sem Clubismo",
+          "url": "https://semclubismo.com.br/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://semclubismo.com.br/assets/images/brand/logo-hero.png",
+            "width": 471,
+            "height": 339
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://semclubismo.com.br/#website",
+          "url": "https://semclubismo.com.br/",
+          "name": "Sem Clubismo",
+          "description": "Podcast e radar automático do futebol brasileiro.",
+          "inLanguage": "pt-BR",
+          "publisher": {
+            "@id": "https://semclubismo.com.br/#organization"
+          }
+        },
+        {
+          "@type": "PodcastSeries",
+          "@id": "https://semclubismo.com.br/#podcast",
+          "name": "Sem Clubismo",
+          "url": "https://semclubismo.com.br/",
+          "description": "Podcast brasileiro sobre futebol, com análise, opinião e debate acima das cores.",
+          "inLanguage": "pt-BR",
+          "genre": ["Futebol", "Esportes"],
+          "publisher": {
+            "@id": "https://semclubismo.com.br/#organization"
+          }
+        }
+      ]
     }
   </script>
 </head>
