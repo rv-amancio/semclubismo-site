@@ -160,9 +160,9 @@
           <span></span><span></span><span></span><span></span><span></span>
         </div>
         <div class="live__intro">
-          <span class="live__badge"><i></i> Pauta automática</span>
+          <span class="live__badge"><i></i> Pauta da rodada</span>
           <p>A cada rodada</p>
-          <h2 id="live-title">O jogo termina.<br />A conversa começa.</h2>
+          <h2 id="live-title">O jogo termina.<br /><span>A conversa</span> começa.</h2>
         </div>
         <div class="live__time">
           <span>Radar editorial</span>
@@ -175,27 +175,121 @@
     </div>
   </section>
 
-  <section class="section team" id="time" aria-labelledby="team-title">
+  <section class="section auto-table" id="pauta-da-mesa" aria-labelledby="auto-table-title">
     <div class="sc-shell">
-      <header class="sc-section-head">
+      <header class="sc-section-head auto-table__head">
         <span class="sc-section-index">03</span>
         <div>
-          <p class="sc-kicker">As vozes da mesa</p>
-          <h2 id="team-title">Três visões. Zero consenso.</h2>
+          <p class="sc-kicker">Pauta da mesa</p>
+          <h2 id="auto-table-title">Três visões. Uma resenha sempre ligada.</h2>
         </div>
-        <a class="sc-link-arrow" href="#comunidade">Entre na conversa</a>
+        <a class="sc-link-arrow" href="#comunidade">Entrar na conversa</a>
       </header>
 
-      <div class="team__grid">
-        @for (host of hosts; track host.name) {
-          <sc-host-card
-            [index]="host.index"
-            [name]="host.name"
-            [role]="host.role"
-            [quote]="host.quote"
-            [accent]="host.accent"
-          />
-        }
+      <div class="auto-table__intro">
+        <p>
+          Quando a rodada pede debate, o SemClubismo entra na conversa com
+          provocação, contexto e resenha.
+        </p>
+        <div>
+          <span>Linha editorial</span>
+          <strong>Opinião forte precisa de argumento.</strong>
+          <small>O Radar acende a pauta. A mesa transforma informação em debate.</small>
+        </div>
+      </div>
+
+      @if (publishedPauta(); as pauta) {
+        <article class="pauta-edition" aria-labelledby="pauta-edition-title">
+          <div class="pauta-edition__main">
+            <span>{{ pauta.round }}</span>
+            <h3 id="pauta-edition-title">{{ pauta.title }}</h3>
+            <p>{{ pauta.summary }}</p>
+          </div>
+          <div class="pauta-edition__stamp">
+            <span>Atualizado</span>
+            <strong>{{ pauta.updatedLabel }}</strong>
+          </div>
+        </article>
+
+        <div class="pauta-facts" aria-label="Fatos que puxam a pauta">
+          @for (fact of pauta.facts; track fact.label) {
+            <div>
+              <span>{{ fact.label }}</span>
+              <strong>{{ fact.value }}</strong>
+            </div>
+          }
+        </div>
+
+        <div class="pauta-takes" aria-label="Opiniões da mesa sobre a rodada">
+          @for (take of pauta.takes; track take.voice) {
+            <article>
+              <span>{{ take.role }}</span>
+              <h3>{{ take.voice }}</h3>
+              <strong>{{ take.title }}</strong>
+              <p>{{ take.body }}</p>
+            </article>
+          }
+        </div>
+
+        <div class="pauta-board" aria-label="Críticas, elogios e resenha da rodada">
+          <section>
+            <span>Crítica</span>
+            @for (item of pauta.criticism; track item) {
+              <p>{{ item }}</p>
+            }
+          </section>
+          <section>
+            <span>Elogio</span>
+            @for (item of pauta.praise; track item) {
+              <p>{{ item }}</p>
+            }
+          </section>
+          <section>
+            <span>Resenha</span>
+            @for (item of pauta.resenha; track item) {
+              <p>{{ item }}</p>
+            }
+          </section>
+        </div>
+
+        <div class="pauta-next">
+          <div>
+            <span>Na mira</span>
+            <strong>Próxima conversa</strong>
+          </div>
+          <ul>
+            @for (item of pauta.nextAgenda; track item) {
+              <li>{{ item }}</li>
+            }
+          </ul>
+        </div>
+
+        <div class="pauta-sources" aria-label="Fontes da pauta">
+          <span>Base da análise</span>
+          @for (source of pauta.sources; track source.url) {
+            <a [href]="source.url" target="_blank" rel="noopener noreferrer">
+              {{ source.label }} <span class="sc-sr-only">(abre em nova guia)</span>
+            </a>
+          }
+        </div>
+      }
+
+      <div class="auto-table__workflow" aria-label="Como a pauta da mesa funciona">
+        <div>
+          <span>01</span>
+          <strong>O Radar encontra a pauta</strong>
+          <p>Resultado, tabela, agenda ou mercado acendem o assunto.</p>
+        </div>
+        <div>
+          <span>02</span>
+          <strong>A mesa abre o debate</strong>
+          <p>Cada voz entra com uma função: provocar, analisar ou puxar a resenha.</p>
+        </div>
+        <div>
+          <span>03</span>
+          <strong>A comunidade continua</strong>
+          <p>A conversa vira enquete, corte, chamada e pauta para o próximo conteúdo.</p>
+        </div>
       </div>
     </div>
   </section>

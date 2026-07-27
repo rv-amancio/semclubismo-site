@@ -1,0 +1,79 @@
+{
+  "round": "Brasileirão 2026 - rodada em análise",
+  "updatedLabel": "27 jul",
+  "title": "O líder tropeçou, o vice deixou passar e o campeonato ganhou assunto.",
+  "summary": "Foram 10 jogos, 20 gols e 6 empates na janela analisada. Palmeiras segue no topo com 44 pontos, Flamengo vem depois com 38, e a parte de baixo segue comprimida o bastante para transformar cada tropeço em crise.",
+  "facts": [
+    {
+      "label": "Jogo que muda clima",
+      "value": "Palmeiras 1 x 2 Atlético-MG"
+    },
+    {
+      "label": "Chance de cobrança",
+      "value": "Flamengo 1 x 1 São Paulo"
+    },
+    {
+      "label": "Pressão no Z4",
+      "value": "Remo 2 x 0 Vitória"
+    },
+    {
+      "label": "Topo da tabela",
+      "value": "Palmeiras 44 pts; Flamengo 38"
+    }
+  ],
+  "takes": [
+    {
+      "voice": "Rodrigo",
+      "role": "Provocação",
+      "title": "Palmeiras perdeu, mas a cobrança maior é para quem não aproveitou.",
+      "body": "Rodada boa para testar discurso. Se o líder tropeça, todo perseguidor precisa transformar oportunidade em incômodo real. Quando a porta abre e ninguém empurra, a culpa não é da tabela: é de quem faltou chegar com apetite."
+    },
+    {
+      "voice": "Daniel",
+      "role": "Análise",
+      "title": "Palmeiras (44), Flamengo (38), Athletico-PR (36), Fluminense (33): a parte de cima ainda tem hierarquia.",
+      "body": "A tabela ainda protege quem fez gordura, mas a leitura da rodada vai além dos pontos. Resultado em casa, resposta fora e sequência curta pesam muito no começo do returno. A diferença agora é mental: quem absorve o tropeço e quem transforma empate em sintoma."
+    },
+    {
+      "voice": "Tadeu",
+      "role": "Resenha",
+      "title": "Essa foi a rodada do \"calma, ainda tem muita história\".",
+      "body": "Teve líder sendo cutucado, vice deixando papo escapar e Z4 virando fila de gente aflita. É o tipo de rodada em que ninguém sai totalmente feliz, mas todo mundo sai com uma frase pronta para defender o próprio lado."
+    }
+  ],
+  "praise": [
+    "Quem venceu fora ou sob pressão merece elogio dobrado: no returno, resultado assim muda clima de vestiário.",
+    "Time da parte de baixo que ganha confronto pesado mostra uma coisa simples: ainda tem pulso.",
+    "A rodada premiou eficiência. Nem sempre o melhor discurso é posse; às vezes é pontaria e casca."
+  ],
+  "criticism": [
+    "Perseguidor que empata quando o líder tropeça deixa a rodada com gosto de desperdício.",
+    "Quem está perto do Z4 não pode tratar empate em casa como ponto neutro. Na parte de baixo, ponto perdido cobra juros.",
+    "Volume sem decisão vira estatística bonita e conversa amarga na segunda-feira."
+  ],
+  "resenha": [
+    "O returno começou lembrando que campeonato brasileiro não aceita roteiro simples.",
+    "A zona de queda está tão apertada que até respirar fora dela parece comemoração provisória.",
+    "Se essa foi a amostra, a próxima mesa já começa com alguém pedindo direito de resposta."
+  ],
+  "nextAgenda": [
+    "Flamengo precisa responder se a chance perdida foi acidente ou sintoma.",
+    "Palmeiras joga a próxima rodada com a tabela a favor e o clima cobrando resposta.",
+    "A briga do Z4 merece quadro fixo: cada vitória muda o humor de meia tabela.",
+    "Olho em quem empilhou empate: estabilidade também pode ser só falta de coragem para vencer."
+  ],
+  "sources": [
+    {
+      "label": "Placares ESPN",
+      "url": "https://www.espn.com.br/futebol/resultados/_/liga/bra.1/data/20260725"
+    },
+    {
+      "label": "Classificação ESPN",
+      "url": "https://www.espn.com.br/futebol/bra1/classificacao"
+    },
+    {
+      "label": "Tabela CBF",
+      "url": "https://www.cbf.com.br/futebol-brasileiro/tabelas/campeonato-brasileiro/serie-a/2026"
+    }
+  ]
+}

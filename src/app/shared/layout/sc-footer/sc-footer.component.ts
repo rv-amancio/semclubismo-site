@@ -28,7 +28,7 @@ import { ScButtonComponent } from '../../ui/sc-button/sc-button.component';
           <a href="#mercado">Mercado da bola</a>
           <a href="#competicoes">Competições</a>
           <a href="#manifesto">Manifesto</a>
-          <a href="#time">O time</a>
+          <a href="#pauta-da-mesa">Pauta da mesa</a>
           <a href="#comunidade">Comunidade</a>
         </nav>
 
@@ -86,8 +86,8 @@ import { ScButtonComponent } from '../../ui/sc-button/sc-button.component';
       font-size: clamp(3.2rem, 7vw, 7rem);
       font-weight: 400;
       text-transform: uppercase;
-      letter-spacing: -0.03em;
-      line-height: 0.9;
+      letter-spacing: 0;
+      line-height: 0.98;
     }
     .footer__grid {
       display: grid;

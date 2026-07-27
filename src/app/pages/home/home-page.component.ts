@@ -1,17 +1,41 @@
-import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Component, inject, signal } from '@angular/core';
+import { catchError, of } from 'rxjs';
 import { ScHeaderComponent } from '../../shared/layout/sc-header/sc-header.component';
 import { ScFooterComponent } from '../../shared/layout/sc-footer/sc-footer.component';
 import { ScButtonComponent } from '../../shared/ui/sc-button/sc-button.component';
-import { ScHostCardComponent } from '../../shared/ui/sc-host-card/sc-host-card.component';
 import { SITE_IMAGES } from '../../shared/constants/site-images';
 import { ScRadarComponent } from '../../shared/feature/sc-radar/sc-radar.component';
 
-interface HostData {
-  index: string;
-  name: string;
+interface PautaFact {
+  label: string;
+  value: string;
+}
+
+interface PautaTake {
+  voice: string;
   role: string;
-  quote: string;
-  accent: 'yellow' | 'white' | 'dark';
+  title: string;
+  body: string;
+}
+
+interface PautaSource {
+  label: string;
+  url: string;
+}
+
+interface PublishedPautaData {
+  round: string;
+  updatedLabel: string;
+  title: string;
+  summary: string;
+  facts: PautaFact[];
+  takes: PautaTake[];
+  praise: string[];
+  criticism: string[];
+  resenha: string[];
+  nextAgenda: string[];
+  sources: PautaSource[];
 }
 
 @Component({
@@ -21,38 +45,16 @@ interface HostData {
     ScHeaderComponent,
     ScFooterComponent,
     ScButtonComponent,
-    ScHostCardComponent,
     ScRadarComponent,
   ],
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.scss',
 })
 export class HomePageComponent {
-  readonly images = SITE_IMAGES;
+  private readonly http = inject(HttpClient);
 
-  readonly hosts: HostData[] = [
-    {
-      index: '01',
-      name: 'Rodrigo',
-      role: 'O provocador',
-      quote: 'Se todo mundo concordou, o debate nem começou.',
-      accent: 'yellow',
-    },
-    {
-      index: '02',
-      name: 'Daniel',
-      role: 'O estrategista',
-      quote: 'Opinião forte também precisa de argumento.',
-      accent: 'white',
-    },
-    {
-      index: '03',
-      name: 'Tadeu',
-      role: 'O resenheiro',
-      quote: 'Futebol é sério. A gente é que não precisa ser.',
-      accent: 'dark',
-    },
-  ];
+  readonly images = SITE_IMAGES;
+  readonly publishedPauta = signal<PublishedPautaData | null>(null);
 
   readonly tickerItems = [
     'Radar em tempo real',
@@ -61,4 +63,13 @@ export class HomePageComponent {
     'Mercado da bola',
     'Futebol acima das cores',
   ];
+
+  constructor() {
+    this.http
+      .get<PublishedPautaData>('assets/content/pauta-da-mesa.json')
+      .pipe(catchError(() => of(null)))
+      .subscribe((pauta) => {
+        this.publishedPauta.set(pauta);
+      });
+  }
 }

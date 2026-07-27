@@ -296,7 +296,7 @@ export class ScHeaderComponent implements OnDestroy {
     { index: '02', label: 'Mercado', href: '#mercado', sectionId: 'mercado' },
     { index: '03', label: 'Competições', href: '#competicoes', sectionId: 'competicoes' },
     { index: '04', label: 'Manifesto', href: '#manifesto', sectionId: 'manifesto' },
-    { index: '05', label: 'O time', href: '#time', sectionId: 'time' },
+    { index: '05', label: 'Pauta', href: '#pauta-da-mesa', sectionId: 'pauta-da-mesa' },
     { index: '06', label: 'Comunidade', href: '#comunidade', sectionId: 'comunidade' },
   ];
 

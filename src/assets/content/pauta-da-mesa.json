@@ -1,0 +1,79 @@
+{
+  "round": "Brasileirão 2026 - 20ª rodada",
+  "updatedLabel": "27 jul",
+  "title": "O líder tropeçou, o vice deixou passar e o Z4 pegou fogo.",
+  "summary": "O returno começou com cara de recado. O Palmeiras segue na frente, mas perdeu em casa para o Atlético-MG. O Flamengo tinha chance de encostar e ficou no empate com o São Paulo. Embaixo, o Remo venceu o Vitória e transformou a briga contra a queda em assunto obrigatório.",
+  "facts": [
+    {
+      "label": "Jogo que muda clima",
+      "value": "Palmeiras 1 x 2 Atlético-MG"
+    },
+    {
+      "label": "Chance desperdiçada",
+      "value": "Flamengo 1 x 1 São Paulo"
+    },
+    {
+      "label": "Pressão no Z4",
+      "value": "Remo 2 x 0 Vitória"
+    },
+    {
+      "label": "Topo da tabela",
+      "value": "Palmeiras 44 pts; Flamengo 38"
+    }
+  ],
+  "takes": [
+    {
+      "voice": "Rodrigo",
+      "role": "Provocação",
+      "title": "O Palmeiras perdeu, mas quem deixou a rodada escapar foi o Flamengo.",
+      "body": "Perder para o Atlético-MG em casa é barulho para qualquer líder. Só que a rodada grita mais contra quem tinha a chance de reduzir a distância e não reduziu. Quando o campeonato abre uma fresta, time que quer título não pode pedir licença para entrar."
+    },
+    {
+      "voice": "Daniel",
+      "role": "Análise",
+      "title": "A tabela ainda protege o líder, mas o desempenho abriu uma pauta real.",
+      "body": "O Palmeiras continua com margem, 44 pontos e a liderança nas mãos. Mas derrota em casa no começo do returno pesa porque muda a leitura dos adversários. O Atlético-MG foi eficiente, o Flamengo não capitalizou, e o campeonato segue mais psicológico do que aritmético neste momento."
+    },
+    {
+      "voice": "Tadeu",
+      "role": "Resenha",
+      "title": "Essa foi a rodada do 'ninguém quis resolver tudo'.",
+      "body": "O líder tropeça, o vice empata, o Z4 se mexe e a gente termina o domingo com mais pergunta do que resposta. É aquele tipo de rodada em que todo mundo encontra um argumento para reclamar e outro para acreditar. Futebol brasileiro gosta de deixar a mesa servida."
+    }
+  ],
+  "praise": [
+    "O Atlético-MG merece elogio pela frieza fora de casa. Não precisou controlar a posse para controlar o dano.",
+    "O Remo fez o que time pressionado precisa fazer: transformou mando em sobrevivência e colocou fogo na parte de baixo.",
+    "Botafogo e Athletico-PR saem da rodada com vitória de peso porque somaram sem precisar entrar na conversa do quase."
+  ],
+  "criticism": [
+    "O Flamengo perdeu uma oportunidade grande de diminuir o incômodo da liderança palmeirense.",
+    "O Internacional sai da rodada com alerta alto: derrota para o Athletico-PR e a zona de queda respirando no cangote.",
+    "Santos x Chapecoense teve volume santista, mas empate em casa contra o lanterna sempre cobra explicação."
+  ],
+  "resenha": [
+    "Rodada com líder perdendo e vice empatando é o futebol dizendo: 'calma que ainda tem muita conversa'.",
+    "O Z4 virou condomínio apertado: tem gente fora olhando para baixo e gente dentro batendo na porta para sair.",
+    "Se essa foi só a abertura do returno, a mesa vai precisar de café forte e argumento melhor ainda."
+  ],
+  "nextAgenda": [
+    "Internacional x Flamengo: teste para saber se o Flamengo acorda ou se o Inter afunda mais na pressão.",
+    "Vitória x Palmeiras: líder fora de casa depois de derrota sempre vira termômetro emocional.",
+    "Fluminense x Bahia: confronto direto para medir quem sustenta conversa de parte alta.",
+    "Corinthians x Athletico-PR: jogo com cara de cobrança para um lado e afirmação para o outro."
+  ],
+  "sources": [
+    {
+      "label": "Resultados da rodada",
+      "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/26/brasileirao-gols-rodada-2607.ghtm"
+    },
+    {
+      "label": "Classificação",
+      "url": "https://exame.com/esporte/tabela-do-brasileirao-2026-veja-a-classificacao-apos-a-20a-rodada/"
+    },
+    {
+      "label": "Próxima rodada",
+      "url": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/noticia/2026/06/22/brasileirao-serie-a-veja-tabela-detalhada-das-rodadas-19-a-24.ghtml"
+    }
+  ]
+}
