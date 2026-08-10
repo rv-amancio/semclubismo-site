@@ -13,6 +13,7 @@ interface PautaFact {
 }
 
 interface PautaTake {
+  voice?: string;
   role: string;
   title: string;
   body: string;

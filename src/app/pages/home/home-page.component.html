@@ -60,7 +60,7 @@
           <span>A cada 5 min</span>
         </div>
         <div class="hero-player__body">
-          <span class="hero-player__number">24/7</span>
+          <span class="hero-player__number">ON</span>
           <div>
             <strong>Rodada, tabela e mercado</strong>
             <span>Sem edição manual</span>
@@ -149,7 +149,48 @@
       <div><strong>20</strong><span>clubes monitorados</span></div>
       <div><strong>4</strong><span>competições no radar</span></div>
       <div><strong>5 min</strong><span>entre atualizações</span></div>
-      <div><strong>24/7</strong><span>radar disponível</span></div>
+      <div><strong>Ao vivo</strong><span>radar disponível</span></div>
+    </div>
+  </section>
+
+  <section class="mascot" id="mascote" aria-labelledby="mascot-title">
+    <div class="sc-shell mascot__layout">
+      <div class="mascot__copy">
+        <p class="sc-kicker">Mascote oficial</p>
+        <h2 id="mascot-title">O Apito entra em campo.</h2>
+        <p>
+          Ele puxa a bronca quando o clubismo passa do ponto, chama a resenha
+          para a mesa e deixa claro quando o lance merece replay.
+        </p>
+      </div>
+
+      <div class="mascot__figure">
+        <img
+          [src]="images.brand.mascot"
+          alt="Mascote O Apito do Sem Clubismo"
+          loading="lazy"
+          width="720"
+          height="720"
+        />
+      </div>
+
+      <div class="mascot__roles" aria-label="Funções do mascote">
+        <div>
+          <span>01</span>
+          <strong>Apita o exagero</strong>
+          <p>Quando a paixão vira desculpa, ele chama a falta.</p>
+        </div>
+        <div>
+          <span>02</span>
+          <strong>Puxa o replay</strong>
+          <p>Antes da corneta, contexto. Depois do contexto, resenha.</p>
+        </div>
+        <div>
+          <span>03</span>
+          <strong>Fecha com a mesa</strong>
+          <p>Sem escudo no argumento. Só futebol acima das cores.</p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -166,7 +207,7 @@
         </div>
         <div class="live__time">
           <span>Radar editorial</span>
-          <strong>24/7</strong>
+          <strong>Ligado</strong>
           <p>O placar atualiza, a tabela se mexe e os assuntos que pedem debate chegam primeiro.</p>
           <sc-button variant="dark" href="#comunidade">Entrar na comunidade</sc-button>
         </div>
@@ -224,6 +265,9 @@
           @for (take of pauta.takes; track take.title) {
             <article>
               <span>{{ take.role }}</span>
+              @if (take.voice) {
+                <h3>{{ take.voice }}</h3>
+              }
               <strong>{{ take.title }}</strong>
               <p>{{ take.body }}</p>
             </article>

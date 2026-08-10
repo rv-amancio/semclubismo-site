@@ -5,6 +5,9 @@ export const SITE_IMAGES = {
     fallback: 'assets/images/hero/football-dark.jpg',
     brand: 'assets/images/hero/promo-brand.jpg',
   },
+  brand: {
+    mascot: 'assets/images/brand/mascote-semclubismo.svg',
+  },
   episodes: {
     var: 'assets/images/episodes/var.jpg',
     market: 'assets/images/episodes/market.jpg',

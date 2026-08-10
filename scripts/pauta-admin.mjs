@@ -301,6 +301,7 @@ function buildPauta(matches, standings, sources) {
     ],
     takes: [
       {
+        voice: 'Rodrigo',
         role: 'Provocação',
         title:
           leaderLost
@@ -316,6 +317,7 @@ function buildPauta(matches, standings, sources) {
               `Quando a porta abre e ninguém empurra, a culpa não é da tabela: é de quem faltou chegar com apetite.`,
       },
       {
+        voice: 'Tadeu',
         role: 'Análise',
         title:
           `${topFour.map((entry) => `${entry.team} (${entry.points})`).join(', ')}: a parte de cima ainda tem hierarquia.`,
@@ -324,6 +326,7 @@ function buildPauta(matches, standings, sources) {
           `Resultado em casa, resposta fora e sequência curta pesam muito no começo do returno. A diferença agora é mental: quem absorve o tropeço e quem transforma empate em sintoma.`,
       },
       {
+        voice: 'Daniel',
         role: 'Resenha',
         title: `Essa foi a rodada do "calma, ainda tem muita história".`,
         body:
@@ -382,7 +385,7 @@ function toMarkdown(pauta) {
     '',
     '## Opiniões',
     ...pauta.takes.flatMap((take) => [
-      `### ${take.role}`,
+      `### ${take.voice ? `${take.voice} - ` : ''}${take.role}`,
       `**${take.title}**`,
       '',
       take.body,
@@ -423,9 +426,9 @@ function toSocialMarkdown(pauta) {
     pauta.summary,
     '',
     'A análise ficou assim:',
-    `Provocação: ${mainTake.title}`,
-    `Análise: ${analysisTake.title}`,
-    `Resenha: ${resenhaTake.title}`,
+    `${mainTake.voice ?? 'Provocação'}: ${mainTake.title}`,
+    `${analysisTake.voice ?? 'Análise'}: ${analysisTake.title}`,
+    `${resenhaTake.voice ?? 'Resenha'}: ${resenhaTake.title}`,
     '',
     'E você: foi tropeço normal ou sinal de alerta?',
     '',
@@ -449,9 +452,9 @@ function toSocialMarkdown(pauta) {
   const xThread = [
     `1/ ${compactText(pauta.title, 220)}`,
     `2/ ${compactText(pauta.summary, 240)}`,
-    `3/ Provocação: ${compactText(mainTake.title, 220)}`,
-    `4/ Análise: ${compactText(analysisTake.title, 220)}`,
-    `5/ Resenha: ${compactText(resenhaTake.title, 220)}`,
+    `3/ ${mainTake.voice ?? 'Provocação'}: ${compactText(mainTake.title, 220)}`,
+    `4/ ${analysisTake.voice ?? 'Análise'}: ${compactText(analysisTake.title, 220)}`,
+    `5/ ${resenhaTake.voice ?? 'Resenha'}: ${compactText(resenhaTake.title, 220)}`,
     `6/ Crítica da rodada: ${compactText(pauta.criticism[0], 220)}`,
     `7/ Elogio da rodada: ${compactText(pauta.praise[0], 220)}`,
     `8/ Próxima conversa: ${compactText(firstQuestion, 220)}`,
@@ -528,7 +531,7 @@ function printPauta(pauta) {
   pauta.facts.forEach((fact) => console.log(`- ${fact.label}: ${fact.value}`));
   console.log('\nOPINIÕES');
   pauta.takes.forEach((take) => {
-    console.log(`\n${take.role}`);
+    console.log(`\n${take.voice ? `${take.voice} (${take.role})` : take.role}`);
     console.log(`${take.title}`);
     console.log(take.body);
   });

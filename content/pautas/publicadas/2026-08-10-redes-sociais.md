@@ -8,9 +8,9 @@ O líder freou, o vice respondeu e a rodada encurtou a conversa.
 Foram 10 jogos, 22 gols e 4 empates na janela analisada. Palmeiras segue no topo com 48 pontos, Flamengo vem depois com 42. A diferença entre os dois é de 6 pontos, e a parte de baixo segue comprimida o bastante para transformar cada tropeço em crise.
 
 A análise ficou assim:
-Provocação: Seis pontos ainda é folga, mas já não é anestesia.
-Análise: Palmeiras (48), Flamengo (42), Athletico-PR (40), Fluminense (35): a parte de cima ainda tem hierarquia.
-Resenha: Essa foi a rodada do "calma, ainda tem muita história".
+Rodrigo: Seis pontos ainda é folga, mas já não é anestesia.
+Tadeu: Palmeiras (48), Flamengo (42), Athletico-PR (40), Fluminense (35): a parte de cima ainda tem hierarquia.
+Daniel: Essa foi a rodada do "calma, ainda tem muita história".
 
 E você: foi tropeço normal ou sinal de alerta?
 
@@ -37,11 +37,11 @@ Qual lado dessa pauta você compraria?
 
 2/ Foram 10 jogos, 22 gols e 4 empates na janela analisada. Palmeiras segue no topo com 48 pontos, Flamengo vem depois com 42. A diferença entre os dois é de 6 pontos, e a parte de baixo segue comprimida o bastante para transformar cada trope…
 
-3/ Provocação: Seis pontos ainda é folga, mas já não é anestesia.
+3/ Rodrigo: Seis pontos ainda é folga, mas já não é anestesia.
 
-4/ Análise: Palmeiras (48), Flamengo (42), Athletico-PR (40), Fluminense (35): a parte de cima ainda tem hierarquia.
+4/ Tadeu: Palmeiras (48), Flamengo (42), Athletico-PR (40), Fluminense (35): a parte de cima ainda tem hierarquia.
 
-5/ Resenha: Essa foi a rodada do "calma, ainda tem muita história".
+5/ Daniel: Essa foi a rodada do "calma, ainda tem muita história".
 
 6/ Crítica da rodada: Palmeiras não pode transformar vantagem em modo espera: empate de líder também entrega argumento para quem vem atrás.
 

@@ -11,17 +11,17 @@ Foram 10 jogos, 22 gols e 4 empates na janela analisada. Palmeiras segue no topo
 - **Topo da tabela:** Palmeiras 48 pts; Flamengo 42
 
 ## Opiniões
-### Provocação
+### Rodrigo - Provocação
 **Seis pontos ainda é folga, mas já não é anestesia.**
 
 Palmeiras não perdeu, mas deixou a rodada com cara de administração. Flamengo fez a parte dele e reduziu o barulho da distância. Liderança segue liderança, só que agora a perseguição tem placar para puxar assunto.
 
-### Análise
+### Tadeu - Análise
 **Palmeiras (48), Flamengo (42), Athletico-PR (40), Fluminense (35): a parte de cima ainda tem hierarquia.**
 
 A tabela ainda protege quem fez gordura, mas a leitura da rodada vai além dos pontos. Resultado em casa, resposta fora e sequência curta pesam muito no começo do returno. A diferença agora é mental: quem absorve o tropeço e quem transforma empate em sintoma.
 
-### Resenha
+### Daniel - Resenha
 **Essa foi a rodada do "calma, ainda tem muita história".**
 
 Teve líder sendo cutucado, vice fazendo o dever e Z4 virando fila de gente aflita. É o tipo de rodada em que ninguém muda o campeonato sozinho, mas todo mundo muda o tom da segunda-feira.
