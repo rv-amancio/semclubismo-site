@@ -533,7 +533,7 @@
 
 .mascot__layout {
   display: grid;
-  grid-template-columns: minmax(0, 0.85fr) minmax(260px, 0.62fr) minmax(300px, 0.72fr);
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.58fr);
   align-items: center;
   gap: clamp(28px, 5vw, 80px);
 }
@@ -555,27 +555,6 @@
   color: var(--sc-gray-200);
   font-size: clamp(0.95rem, 1.2vw, 1.04rem);
   line-height: 1.7;
-}
-
-.mascot__figure {
-  position: relative;
-}
-
-.mascot__figure::before {
-  position: absolute;
-  inset: 14% 5% 8%;
-  border: 1px solid rgba(var(--sc-yellow-rgb), 0.4);
-  content: '';
-  transform: rotate(-6deg);
-}
-
-.mascot__figure img {
-  position: relative;
-  width: min(100%, 360px);
-  height: auto;
-  display: block;
-  margin-inline: auto;
-  filter: drop-shadow(0 30px 55px rgba(0, 0, 0, 0.52));
 }
 
 .mascot__roles {
@@ -1346,15 +1325,6 @@
 
   .manifesto__rules {
     max-width: 720px;
-  }
-
-  .mascot__figure {
-    order: -1;
-  }
-
-  .mascot__figure img {
-    width: min(100%, 300px);
-    margin-inline: 0;
   }
 
   .live__card {
