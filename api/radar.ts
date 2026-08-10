@@ -1,4 +1,5 @@
 import { buildRadarPayload, RADAR_COMPETITIONS } from '../src/app/core/radar/radar.mapper.js';
+import { RADAR_FALLBACK } from '../src/app/core/radar/radar.fallback.js';
 import type {
   RadarProviderInput,
   RadarScoreboardInput,
@@ -125,14 +126,7 @@ async function handleRequest(request: Request): Promise<Response> {
     allProvidersFailed ||
     (!payload.matches.length && !payload.standings.length && !payload.news.length)
   ) {
-    return jsonResponse(
-      {
-        error: 'provider_unavailable',
-        message: 'O provedor do Radar está temporariamente indisponível.',
-      },
-      503,
-      false,
-    );
+    return jsonResponse(RADAR_FALLBACK, 200, false);
   }
 
   payload.isPartial =
