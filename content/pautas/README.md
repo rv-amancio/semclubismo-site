@@ -32,8 +32,10 @@ Escolha uma opção:
 
 - `1`: gerar novo rascunho da rodada
 - `2`: revisar rascunho atual
-- `3`: aprovar e publicar rascunho
-- `4`: sair
+- `3`: revisar textos para redes
+- `4`: gerar imagens da pauta
+- `5`: aprovar e publicar rascunho
+- `6`: sair
 
 Para publicar, o script vai pedir confirmação. Digite exatamente:
 
@@ -57,13 +59,25 @@ npm run pauta:draft
 npm run pauta:review
 ```
 
-3. Aprove e publique:
+3. Revise os textos para redes:
+
+```bash
+npm run pauta:social
+```
+
+4. Gere as imagens da pauta:
+
+```bash
+npm run pauta:images
+```
+
+5. Aprove e publique:
 
 ```bash
 npm run pauta:approve
 ```
 
-4. Valide o site:
+6. Valide o site:
 
 ```bash
 npm run check
@@ -99,6 +113,19 @@ Prévia em Markdown, mais fácil de ler:
 content/pautas/draft/pauta-da-mesa.md
 ```
 
+Textos para redes sociais:
+
+```text
+content/pautas/draft/redes-sociais.md
+```
+
+Imagens para redes sociais:
+
+```text
+content/pautas/draft/imagens/
+content/pautas/draft/imagens/png/
+```
+
 Arquivo publicado no site:
 
 ```text
@@ -109,6 +136,18 @@ Arquivo arquivado depois da aprovação:
 
 ```text
 content/pautas/publicadas/AAAA-MM-DD-pauta-da-mesa.json
+```
+
+Arquivo de redes arquivado depois da aprovação:
+
+```text
+content/pautas/publicadas/AAAA-MM-DD-redes-sociais.md
+```
+
+Pasta de imagens arquivada depois da aprovação, se existir:
+
+```text
+content/pautas/publicadas/AAAA-MM-DD-imagens/
 ```
 
 ## Onde Aparece no Site
@@ -124,12 +163,72 @@ O conteúdo publicado inclui:
 - título da rodada
 - resumo editorial
 - fatos principais
-- opiniões no tom de Rodrigo, Daniel e Tadeu
+- opiniões editoriais em provocação, análise e resenha
 - críticas
 - elogios
 - resenha
 - próxima conversa
 - fontes usadas como base
+
+## Textos Para Redes
+
+O comando `npm run pauta:draft` também cria textos prontos para distribuição:
+
+- legenda para Instagram
+- mensagem para WhatsApp
+- thread para X/Twitter
+- sequência de Stories
+- roteiro curto para Reels/Shorts
+
+Para revisar apenas esses textos:
+
+```bash
+npm run pauta:social
+```
+
+O arquivo pode ser editado manualmente antes de postar nas redes:
+
+```text
+content/pautas/draft/redes-sociais.md
+```
+
+## Imagens Para Redes
+
+Depois de revisar o rascunho, gere os cards:
+
+```bash
+npm run pauta:images
+```
+
+O comando cria:
+
+- card quadrado para feed
+- story com enquete
+- thumbnail para Reels/Shorts
+- card de crítica
+- card de elogio
+- card de resenha
+- página `preview.html` para conferir tudo no navegador
+
+Os arquivos ficam em:
+
+```text
+content/pautas/draft/imagens/
+```
+
+Os PNGs prontos para postagem ficam em:
+
+```text
+content/pautas/draft/imagens/png/
+```
+
+Dimensões principais:
+
+- feed: `1080x1080`
+- story: `1080x1920`
+- thumbnail: `1280x720`
+
+Se o texto da pauta mudar, rode `npm run pauta:images` de novo.
 
 ## Fontes Usadas
 
@@ -156,6 +255,16 @@ Rode:
 
 ```bash
 npm run pauta:draft
+```
+
+### PNG não foi gerado
+
+O SVG foi criado, mas o ambiente não conseguiu abrir Chrome/Chromium para exportar PNG.
+
+Confira se o Chrome está instalado e rode novamente:
+
+```bash
+npm run pauta:images
 ```
 
 ### A pauta ficou com uma janela errada

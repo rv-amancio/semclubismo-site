@@ -303,8 +303,7 @@ export class RadarService {
   }
 
   private canUseDirectProvider(): boolean {
-    const hostname = window.location.hostname;
-    return hostname === 'localhost' || hostname === '127.0.0.1';
+    return typeof navigator === 'undefined' || navigator.onLine !== false;
   }
 
   private isPayloadExpired(payload: RadarPayload): boolean {

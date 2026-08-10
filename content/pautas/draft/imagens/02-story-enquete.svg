@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" role="img">
+<defs>
+<style>
+text { dominant-baseline: hanging; }
+</style>
+</defs>
+<rect width="1080" height="1920" fill="#050505"/><path d="M0 0 H1080 V346 L0 614 Z" fill="#f5b800" opacity="0.12"/><path d="M691 0 H1080 V1920 H929 Z" fill="#f5b800" opacity="0.10"/><g opacity="0.11" stroke="#f6f4ed" stroke-width="1"><path d="M0 0 V1920"/><path d="M72 0 V1920"/><path d="M144 0 V1920"/><path d="M216 0 V1920"/><path d="M288 0 V1920"/><path d="M360 0 V1920"/><path d="M432 0 V1920"/><path d="M504 0 V1920"/><path d="M576 0 V1920"/><path d="M648 0 V1920"/><path d="M720 0 V1920"/><path d="M792 0 V1920"/><path d="M864 0 V1920"/><path d="M936 0 V1920"/><path d="M1008 0 V1920"/><path d="M0 0 H1080"/><path d="M0 72 H1080"/><path d="M0 144 H1080"/><path d="M0 216 H1080"/><path d="M0 288 H1080"/><path d="M0 360 H1080"/><path d="M0 432 H1080"/><path d="M0 504 H1080"/><path d="M0 576 H1080"/><path d="M0 648 H1080"/><path d="M0 720 H1080"/><path d="M0 792 H1080"/><path d="M0 864 H1080"/><path d="M0 936 H1080"/><path d="M0 1008 H1080"/><path d="M0 1080 H1080"/><path d="M0 1152 H1080"/><path d="M0 1224 H1080"/><path d="M0 1296 H1080"/><path d="M0 1368 H1080"/><path d="M0 1440 H1080"/><path d="M0 1512 H1080"/><path d="M0 1584 H1080"/><path d="M0 1656 H1080"/><path d="M0 1728 H1080"/><path d="M0 1800 H1080"/><path d="M0 1872 H1080"/></g><circle cx="907" cy="346" r="238" fill="none" stroke="#f5b800" stroke-width="34" opacity="0.10"/>
+<rect x="42" y="42" width="996" height="1836" fill="none" stroke="#f6f4ed" stroke-opacity="0.22" stroke-width="2"/><rect x="42" y="42" width="260" height="8" fill="#f5b800"/><text x="1008" y="124" fill="#f6f4ed" opacity="0.06" font-family="Anton, Impact, Arial Black, sans-serif" font-size="194" text-anchor="end">SC</text>
+<text x="72" y="88" fill="#f5b800" font-family="Oswald, Arial Narrow, sans-serif" font-size="28" font-weight="800">ENQUETE SEMCLUBISMO</text>
+<text x="72" y="260" fill="#f6f4ed" font-family="Anton, Impact, Arial Black, sans-serif" font-size="104" font-weight="400" text-anchor="start"><tspan x="72" dy="0">FLAMENGO</tspan><tspan x="72" dy="112">PRECISA PROVAR</tspan><tspan x="72" dy="112">QUE A</tspan><tspan x="72" dy="112">PERSEGUIÇÃO É</tspan><tspan x="72" dy="112">SEQUÊNCIA, NÃO</tspan><tspan x="72" dy="112">SÓ RODADA</tspan><tspan x="72" dy="112">FAVORÁVEL.</tspan></text>
+<rect x="72" y="1180" width="936" height="170" rx="0" fill="#f5b800"/>
+<text x="120" y="1230" fill="#050505" font-family="Anton, Impact, Arial Black, sans-serif" font-size="64" font-weight="400" text-anchor="start"><tspan x="120" dy="0">ACIDENTE</tspan></text>
+<rect x="72" y="1386" width="936" height="170" fill="none" stroke="#f6f4ed" stroke-opacity="0.72" stroke-width="3"/>
+<text x="120" y="1436" fill="#f6f4ed" font-family="Anton, Impact, Arial Black, sans-serif" font-size="64" font-weight="400" text-anchor="start"><tspan x="120" dy="0">SINAL DE ALERTA</tspan></text>
+<text x="72" y="1656" fill="#a6a49e" font-family="Oswald, Arial Narrow, sans-serif" font-size="34" font-weight="700" text-anchor="start"><tspan x="72" dy="0">PAL 0 X 0 INT / FLA 2 X 0 VIT</tspan></text>
+<text x="72" y="1844" fill="#f5b800" font-family="Oswald, Arial Narrow, sans-serif" font-size="27" font-weight="800">SEMCLUBISMO</text><text x="1008" y="1844" fill="#777570" font-family="Inter, Arial, sans-serif" font-size="22" text-anchor="end">Futebol acima das cores</text>
+</svg>

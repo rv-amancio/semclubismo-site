@@ -13,6 +13,8 @@
     "pauta:admin": "node scripts/pauta-admin.mjs admin",
     "pauta:draft": "node scripts/pauta-admin.mjs draft",
     "pauta:review": "node scripts/pauta-admin.mjs review",
+    "pauta:social": "node scripts/pauta-admin.mjs social",
+    "pauta:images": "node scripts/pauta-images.mjs",
     "pauta:approve": "node scripts/pauta-admin.mjs approve",
     "storybook": "ng run sem-clubismo:storybook",
     "build-storybook": "ng run sem-clubismo:build-storybook",

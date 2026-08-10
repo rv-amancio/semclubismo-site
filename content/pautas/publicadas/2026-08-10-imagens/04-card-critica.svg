@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" role="img">
+<defs>
+<style>
+text { dominant-baseline: hanging; }
+</style>
+</defs>
+<rect width="1080" height="1080" fill="#050505"/><path d="M0 0 H1080 V194 L0 346 Z" fill="#ff3b30" opacity="0.12"/><path d="M691 0 H1080 V1080 H929 Z" fill="#ff3b30" opacity="0.10"/><g opacity="0.11" stroke="#f6f4ed" stroke-width="1"><path d="M0 0 V1080"/><path d="M72 0 V1080"/><path d="M144 0 V1080"/><path d="M216 0 V1080"/><path d="M288 0 V1080"/><path d="M360 0 V1080"/><path d="M432 0 V1080"/><path d="M504 0 V1080"/><path d="M576 0 V1080"/><path d="M648 0 V1080"/><path d="M720 0 V1080"/><path d="M792 0 V1080"/><path d="M864 0 V1080"/><path d="M936 0 V1080"/><path d="M1008 0 V1080"/><path d="M0 0 H1080"/><path d="M0 72 H1080"/><path d="M0 144 H1080"/><path d="M0 216 H1080"/><path d="M0 288 H1080"/><path d="M0 360 H1080"/><path d="M0 432 H1080"/><path d="M0 504 H1080"/><path d="M0 576 H1080"/><path d="M0 648 H1080"/><path d="M0 720 H1080"/><path d="M0 792 H1080"/><path d="M0 864 H1080"/><path d="M0 936 H1080"/><path d="M0 1008 H1080"/></g><circle cx="907" cy="194" r="238" fill="none" stroke="#ff3b30" stroke-width="34" opacity="0.10"/>
+<rect x="42" y="42" width="996" height="996" fill="none" stroke="#f6f4ed" stroke-opacity="0.22" stroke-width="2"/><rect x="42" y="42" width="260" height="8" fill="#ff3b30"/><text x="1008" y="124" fill="#f6f4ed" opacity="0.06" font-family="Anton, Impact, Arial Black, sans-serif" font-size="194" text-anchor="end">SC</text>
+<text x="72" y="82" fill="#ff3b30" font-family="Oswald, Arial Narrow, sans-serif" font-size="28" font-weight="800">CRÍTICA DA RODADA</text>
+<text x="72" y="216" fill="#f6f4ed" font-family="Oswald, Arial Narrow, sans-serif" font-size="72" font-weight="800" text-anchor="start"><tspan x="72" dy="0">PALMEIRAS NÃO PODE</tspan><tspan x="72" dy="82">TRANSFORMAR VANTAGEM</tspan><tspan x="72" dy="82">EM MODO ESPERA: EMPATE</tspan><tspan x="72" dy="82">DE LÍDER TAMBÉM</tspan><tspan x="72" dy="82">ENTREGA ARGUMENTO PARA</tspan><tspan x="72" dy="82">QUEM VEM ATRÁS.</tspan></text>
+<rect x="72" y="804" width="936" height="4" fill="#ff3b30"/>
+<text x="72" y="840" fill="#a6a49e" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="400" text-anchor="start"><tspan x="72" dy="0">O líder freou, o vice respondeu e a rodada</tspan><tspan x="72" dy="36">encurtou a conversa.</tspan></text>
+<text x="72" y="1004" fill="#f5b800" font-family="Oswald, Arial Narrow, sans-serif" font-size="27" font-weight="800">SEMCLUBISMO</text><text x="1008" y="1004" fill="#777570" font-family="Inter, Arial, sans-serif" font-size="22" text-anchor="end">Futebol acima das cores</text>
+</svg>

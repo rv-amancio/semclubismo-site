@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img">
+<defs>
+<style>
+text { dominant-baseline: hanging; }
+</style>
+</defs>
+<rect width="1280" height="720" fill="#050505"/><path d="M0 0 H1280 V130 L0 230 Z" fill="#f5b800" opacity="0.12"/><path d="M819 0 H1280 V720 H1101 Z" fill="#f5b800" opacity="0.10"/><g opacity="0.11" stroke="#f6f4ed" stroke-width="1"><path d="M0 0 V720"/><path d="M80 0 V720"/><path d="M160 0 V720"/><path d="M240 0 V720"/><path d="M320 0 V720"/><path d="M400 0 V720"/><path d="M480 0 V720"/><path d="M560 0 V720"/><path d="M640 0 V720"/><path d="M720 0 V720"/><path d="M800 0 V720"/><path d="M880 0 V720"/><path d="M960 0 V720"/><path d="M1040 0 V720"/><path d="M1120 0 V720"/><path d="M1200 0 V720"/><path d="M0 0 H1280"/><path d="M0 80 H1280"/><path d="M0 160 H1280"/><path d="M0 240 H1280"/><path d="M0 320 H1280"/><path d="M0 400 H1280"/><path d="M0 480 H1280"/><path d="M0 560 H1280"/><path d="M0 640 H1280"/></g><circle cx="1075" cy="130" r="282" fill="none" stroke="#f5b800" stroke-width="34" opacity="0.10"/>
+<rect x="42" y="42" width="1196" height="636" fill="none" stroke="#f6f4ed" stroke-opacity="0.22" stroke-width="2"/><rect x="42" y="42" width="260" height="8" fill="#f5b800"/><text x="1208" y="124" fill="#f6f4ed" opacity="0.06" font-family="Anton, Impact, Arial Black, sans-serif" font-size="230" text-anchor="end">SC</text>
+<text x="72" y="74" fill="#f5b800" font-family="Oswald, Arial Narrow, sans-serif" font-size="28" font-weight="800">REELS / SHORTS</text>
+<text x="72" y="150" fill="#f6f4ed" font-family="Anton, Impact, Arial Black, sans-serif" font-size="88" font-weight="400" text-anchor="start"><tspan x="72" dy="0">O LÍDER FREOU, O</tspan><tspan x="72" dy="92">VICE RESPONDEU E A</tspan><tspan x="72" dy="92">RODADA ENCURTOU A</tspan><tspan x="72" dy="92">CONVERSA.</tspan></text>
+<rect x="796" y="244" width="412" height="154" fill="#f5b800"/>
+<text x="824" y="282" fill="#050505" font-family="Oswald, Arial Narrow, sans-serif" font-size="44" font-weight="800" text-anchor="start"><tspan x="824" dy="0">PALMEIRAS 0 X 0</tspan><tspan x="824" dy="50">INTERNACIONAL</tspan></text>
+<text x="824" y="432" fill="#f6f4ed" font-family="Oswald, Arial Narrow, sans-serif" font-size="34" font-weight="800" text-anchor="start"><tspan x="824" dy="0">FLAMENGO 2 X 0 VITÓRIA</tspan></text>
+<text x="72" y="644" fill="#f5b800" font-family="Oswald, Arial Narrow, sans-serif" font-size="27" font-weight="800">SEMCLUBISMO</text><text x="1208" y="644" fill="#777570" font-family="Inter, Arial, sans-serif" font-size="22" text-anchor="end">Futebol acima das cores</text>
+</svg>

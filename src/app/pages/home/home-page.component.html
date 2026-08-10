@@ -220,11 +220,10 @@
           }
         </div>
 
-        <div class="pauta-takes" aria-label="Opiniões da mesa sobre a rodada">
-          @for (take of pauta.takes; track take.voice) {
+        <div class="pauta-takes" aria-label="Opiniões editoriais sobre a rodada">
+          @for (take of pauta.takes; track take.title) {
             <article>
               <span>{{ take.role }}</span>
-              <h3>{{ take.voice }}</h3>
               <strong>{{ take.title }}</strong>
               <p>{{ take.body }}</p>
             </article>
@@ -283,7 +282,7 @@
         <div>
           <span>02</span>
           <strong>A mesa abre o debate</strong>
-          <p>Cada voz entra com uma função: provocar, analisar ou puxar a resenha.</p>
+          <p>A pauta vira provocação, análise e resenha com argumento.</p>
         </div>
         <div>
           <span>03</span>
