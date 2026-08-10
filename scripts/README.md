@@ -6,8 +6,9 @@ Este diretório concentra scripts de manutenção e publicação editorial do Se
 
 | Script | Comandos npm | Uso |
 | --- | --- | --- |
-| `pauta-admin.mjs` | `pauta:admin`, `pauta:draft`, `pauta:review`, `pauta:social`, `pauta:approve` | Gerar, revisar e publicar a Pauta da mesa e textos para redes |
+| `pauta-admin.mjs` | `pauta:admin`, `pauta:draft`, `pauta:review`, `pauta:social`, `pauta:approve`, `pauta:auto` | Gerar, revisar e publicar a Pauta da mesa e textos para redes |
 | `pauta-images.mjs` | `pauta:images` | Gerar cards em SVG para feed, story, thumbnail e posts de opinião |
+| `radar-snapshot.mjs` | `radar:snapshot` | Atualizar o snapshot local usado pelo Radar quando a API em produção falhar |
 | `patch-storybook-angular.cjs` | `postinstall` | Corrigir fallback de porta do Storybook Angular após instalar dependências |
 
 ## `pauta-admin.mjs`
@@ -15,6 +16,14 @@ Este diretório concentra scripts de manutenção e publicação editorial do Se
 Script administrativo da redação SemClubismo.
 
 Ele busca placares e classificação do Brasileirão, monta uma pauta editorial, gera textos para redes sociais e publica no site somente após aprovação manual.
+
+O comando automático usado pelo GitHub Actions gera e publica a pauta sem pedir confirmação:
+
+```bash
+npm run pauta:auto
+```
+
+Esse fluxo roda depois do fim previsto das rodadas de quinta e domingo. Para cards de redes sociais, continue usando `npm run pauta:images` manualmente depois de revisar o texto.
 
 ### Painel Interativo
 
@@ -74,7 +83,7 @@ SIM
 Use datas no formato `AAAAMMDD`.
 
 ```bash
-npm run pauta:draft -- --start=20260725 --end=20260727
+npm run pauta:draft -- --start=20260808 --end=20260809
 ```
 
 ### Arquivos Gerados
@@ -169,6 +178,37 @@ Dimensões dos PNGs principais:
 Use depois de gerar e revisar o rascunho da pauta.
 
 Se o texto do rascunho mudar, rode o comando de imagens novamente para atualizar os cards.
+
+## `radar-snapshot.mjs`
+
+Script que busca a janela recente do Radar e grava um fallback versionado em:
+
+```text
+src/app/core/radar/radar.fallback.ts
+```
+
+### Atualizar Snapshot
+
+```bash
+npm run radar:snapshot
+```
+
+Por padrão, o snapshot cobre os últimos 5 dias e os próximos 14 dias. Isso mantém o Radar perto da rodada atual, sem carregar jogos antigos demais.
+
+Para testar uma janela específica:
+
+```bash
+npm run radar:snapshot -- --start=20260805 --end=20260824
+```
+
+## Automação
+
+O workflow `.github/workflows/atualizar-rodada.yml` roda automaticamente:
+
+- domingo às 23:40 de Brasília, depois da rodada do fim de semana
+- quinta às 23:40 de Brasília, depois da rodada do meio de semana
+
+Ele executa `npm run pauta:auto`, `npm run radar:snapshot`, valida com `npm run check`, commita as mudanças e faz push na `main`. O push aciona o deploy de produção no Vercel.
 
 ## `patch-storybook-angular.cjs`
 

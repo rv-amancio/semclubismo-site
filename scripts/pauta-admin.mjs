@@ -29,11 +29,60 @@ function dateKey(date) {
   return date.toISOString().slice(0, 10).replaceAll('-', '');
 }
 
-function defaultRange() {
-  const end = new Date();
-  const start = new Date(end);
-  start.setUTCDate(start.getUTCDate() - 3);
-  return { start: dateKey(start), end: dateKey(end) };
+function saoPauloParts(date = new Date()) {
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'America/Sao_Paulo',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    hourCycle: 'h23',
+  }).formatToParts(date);
+  const value = (type) => Number(parts.find((part) => part.type === type)?.value ?? 0);
+  const year = value('year');
+  const month = value('month');
+  const day = value('day');
+  const hour = value('hour');
+  const weekday = new Date(Date.UTC(year, month - 1, day)).getUTCDay();
+
+  return { year, month, day, hour, weekday };
+}
+
+function saoPauloDateStamp(date = new Date()) {
+  const { year, month, day } = saoPauloParts(date);
+  return `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+}
+
+function dateKeyFromLocalOffset(baseParts, offsetDays) {
+  const date = new Date(Date.UTC(baseParts.year, baseParts.month - 1, baseParts.day));
+  date.setUTCDate(date.getUTCDate() + offsetDays);
+  return dateKey(date);
+}
+
+function defaultRange(date = new Date()) {
+  const parts = saoPauloParts(date);
+  const { weekday, hour } = parts;
+  let startOffset;
+  let endOffset;
+
+  if (weekday === 0 && hour >= 22) {
+    startOffset = -2;
+    endOffset = 0;
+  } else if (weekday >= 1 && weekday <= 3) {
+    startOffset = -(weekday + 2);
+    endOffset = -weekday;
+  } else if (weekday === 4 && hour < 22) {
+    startOffset = -6;
+    endOffset = -4;
+  } else {
+    startOffset = weekday === 0 ? -5 : -(weekday - 2);
+    endOffset = weekday === 0 ? -3 : -(weekday - 4);
+  }
+
+  return {
+    start: dateKeyFromLocalOffset(parts, startOffset),
+    end: dateKeyFromLocalOffset(parts, endOffset),
+  };
 }
 
 function updatedLabel(date = new Date()) {
@@ -529,10 +578,14 @@ async function approveDraft(existingRl = null) {
     return;
   }
 
+  await publishDraft({ archiveImages: true });
+}
+
+async function publishDraft({ archiveImages }) {
   await mkdir(path.dirname(PUBLIC_JSON_PATH), { recursive: true });
   await mkdir(ARCHIVE_DIR, { recursive: true });
   await copyFile(DRAFT_JSON_PATH, PUBLIC_JSON_PATH);
-  const dateStamp = new Date().toISOString().slice(0, 10);
+  const dateStamp = saoPauloDateStamp();
   const archiveName = `${dateStamp}-pauta-da-mesa.json`;
   const socialArchiveName = `${dateStamp}-redes-sociais.md`;
   const imagesArchiveDir = path.join(ARCHIVE_DIR, `${dateStamp}-imagens`);
@@ -540,12 +593,17 @@ async function approveDraft(existingRl = null) {
   if (existsSync(DRAFT_SOCIAL_PATH)) {
     await copyFile(DRAFT_SOCIAL_PATH, path.join(ARCHIVE_DIR, socialArchiveName));
   }
-  if (existsSync(DRAFT_IMAGES_DIR)) {
+  if (archiveImages && existsSync(DRAFT_IMAGES_DIR)) {
     await cp(DRAFT_IMAGES_DIR, imagesArchiveDir, { recursive: true });
   }
   console.log('\nPauta publicada no site.');
   console.log(`Arquivo atualizado: ${path.relative(ROOT_DIR, PUBLIC_JSON_PATH)}`);
   console.log(`Conteúdo complementar arquivado em ${path.relative(ROOT_DIR, ARCHIVE_DIR)}`);
+}
+
+async function autoPublish() {
+  await generateDraft();
+  await publishDraft({ archiveImages: false });
 }
 
 async function reviewDraft() {
@@ -603,9 +661,10 @@ async function main() {
   else if (command === 'social') await reviewSocial();
   else if (command === 'images') await generateDraftImages();
   else if (command === 'approve') await approveDraft();
+  else if (command === 'auto') await autoPublish();
   else if (command === 'admin') await runAdmin();
   else {
-    console.log('Comandos: draft, review, social, images, approve, admin');
+    console.log('Comandos: draft, review, social, images, approve, auto, admin');
     process.exitCode = 1;
   }
 }

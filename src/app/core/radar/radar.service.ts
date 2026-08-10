@@ -314,8 +314,8 @@ export class RadarService {
     const now = new Date();
     const start = new Date(now);
     const end = new Date(now);
-    start.setUTCDate(start.getUTCDate() - 14);
-    end.setUTCDate(end.getUTCDate() + 30);
+    start.setUTCDate(start.getUTCDate() - 5);
+    end.setUTCDate(end.getUTCDate() + 14);
 
     return {
       start: this.dateKey(start),

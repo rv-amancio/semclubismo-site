@@ -2,7 +2,9 @@
 
 Este guia explica como gerar, revisar e publicar a **Pauta da mesa** no site do SemClubismo.
 
-O script busca placares e classificação, monta um rascunho editorial e só publica depois de uma confirmação manual.
+O script busca placares e classificação, monta um rascunho editorial e só publica depois de uma confirmação manual no fluxo local.
+
+Em produção, o GitHub Actions também roda um fluxo automático depois das rodadas de quinta e domingo para atualizar a pauta e o Radar sem depender de uma solicitação manual.
 
 ## Antes de Começar
 
@@ -44,6 +46,31 @@ SIM
 ```
 
 Qualquer outra resposta cancela a publicação.
+
+## Publicação Automática
+
+O robô de rodada fica em:
+
+```text
+.github/workflows/atualizar-rodada.yml
+```
+
+Ele roda:
+
+- domingo às 23:40 de Brasília, para a rodada do fim de semana
+- quinta às 23:40 de Brasília, para a rodada do meio de semana
+
+O fluxo executa:
+
+```bash
+npm run pauta:auto
+npm run radar:snapshot
+npm run check
+```
+
+Se houver mudança, ele commita na `main`. O push dispara o deploy de produção no Vercel.
+
+Também dá para rodar manualmente pela aba **Actions** do GitHub usando `workflow_dispatch`.
 
 ## Fluxo Recomendado
 
@@ -87,16 +114,16 @@ npm run check
 
 Use datas no formato `AAAAMMDD`.
 
-Exemplo para analisar jogos entre 25 e 27 de julho de 2026:
+Exemplo para analisar jogos entre 8 e 9 de agosto de 2026:
 
 ```bash
-npm run pauta:draft -- --start=20260725 --end=20260727
+npm run pauta:draft -- --start=20260808 --end=20260809
 ```
 
 Também funciona chamando o script direto:
 
 ```bash
-node scripts/pauta-admin.mjs draft --start=20260725 --end=20260727
+node scripts/pauta-admin.mjs draft --start=20260808 --end=20260809
 ```
 
 ## Arquivos Criados
@@ -229,6 +256,22 @@ Dimensões principais:
 - thumbnail: `1280x720`
 
 Se o texto da pauta mudar, rode `npm run pauta:images` de novo.
+
+## Radar
+
+O Radar usa dados em tempo real quando o provedor responde. Como fallback, o repositório guarda um snapshot local em:
+
+```text
+src/app/core/radar/radar.fallback.ts
+```
+
+Atualize manualmente com:
+
+```bash
+npm run radar:snapshot
+```
+
+O snapshot cobre os últimos 5 dias e os próximos 14 dias para manter a tela perto da rodada atual.
 
 ## Fontes Usadas
 

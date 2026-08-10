@@ -1,0 +1,61 @@
+name: Atualizar rodada
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Vercel/GitHub usam UTC. 02:40 UTC = 23:40 em America/Sao_Paulo.
+    # Segunda cobre o fim da rodada de domingo; sexta cobre a rodada de quinta.
+    - cron: '40 2 * * 1'
+    - cron: '40 2 * * 5'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-rodada
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Atualizar pauta da mesa
+        run: npm run pauta:auto
+
+      - name: Atualizar snapshot do radar
+        run: npm run radar:snapshot
+
+      - name: Validar build
+        run: npm run check
+
+      - name: Publicar alteracoes
+        run: |
+          git add content/pautas/draft/pauta-da-mesa.json \
+            content/pautas/draft/pauta-da-mesa.md \
+            content/pautas/draft/redes-sociais.md \
+            content/pautas/publicadas \
+            src/assets/content/pauta-da-mesa.json \
+            src/app/core/radar/radar.fallback.ts \
+            dist/sem-clubismo
+
+          if git diff --cached --quiet; then
+            echo "Sem alteracoes para publicar."
+            exit 0
+          fi
+
+          git config user.name "SemClubismo Bot"
+          git config user.email "actions@github.com"
+          git commit -m "Atualiza rodada automaticamente"
+          git push
