@@ -59,6 +59,12 @@ npm run charge:auto
 O workflow `Atualizar rodada` roda esse script junto com a Pauta da Mesa e o snapshot do Radar nas
 madrugadas de segunda e sexta, cobrindo o fim das rodadas de domingo e quinta.
 
+## Mercado e Notícias
+
+A seção **Mercado & notícias** vem do snapshot do Radar. Além do fluxo de rodada, o workflow
+`Atualizar mercado e noticias` roda todos os dias às 10h40 de Brasília para renovar o snapshot,
+recompilar o site e publicar o conteúdo mais recente.
+
 ## Deploy
 
 O projeto está preparado para Vercel. Se o repositório pai for importado, configure

@@ -1,0 +1,51 @@
+name: Atualizar mercado e noticias
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Vercel/GitHub usam UTC. 13:40 UTC = 10:40 em America/Sao_Paulo.
+    - cron: '40 13 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-conteudo
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Atualizar mercado e noticias
+        run: npm run radar:snapshot
+
+      - name: Validar build
+        run: npm run check
+
+      - name: Publicar alteracoes
+        run: |
+          git add src/app/core/radar/radar.fallback.ts \
+            dist/sem-clubismo
+
+          if git diff --cached --quiet; then
+            echo "Sem alteracoes para publicar."
+            exit 0
+          fi
+
+          git config user.name "SemClubismo Bot"
+          git config user.email "actions@github.com"
+          git commit -m "Atualiza mercado e noticias"
+          git push

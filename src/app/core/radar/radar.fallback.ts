@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-08-10T17:16:42.415Z",
-  "expiresAt": "2026-08-14T17:16:42.415Z",
+  "generatedAt": "2026-08-12T17:20:40.659Z",
+  "expiresAt": "2026-08-16T17:20:40.659Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -22,9 +22,9 @@ export const RADAR_FALLBACK: RadarPayload = {
       "id": "bra.copa_do_brazil",
       "name": "Copa do Brasil",
       "shortName": "Copa do Brasil",
-      "matchCount": 6,
+      "matchCount": 3,
       "liveCount": 0,
-      "nextMatchAt": null
+      "nextMatchAt": "2026-08-26T00:00Z"
     },
     {
       "id": "conmebol.libertadores",
@@ -32,7 +32,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Libertadores",
       "matchCount": 10,
       "liveCount": 0,
-      "nextMatchAt": "2026-08-11T22:00Z"
+      "nextMatchAt": "2026-08-12T22:00Z"
     },
     {
       "id": "conmebol.sudamericana",
@@ -40,172 +40,10 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Sul-Americana",
       "matchCount": 10,
       "liveCount": 0,
-      "nextMatchAt": "2026-08-12T00:30Z"
+      "nextMatchAt": "2026-08-12T22:00Z"
     }
   ],
   "matches": [
-    {
-      "id": "401874039",
-      "competitionId": "bra.copa_do_brazil",
-      "competitionName": "Copa do Brasil",
-      "date": "2026-08-05T22:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estadio Mineirão",
-      "home": {
-        "id": "2022",
-        "name": "Cruzeiro",
-        "shortName": "Cruzeiro",
-        "abbreviation": "CRU",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png"
-      },
-      "away": {
-        "id": "9318",
-        "name": "Chapecoense",
-        "shortName": "Chapecoense",
-        "abbreviation": "CHA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png"
-      },
-      "homeScore": "2",
-      "awayScore": "0",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401874039/chapecoense-cruzeiro"
-    },
-    {
-      "id": "401874038",
-      "competitionId": "bra.copa_do_brazil",
-      "competitionName": "Copa do Brasil",
-      "date": "2026-08-05T22:30Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Arena do Grêmio",
-      "home": {
-        "id": "6273",
-        "name": "Grêmio",
-        "shortName": "Grêmio",
-        "abbreviation": "GRE",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png"
-      },
-      "away": {
-        "id": "9169",
-        "name": "Mirassol",
-        "shortName": "Mirassol",
-        "abbreviation": "MIR",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
-      },
-      "homeScore": "1",
-      "awayScore": "0",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401874038/mirassol-gremio"
-    },
-    {
-      "id": "401874095",
-      "competitionId": "bra.copa_do_brazil",
-      "competitionName": "Copa do Brasil",
-      "date": "2026-08-06T00:30Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estadio do Maracana",
-      "home": {
-        "id": "3445",
-        "name": "Fluminense",
-        "shortName": "Fluminense",
-        "abbreviation": "FLU",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png"
-      },
-      "away": {
-        "id": "3454",
-        "name": "Vasco da Gama",
-        "shortName": "Vasco",
-        "abbreviation": "VAS",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png"
-      },
-      "homeScore": "1",
-      "awayScore": "3",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401874095/vasco-da-gama-fluminense"
-    },
-    {
-      "id": "401874099",
-      "competitionId": "bra.copa_do_brazil",
-      "competitionName": "Copa do Brasil",
-      "date": "2026-08-06T00:30Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Arena Pantanal",
-      "home": {
-        "id": "6272",
-        "name": "Fortaleza",
-        "shortName": "Fortaleza",
-        "abbreviation": "FOR",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png"
-      },
-      "away": {
-        "id": "2029",
-        "name": "Palmeiras",
-        "shortName": "Palmeiras",
-        "abbreviation": "PAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
-      },
-      "homeScore": "3",
-      "awayScore": "2",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401874099/palmeiras-fortaleza"
-    },
-    {
-      "id": "401874094",
-      "competitionId": "bra.copa_do_brazil",
-      "competitionName": "Copa do Brasil",
-      "date": "2026-08-06T23:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Neo Química Arena",
-      "home": {
-        "id": "874",
-        "name": "Corinthians",
-        "shortName": "Corinthians",
-        "abbreviation": "COR",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png"
-      },
-      "away": {
-        "id": "1936",
-        "name": "Internacional",
-        "shortName": "Internacional",
-        "abbreviation": "INT",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png"
-      },
-      "homeScore": "2",
-      "awayScore": "1",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401874094/internacional-corinthians"
-    },
-    {
-      "id": "401874096",
-      "competitionId": "bra.copa_do_brazil",
-      "competitionName": "Copa do Brasil",
-      "date": "2026-08-06T23:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estadio Manoel Barradas",
-      "home": {
-        "id": "3457",
-        "name": "Vitória",
-        "shortName": "Vitória",
-        "abbreviation": "VIT",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png"
-      },
-      "away": {
-        "id": "3458",
-        "name": "Athletico Paranaense",
-        "shortName": "Athletico-PR",
-        "abbreviation": "CAP",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png"
-      },
-      "homeScore": "4",
-      "awayScore": "0",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401874096/athletico-paranaense-vitoria"
-    },
     {
       "id": "401841181",
       "competitionId": "bra.1",
@@ -481,8 +319,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.libertadores",
       "competitionName": "CONMEBOL Libertadores",
       "date": "2026-08-11T22:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estadio do Maracana",
       "home": {
@@ -499,8 +337,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "RIV",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "0",
+      "awayScore": "0",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401874070/independiente-rivadavia-fluminense"
     },
     {
@@ -508,8 +346,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.sudamericana",
       "competitionName": "CONMEBOL Sudamericana",
       "date": "2026-08-12T00:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estadio Hernando Siles",
       "home": {
@@ -526,8 +364,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "SAO",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "1",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401903296/sao-paulo-bolivar"
     },
     {
@@ -1555,6 +1393,87 @@ export const RADAR_FALLBACK: RadarPayload = {
       "homeScore": null,
       "awayScore": null,
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841198/athletico-paranaense-botafogo"
+    },
+    {
+      "id": "401909066",
+      "competitionId": "bra.copa_do_brazil",
+      "competitionName": "Copa do Brasil",
+      "date": "2026-08-26T00:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Estadio Mineirão",
+      "home": {
+        "id": "2022",
+        "name": "Cruzeiro",
+        "shortName": "Cruzeiro",
+        "abbreviation": "CRU",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png"
+      },
+      "away": {
+        "id": "7632",
+        "name": "Atlético-MG",
+        "shortName": "Atlético-MG",
+        "abbreviation": "CAM",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909066/atletico-mg-cruzeiro"
+    },
+    {
+      "id": "401909065",
+      "competitionId": "bra.copa_do_brazil",
+      "competitionName": "Copa do Brasil",
+      "date": "2026-08-27T00:30Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Allianz Parque",
+      "home": {
+        "id": "2029",
+        "name": "Palmeiras",
+        "shortName": "Palmeiras",
+        "abbreviation": "PAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
+      },
+      "away": {
+        "id": "2674",
+        "name": "Santos",
+        "shortName": "Santos",
+        "abbreviation": "SAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909065/santos-palmeiras"
+    },
+    {
+      "id": "401909113",
+      "competitionId": "bra.copa_do_brazil",
+      "competitionName": "Copa do Brasil",
+      "date": "2026-08-27T00:30Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Estádio São Januário",
+      "home": {
+        "id": "3454",
+        "name": "Vasco da Gama",
+        "shortName": "Vasco",
+        "abbreviation": "VAS",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png"
+      },
+      "away": {
+        "id": "3457",
+        "name": "Vitória",
+        "shortName": "Vitória",
+        "abbreviation": "VIT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909113/vitoria-vasco-da-gama"
     }
   ],
   "standings": [
@@ -1921,240 +1840,240 @@ export const RADAR_FALLBACK: RadarPayload = {
   ],
   "news": [
     {
-      "id": "17101775",
-      "title": "Sueco, jogador que disputou a Copa e destaque da Libertadores: os planos do Inter para reforçar o ataque",
-      "summary": "Internacional se movimenta para reforçar o setor ofensivo e trabalha com três nomes no momento",
-      "url": "https://www.espn.com.br/futebol/internacional/artigo/_/id/17101775/sueco-jogador-disputou-copa-destaque-libertadores-planos-inter-reforcar-ataque",
-      "publishedAt": "2026-08-10T16:15:31Z",
-      "category": "market",
-      "teams": [
-        "Internacional"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0617/r1675103_1296x729_16-9.jpg",
-      "imageAlt": "Cedrick Bakambu pula em cima de seus companheiros na comemoração do gol da RD Congo contra Portugal, na estreia da Copa do Mundo 2026",
-      "imageCredit": "Getty ImagesGetty Images"
-    },
-    {
-      "id": "17101649",
-      "title": "Zagueiro do Coritiba diz que 'esqueceu' do fosso no Couto Pereira e explica sensação da queda em comemoração de gol anulado: 'Quando eu pulo...'",
-      "summary": "Jogador caiu em escada que leva ao vestiário ao pular placa de publicidade",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17101649/zagueiro-coritiba-diz-esqueceu-fosso-couto-pereira-explica-sensacao-queda-comemoracao-gol-anulado-quando-eu-pulo",
-      "publishedAt": "2026-08-10T15:54:22Z",
+      "id": "17109198",
+      "title": "Com Neymar de volta, Santos se credencia como favorito na Sul-Americana? André Donke analisa",
+      "summary": "Peixe recebe o Maracá nesta quinta-feira (13) pela partida de ida das oitavas de final do torneio",
+      "url": "https://www.espn.com.br/video/clip/_/id/17109198",
+      "publishedAt": "2026-08-12T14:48:50Z",
       "category": "news",
       "teams": [
-        "Coritiba"
+        "Brasil",
+        "Santos"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0810/r1699948_1296x729_16-9.jpg",
-      "imageAlt": "Jacy, zagueiro do Coritba",
-      "imageCredit": "Arte ESPN (Getty Images e Paulo De Tarso/AGIF)"
+      "imageUrl": null,
+      "imageAlt": "Com Neymar de volta, Santos se credencia como favorito na Sul-Americana? André Donke analisa",
+      "imageCredit": null
     },
     {
-      "id": "17098489",
-      "title": "Bolívar x São Paulo: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo da Sul-Americana",
-      "summary": "Bolívar e São Paulo se enfrentam nesta terça-feira (11), na altitude de La Paz, pela CONMEBOL Sul-Americana",
-      "url": "https://www.espn.com.br/futebol/sul-americana/artigo/_/id/17098489/bolivar-x-sao-paulo-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-sul-americana",
-      "publishedAt": "2026-08-10T13:56:34Z",
+      "id": "17109134",
+      "title": "Qual o peso da ausência de Memphis Depay para o Corinthians na sequência da Libertadores? André Donke analisa",
+      "summary": "Corinthians e Rosario Central medem forças nesta quinta-feira (13) pela partida de ida das oitavas de final da Libertadores",
+      "url": "https://www.espn.com.br/video/clip/_/id/17109134",
+      "publishedAt": "2026-08-12T14:33:46Z",
       "category": "news",
       "teams": [
-        "Palmeiras",
-        "Internacional"
+        "Corinthians",
+        "Holanda",
+        "Rosário Central"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2025/0915/r1546062_1296x729_16-9.jpg",
-      "imageAlt": "Vista do estádio Hernando Siles, em La Paz, antes de Bolívar x Palmeiras",
-      "imageCredit": "DAVID MERCADO/AFP via Getty Images"
+      "imageUrl": null,
+      "imageAlt": "Qual o peso da ausência de Memphis Depay para o Corinthians na sequência da Libertadores? André Donke analisa",
+      "imageCredit": null
     },
     {
-      "id": "17101190",
-      "title": "Vasco empata com o Bahia fora de casa, segue no Z-4 e aumenta drama no Brasileirão; melhores momentos",
-      "summary": "Cruzmaltino está na 18ª colocação do campeonato",
-      "url": "https://www.espn.com.br/video/clip/_/id/17101190",
-      "publishedAt": "2026-08-10T13:03:16Z",
+      "id": "17108789",
+      "title": "De passeio em casa a susto fora: como foram duelos entre Vasco e Olimpia na Sul-Americana",
+      "summary": "Equipes medem forças nesta quinta-feira (13) pela partida de ida das oitavas de final",
+      "url": "https://www.espn.com.br/video/clip/_/id/17108789",
+      "publishedAt": "2026-08-12T13:09:05Z",
       "category": "news",
       "teams": [
-        "Bahia",
+        "Club Olimpia",
         "Vasco da Gama"
       ],
       "imageUrl": null,
-      "imageAlt": "Vasco empata com o Bahia fora de casa, segue no Z-4 e aumenta drama no Brasileirão; melhores momentos",
+      "imageAlt": "De passeio em casa a susto fora: como foram duelos entre Vasco e Olimpia na Sul-Americana",
       "imageCredit": null
     },
     {
-      "id": "17100995",
-      "title": "Confusão bizarra com uniformes vai parar na súmula de Bragantino x Corinthians: 'O correto deveria ser...'",
-      "summary": "Partida entre Red Bull Bragantino e Corinthians foi marcada por bizarrice envolvendo uniformes das equipes",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17100995/confusao-bizarra-uniformes-vai-parar-sumula-bragantino-x-corinthians-correto-deveria-ser",
-      "publishedAt": "2026-08-10T12:21:09Z",
+      "id": "17108114",
+      "title": "Vasco anuncia contratação de atacante que estava no River Plate",
+      "summary": "Vasco oficializou a contratação do atacante Colidio, que estava no River Plate",
+      "url": "https://www.espn.com.br/futebol/vasco/artigo/_/id/17108114/vasco-anuncia-contratacao-atacante-colidio-ex-river-plate",
+      "publishedAt": "2026-08-12T04:47:02Z",
+      "category": "market",
+      "teams": [
+        "Vasco da Gama"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0812/r1700633_600x338_16-9.jpg",
+      "imageAlt": "Colidio foi anunciado como reforço do Vasco",
+      "imageCredit": "Matheus Lima/Vasco"
+    },
+    {
+      "id": "17106631",
+      "title": "O último gol de Memphis Depay pelo Corinthians; RELEMBRE",
+      "summary": "Holandês marcou no empate contra o Santos, por 1 a 1, em março deste ano",
+      "url": "https://www.espn.com.br/video/clip/_/id/17106631",
+      "publishedAt": "2026-08-11T23:09:02Z",
       "category": "news",
       "teams": [
         "Corinthians",
-        "Red Bull Bragantino"
+        "Santos"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0810/r1699874_1280x720_16-9.jpg",
-      "imageAlt": "Eduardo Sasha, do Red Bull Bragantino, durante jogo contra o Corinthians",
-      "imageCredit": "Ari Ferreira/Red Bull Bragantino"
+      "imageUrl": null,
+      "imageAlt": "O último gol de Memphis Depay pelo Corinthians; RELEMBRE",
+      "imageCredit": null
     },
     {
-      "id": "17100319",
-      "title": "Flamengo perde sem Almada e Luiz Henrique? A resposta de Jardim após negociações frustradas e 'opinião sobre mercado'",
-      "summary": "Leonardo Jardim evitou comentar as negociações frustradas e valorizou o atual elenco do Flamengo",
-      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17100319/flamengo-leonardo-jardim-responde-apos-negociacoes-frustradas-com-thiago-almada-e-luiz-henrique",
-      "publishedAt": "2026-08-10T02:15:58Z",
+      "id": "17106344",
+      "title": "Como desistência por Memphis Depay pegou Diniz de surpresa e causou mal-estar no CT após ligações e até 'pré-contrato' assinado",
+      "summary": "Corinthians desistiu de renovar o contrato do holandês Memphis Depay nesta terça-feira (11)",
+      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17106344/memphis-depay-corinthians-desistencia-pegou-fernando-diniz-surpresa-causou-mal-estar-ct",
+      "publishedAt": "2026-08-11T22:07:23Z",
       "category": "market",
       "teams": [
+        "Corinthians"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0528/r1664723_1296x729_16-9.jpg",
+      "imageAlt": "Técnico brasileiro Fernando Diniz e atacante holandês Memphis Depay durante partida do Corinthians contra o Atlético-MG, na Neo Química Arena, em Itaquera (SP), pela rodada 17 do Brasileirão de 2026",
+      "imageCredit": "Marco Buenavista/Getty Images"
+    },
+    {
+      "id": "17105281",
+      "title": "Pedrinho desabafa sobre dificuldade por reforços no Vasco: 'A gente procura jogador e ele começa a fazer gol adoidado...'",
+      "summary": "Pedrinho fez forte desabafo e abriu o jogo sobre negociações do Vasco por reforços no mercado da bola",
+      "url": "https://www.espn.com.br/futebol/mercado-da-bola/artigo/_/id/17105281/pedrinho-desabafa-dificuldade-reforcos-vasco-gente-procura-jogador-ele-comeca-fazer-gol-adoidado",
+      "publishedAt": "2026-08-11T17:51:58Z",
+      "category": "market",
+      "teams": [
+        "Vasco da Gama"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0811/r1700356_1296x729_16-9.jpg",
+      "imageAlt": "Pedrinho, presidente do Vasco, durante sorteio das quartas da Copa do Brasil",
+      "imageCredit": "Luciana Vermell/CBF"
+    },
+    {
+      "id": "17105089",
+      "title": "Jardim, Gerson, Arrascaeta e mais: por que Cruzeiro x Flamengo é uma das maiores histórias do futebol brasileiro em 2026",
+      "summary": "Comentarista da ESPN, André Donke projeta confronto desta quarta-feira (12) pela partida de ida das oitavas de final da Libertadores",
+      "url": "https://www.espn.com.br/video/clip/_/id/17105089",
+      "publishedAt": "2026-08-11T16:59:21Z",
+      "category": "news",
+      "teams": [
+        "Cruzeiro",
         "Flamengo"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0305/r1623723_1296x729_16-9.jpg",
-      "imageAlt": "Leonardo Jardim conversa com os jogadores durante seu primeiro treino como treinador do Flamengo",
-      "imageCredit": "Reprodução/Flamengo"
+      "imageUrl": null,
+      "imageAlt": "Jardim, Gerson, Arrascaeta e mais: por que Cruzeiro x Flamengo é uma das maiores histórias do futebol brasileiro em 2026",
+      "imageCredit": null
     },
     {
-      "id": "17100212",
-      "title": "Cuca revela que ainda vai conversar com Neymar sobre cartões e lamenta ausência do craque: 'Nosso poderio de finalizações seria maior'",
-      "summary": "O Santos foi derrotado pelo Athletico Paranaense dentro de casa pelo Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17100212",
-      "publishedAt": "2026-08-10T01:52:49Z",
+      "id": "17105026",
+      "title": "De golaço de Artur a 'presente' de rival: o melhor do São Paulo na Sul-Americana",
+      "summary": "Tricolor visita o Bolívar nesta terça-feira (11) pela partida de ida das oitavas de final do torneio",
+      "url": "https://www.espn.com.br/video/clip/_/id/17105026",
+      "publishedAt": "2026-08-11T16:31:56Z",
       "category": "news",
       "teams": [
-        "Athletico Paranaense",
-        "Santos"
+        "Bolívar",
+        "São Paulo"
       ],
       "imageUrl": null,
-      "imageAlt": "Cuca revela que ainda vai conversar com Neymar sobre cartões e lamenta ausência do craque: 'Nosso poderio de finalizações seria maior'",
+      "imageAlt": "De golaço de Artur a 'presente' de rival: o melhor do São Paulo na Sul-Americana",
       "imageCredit": null
     },
     {
-      "id": "17100210",
-      "title": "Como fica o elenco do Flamengo sem Almada e Luiz Henrique? Leonardo Jardim: 'Se eu der uma opinião sobre mercado...'",
-      "summary": "Treinador do Flamengo falou sobre as tentativas frustradas de contração após a vitória contra o Vitória pelo Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17100210",
-      "publishedAt": "2026-08-10T01:51:05Z",
-      "category": "market",
-      "teams": [
-        "Flamengo",
-        "Vitória"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Como fica o elenco do Flamengo sem Almada e Luiz Henrique? Leonardo Jardim: 'Se eu der uma opinião sobre mercado...'",
-      "imageCredit": null
-    },
-    {
-      "id": "17100194",
-      "title": "Memphis Depay perto de renovar e com chances de jogar contra o Rosario Central; Diniz abre o jogo sobre situação do holandês",
-      "summary": "Treinador do Corinthians falou sobre o atacante após a vitória contra o Red Bull Bragantino pelo Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17100194",
-      "publishedAt": "2026-08-10T01:46:51Z",
+      "id": "17104936",
+      "title": "Memphis Depay joga contra o Rosario Central? O que falta para holandês renovar com Corinthians e ir a campo na Libertadores",
+      "summary": "No Fala a Fonte, André Hernan atualiza situação de jogador nos bastidores",
+      "url": "https://www.espn.com.br/video/clip/_/id/17104936",
+      "publishedAt": "2026-08-11T16:08:37Z",
       "category": "market",
       "teams": [
         "Corinthians",
-        "Red Bull Bragantino"
+        "Holanda"
       ],
       "imageUrl": null,
-      "imageAlt": "Memphis Depay perto de renovar e com chances de jogar contra o Rosario Central; Diniz abre o jogo sobre situação do holandês",
+      "imageAlt": "Memphis Depay joga contra o Rosario Central? O que falta para holandês renovar com Corinthians e ir a campo na Libertadores",
       "imageCredit": null
     },
     {
-      "id": "17100113",
-      "title": "Cuca diz que terá conversa com Neymar sobre cartões e suspensões no Santos: 'Muito importante para ficar fora'",
-      "summary": "Neymar desfalcou o Santos pelo segundo jogo por suspensão no Campeonato Brasileiro",
-      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17100113/santos-cuca-diz-tera-conversa-neymar-sobre-cartoes-muito-importante-para-ficar-fora",
-      "publishedAt": "2026-08-10T01:29:59Z",
-      "category": "news",
+      "id": "17104781",
+      "title": "Reforço 'europeu' no Atlético-MG? Brasileiro ex-Inter de Milão entra na mira de clube mineiro",
+      "summary": "No Fala a Fonte, Bruno Andrade atualiza situação do Galo no mercado",
+      "url": "https://www.espn.com.br/video/clip/_/id/17104781",
+      "publishedAt": "2026-08-11T15:40:40Z",
+      "category": "market",
       "teams": [
-        "Santos"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0804/r1697338_1296x729_16-9.jpg",
-      "imageAlt": "Neymar e Cuca, durante treinamento pelo Santos",
-      "imageCredit": "Getty Images"
-    },
-    {
-      "id": "17100085",
-      "title": "Cuca aponta limitações do Santos e pede compreensão após derrota: 'Nós não temos elenco'",
-      "summary": "O Santos foi derrotado pelo Athletico Paranaense dentro de casa pelo Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17100085",
-      "publishedAt": "2026-08-10T01:25:23Z",
-      "category": "news",
-      "teams": [
-        "Athletico Paranaense",
-        "Santos"
+        "Atlético-MG",
+        "Brasil",
+        "Napoli"
       ],
       "imageUrl": null,
-      "imageAlt": "Cuca aponta limitações do Santos e pede compreensão após derrota: 'Nós não temos elenco'",
+      "imageAlt": "Reforço 'europeu' no Atlético-MG? Brasileiro ex-Inter de Milão entra na mira de clube mineiro",
       "imageCredit": null
     },
     {
-      "id": "17100069",
-      "title": "Vítima repetida! Pulgar já tinha marcado golaço contra o vitória no primeiro turno; VEJA",
-      "summary": "Com a vitória, Flamengo se aproximou do líder Palmeiras no Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17100069",
-      "publishedAt": "2026-08-10T01:21:13Z",
+      "id": "17104666",
+      "title": "Abel Ferreira de saída do Palmeiras? Como protesto de torcida organizada impactou no clube",
+      "summary": "No Fala a Fonte, André Hernan traz bastidores de cobrança da torcida alviverde ao treinador",
+      "url": "https://www.espn.com.br/video/clip/_/id/17104666",
+      "publishedAt": "2026-08-11T15:25:34Z",
       "category": "news",
       "teams": [
-        "Flamengo",
-        "Vitória"
+        "Palmeiras"
       ],
       "imageUrl": null,
-      "imageAlt": "Vítima repetida! Pulgar já tinha marcado golaço contra o vitória no primeiro turno; VEJA",
+      "imageAlt": "Abel Ferreira de saída do Palmeiras? Como protesto de torcida organizada impactou no clube",
       "imageCredit": null
     },
     {
-      "id": "17100053",
-      "title": "Cuca desabafa após derrota do Santos para o Athletico Paranaense: 'Temos que ser um todo agora'",
-      "summary": "O Santos foi derrotado pelo Athletico Paranaense dentro de casa pelo Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17100053",
-      "publishedAt": "2026-08-10T01:13:59Z",
+      "id": "17104641",
+      "title": "'Não surpreendeu': como Palmeiras recebeu internamente nota de organizada pedindo saída de Abel",
+      "summary": "Organizada 'Mancha Alvi Verde' pediu a saída de Abel Ferreira após momento de oscilação do Palmeiras na temporada",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17104641/nao-surpreendeu-como-palmeiras-recebeu-internamente-nota-organizada-pedindo-saida-abel-ferreira",
+      "publishedAt": "2026-08-11T15:26:05Z",
       "category": "news",
       "teams": [
-        "Athletico Paranaense",
-        "Santos"
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0811/r1700303_1280x720_16-9.jpg",
+      "imageAlt": "Abel Ferreira durante jogo entre Fortaleza e Palmeiras, pela Copa do Brasil",
+      "imageCredit": "Cesar Greco/Palmeiras/by Canon"
+    },
+    {
+      "id": "17104446",
+      "title": "Palmeiras e Flamengo na corrida pelo topo, Vasco e Santos no 'sufoco' e mais: os palpites da rodada no Brasileirão",
+      "summary": "Campeonato chega a sua 23ª rodada neste sábado (15)",
+      "url": "https://www.espn.com.br/video/clip/_/id/17104446",
+      "publishedAt": "2026-08-11T14:14:09Z",
+      "category": "news",
+      "teams": [
+        "Argentina",
+        "Brasil",
+        "Brasil Sub 17"
       ],
       "imageUrl": null,
-      "imageAlt": "Cuca desabafa após derrota do Santos para o Athletico Paranaense: 'Temos que ser um todo agora'",
+      "imageAlt": "Palmeiras e Flamengo na corrida pelo topo, Vasco e Santos no 'sufoco' e mais: os palpites da rodada no Brasileirão",
       "imageCredit": null
     },
     {
-      "id": "17099998",
-      "title": "Allan deveria ter sido expulso em lance com Félix Torres em Palmeiras x Inter? Renata Ruel analisa polêmica",
-      "summary": "Jogadores do Internacional pediram a expulsão de Allan em Félix Torres no início do 2º tempo",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17099998/palmeiras-x-inter-renata-ruel-analisa-se-allan-deveria-ter-sido-expulso-em-lance-com-felix-torres",
-      "publishedAt": "2026-08-10T00:59:01Z",
+      "id": "17104315",
+      "title": "Perigo para o Corinthians? De trivela debochada a golaço antológico de falta, Di María coleciona pinturas pelo Rosario Central",
+      "summary": "Corinthians e Rosario Central medem forças nesta quinta-feira (13), a partir das 21h30 (de Brasília), pela partida de ida das oitavas de final da Libertadores",
+      "url": "https://www.espn.com.br/video/clip/_/id/17104315",
+      "publishedAt": "2026-08-11T18:12:47Z",
       "category": "news",
       "teams": [
-        "Palmeiras",
-        "Internacional"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0810/r1699777_1296x729_16-9.jpg",
-      "imageAlt": "Matheus Bahia reclama com o árbitro Davi De Oliveira Lacerda",
-      "imageCredit": "Anderson Romao/AGIF"
-    },
-    {
-      "id": "17099939",
-      "title": "Pulgar faz gol antológico, Flamengo vence o Vitória e diminui diferença para o líder Palmeiras no Brasileirão; VEJA os melhores momentos",
-      "summary": "O Flamengo venceu o Vitória por 2 a 0 pelo Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17099939",
-      "publishedAt": "2026-08-10T00:47:27Z",
-      "category": "news",
-      "teams": [
-        "Flamengo",
-        "Vitória"
+        "Argentina",
+        "Corinthians",
+        "Rosário Central"
       ],
       "imageUrl": null,
-      "imageAlt": "Pulgar faz gol antológico, Flamengo vence o Vitória e diminui diferença para o líder Palmeiras no Brasileirão; VEJA os melhores momentos",
+      "imageAlt": "Perigo para o Corinthians? De trivela debochada a golaço antológico de falta, Di María coleciona pinturas pelo Rosario Central",
       "imageCredit": null
     },
     {
-      "id": "17099929",
-      "title": "Bruno Henrique e Pulgar garantem vitória do Flamengo sobre o Vitória pelo Brasileirão; VEJA os gols da partida",
-      "summary": "O Flamengo venceu o Vitória por 2 a 0 pelo Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17099929",
-      "publishedAt": "2026-08-10T00:43:17Z",
-      "category": "news",
-      "teams": [
-        "Flamengo",
-        "Vitória"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Bruno Henrique e Pulgar garantem vitória do Flamengo sobre o Vitória pelo Brasileirão; VEJA os gols da partida",
-      "imageCredit": null
+      "id": "17104107",
+      "title": "Vice da CBF diz que 'agência tem que funcionar' sobre fair play financeiro no Brasil: 'Na hora que começar a tirar ponto...'",
+      "summary": "Vice da CBF quer reforçar poder da Agência Nacional de Regulação e Sustentabilidade do Futebol para aplicação de regras de fair play financeiro",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17104107/vice-cbf-diz-agencia-tem-funcionar-fair-play-financeiro-brasil-hora-comecar-tirar-ponto",
+      "publishedAt": "2026-08-11T12:44:42Z",
+      "category": "market",
+      "teams": [],
+      "imageUrl": "https://a.espncdn.com/photo/2025/0516/r1493945_1296x729_16-9.jpg",
+      "imageAlt": "A sede da CBF (Confederação Brasileira de Futebol), no Rio de Janeiro",
+      "imageCredit": "VANDERLEI ALMEIDA/AFP via Getty Images"
     }
   ]
 };
