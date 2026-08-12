@@ -194,9 +194,75 @@ function hashText(value) {
   return [...value].reduce((acc, char) => ((acc << 5) - acc + char.charCodeAt(0)) | 0, 0);
 }
 
-function pick(options, seed) {
-  const index = Math.abs(hashText(seed)) % options.length;
-  return options[index];
+function punchlineOptions(group, texts) {
+  return texts.map((text, index) => ({
+    id: `${group}-${index + 1}`,
+    text,
+  }));
+}
+
+function normalizedWords(value) {
+  return value
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean);
+}
+
+function punchlineLead(value, fallbackText) {
+  const teamName = fallbackText.match(/^(.*?) fecha em /)?.[1] ?? '';
+  const words = normalizedWords(value);
+  const teamWords = normalizedWords(teamName);
+  const startsWithTeam = teamWords.every((word, index) => words[index] === word);
+  const contentWords = startsWithTeam ? words.slice(teamWords.length) : words.slice(1);
+
+  return contentWords.slice(0, 2).join('-');
+}
+
+function uniquePunchline(options, seed, usedTemplateIds, usedPunchlines, fallbackText, maxLength = 112) {
+  if (!options.length) {
+    const fallback = compactText(fallbackText, maxLength);
+    usedPunchlines.add(fallback);
+    return fallback;
+  }
+
+  const start = Math.abs(hashText(seed)) % options.length;
+  const ordered = options.map((_, index) => options[(start + index) % options.length]);
+  const optionText = (option) => compactText(option.text, maxLength);
+  const optionLead = (option) => punchlineLead(optionText(option), fallbackText);
+  const selected =
+    ordered.find((option) => {
+      const lead = optionLead(option);
+      return (
+        !usedTemplateIds.has(option.id) &&
+        !usedTemplateIds.has(`lead:${lead}`) &&
+        !usedPunchlines.has(optionText(option))
+      );
+    }) ??
+    ordered.find((option) => !usedTemplateIds.has(option.id)) ??
+    ordered.find((option) => !usedPunchlines.has(optionText(option))) ??
+    null;
+  const selectedText = compactText(selected?.text ?? fallbackText, maxLength);
+  const text = usedPunchlines.has(selectedText)
+    ? compactText(fallbackText, maxLength)
+    : selectedText;
+
+  if (selected) {
+    const lead = punchlineLead(text, fallbackText);
+    usedTemplateIds.add(selected.id);
+    if (lead) usedTemplateIds.add(`lead:${lead}`);
+  }
+  usedPunchlines.add(text);
+
+  return text;
+}
+
+function fallbackPunchline(entry, result) {
+  const label = result?.scoreline ?? 'sem jogo na janela';
+  return `${entry.team.shortName} fecha em ${entry.position}º, com ${entry.points} pontos e ${label} virando resenha.`;
 }
 
 async function fetchJson(url) {
@@ -382,105 +448,243 @@ function verdictFor(result) {
   return result.goalsFor === 0 ? 'Empatou 0 x 0' : 'Empatou';
 }
 
-function punchlineFor(entry, result) {
+function punchlineFor(entry, result, usedTemplateIds, usedPunchlines) {
   const name = entry.team.shortName;
-  const seed = `${entry.team.id}-${entry.position}-${entry.points}`;
+  const opponent = result?.opponent.shortName ?? 'a rodada';
+  const score = result?.scoreline ?? 'sem jogo';
+  const seed = `${entry.team.id}-${entry.position}-${entry.points}-${score}`;
+  const fallback = fallbackPunchline(entry, result);
 
   if (!result) {
-    return compactText(
-      pick([
+    return uniquePunchline(
+      punchlineOptions('sem-jogo', [
         `${name} não jogou, mas a tabela também sabe incomodar no sofá.`,
         `${name} ficou de camarote e ainda assim saiu com assunto para explicar.`,
         `${name} descansou a chuteira e deixou a torcida fiscalizar o resto da rodada.`,
-      ], seed),
-      112,
+        `${name} folgou no campo, mas não no julgamento da classificação.`,
+        `${name} viu a rodada passar e descobriu que descanso também dá nervoso.`,
+        `${name} não entrou em campo; a ansiedade entrou no lugar.`,
+        `${name} ficou parado e torceu para ninguém transformar folga em problema.`,
+        `${name} acompanhou de longe, aquele esporte radical chamado secar concorrente.`,
+        `${name} teve rodada de observação e mesmo assim a corneta bateu ponto.`,
+        `${name} não jogou; a torcida, claro, trabalhou em tempo integral.`,
+        `${name} ficou sem placar próprio e com opinião sobre todos os outros.`,
+        `${name} tirou a noite de campo, mas a tabela não tirou folga.`,
+        `${name} virou fiscal da rodada enquanto espera a bola voltar.`,
+        `${name} não suou camisa, só paciência.`,
+        `${name} ficou no modo espera: menos gramado, mais calculadora.`,
+        `${name} viu o campeonato pela janela e fingiu tranquilidade.`,
+        `${name} descansou, mas a arquibancada mental seguiu lotada.`,
+        `${name} ficou sem jogo e com o mesmo drama de quem jogou duas vezes.`,
+        `${name} poupou as chuteiras e gastou todos os cenários possíveis.`,
+        `${name} não teve 90 minutos; teve 90 teorias sobre a tabela.`,
+        `${name} assistiu ao caos dos outros tentando não virar assunto.`,
+      ]),
+      seed,
+      usedTemplateIds,
+      usedPunchlines,
+      fallback,
     );
   }
 
   if (result.outcome === 'win' && result.diff >= 3) {
-    return compactText(
-      pick([
+    return uniquePunchline(
+      punchlineOptions('win-goleada', [
         `${name} goleou e agora a soberba já pediu microfone.`,
         `${name} passou o trator e deixou o adversário procurando a placa do jogo.`,
         `${name} venceu largo: quando a fase ajuda, até a corneta vira coro.`,
-      ], seed),
-      112,
+        `${name} fez placar de meme e saiu posando para a tabela.`,
+        `${name} ganhou com folga e agora precisa fingir humildade até a próxima.`,
+        `${name} abriu vantagem no placar e fechou a rodada com pose de manchete.`,
+        `${name} atropelou o jogo e deixou a resenha com prova material.`,
+        `${name} resolveu cedo e passou o resto do jogo negociando autoestima.`,
+        `${name} venceu tão largo que a moderação da torcida foi substituída.`,
+        `${name} aplicou corretivo no placar e pediu replay em horário nobre.`,
+        `${name} ganhou grande; o difícil agora é baixar o volume da empolgação.`,
+        `${name} fez a diferença de gols virar argumento de família.`,
+      ]),
+      seed,
+      usedTemplateIds,
+      usedPunchlines,
+      fallback,
     );
   }
 
   if (result.outcome === 'win' && result.homeAway === 'away') {
-    return compactText(
-      pick([
+    return uniquePunchline(
+      punchlineOptions('win-fora', [
         `${name} venceu fora e voltou para casa com três pontos e um discurso pronto.`,
         `${name} ganhou longe da torcida e já pode chamar isso de maturidade sem rir.`,
         `${name} buscou vitória fora: perigoso a confiança chegar antes do ônibus.`,
-      ], seed),
-      112,
+        `${name} calou a casa alheia e ainda deixou recibo na tabela.`,
+        `${name} foi visitante só no ingresso; no placar mandou no papo.`,
+        `${name} venceu contra ${opponent} e trouxe argumento na bagagem de mão.`,
+        `${name} voltou da viagem com três pontos e zero vontade de ser discreto.`,
+        `${name} ganhou fora, aquele luxo que transforma segunda-feira em desfile.`,
+        `${name} entrou na casa dos outros e saiu com a chave da resenha.`,
+        `${name} achou vitória longe de casa e já quer chamar de arrancada.`,
+        `${name} venceu fora; a tabela agradeceu, o rival nem tanto.`,
+        `${name} buscou três pontos na estrada e voltou com pose de gente grande.`,
+      ]),
+      seed,
+      usedTemplateIds,
+      usedPunchlines,
+      fallback,
     );
   }
 
   if (result.outcome === 'win') {
-    return compactText(
-      pick([
+    return uniquePunchline(
+      punchlineOptions('win-normal', [
         `${name} fez o serviço e vendeu como epopeia. Está valendo.`,
         `${name} ganhou, respirou e deixou a crise esperando na fila.`,
         `${name} somou três pontos e ganhou o direito de falar mais alto até a próxima.`,
-      ], seed),
-      112,
+        `${name} venceu e liberou a torcida para exagerar com moderação.`,
+        `${name} achou a vitória e já tem gente chamando de projeto.`,
+        `${name} fez o básico, mas básico com três pontos vira tese.`,
+        `${name} ganhou e passou 24 horas fingindo que estava tudo sob controle.`,
+        `${name} saiu com vitória e uma semana inteira de argumento.`,
+        `${name} venceu; agora falta decidir se foi reação ou só um dia sem susto.`,
+        `${name} colocou três pontos no bolso e mandou a cobrança esperar sentada.`,
+        `${name} ganhou em casa e deixou o ambiente oficialmente respirável.`,
+        `${name} venceu contra ${opponent}; a corneta vai precisar remarcar horário.`,
+      ]),
+      seed,
+      usedTemplateIds,
+      usedPunchlines,
+      fallback,
     );
   }
 
   if (result.outcome === 'draw' && result.goalsFor === 0) {
-    return compactText(
-      pick([
+    return uniquePunchline(
+      punchlineOptions('draw-zero', [
         `${name} entregou um 0 x 0 para testar a fé de quem ficou até o fim.`,
         `${name} empatou sem gols: o placar descansou mais que os atacantes.`,
         `${name} saiu com um ponto e uma coleção de quase nada para defender.`,
-      ], seed),
-      112,
+        `${name} fez do 0 x 0 uma experiência de paciência coletiva.`,
+        `${name} colocou o torcedor para assistir expectativa evaporar em tempo real.`,
+        `${name} empatou no zero e deixou o melhor lance para a imaginação.`,
+        `${name} saiu de um 0 x 0 que deveria contar como cardio emocional.`,
+        `${name} dividiu pontos e guardou os gols para um dia misterioso.`,
+        `${name} ficou no zero; a rede agradeceu a folga.`,
+        `${name} empatou sem gol, porque aparentemente finalizar era opcional.`,
+        `${name} transformou o 0 x 0 em teste de resistência para sofá.`,
+        `${name} levou um ponto, mas deixou a empolgação trancada no vestiário.`,
+        `${name} fez um empate tão seco que até o narrador economizou exclamação.`,
+        `${name} saiu sem balançar a rede e com muita coisa para explicar baixo.`,
+        `${name} segurou o zero dos dois lados e chamou de solidez.`,
+        `${name} empatou com ${opponent} e provou que o nada também ocupa espaço.`,
+        `${name} passou 90 minutos flertando com o gol e saiu no vácuo.`,
+        `${name} fez a bola circular, mas o placar preferiu ficar em home office.`,
+        `${name} buscou o gol como quem procura sinal em elevador.`,
+        `${name} fechou o jogo no zero e abriu a reunião das justificativas.`,
+        `${name} terminou sem gols; pelo menos ninguém acusou o placar de excesso.`,
+      ]),
+      seed,
+      usedTemplateIds,
+      usedPunchlines,
+      fallback,
     );
   }
 
   if (result.outcome === 'draw') {
-    return compactText(
-      pick([
+    return uniquePunchline(
+      punchlineOptions('draw-normal', [
         `${name} empatou e chamou de ponto importante. A tabela ouviu sem se emocionar.`,
         `${name} dividiu pontos, culpa e desculpas em partes quase iguais.`,
         `${name} ficou no meio do caminho: nem crise inteira, nem alegria honesta.`,
-      ], seed),
-      112,
+        `${name} levou um ponto para casa e deixou dois no campo das explicações.`,
+        `${name} empatou, aquele resultado que todo mundo defende olhando para baixo.`,
+        `${name} saiu do jogo com um ponto e uma frase pronta para acalmar a torcida.`,
+        `${name} ficou no quase contra ${opponent}: quase venceu, quase convenceu.`,
+        `${name} somou um ponto e multiplicou as interpretações.`,
+        `${name} empatou e deixou a pergunta clássica: evolução ou desperdício?`,
+        `${name} saiu com igualdade no placar e desigualdade na paciência da torcida.`,
+        `${name} dividiu a conta com ${opponent}, mas a ressaca ficou inteira.`,
+        `${name} não perdeu, também não resolveu. A classificação anotou em silêncio.`,
+        `${name} empatou e entregou aquele empate que parece recibo sem compra.`,
+        `${name} fez jogo de meio termo: bom para discurso, ruim para dormir tranquilo.`,
+        `${name} ficou no empate e deixou a rodada com gosto de quase.`,
+        `${name} ganhou um ponto e perdeu a chance de encurtar a conversa.`,
+        `${name} assinou empate e mandou a torcida procurar nuance no replay.`,
+        `${name} trouxe um ponto, mas esqueceu a paz no caminho.`,
+        `${name} saiu do empate com cara de quem sabe que dava para mais.`,
+        `${name} repartiu o placar e deixou a cobrança em regime de condomínio.`,
+        `${name} empatou com ${opponent}; a calculadora trabalhou mais que a alegria.`,
+      ]),
+      seed,
+      usedTemplateIds,
+      usedPunchlines,
+      fallback,
     );
   }
 
   if (result.outcome === 'loss' && result.diff <= -3) {
-    return compactText(
-      pick([
+    return uniquePunchline(
+      punchlineOptions('loss-pancada', [
         `${name} tomou pancada e a reunião de cobrança já nasceu sem pauta leve.`,
         `${name} perdeu feio: quando o placar vira documento, não adianta coletiva bonita.`,
         `${name} levou uma dessas que fazem até o replay pedir licença para sair.`,
-      ], seed),
-      112,
+        `${name} virou alerta em caixa alta antes mesmo do vestiário esfriar.`,
+        `${name} saiu machucado no placar e na paciência da torcida.`,
+        `${name} levou goleada e transformou a coletiva em prova oral.`,
+        `${name} perdeu grande; nem o otimismo conseguiu credenciamento.`,
+        `${name} tomou distância no placar e aproximou a cobrança.`,
+        `${name} apanhou da partida e deixou a tabela com cara de sermão.`,
+        `${name} entregou um placar que não cabe em desculpa curta.`,
+        `${name} saiu de campo com o tipo de derrota que vira pauta fixa.`,
+        `${name} sofreu uma dessas que fazem a semana nascer longa.`,
+      ]),
+      seed,
+      usedTemplateIds,
+      usedPunchlines,
+      fallback,
     );
   }
 
   if (result.outcome === 'loss' && result.homeAway === 'home') {
-    return compactText(
-      pick([
+    return uniquePunchline(
+      punchlineOptions('loss-casa', [
         `${name} perdeu em casa e transformou apoio em silêncio constrangedor.`,
         `${name} tropeçou diante da própria torcida. O sofá visitante agradece.`,
         `${name} deixou os pontos em casa, só que na mala do adversário.`,
-      ], seed),
-      112,
+        `${name} mandou no endereço, mas quem saiu dono da noite foi o rival.`,
+        `${name} perdeu em casa; o fator local pediu para não ser citado.`,
+        `${name} abriu a porta para ${opponent} e ainda serviu três pontos.`,
+        `${name} fez a torcida sair revisando todas as promessas da semana.`,
+        `${name} caiu diante da própria arquibancada e ouviu até pensamento alto.`,
+        `${name} perdeu onde precisava mandar e agora vai chamar de aprendizado.`,
+        `${name} transformou mando de campo em visita guiada para o adversário.`,
+        `${name} deixou a casa arrumada para ${opponent} fazer festa.`,
+        `${name} saiu derrotado em casa e sem álibi para o barulho da cobrança.`,
+      ]),
+      seed,
+      usedTemplateIds,
+      usedPunchlines,
+      fallback,
     );
   }
 
-  return compactText(
-    pick([
+  return uniquePunchline(
+    punchlineOptions('loss-normal', [
       `${name} voltou sem pontos e com material suficiente para uma semana longa.`,
       `${name} perdeu e agora vai chamar cobrança de processo de evolução.`,
       `${name} caiu no placar e entregou munição para a resenha alheia.`,
-    ], seed),
-    112,
+      `${name} saiu derrotado e levou para casa aquele silêncio que fala alto.`,
+      `${name} deixou o jogo com menos pontos e mais explicações.`,
+      `${name} perdeu contra ${opponent}; a tabela não perdoa luto criativo.`,
+      `${name} voltou vazio no placar e cheio de frases defensivas.`,
+      `${name} perdeu e fez a calculadora da torcida pedir demissão.`,
+      `${name} caiu fora de casa e trouxe a cobrança de brinde.`,
+      `${name} saiu do jogo procurando onde deixou a reação prometida.`,
+      `${name} perdeu; a classificação não gritou, mas olhou torto.`,
+      `${name} deixou três pontos escaparem e ganhou uma semana de debate.`,
+    ]),
+    seed,
+    usedTemplateIds,
+    usedPunchlines,
+    fallback,
   );
 }
 
@@ -559,6 +763,8 @@ function roundLabel(scoreboard, start, end) {
 function buildCharge({ matches, table, scoreboard, start, end, previousPositions }) {
   const generatedAt = new Date().toISOString();
   const season = Number(scoreboard?.season?.year) || new Date(generatedAt).getUTCFullYear();
+  const usedPunchlineTemplates = new Set();
+  const usedPunchlines = new Set();
   const rows = table.map((entry) => {
     const match = matchForTeam(matches, entry.team.id);
     const result = resultForTeam(match, entry.team.id);
@@ -575,7 +781,7 @@ function buildCharge({ matches, table, scoreboard, start, end, previousPositions
       goalDifference: entry.goalDifference,
       resultLabel: result?.scoreline ?? 'Sem jogo na janela',
       verdict: verdictFor(result),
-      punchline: punchlineFor(entry, result),
+      punchline: punchlineFor(entry, result, usedPunchlineTemplates, usedPunchlines),
     };
   });
 
