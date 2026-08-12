@@ -46,11 +46,11 @@ Arquivos principais:
 - `src/app/core/radar/radar.mapper.ts`: normalização do provedor.
 - `src/app/shared/feature/sc-radar/`: interface do Radar.
 
-## Charge da Rodada
+## Memes da Rodada
 
-A seção **Tabela sincerona da rodada** é gerada a partir da classificação e dos placares recentes
-do Brasileirão. O script cria uma frase curta para cada clube, marca subida/queda quando existe
-um arquivo anterior para comparação e publica o JSON em `src/assets/content/charge-da-rodada.json`.
+A seção **Memes da rodada** é gerada a partir da classificação e dos placares recentes do
+Brasileirão. O script cria uma frase curta para cada clube, marca subida/queda quando existe um
+arquivo anterior para comparação e publica o JSON em `src/assets/content/charge-da-rodada.json`.
 
 ```bash
 npm run charge:auto

@@ -383,7 +383,7 @@
   font-size: 0.8em;
 }
 
-/* Charge da rodada */
+/* Memes da rodada */
 .charge {
   overflow: hidden;
   background:
@@ -606,7 +606,9 @@
   font-size: clamp(1.02rem, 1.4vw, 1.22rem);
   text-transform: uppercase;
   line-height: 1.08;
-  overflow-wrap: anywhere;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .charge-row__club span {
@@ -614,6 +616,7 @@
   color: rgba(0, 0, 0, 0.62);
   font-size: 0.7rem;
   line-height: 1.35;
+  word-break: normal;
 }
 
 .charge-row p {

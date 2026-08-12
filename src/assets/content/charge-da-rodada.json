@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-12T17:15:21.946Z",
+  "generatedAt": "2026-08-12T17:33:14.772Z",
   "updatedLabel": "12 ago",
   "round": "Brasileirão 2026 - rodada de 07 a 09 de ago",
-  "title": "Tabela sincerona da rodada",
+  "title": "Memes da Rodada",
   "headline": "Palmeiras freou, e a corneta pediu microfone.",
   "summary": "Rodada com 10 jogos, 22 gols e 4 empates entre 07 a 09 de ago. Palmeiras lidera com 48 pontos; Flamengo vem na cola com 42.",
   "sources": [
@@ -44,7 +44,7 @@
       "points": 48,
       "played": 22,
       "goalDifference": 22,
-      "resultLabel": "Palmeiras 0 x 0 Internacional",
+      "resultLabel": "PAL 0 x 0 INT",
       "verdict": "Empatou 0 x 0",
       "punchline": "Palmeiras entregou um 0 x 0 para testar a fé de quem ficou até o fim."
     },
@@ -67,7 +67,7 @@
       "points": 42,
       "played": 21,
       "goalDifference": 21,
-      "resultLabel": "Flamengo 2 x 0 Vitória",
+      "resultLabel": "FLA 2 x 0 VIT",
       "verdict": "Venceu",
       "punchline": "Flamengo somou três pontos e ganhou o direito de falar mais alto até a próxima."
     },
@@ -90,7 +90,7 @@
       "points": 40,
       "played": 22,
       "goalDifference": 11,
-      "resultLabel": "Santos 0 x 2 Athletico-PR",
+      "resultLabel": "SAN 0 x 2 CAP",
       "verdict": "Venceu",
       "punchline": "Athletico-PR buscou vitória fora: perigoso a confiança chegar antes do ônibus."
     },
@@ -113,7 +113,7 @@
       "points": 35,
       "played": 22,
       "goalDifference": 5,
-      "resultLabel": "Botafogo 1 x 1 Fluminense",
+      "resultLabel": "BOT 1 x 1 FLU",
       "verdict": "Empatou",
       "punchline": "Fluminense dividiu pontos, culpa e desculpas em partes quase iguais."
     },
@@ -136,7 +136,7 @@
       "points": 33,
       "played": 22,
       "goalDifference": -1,
-      "resultLabel": "Cruzeiro 3 x 1 Mirassol",
+      "resultLabel": "CRU 3 x 1 MIR",
       "verdict": "Venceu",
       "punchline": "Cruzeiro fez o serviço e vendeu como epopeia. Está valendo."
     },
@@ -159,7 +159,7 @@
       "points": 33,
       "played": 22,
       "goalDifference": 4,
-      "resultLabel": "Bahia 0 x 0 Vasco",
+      "resultLabel": "BAH 0 x 0 VAS",
       "verdict": "Empatou 0 x 0",
       "punchline": "Bahia empatou sem gols: o placar descansou mais que os atacantes."
     },
@@ -182,7 +182,7 @@
       "points": 32,
       "played": 22,
       "goalDifference": 4,
-      "resultLabel": "Bragantino 0 x 2 Corinthians",
+      "resultLabel": "BRA 0 x 2 COR",
       "verdict": "Venceu",
       "punchline": "Corinthians venceu fora e voltou para casa com três pontos e um discurso pronto."
     },
@@ -205,7 +205,7 @@
       "points": 31,
       "played": 21,
       "goalDifference": 4,
-      "resultLabel": "Bragantino 0 x 2 Corinthians",
+      "resultLabel": "BRA 0 x 2 COR",
       "verdict": "Perdeu",
       "punchline": "Bragantino deixou os pontos em casa, só que na mala do adversário."
     },
@@ -228,7 +228,7 @@
       "points": 30,
       "played": 21,
       "goalDifference": 2,
-      "resultLabel": "Botafogo 1 x 1 Fluminense",
+      "resultLabel": "BOT 1 x 1 FLU",
       "verdict": "Empatou",
       "punchline": "Botafogo dividiu pontos, culpa e desculpas em partes quase iguais."
     },
@@ -251,7 +251,7 @@
       "points": 30,
       "played": 22,
       "goalDifference": -2,
-      "resultLabel": "Coritiba 2 x 1 Chapecoense",
+      "resultLabel": "CFC 2 x 1 CHA",
       "verdict": "Venceu",
       "punchline": "Coritiba fez o serviço e vendeu como epopeia. Está valendo."
     },
@@ -274,7 +274,7 @@
       "points": 29,
       "played": 21,
       "goalDifference": 0,
-      "resultLabel": "Remo 2 x 2 Atlético-MG",
+      "resultLabel": "REMO 2 x 2 CAM",
       "verdict": "Empatou",
       "punchline": "Atlético-MG dividiu pontos, culpa e desculpas em partes quase iguais."
     },
@@ -297,7 +297,7 @@
       "points": 26,
       "played": 21,
       "goalDifference": 1,
-      "resultLabel": "Grêmio 2 x 1 São Paulo",
+      "resultLabel": "GRE 2 x 1 SAO",
       "verdict": "Perdeu",
       "punchline": "São Paulo voltou sem pontos e com material suficiente para uma semana longa."
     },
@@ -320,7 +320,7 @@
       "points": 26,
       "played": 22,
       "goalDifference": -11,
-      "resultLabel": "Flamengo 2 x 0 Vitória",
+      "resultLabel": "FLA 2 x 0 VIT",
       "verdict": "Perdeu",
       "punchline": "Vitória voltou sem pontos e com material suficiente para uma semana longa."
     },
@@ -343,7 +343,7 @@
       "points": 25,
       "played": 21,
       "goalDifference": -3,
-      "resultLabel": "Grêmio 2 x 1 São Paulo",
+      "resultLabel": "GRE 2 x 1 SAO",
       "verdict": "Venceu",
       "punchline": "Grêmio fez o serviço e vendeu como epopeia. Está valendo."
     },
@@ -366,7 +366,7 @@
       "points": 23,
       "played": 21,
       "goalDifference": -6,
-      "resultLabel": "Cruzeiro 3 x 1 Mirassol",
+      "resultLabel": "CRU 3 x 1 MIR",
       "verdict": "Perdeu",
       "punchline": "Mirassol voltou sem pontos e com material suficiente para uma semana longa."
     },
@@ -389,7 +389,7 @@
       "points": 23,
       "played": 22,
       "goalDifference": -4,
-      "resultLabel": "Palmeiras 0 x 0 Internacional",
+      "resultLabel": "PAL 0 x 0 INT",
       "verdict": "Empatou 0 x 0",
       "punchline": "Internacional saiu com um ponto e uma coleção de quase nada para defender."
     },
@@ -412,7 +412,7 @@
       "points": 22,
       "played": 21,
       "goalDifference": -6,
-      "resultLabel": "Santos 0 x 2 Athletico-PR",
+      "resultLabel": "SAN 0 x 2 CAP",
       "verdict": "Perdeu",
       "punchline": "Santos deixou os pontos em casa, só que na mala do adversário."
     },
@@ -435,7 +435,7 @@
       "points": 22,
       "played": 21,
       "goalDifference": -8,
-      "resultLabel": "Bahia 0 x 0 Vasco",
+      "resultLabel": "BAH 0 x 0 VAS",
       "verdict": "Empatou 0 x 0",
       "punchline": "Vasco saiu com um ponto e uma coleção de quase nada para defender."
     },
@@ -458,7 +458,7 @@
       "points": 22,
       "played": 22,
       "goalDifference": -10,
-      "resultLabel": "Remo 2 x 2 Atlético-MG",
+      "resultLabel": "REMO 2 x 2 CAM",
       "verdict": "Empatou",
       "punchline": "Remo empatou e chamou de ponto importante. A tabela ouviu sem se emocionar."
     },
@@ -481,7 +481,7 @@
       "points": 10,
       "played": 21,
       "goalDifference": -23,
-      "resultLabel": "Coritiba 2 x 1 Chapecoense",
+      "resultLabel": "CFC 2 x 1 CHA",
       "verdict": "Perdeu",
       "punchline": "Chapecoense caiu no placar e entregou munição para a resenha alheia."
     }

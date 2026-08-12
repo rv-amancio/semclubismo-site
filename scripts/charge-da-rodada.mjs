@@ -252,15 +252,17 @@ function mapMatches(scoreboard) {
 
       if (!home?.team || !away?.team || !completed) return null;
       if (!Number.isFinite(homeScore) || !Number.isFinite(awayScore)) return null;
+      const homeTeam = mapTeam(home.team);
+      const awayTeam = mapTeam(away.team);
 
       return {
         id: safeText(event.id),
         date: safeText(event.date),
-        home: mapTeam(home.team),
-        away: mapTeam(away.team),
+        home: homeTeam,
+        away: awayTeam,
         homeScore,
         awayScore,
-        scoreline: `${safeText(home.team.shortDisplayName, home.team.displayName)} ${homeScore} x ${awayScore} ${safeText(away.team.shortDisplayName, away.team.displayName)}`,
+        scoreline: `${homeTeam.abbreviation} ${homeScore} x ${awayScore} ${awayTeam.abbreviation}`,
       };
     })
     .filter(Boolean)
@@ -582,7 +584,7 @@ function buildCharge({ matches, table, scoreboard, start, end, previousPositions
     generatedAt,
     updatedLabel: updatedLabel(new Date(generatedAt)),
     round: roundLabel(scoreboard, start, end),
-    title: 'Tabela sincerona da rodada',
+    title: 'Memes da Rodada',
     headline: buildHeadline(matches, table),
     summary: buildSummary(matches, table, start, end),
     sources: chargeSources(start, end, season),
@@ -621,7 +623,7 @@ async function generateCharge() {
   const charge = buildCharge({ matches, table, scoreboard, start, end, previousPositions });
   await writeCharge(charge);
 
-  console.log(`Charge da Rodada atualizada em ${path.relative(ROOT_DIR, PUBLIC_JSON_PATH)}`);
+  console.log(`Memes da Rodada atualizados em ${path.relative(ROOT_DIR, PUBLIC_JSON_PATH)}`);
   console.log(
     JSON.stringify(
       {

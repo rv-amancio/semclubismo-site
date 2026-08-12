@@ -37,7 +37,7 @@ jobs:
       - name: Atualizar snapshot do radar
         run: npm run radar:snapshot
 
-      - name: Atualizar charge da rodada
+      - name: Atualizar memes da rodada
         run: npm run charge:auto
 
       - name: Validar build
