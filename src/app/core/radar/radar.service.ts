@@ -207,9 +207,9 @@ export class RadarService {
             status: snapshotExpired ? 'stale' : 'ready',
             data: payload,
             message: snapshotExpired
-              ? 'A fonte respondeu com um snapshot anterior. Uma nova atualização será tentada automaticamente.'
+              ? 'A fonte respondeu com um snapshot anterior. O radar buscará uma versão nova nas próximas tentativas.'
               : payload.isPartial
-                ? 'Algumas fontes ou competições estão incompletas. O radar seguirá tentando automaticamente.'
+                ? 'Algumas fontes ou competições estão incompletas. O radar seguirá buscando uma versão mais completa.'
                 : null,
             source,
           });

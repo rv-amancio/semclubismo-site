@@ -37,7 +37,7 @@ interface NavLink {
         </nav>
 
         <div class="header__actions">
-          <span class="header__status"><i></i> Radar automático</span>
+          <span class="header__status"><i></i> Radar ligado</span>
           <sc-button href="#radar">Abrir radar</sc-button>
           <button
             id="header-menu-toggle"

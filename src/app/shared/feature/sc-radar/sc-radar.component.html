@@ -7,7 +7,7 @@
           <p class="sc-kicker">Inteligência de rodada</p>
           <h2 id="radar-title">Radar do futebol brasileiro</h2>
           <p class="radar__lead">
-            Placar, agenda, tabela e mercado em uma central que se atualiza sozinha.
+            Placar, agenda, tabela e mercado em uma central para acompanhar a rodada.
           </p>
         </div>
       </div>
@@ -22,7 +22,7 @@
             aria-hidden="true"
           ></span>
           <strong>{{ statusLabel() }}</strong>
-          <span class="radar__frequency">AUTO • 5 MIN</span>
+          <span class="radar__frequency">AO VIVO</span>
         </div>
         @if (state().source === 'fallback') {
           <p>Primeira sincronização em andamento</p>
@@ -84,7 +84,7 @@
       <div class="radar__empty radar__empty--large" role="status">
         <span>SEM SINAL</span>
         <h3>O radar não recebeu dados agora.</h3>
-        <p>A conexão pode estar instável. O serviço tentará de novo automaticamente.</p>
+        <p>A conexão pode estar instável. O serviço tentará reconectar.</p>
         <button type="button" (click)="refresh()">Reconectar radar</button>
       </div>
     } @else {
@@ -326,7 +326,7 @@
           } @else {
             <div class="data-grid__empty">
               <strong>Classificação indisponível.</strong>
-              <span>O radar seguirá consultando a fonte automaticamente.</span>
+              <span>O radar seguirá consultando a fonte.</span>
             </div>
           }
         </section>
@@ -441,7 +441,7 @@
             <div class="market__empty">
               <span>PAUTA ABERTA</span>
               <h3>Nenhuma publicação nesta categoria.</h3>
-              <p>O feed será preenchido automaticamente quando novas informações forem publicadas.</p>
+              <p>O feed será preenchido quando novas informações forem publicadas.</p>
               @if (newsFilter() !== 'all') {
                 <button type="button" (click)="selectNewsFilter('all')">Ver todas as notícias</button>
               }

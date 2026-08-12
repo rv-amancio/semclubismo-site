@@ -398,7 +398,7 @@ function punchlineFor(entry, result) {
   if (result.outcome === 'win' && result.diff >= 3) {
     return compactText(
       pick([
-        `${name} goleou e agora a soberba está em atualização automática.`,
+        `${name} goleou e agora a soberba já pediu microfone.`,
         `${name} passou o trator e deixou o adversário procurando a placa do jogo.`,
         `${name} venceu largo: quando a fase ajuda, até a corneta vira coro.`,
       ], seed),
@@ -490,11 +490,11 @@ function buildSummary(matches, table, start, end) {
   const windowLabel = formatDateRange(start, end);
 
   if (!leader || !vice) {
-    return `Charge automática da rodada, atualizada com placares e tabela do Brasileirão entre ${windowLabel}.`;
+    return `Retrato da rodada, atualizado com placares e tabela do Brasileirão entre ${windowLabel}.`;
   }
 
   return (
-    `Charge automática com ${matches.length} jogos, ${totalGoals} gols e ${draws} empate${draws === 1 ? '' : 's'} ` +
+    `Rodada com ${matches.length} jogos, ${totalGoals} gols e ${draws} empate${draws === 1 ? '' : 's'} ` +
     `entre ${windowLabel}. ${leader.team.shortName} lidera com ${leader.points} pontos; ` +
     `${vice.team.shortName} vem na cola com ${vice.points}.`
   );

@@ -101,7 +101,7 @@ export class HomePageComponent {
 
   readonly tickerItems = [
     'Radar em tempo real',
-    'Atualização automática',
+    'Giro de rodada',
     'Brasileirão Série A',
     'Mercado da bola',
     'Futebol acima das cores',
