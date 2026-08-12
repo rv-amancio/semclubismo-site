@@ -624,6 +624,7 @@
 }
 
 .charge-row__club strong {
+  color: var(--sc-black);
   font-family: var(--sc-font-heading);
   font-size: clamp(1.02rem, 1.4vw, 1.22rem);
   text-transform: uppercase;

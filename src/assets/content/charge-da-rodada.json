@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-12T18:00:07.365Z",
+  "generatedAt": "2026-08-12T18:43:18.652Z",
   "updatedLabel": "12 ago",
   "round": "Brasileirão 2026 - rodada de 07 a 09 de ago",
   "title": "Resultados da Rodada",
@@ -46,7 +46,7 @@
       "goalDifference": 22,
       "resultLabel": "PAL 0 x 0 INT",
       "verdict": "Empatou 0 x 0",
-      "punchline": "Palmeiras dividiu pontos e guardou os gols para um dia misterioso."
+      "punchline": "Palmeiras dividiu pontos e escondeu os gols em algum lugar que ninguém achou."
     },
     {
       "position": 2,
@@ -69,7 +69,7 @@
       "goalDifference": 21,
       "resultLabel": "FLA 2 x 0 VIT",
       "verdict": "Venceu",
-      "punchline": "Flamengo saiu com vitória e uma semana inteira de argumento."
+      "punchline": "Flamengo saiu com vitória e munição para calar parente inconveniente."
     },
     {
       "position": 3,
@@ -92,7 +92,7 @@
       "goalDifference": 11,
       "resultLabel": "SAN 0 x 2 CAP",
       "verdict": "Venceu",
-      "punchline": "Athletico-PR buscou vitória fora: perigoso a confiança chegar antes do ônibus."
+      "punchline": "Athletico-PR buscou vitória fora; a arrogância deve chegar antes do ônibus."
     },
     {
       "position": 4,
@@ -115,7 +115,7 @@
       "goalDifference": 5,
       "resultLabel": "BOT 1 x 1 FLU",
       "verdict": "Empatou",
-      "punchline": "Fluminense dividiu a conta com Botafogo, mas a ressaca ficou inteira."
+      "punchline": "Fluminense saiu igual no placar e em dívida com a paciência da torcida."
     },
     {
       "position": 5,
@@ -138,7 +138,7 @@
       "goalDifference": -1,
       "resultLabel": "CRU 3 x 1 MIR",
       "verdict": "Venceu",
-      "punchline": "Cruzeiro somou três pontos e ganhou o direito de falar mais alto até a próxima."
+      "punchline": "Cruzeiro somou três pontos e liberou a torcida para ficar chata até a próxima."
     },
     {
       "position": 6,
@@ -161,7 +161,7 @@
       "goalDifference": 4,
       "resultLabel": "BAH 0 x 0 VAS",
       "verdict": "Empatou 0 x 0",
-      "punchline": "Bahia fez um empate tão seco que até o narrador economizou exclamação."
+      "punchline": "Bahia fez um empate tão seco que até a súmula pediu água."
     },
     {
       "position": 7,
@@ -184,7 +184,7 @@
       "goalDifference": 4,
       "resultLabel": "BRA 0 x 2 COR",
       "verdict": "Venceu",
-      "punchline": "Corinthians ganhou longe da torcida e já pode chamar isso de maturidade sem rir."
+      "punchline": "Corinthians ganhou longe da torcida e já vende maturidade como se fosse troféu."
     },
     {
       "position": 8,
@@ -207,7 +207,7 @@
       "goalDifference": 4,
       "resultLabel": "BRA 0 x 2 COR",
       "verdict": "Perdeu",
-      "punchline": "Bragantino perdeu em casa e transformou apoio em silêncio constrangedor."
+      "punchline": "Bragantino perdeu em casa e transformou apoio em silêncio de estádio vazio."
     },
     {
       "position": 9,
@@ -230,7 +230,7 @@
       "goalDifference": 2,
       "resultLabel": "BOT 1 x 1 FLU",
       "verdict": "Empatou",
-      "punchline": "Botafogo repartiu o placar e deixou a cobrança em regime de condomínio."
+      "punchline": "Botafogo repartiu o placar e deixou a cobrança em condomínio de luxo."
     },
     {
       "position": 10,
@@ -253,7 +253,7 @@
       "goalDifference": -2,
       "resultLabel": "CFC 2 x 1 CHA",
       "verdict": "Venceu",
-      "punchline": "Coritiba ganhou em casa e deixou o ambiente oficialmente respirável."
+      "punchline": "Coritiba ganhou em casa e transformou incêndio em fumacinha controlada."
     },
     {
       "position": 11,
@@ -276,7 +276,7 @@
       "goalDifference": 0,
       "resultLabel": "REMO 2 x 2 CAM",
       "verdict": "Empatou",
-      "punchline": "Atlético-MG ficou no meio do caminho: nem crise inteira, nem alegria honesta."
+      "punchline": "Atlético-MG ficou no meio do caminho: nem crise assumida, nem alegria decente."
     },
     {
       "position": 12,
@@ -299,7 +299,7 @@
       "goalDifference": 1,
       "resultLabel": "GRE 2 x 1 SAO",
       "verdict": "Perdeu",
-      "punchline": "São Paulo voltou vazio no placar e cheio de frases defensivas."
+      "punchline": "São Paulo voltou vazio no placar e lotado de frase defensiva."
     },
     {
       "position": 13,
@@ -322,7 +322,7 @@
       "goalDifference": -11,
       "resultLabel": "FLA 2 x 0 VIT",
       "verdict": "Perdeu",
-      "punchline": "Vitória perdeu e fez a calculadora da torcida pedir demissão."
+      "punchline": "Vitória perdeu e fez a calculadora da torcida pedir afastamento."
     },
     {
       "position": 14,
@@ -345,7 +345,7 @@
       "goalDifference": -3,
       "resultLabel": "GRE 2 x 1 SAO",
       "verdict": "Venceu",
-      "punchline": "Grêmio venceu; agora falta decidir se foi reação ou só um dia sem susto."
+      "punchline": "Grêmio venceu; resta saber se foi reação ou só o adversário colaborou."
     },
     {
       "position": 15,
@@ -368,7 +368,7 @@
       "goalDifference": -6,
       "resultLabel": "CRU 3 x 1 MIR",
       "verdict": "Perdeu",
-      "punchline": "Mirassol saiu do jogo procurando onde deixou a reação prometida."
+      "punchline": "Mirassol saiu procurando onde deixou a reação que prometeu na semana passada."
     },
     {
       "position": 16,
@@ -391,7 +391,7 @@
       "goalDifference": -4,
       "resultLabel": "PAL 0 x 0 INT",
       "verdict": "Empatou 0 x 0",
-      "punchline": "Internacional entregou um 0 x 0 para testar a fé de quem ficou até o fim."
+      "punchline": "Internacional entregou um 0 x 0 que deveria vir com pedido de desculpas ao público."
     },
     {
       "position": 17,
@@ -414,7 +414,7 @@
       "goalDifference": -6,
       "resultLabel": "SAN 0 x 2 CAP",
       "verdict": "Perdeu",
-      "punchline": "Santos fez a torcida sair revisando todas as promessas da semana."
+      "punchline": "Santos fez a torcida sair revisando promessa, escalação e paciência esportiva."
     },
     {
       "position": 18,
@@ -437,7 +437,7 @@
       "goalDifference": -8,
       "resultLabel": "BAH 0 x 0 VAS",
       "verdict": "Empatou 0 x 0",
-      "punchline": "Vasco saiu sem balançar a rede e com muita coisa para explicar baixo."
+      "punchline": "Vasco saiu sem balançar a rede e cheio de frase pronta para vender solidez."
     },
     {
       "position": 19,
@@ -460,7 +460,7 @@
       "goalDifference": -10,
       "resultLabel": "REMO 2 x 2 CAM",
       "verdict": "Empatou",
-      "punchline": "Remo levou um ponto para casa e deixou dois no campo das explicações."
+      "punchline": "Remo levou um ponto para casa e abandonou dois no balcão das explicações."
     },
     {
       "position": 20,
@@ -483,7 +483,7 @@
       "goalDifference": -23,
       "resultLabel": "CFC 2 x 1 CHA",
       "verdict": "Perdeu",
-      "punchline": "Chapecoense deixou o jogo com menos pontos e mais explicações."
+      "punchline": "Chapecoense deixou o jogo com menos pontos e mais desculpas que finalização."
     }
   ]
 }
