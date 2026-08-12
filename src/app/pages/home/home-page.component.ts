@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, inject, signal } from '@angular/core';
+import { Component, computed, inject, signal } from '@angular/core';
 import { catchError, of } from 'rxjs';
 import { ScHeaderComponent } from '../../shared/layout/sc-header/sc-header.component';
 import { ScFooterComponent } from '../../shared/layout/sc-footer/sc-footer.component';
@@ -38,6 +38,44 @@ interface PublishedPautaData {
   sources: PautaSource[];
 }
 
+interface ChargeTeam {
+  id: string;
+  name: string;
+  shortName: string;
+  abbreviation: string;
+  logo: string | null;
+}
+
+interface ChargeRow {
+  position: number;
+  previousPosition: number | null;
+  movement: number;
+  movementLabel: string;
+  movementDirection: 'up' | 'down' | 'same';
+  movementText: string;
+  zone: 'leader' | 'libertadores' | 'sul-americana' | 'alerta' | 'z4';
+  zoneLabel: string;
+  team: ChargeTeam;
+  points: number;
+  played: number;
+  goalDifference: number;
+  resultLabel: string;
+  verdict: string;
+  punchline: string;
+}
+
+interface ChargeDaRodadaData {
+  version: 1;
+  generatedAt: string;
+  updatedLabel: string;
+  round: string;
+  title: string;
+  headline: string;
+  summary: string;
+  sources: PautaSource[];
+  teams: ChargeRow[];
+}
+
 @Component({
   selector: 'sc-home-page',
   standalone: true,
@@ -55,6 +93,11 @@ export class HomePageComponent {
 
   readonly images = SITE_IMAGES;
   readonly publishedPauta = signal<PublishedPautaData | null>(null);
+  readonly publishedCharge = signal<ChargeDaRodadaData | null>(null);
+  readonly chargeColumns = computed(() => {
+    const teams = this.publishedCharge()?.teams ?? [];
+    return [teams.slice(0, 10), teams.slice(10)];
+  });
 
   readonly tickerItems = [
     'Radar em tempo real',
@@ -70,6 +113,13 @@ export class HomePageComponent {
       .pipe(catchError(() => of(null)))
       .subscribe((pauta) => {
         this.publishedPauta.set(pauta);
+      });
+
+    this.http
+      .get<ChargeDaRodadaData>('assets/content/charge-da-rodada.json')
+      .pipe(catchError(() => of(null)))
+      .subscribe((charge) => {
+        this.publishedCharge.set(charge);
       });
   }
 }

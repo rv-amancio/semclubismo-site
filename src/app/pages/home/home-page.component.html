@@ -103,6 +103,97 @@
 
   <sc-radar />
 
+  @if (publishedCharge(); as charge) {
+    <section class="section charge" id="charge-da-rodada" aria-labelledby="charge-title">
+      <div class="sc-shell">
+        <header class="sc-section-head charge__head">
+          <span class="sc-section-index">03</span>
+          <div>
+            <p class="sc-kicker">Charge da rodada</p>
+            <h2 id="charge-title">{{ charge.title }}</h2>
+          </div>
+          <a class="sc-link-arrow" href="#pauta-da-mesa">Levar para a mesa</a>
+        </header>
+
+        <div class="charge__intro">
+          <div>
+            <span>{{ charge.round }}</span>
+            <strong>{{ charge.headline }}</strong>
+          </div>
+          <p>{{ charge.summary }}</p>
+          <time [attr.datetime]="charge.generatedAt">Atualizado em {{ charge.updatedLabel }}</time>
+        </div>
+
+        <div class="charge__board" aria-label="Tabela sincerona com piadas por clube">
+          @for (column of chargeColumns(); track $index) {
+            <div class="charge__column">
+              @for (row of column; track row.team.id) {
+                <article
+                  class="charge-row"
+                  [class.charge-row--up]="row.movementDirection === 'up'"
+                  [class.charge-row--down]="row.movementDirection === 'down'"
+                  [class.charge-row--same]="row.movementDirection === 'same'"
+                  [class.charge-row--leader]="row.zone === 'leader'"
+                  [class.charge-row--z4]="row.zone === 'z4'"
+                >
+                  <div class="charge-row__rank">
+                    <span
+                      class="charge-row__move"
+                      [class.is-up]="row.movementDirection === 'up'"
+                      [class.is-down]="row.movementDirection === 'down'"
+                      [attr.aria-label]="row.movementText"
+                    >
+                      {{ row.movementLabel }}
+                    </span>
+                    <strong>{{ row.position }}</strong>
+                  </div>
+
+                  <div class="charge-row__club">
+                    <span class="charge-row__crest">
+                      @if (row.team.logo; as logo) {
+                        <img
+                          [src]="logo"
+                          [alt]="'Escudo do ' + row.team.name"
+                          width="40"
+                          height="40"
+                          loading="lazy"
+                          referrerpolicy="no-referrer"
+                        />
+                      } @else {
+                        <b>{{ row.team.abbreviation }}</b>
+                      }
+                    </span>
+                    <div>
+                      <strong>{{ row.team.shortName }}</strong>
+                      <span>{{ row.verdict }} • {{ row.resultLabel }}</span>
+                    </div>
+                  </div>
+
+                  <p>{{ row.punchline }}</p>
+
+                  <div class="charge-row__points">
+                    <span>{{ row.zoneLabel }}</span>
+                    <strong>{{ row.points }}</strong>
+                    <small>PTS</small>
+                  </div>
+                </article>
+              }
+            </div>
+          }
+        </div>
+
+        <div class="charge__sources" aria-label="Fontes da charge">
+          <span>Base da corneta</span>
+          @for (source of charge.sources; track source.url) {
+            <a [href]="source.url" target="_blank" rel="noopener noreferrer">
+              {{ source.label }} <span class="sc-sr-only">(abre em nova guia)</span>
+            </a>
+          }
+        </div>
+      </div>
+    </section>
+  }
+
   <section class="manifesto" id="manifesto" aria-labelledby="manifesto-title">
     <div class="manifesto__media" aria-hidden="true">
       <img [src]="images.sections.manifesto" alt="" loading="lazy" width="1920" height="1280" />
@@ -210,7 +301,7 @@
   <section class="section auto-table" id="pauta-da-mesa" aria-labelledby="auto-table-title">
     <div class="sc-shell">
       <header class="sc-section-head auto-table__head">
-        <span class="sc-section-index">03</span>
+        <span class="sc-section-index">04</span>
         <div>
           <p class="sc-kicker">Pauta da mesa</p>
           <h2 id="auto-table-title">Três visões. Uma resenha sempre ligada.</h2>

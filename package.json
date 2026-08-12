@@ -17,6 +17,7 @@
     "pauta:images": "node scripts/pauta-images.mjs",
     "pauta:approve": "node scripts/pauta-admin.mjs approve",
     "pauta:auto": "node scripts/pauta-admin.mjs auto",
+    "charge:auto": "node scripts/charge-da-rodada.mjs",
     "radar:snapshot": "node scripts/radar-snapshot.mjs",
     "storybook": "ng run sem-clubismo:storybook",
     "build-storybook": "ng run sem-clubismo:build-storybook",

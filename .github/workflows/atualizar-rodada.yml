@@ -37,6 +37,9 @@ jobs:
       - name: Atualizar snapshot do radar
         run: npm run radar:snapshot
 
+      - name: Atualizar charge da rodada
+        run: npm run charge:auto
+
       - name: Validar build
         run: npm run check
 
@@ -46,6 +49,8 @@ jobs:
             content/pautas/draft/pauta-da-mesa.md \
             content/pautas/draft/redes-sociais.md \
             content/pautas/publicadas \
+            content/charges/publicadas \
+            src/assets/content/charge-da-rodada.json \
             src/assets/content/pauta-da-mesa.json \
             src/app/core/radar/radar.fallback.ts \
             dist/sem-clubismo

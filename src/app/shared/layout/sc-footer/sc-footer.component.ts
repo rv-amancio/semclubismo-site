@@ -27,6 +27,7 @@ import { ScButtonComponent } from '../../ui/sc-button/sc-button.component';
           <a href="#radar">Radar</a>
           <a href="#mercado">Mercado da bola</a>
           <a href="#competicoes">Competições</a>
+          <a href="#charge-da-rodada">Charge da rodada</a>
           <a href="#manifesto">Manifesto</a>
           <a href="#pauta-da-mesa">Pauta da mesa</a>
           <a href="#comunidade">Comunidade</a>

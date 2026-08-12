@@ -270,7 +270,7 @@ interface NavLink {
       from { opacity: 0; clip-path: polygon(0 0, 100% 0, 100% 0, 0 20%); }
       to { opacity: 1; clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
     }
-    @media (max-width: 1180px) {
+    @media (max-width: 1320px) {
       .header__nav, .header__status { display: none; }
       .header__menu { display: grid; }
     }
@@ -295,9 +295,10 @@ export class ScHeaderComponent implements OnDestroy {
     { index: '01', label: 'Radar', href: '#radar', sectionId: 'radar' },
     { index: '02', label: 'Mercado', href: '#mercado', sectionId: 'mercado' },
     { index: '03', label: 'Competições', href: '#competicoes', sectionId: 'competicoes' },
-    { index: '04', label: 'Manifesto', href: '#manifesto', sectionId: 'manifesto' },
-    { index: '05', label: 'Pauta', href: '#pauta-da-mesa', sectionId: 'pauta-da-mesa' },
-    { index: '06', label: 'Comunidade', href: '#comunidade', sectionId: 'comunidade' },
+    { index: '04', label: 'Charge', href: '#charge-da-rodada', sectionId: 'charge-da-rodada' },
+    { index: '05', label: 'Manifesto', href: '#manifesto', sectionId: 'manifesto' },
+    { index: '06', label: 'Pauta', href: '#pauta-da-mesa', sectionId: 'pauta-da-mesa' },
+    { index: '07', label: 'Comunidade', href: '#comunidade', sectionId: 'comunidade' },
   ];
 
   constructor() {
@@ -383,7 +384,7 @@ export class ScHeaderComponent implements OnDestroy {
   };
 
   private readonly handleResize = (): void => {
-    if (window.innerWidth > 1180 && this.menuOpen()) {
+    if (window.innerWidth > 1320 && this.menuOpen()) {
       this.closeMenu();
     }
   };
