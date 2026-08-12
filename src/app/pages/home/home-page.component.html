@@ -104,13 +104,13 @@
   <sc-radar />
 
   @if (publishedCharge(); as charge) {
-    <section class="section charge" id="memes-da-rodada" aria-labelledby="memes-title">
+    <section class="section charge" id="resultados-da-rodada" aria-labelledby="resultados-title">
       <div class="sc-shell">
         <header class="sc-section-head charge__head">
           <span class="sc-section-index">03</span>
           <div>
-            <p class="sc-kicker">Memes da rodada</p>
-            <h2 id="memes-title">{{ charge.title }}</h2>
+            <p class="sc-kicker">Rodada do Brasileirão</p>
+            <h2 id="resultados-title">{{ charge.title }}</h2>
           </div>
           <a class="sc-link-arrow" href="#pauta-da-mesa">Levar para a mesa</a>
         </header>
@@ -124,7 +124,7 @@
           <time [attr.datetime]="charge.generatedAt">Atualizado em {{ charge.updatedLabel }}</time>
         </div>
 
-        <div class="charge__board" aria-label="Memes da rodada com piadas por clube">
+        <div class="charge__board" aria-label="Resultados da rodada com comentários por clube">
           @for (column of chargeColumns(); track $index) {
             <div class="charge__column">
               @for (row of column; track row.team.id) {
@@ -182,8 +182,8 @@
           }
         </div>
 
-        <div class="charge__sources" aria-label="Fontes da charge">
-          <span>Base da corneta</span>
+        <div class="charge__sources" aria-label="Fontes dos resultados">
+          <span>Fontes da rodada</span>
           @for (source of charge.sources; track source.url) {
             <a [href]="source.url" target="_blank" rel="noopener noreferrer">
               {{ source.label }} <span class="sc-sr-only">(abre em nova guia)</span>

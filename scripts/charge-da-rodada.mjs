@@ -493,7 +493,7 @@ function punchlineFor(entry, result, usedTemplateIds, usedPunchlines) {
         `${name} goleou e agora a soberba já pediu microfone.`,
         `${name} passou o trator e deixou o adversário procurando a placa do jogo.`,
         `${name} venceu largo: quando a fase ajuda, até a corneta vira coro.`,
-        `${name} fez placar de meme e saiu posando para a tabela.`,
+        `${name} fez placar de manchete e saiu posando para a tabela.`,
         `${name} ganhou com folga e agora precisa fingir humildade até a próxima.`,
         `${name} abriu vantagem no placar e fechou a rodada com pose de manchete.`,
         `${name} atropelou o jogo e deixou a resenha com prova material.`,
@@ -790,7 +790,7 @@ function buildCharge({ matches, table, scoreboard, start, end, previousPositions
     generatedAt,
     updatedLabel: updatedLabel(new Date(generatedAt)),
     round: roundLabel(scoreboard, start, end),
-    title: 'Memes da Rodada',
+    title: 'Resultados da Rodada',
     headline: buildHeadline(matches, table),
     summary: buildSummary(matches, table, start, end),
     sources: chargeSources(start, end, season),
@@ -829,7 +829,7 @@ async function generateCharge() {
   const charge = buildCharge({ matches, table, scoreboard, start, end, previousPositions });
   await writeCharge(charge);
 
-  console.log(`Memes da Rodada atualizados em ${path.relative(ROOT_DIR, PUBLIC_JSON_PATH)}`);
+  console.log(`Resultados da Rodada atualizados em ${path.relative(ROOT_DIR, PUBLIC_JSON_PATH)}`);
   console.log(
     JSON.stringify(
       {
