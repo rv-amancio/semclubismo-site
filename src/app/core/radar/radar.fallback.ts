@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-08-12T17:20:40.659Z",
-  "expiresAt": "2026-08-16T17:20:40.659Z",
+  "generatedAt": "2026-08-14T14:35:29.057Z",
+  "expiresAt": "2026-08-18T14:35:29.057Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -14,7 +14,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "id": "bra.1",
       "name": "Campeonato Brasileiro",
       "shortName": "Brasileirão",
-      "matchCount": 30,
+      "matchCount": 26,
       "liveCount": 0,
       "nextMatchAt": "2026-08-15T19:30Z"
     },
@@ -22,7 +22,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "id": "bra.copa_do_brazil",
       "name": "Copa do Brasil",
       "shortName": "Copa do Brasil",
-      "matchCount": 3,
+      "matchCount": 4,
       "liveCount": 0,
       "nextMatchAt": "2026-08-26T00:00Z"
     },
@@ -32,7 +32,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Libertadores",
       "matchCount": 10,
       "liveCount": 0,
-      "nextMatchAt": "2026-08-12T22:00Z"
+      "nextMatchAt": "2026-08-18T22:00Z"
     },
     {
       "id": "conmebol.sudamericana",
@@ -40,118 +40,10 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Sul-Americana",
       "matchCount": 10,
       "liveCount": 0,
-      "nextMatchAt": "2026-08-12T22:00Z"
+      "nextMatchAt": "2026-08-19T00:30Z"
     }
   ],
   "matches": [
-    {
-      "id": "401841181",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-08T19:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Arena do Grêmio",
-      "home": {
-        "id": "6273",
-        "name": "Grêmio",
-        "shortName": "Grêmio",
-        "abbreviation": "GRE",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png"
-      },
-      "away": {
-        "id": "2026",
-        "name": "São Paulo",
-        "shortName": "São Paulo",
-        "abbreviation": "SAO",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png"
-      },
-      "homeScore": "2",
-      "awayScore": "1",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841181/sao-paulo-gremio"
-    },
-    {
-      "id": "401841178",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-08T21:30Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Mangueirão",
-      "home": {
-        "id": "4936",
-        "name": "Remo",
-        "shortName": "Remo",
-        "abbreviation": "REMO",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png"
-      },
-      "away": {
-        "id": "7632",
-        "name": "Atlético-MG",
-        "shortName": "Atlético-MG",
-        "abbreviation": "CAM",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png"
-      },
-      "homeScore": "2",
-      "awayScore": "2",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841178/atletico-mg-remo"
-    },
-    {
-      "id": "401841184",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-08T23:30Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Couto Pereira",
-      "home": {
-        "id": "3456",
-        "name": "Coritiba",
-        "shortName": "Coritiba",
-        "abbreviation": "CFC",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png"
-      },
-      "away": {
-        "id": "9318",
-        "name": "Chapecoense",
-        "shortName": "Chapecoense",
-        "abbreviation": "CHA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png"
-      },
-      "homeScore": "2",
-      "awayScore": "1",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841184/chapecoense-coritiba"
-    },
-    {
-      "id": "401841185",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-09T00:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Joao Havelange Stadium",
-      "home": {
-        "id": "6086",
-        "name": "Botafogo",
-        "shortName": "Botafogo",
-        "abbreviation": "BOT",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png"
-      },
-      "away": {
-        "id": "3445",
-        "name": "Fluminense",
-        "shortName": "Fluminense",
-        "abbreviation": "FLU",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png"
-      },
-      "homeScore": "1",
-      "awayScore": "1",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841185/fluminense-botafogo"
-    },
     {
       "id": "401841183",
       "competitionId": "bra.1",
@@ -373,8 +265,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.libertadores",
       "competitionName": "CONMEBOL Libertadores",
       "date": "2026-08-12T22:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Allianz Parque",
       "home": {
@@ -391,8 +283,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "CPT",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2671.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "1",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401874076/cerro-porteno-palmeiras"
     },
     {
@@ -400,8 +292,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.sudamericana",
       "competitionName": "CONMEBOL Sudamericana",
       "date": "2026-08-12T22:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estádio Municipal Cicero de Souza Marques",
       "home": {
@@ -418,8 +310,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "CAM",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "0",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401902743/atletico-mg-red-bull-bragantino"
     },
     {
@@ -427,8 +319,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.libertadores",
       "competitionName": "CONMEBOL Libertadores",
       "date": "2026-08-13T00:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estadio Mineirão",
       "home": {
@@ -445,8 +337,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "FLA",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "1",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401874153/flamengo-cruzeiro"
     },
     {
@@ -454,8 +346,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.libertadores",
       "competitionName": "CONMEBOL Libertadores",
       "date": "2026-08-13T22:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estadio Municipal José Maria de Campos Maia",
       "home": {
@@ -472,8 +364,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "LDU",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "1",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401874073/liga-de-quito-mirassol"
     },
     {
@@ -481,8 +373,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.sudamericana",
       "competitionName": "CONMEBOL Sudamericana",
       "date": "2026-08-13T22:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
       "home": {
@@ -499,8 +391,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "MAC",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18439.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "2",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401902572/macara-santos"
     },
     {
@@ -508,8 +400,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.sudamericana",
       "competitionName": "CONMEBOL Sudamericana",
       "date": "2026-08-13T22:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estádio São Januário",
       "home": {
@@ -526,8 +418,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "OLI",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2675.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "0",
+      "awayScore": "0",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401902742/club-olimpia-vasco-da-gama"
     },
     {
@@ -535,8 +427,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.libertadores",
       "competitionName": "CONMEBOL Libertadores",
       "date": "2026-08-14T00:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Gigante de Arroyito",
       "home": {
@@ -553,8 +445,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "COR",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "0",
+      "awayScore": "0",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401874075/corinthians-rosario-central"
     },
     {
@@ -562,8 +454,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.sudamericana",
       "competitionName": "CONMEBOL Sudamericana",
       "date": "2026-08-14T00:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estadio Inca Garcilaso de la Vega",
       "home": {
@@ -580,8 +472,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "BOT",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "6",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401902715/botafogo-cienciano-del-cusco"
     },
     {
@@ -1474,6 +1366,33 @@ export const RADAR_FALLBACK: RadarPayload = {
       "homeScore": null,
       "awayScore": null,
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909113/vitoria-vasco-da-gama"
+    },
+    {
+      "id": "401909064",
+      "competitionId": "bra.copa_do_brazil",
+      "competitionName": "Copa do Brasil",
+      "date": "2026-08-27T23:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Estadio Beira-Rio",
+      "home": {
+        "id": "1936",
+        "name": "Internacional",
+        "shortName": "Internacional",
+        "abbreviation": "INT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png"
+      },
+      "away": {
+        "id": "6273",
+        "name": "Grêmio",
+        "shortName": "Grêmio",
+        "abbreviation": "GRE",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909064/gremio-internacional"
     }
   ],
   "standings": [
@@ -1840,6 +1759,109 @@ export const RADAR_FALLBACK: RadarPayload = {
   ],
   "news": [
     {
+      "id": "17115875",
+      "title": "O Palmeiras está jogando mal? As críticas são exageradas? Gian Oddi opina: 'Merecem acontecer, mas...'",
+      "summary": "Fluminense x Palmeiras se enfrentam neste sábado (15), às 16h30 (de Brasília), pela 23ª rodada do Brasileirão",
+      "url": "https://www.espn.com.br/video/clip/_/id/17115875",
+      "publishedAt": "2026-08-14T02:03:35Z",
+      "category": "news",
+      "teams": [
+        "Fluminense",
+        "Palmeiras"
+      ],
+      "imageUrl": null,
+      "imageAlt": "O Palmeiras está jogando mal? As críticas são exageradas? Gian Oddi opina: 'Merecem acontecer, mas...'",
+      "imageCredit": null
+    },
+    {
+      "id": "17113712",
+      "title": "Como Palmeiras 'digeriu' tropeço contra o Cerro - e quais são os planos sobre poupar nos próximos jogos",
+      "summary": "ESPN apurou os detalhes de como Palmeiras avaliou o empate por 1 a 1 com o Cerro Porteño, pela CONMEBOL Libertadores",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17113712/como-palmeiras-digeriu-tropeco-cerro-porteno-quais-planos-poupar-proximos-jogos",
+      "publishedAt": "2026-08-13T17:08:16Z",
+      "category": "news",
+      "teams": [
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0813/r1701305_1296x729_16-9.jpg",
+      "imageAlt": "Abel Ferreira durante jogo entre Palmeiras e Cerro Porteño, pela Libertadores",
+      "imageCredit": "EFE/Sebastião Moreira"
+    },
+    {
+      "id": "17113694",
+      "title": "Atlético-MG acerta a contratação de Fred, ex-Manchester United e Seleção; saiba detalhes",
+      "summary": "Jogador estava no Fenerbahce, da Turquia",
+      "url": "https://www.espn.com.br/video/clip/_/id/17113694",
+      "publishedAt": "2026-08-13T17:01:52Z",
+      "category": "market",
+      "teams": [
+        "Atlético-MG"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Atlético-MG acerta a contratação de Fred, ex-Manchester United e Seleção; saiba detalhes",
+      "imageCredit": null
+    },
+    {
+      "id": "17113663",
+      "title": "Fluminense descarta Fred para substituir Zubeldía e traça estratégia por técnico no mercado",
+      "summary": "Fluminense demitiu Zubeldía na manhã desta quinta-feira e procura um novo técnico",
+      "url": "https://www.espn.com.br/futebol/fluminense/artigo/_/id/17113663/fluminense-descarta-fred-substituir-zubeldia-traca-estrategia-tecnico-mercado",
+      "publishedAt": "2026-08-13T16:49:24Z",
+      "category": "market",
+      "teams": [
+        "Fluminense"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2024/0809/r1371296_1296x729_16-9.jpg",
+      "imageAlt": "Fred deixou o cargo de diretor de planejamento esportivo do Fluminense",
+      "imageCredit": "LUCAS MERÇON/FLUMINENSE F.C"
+    },
+    {
+      "id": "17109666",
+      "title": "Na Justiça, Internacional oferece trator por dívida com empresário",
+      "summary": "ESPN teve acesso ao processo movido por intermediário contra o Internacional na Justiça do Rio Grande do Sul",
+      "url": "https://www.espn.com.br/futebol/internacional/artigo/_/id/17109666/justica-internacional-oferece-trator-divida-empresario",
+      "publishedAt": "2026-08-13T14:35:24Z",
+      "category": "news",
+      "teams": [
+        "Internacional"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0812/r1700894_1042x586_16-9.jpg",
+      "imageAlt": "Internacional ofereceu trator do clube à Justiça como garantia em processo",
+      "imageCredit": "ESPN"
+    },
+    {
+      "id": "17112996",
+      "title": "Caminho do gol na Libertadores? Como Corinthians pode castigar Rosario Central na Argentina",
+      "summary": "Equipes medem forças nesta quinta-feira (13) pela partida de ida das oitavas de final",
+      "url": "https://www.espn.com.br/video/clip/_/id/17112996",
+      "publishedAt": "2026-08-13T12:54:24Z",
+      "category": "news",
+      "teams": [
+        "Argentina",
+        "Corinthians",
+        "Rosário Central"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Caminho do gol na Libertadores? Como Corinthians pode castigar Rosario Central na Argentina",
+      "imageCredit": null
+    },
+    {
+      "id": "17112390",
+      "title": "André Kfouri compara lance de Bruno Henrique com o de Gabriel Pec: 'Imagem bem assustadora'",
+      "summary": "Jogador do Cruzeiro sofreu grave lesão em lance semelhante ao que ocorreu nesta quarta-feira na Libertadores",
+      "url": "https://www.espn.com.br/video/clip/_/id/17112390",
+      "publishedAt": "2026-08-13T03:55:58Z",
+      "category": "news",
+      "teams": [
+        "Cruzeiro",
+        "Flamengo",
+        "Internacional"
+      ],
+      "imageUrl": null,
+      "imageAlt": "André Kfouri compara lance de Bruno Henrique com o de Gabriel Pec: 'Imagem bem assustadora'",
+      "imageCredit": null
+    },
+    {
       "id": "17109198",
       "title": "Com Neymar de volta, Santos se credencia como favorito na Sul-Americana? André Donke analisa",
       "summary": "Peixe recebe o Maracá nesta quinta-feira (13) pela partida de ida das oitavas de final do torneio",
@@ -1868,6 +1890,21 @@ export const RADAR_FALLBACK: RadarPayload = {
       ],
       "imageUrl": null,
       "imageAlt": "Qual o peso da ausência de Memphis Depay para o Corinthians na sequência da Libertadores? André Donke analisa",
+      "imageCredit": null
+    },
+    {
+      "id": "17108863",
+      "title": "Rival do Corinthians, Rosario Central prevê 'caldeirão' para fazer história na Libertadores",
+      "summary": "Equipe argentina busca título inédito do torneio",
+      "url": "https://www.espn.com.br/video/clip/_/id/17108863",
+      "publishedAt": "2026-08-13T10:14:23Z",
+      "category": "news",
+      "teams": [
+        "Corinthians",
+        "Rosário Central"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Rival do Corinthians, Rosario Central prevê 'caldeirão' para fazer história na Libertadores",
       "imageCredit": null
     },
     {
@@ -1956,124 +1993,6 @@ export const RADAR_FALLBACK: RadarPayload = {
       "imageUrl": null,
       "imageAlt": "Jardim, Gerson, Arrascaeta e mais: por que Cruzeiro x Flamengo é uma das maiores histórias do futebol brasileiro em 2026",
       "imageCredit": null
-    },
-    {
-      "id": "17105026",
-      "title": "De golaço de Artur a 'presente' de rival: o melhor do São Paulo na Sul-Americana",
-      "summary": "Tricolor visita o Bolívar nesta terça-feira (11) pela partida de ida das oitavas de final do torneio",
-      "url": "https://www.espn.com.br/video/clip/_/id/17105026",
-      "publishedAt": "2026-08-11T16:31:56Z",
-      "category": "news",
-      "teams": [
-        "Bolívar",
-        "São Paulo"
-      ],
-      "imageUrl": null,
-      "imageAlt": "De golaço de Artur a 'presente' de rival: o melhor do São Paulo na Sul-Americana",
-      "imageCredit": null
-    },
-    {
-      "id": "17104936",
-      "title": "Memphis Depay joga contra o Rosario Central? O que falta para holandês renovar com Corinthians e ir a campo na Libertadores",
-      "summary": "No Fala a Fonte, André Hernan atualiza situação de jogador nos bastidores",
-      "url": "https://www.espn.com.br/video/clip/_/id/17104936",
-      "publishedAt": "2026-08-11T16:08:37Z",
-      "category": "market",
-      "teams": [
-        "Corinthians",
-        "Holanda"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Memphis Depay joga contra o Rosario Central? O que falta para holandês renovar com Corinthians e ir a campo na Libertadores",
-      "imageCredit": null
-    },
-    {
-      "id": "17104781",
-      "title": "Reforço 'europeu' no Atlético-MG? Brasileiro ex-Inter de Milão entra na mira de clube mineiro",
-      "summary": "No Fala a Fonte, Bruno Andrade atualiza situação do Galo no mercado",
-      "url": "https://www.espn.com.br/video/clip/_/id/17104781",
-      "publishedAt": "2026-08-11T15:40:40Z",
-      "category": "market",
-      "teams": [
-        "Atlético-MG",
-        "Brasil",
-        "Napoli"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Reforço 'europeu' no Atlético-MG? Brasileiro ex-Inter de Milão entra na mira de clube mineiro",
-      "imageCredit": null
-    },
-    {
-      "id": "17104666",
-      "title": "Abel Ferreira de saída do Palmeiras? Como protesto de torcida organizada impactou no clube",
-      "summary": "No Fala a Fonte, André Hernan traz bastidores de cobrança da torcida alviverde ao treinador",
-      "url": "https://www.espn.com.br/video/clip/_/id/17104666",
-      "publishedAt": "2026-08-11T15:25:34Z",
-      "category": "news",
-      "teams": [
-        "Palmeiras"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Abel Ferreira de saída do Palmeiras? Como protesto de torcida organizada impactou no clube",
-      "imageCredit": null
-    },
-    {
-      "id": "17104641",
-      "title": "'Não surpreendeu': como Palmeiras recebeu internamente nota de organizada pedindo saída de Abel",
-      "summary": "Organizada 'Mancha Alvi Verde' pediu a saída de Abel Ferreira após momento de oscilação do Palmeiras na temporada",
-      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17104641/nao-surpreendeu-como-palmeiras-recebeu-internamente-nota-organizada-pedindo-saida-abel-ferreira",
-      "publishedAt": "2026-08-11T15:26:05Z",
-      "category": "news",
-      "teams": [
-        "Palmeiras"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0811/r1700303_1280x720_16-9.jpg",
-      "imageAlt": "Abel Ferreira durante jogo entre Fortaleza e Palmeiras, pela Copa do Brasil",
-      "imageCredit": "Cesar Greco/Palmeiras/by Canon"
-    },
-    {
-      "id": "17104446",
-      "title": "Palmeiras e Flamengo na corrida pelo topo, Vasco e Santos no 'sufoco' e mais: os palpites da rodada no Brasileirão",
-      "summary": "Campeonato chega a sua 23ª rodada neste sábado (15)",
-      "url": "https://www.espn.com.br/video/clip/_/id/17104446",
-      "publishedAt": "2026-08-11T14:14:09Z",
-      "category": "news",
-      "teams": [
-        "Argentina",
-        "Brasil",
-        "Brasil Sub 17"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Palmeiras e Flamengo na corrida pelo topo, Vasco e Santos no 'sufoco' e mais: os palpites da rodada no Brasileirão",
-      "imageCredit": null
-    },
-    {
-      "id": "17104315",
-      "title": "Perigo para o Corinthians? De trivela debochada a golaço antológico de falta, Di María coleciona pinturas pelo Rosario Central",
-      "summary": "Corinthians e Rosario Central medem forças nesta quinta-feira (13), a partir das 21h30 (de Brasília), pela partida de ida das oitavas de final da Libertadores",
-      "url": "https://www.espn.com.br/video/clip/_/id/17104315",
-      "publishedAt": "2026-08-11T18:12:47Z",
-      "category": "news",
-      "teams": [
-        "Argentina",
-        "Corinthians",
-        "Rosário Central"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Perigo para o Corinthians? De trivela debochada a golaço antológico de falta, Di María coleciona pinturas pelo Rosario Central",
-      "imageCredit": null
-    },
-    {
-      "id": "17104107",
-      "title": "Vice da CBF diz que 'agência tem que funcionar' sobre fair play financeiro no Brasil: 'Na hora que começar a tirar ponto...'",
-      "summary": "Vice da CBF quer reforçar poder da Agência Nacional de Regulação e Sustentabilidade do Futebol para aplicação de regras de fair play financeiro",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17104107/vice-cbf-diz-agencia-tem-funcionar-fair-play-financeiro-brasil-hora-comecar-tirar-ponto",
-      "publishedAt": "2026-08-11T12:44:42Z",
-      "category": "market",
-      "teams": [],
-      "imageUrl": "https://a.espncdn.com/photo/2025/0516/r1493945_1296x729_16-9.jpg",
-      "imageAlt": "A sede da CBF (Confederação Brasileira de Futebol), no Rio de Janeiro",
-      "imageCredit": "VANDERLEI ALMEIDA/AFP via Getty Images"
     }
   ]
 };
