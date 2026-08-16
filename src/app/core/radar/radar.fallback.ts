@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-08-15T13:55:59.891Z",
-  "expiresAt": "2026-08-19T13:55:59.891Z",
+  "generatedAt": "2026-08-16T13:56:44.254Z",
+  "expiresAt": "2026-08-20T13:56:44.254Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -16,7 +16,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Brasileirão",
       "matchCount": 30,
       "liveCount": 0,
-      "nextMatchAt": "2026-08-15T19:30Z"
+      "nextMatchAt": "2026-08-16T14:00Z"
     },
     {
       "id": "bra.copa_do_brazil",
@@ -319,8 +319,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
       "date": "2026-08-15T19:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estadio do Maracana",
       "home": {
@@ -337,8 +337,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "PAL",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "3",
+      "awayScore": "2",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841192/palmeiras-fluminense"
     },
     {
@@ -346,8 +346,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
       "date": "2026-08-15T21:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Arena da Baixada",
       "home": {
@@ -364,8 +364,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "BRA",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "1",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841196/red-bull-bragantino-athletico-paranaense"
     },
     {
@@ -373,8 +373,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
       "date": "2026-08-16T00:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estádio Cícero Pompeu de Toledo",
       "home": {
@@ -391,8 +391,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "CFC",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "1",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841189/coritiba-sao-paulo"
     },
     {
@@ -1514,13 +1514,13 @@ export const RADAR_FALLBACK: RadarPayload = {
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
       },
       "points": 48,
-      "played": 22,
+      "played": 23,
       "wins": 14,
       "draws": 6,
-      "losses": 2,
-      "goalsFor": 38,
-      "goalsAgainst": 16,
-      "goalDifference": 22
+      "losses": 3,
+      "goalsFor": 40,
+      "goalsAgainst": 19,
+      "goalDifference": 21
     },
     {
       "position": 2,
@@ -1549,13 +1549,13 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "CAP",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png"
       },
-      "points": 40,
-      "played": 22,
+      "points": 41,
+      "played": 23,
       "wins": 12,
-      "draws": 4,
+      "draws": 5,
       "losses": 6,
-      "goalsFor": 30,
-      "goalsAgainst": 19,
+      "goalsFor": 31,
+      "goalsAgainst": 20,
       "goalDifference": 11
     },
     {
@@ -1567,14 +1567,14 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "FLU",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png"
       },
-      "points": 35,
-      "played": 22,
-      "wins": 9,
+      "points": 38,
+      "played": 23,
+      "wins": 10,
       "draws": 8,
       "losses": 5,
-      "goalsFor": 31,
-      "goalsAgainst": 26,
-      "goalDifference": 5
+      "goalsFor": 34,
+      "goalsAgainst": 28,
+      "goalDifference": 6
     },
     {
       "position": 5,
@@ -1615,6 +1615,24 @@ export const RADAR_FALLBACK: RadarPayload = {
     {
       "position": 7,
       "team": {
+        "id": "6079",
+        "name": "Red Bull Bragantino",
+        "shortName": "Bragantino",
+        "abbreviation": "BRA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png"
+      },
+      "points": 32,
+      "played": 22,
+      "wins": 9,
+      "draws": 5,
+      "losses": 8,
+      "goalsFor": 27,
+      "goalsAgainst": 23,
+      "goalDifference": 4
+    },
+    {
+      "position": 8,
+      "team": {
         "id": "874",
         "name": "Corinthians",
         "shortName": "Corinthians",
@@ -1631,25 +1649,25 @@ export const RADAR_FALLBACK: RadarPayload = {
       "goalDifference": 4
     },
     {
-      "position": 8,
+      "position": 9,
       "team": {
-        "id": "6079",
-        "name": "Red Bull Bragantino",
-        "shortName": "Bragantino",
-        "abbreviation": "BRA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png"
+        "id": "3456",
+        "name": "Coritiba",
+        "shortName": "Coritiba",
+        "abbreviation": "CFC",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png"
       },
       "points": 31,
-      "played": 21,
-      "wins": 9,
-      "draws": 4,
+      "played": 23,
+      "wins": 8,
+      "draws": 7,
       "losses": 8,
-      "goalsFor": 26,
-      "goalsAgainst": 22,
-      "goalDifference": 4
+      "goalsFor": 28,
+      "goalsAgainst": 30,
+      "goalDifference": -2
     },
     {
-      "position": 9,
+      "position": 10,
       "team": {
         "id": "6086",
         "name": "Botafogo",
@@ -1665,24 +1683,6 @@ export const RADAR_FALLBACK: RadarPayload = {
       "goalsFor": 35,
       "goalsAgainst": 33,
       "goalDifference": 2
-    },
-    {
-      "position": 10,
-      "team": {
-        "id": "3456",
-        "name": "Coritiba",
-        "shortName": "Coritiba",
-        "abbreviation": "CFC",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png"
-      },
-      "points": 30,
-      "played": 22,
-      "wins": 8,
-      "draws": 6,
-      "losses": 8,
-      "goalsFor": 27,
-      "goalsAgainst": 29,
-      "goalDifference": -2
     },
     {
       "position": 11,
@@ -1711,13 +1711,13 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "SAO",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png"
       },
-      "points": 26,
-      "played": 21,
+      "points": 27,
+      "played": 22,
       "wins": 7,
-      "draws": 5,
+      "draws": 6,
       "losses": 9,
-      "goalsFor": 26,
-      "goalsAgainst": 25,
+      "goalsFor": 27,
+      "goalsAgainst": 26,
       "goalDifference": 1
     },
     {
@@ -1867,242 +1867,240 @@ export const RADAR_FALLBACK: RadarPayload = {
   ],
   "news": [
     {
-      "id": "17116411",
-      "title": "Quantas vezes Marcão 'foi bombeiro' e dirigiu o Fluminense desde que Abel Ferreira assumiu o Palmeiras?",
-      "summary": "Marcão comandou o Fluminense de forma interina em 72 partidas e teve 50,9% de aproveitamento",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17116411/fluminense-quantas-vezes-marcao-foi-bombeiro-desde-que-abel-ferreira-assumiu-palmeiras",
-      "publishedAt": "2026-08-15T12:17:05Z",
-      "category": "news",
-      "teams": [
-        "Fluminense"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0814/r1701592_1296x729_16-9.jpg",
-      "imageAlt": "Marcão (ao fundo) durante treinamento do Fluminense",
-      "imageCredit": "LUCAS MERÇON / FLUMINENSE F.C."
-    },
-    {
-      "id": "17116340",
-      "title": "O dilema do São Paulo com Sul-Americana x Brasileirão após 'choque de realidade' e alerta ligado contra o rebaixamento",
-      "summary": "Equipe teme rebaixamento, mas enxerga no torneio continental a única chance de título",
-      "url": "https://www.espn.com.br/futebol/sao-paulo/artigo/_/id/17116340/dilema-sao-paulo-com-sul-americana-brasileirao-apos-choque-de-realidade-alerta-ligado-contra-rebaixamento",
-      "publishedAt": "2026-08-15T12:16:20Z",
-      "category": "news",
-      "teams": [
-        "São Paulo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0520/r1660784_1296x729_16-9.jpg",
-      "imageAlt": "Dorival Júnior acena durante jogo do São Paulo pela Sul-Americana",
-      "imageCredit": "Alexandre Schneider/Getty Images"
-    },
-    {
-      "id": "17120020",
-      "title": "Seis brasileiros na disputa! Quem vai avançar para as quartas da Sul-Americana? Veja o palpitômetro da ESPN",
-      "summary": "Veja a Sul-Americana na ESPN pelo Plano Premium do Disney+",
-      "url": "https://www.espn.com.br/video/clip/_/id/17120020",
-      "publishedAt": "2026-08-15T02:47:21Z",
-      "category": "news",
-      "teams": [
-        "Atlético-MG",
-        "Botafogo",
-        "Red Bull Bragantino"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Seis brasileiros na disputa! Quem vai avançar para as quartas da Sul-Americana? Veja o palpitômetro da ESPN",
-      "imageCredit": null
-    },
-    {
-      "id": "17119682",
-      "title": "Internacional x Remo: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
-      "summary": "Internacional e Remo se enfrentam nesta segunda-feira, às 20h (de Brasília), no Beira-Rio, no fechamento da 23ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17119682/internacional-x-remo-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao-serie-a",
-      "publishedAt": "2026-08-15T00:44:33Z",
-      "category": "news",
-      "teams": [
-        "Internacional",
-        "Remo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0329/r1635726_1296x729_16-9.jpg",
-      "imageAlt": "Vista do Beira-Rio",
-      "imageCredit": "Fernando Alves/Getty Images"
-    },
-    {
-      "id": "17118835",
-      "title": "Vitória x Botafogo: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
-      "summary": "O Botafogo visita o Vitória pelo Brasileirão em busca da reabilitação após goleada história na CONMEBOL Sul-Americana",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17118835/vitoria-x-botafogo-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
-      "publishedAt": "2026-08-14T22:14:07Z",
-      "category": "news",
-      "teams": [
-        "Botafogo",
-        "Vitória"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0512/r1657362_1296x729_16-9.jpg",
-      "imageAlt": "Vista geral do Estádio Manoel Barradas, o Barradão, casa do Vitória",
-      "imageCredit": "Márcio José/AGIF"
-    },
-    {
-      "id": "17119435",
-      "title": "Colidio fala sobre grandeza do Vasco e relembra Juninho Pernambucano: 'o acompanhava bastante'",
-      "summary": "Atacante argentino foi apresentado nesta sexta-feira (14)",
-      "url": "https://www.espn.com.br/video/clip/_/id/17119435",
-      "publishedAt": "2026-08-14T22:13:03Z",
-      "category": "news",
-      "teams": [
-        "Argentina U20",
-        "Vasco da Gama"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Colidio fala sobre grandeza do Vasco e relembra Juninho Pernambucano: 'o acompanhava bastante'",
-      "imageCredit": null
-    },
-    {
-      "id": "17118744",
-      "title": "Mirassol x Flamengo: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
-      "summary": "Mirassol e Flamengo se enfrentam neste domingo (16), no interior paulista, em duelo pelo Campeonato Brasileiro",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17118744/mirassol-x-flamengo-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
-      "publishedAt": "2026-08-14T21:55:43Z",
-      "category": "news",
-      "teams": [
-        "Mirassol",
-        "Flamengo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0209/r1612776_1296x729_16-9.jpg",
-      "imageAlt": "Vista do Estádio José Maria de Campos Maia durante jogo do Mirassol",
-      "imageCredit": "Marcos Freitas/Mirassol TV"
-    },
-    {
-      "id": "17119373",
-      "title": "Sosa comenta sobre jogo contra Santos em chegada ao Vasco e elogia Neymar: 'um dos melhores'",
-      "summary": "Equipes se enfrentam no final de semana em partida válida pelo Campeonato Brasileiro",
-      "url": "https://www.espn.com.br/video/clip/_/id/17119373",
-      "publishedAt": "2026-08-14T21:57:58Z",
-      "category": "news",
-      "teams": [
-        "Santos",
-        "Vasco da Gama"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Sosa comenta sobre jogo contra Santos em chegada ao Vasco e elogia Neymar: 'um dos melhores'",
-      "imageCredit": null
-    },
-    {
-      "id": "17118401",
-      "title": "Chapecoense x Bahia: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+      "id": "17118417",
+      "title": "Chapecoense x Bahia: onde assistir ao vivo e escalações do jogo do Brasileirão",
       "summary": "Chapecoense e Bahia se enfrentam neste domingo, às 11h (de Brasília), na Arena Condá",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17118401/chapecoense-x-bahia-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
-      "publishedAt": "2026-08-14T21:42:29Z",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17118417/chapecoense-x-bahia-onde-assistir-ao-vivo-escalacoes-jogo-brasileirao",
+      "publishedAt": "2026-08-16T13:07:44Z",
       "category": "news",
       "teams": [
         "Chapecoense",
         "Bahia"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2025/1024/r1565241_1296x729_16-9.jpg",
-      "imageAlt": "Vista da Arena Condá, estádio da Chapecoense",
-      "imageCredit": "Luiz Ferrazzo/Chapecoense"
+      "imageUrl": "https://a.espncdn.com/photo/2025/0410/r1476903_1296x729_16-9.jpg",
+      "imageAlt": "Arena Condá, estádio da Chapecoense, em Chapecó (SC)",
+      "imageCredit": "Julliana Paulino/ ACF"
     },
     {
-      "id": "17119262",
-      "title": "ELE FICA! São Paulo anuncia renovação de contrato com Jonathan Calleri; VEJA gols do atacante!",
-      "summary": "Novo vínculo do argentino vai até o final de 2028",
-      "url": "https://www.espn.com.br/video/clip/_/id/17119262",
-      "publishedAt": "2026-08-14T21:07:25Z",
-      "category": "market",
+      "id": "17119710",
+      "title": "Quem são os 15 ou 16 titulares de Jardim no Flamengo que faz técnico tranquilizar em meio à maratona: 'Temos soluções'",
+      "summary": "Leonardo Jardim disse ter entre 15 a 16 jogadores titulares para aguentar a maratona de jogos do Flamengo",
+      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17119710/flamengo-leonardo-jardim-quem-sao-os-titulares-tranquilizam-treinador-em-meio-maratona-jogos",
+      "publishedAt": "2026-08-16T11:51:02Z",
+      "category": "news",
       "teams": [
-        "Argentina S23",
-        "São Paulo"
+        "Flamengo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0305/r1623417_1296x729_16-9.jpg",
+      "imageAlt": "Leonardo Jardim comanda treino no Flamengo e orienta atletas",
+      "imageCredit": "Adriano Fontes/Flamengo"
+    },
+    {
+      "id": "17124099",
+      "title": "Única partida do Flamengo no Maião foi em jogo de seis gols; relembre",
+      "summary": "Jogo contra o Mirassol encerrou o Brasileirão em 2025",
+      "url": "https://www.espn.com.br/video/clip/_/id/17124099",
+      "publishedAt": "2026-08-16T02:48:35Z",
+      "category": "news",
+      "teams": [
+        "Flamengo",
+        "Mirassol"
       ],
       "imageUrl": null,
-      "imageAlt": "ELE FICA! São Paulo anuncia renovação de contrato com Jonathan Calleri; VEJA gols do atacante!",
+      "imageAlt": "Única partida do Flamengo no Maião foi em jogo de seis gols; relembre",
       "imageCredit": null
     },
     {
-      "id": "17119200",
-      "title": "São Paulo anuncia renovação de Calleri até 2028, e atacante se declara: 'Encontrei um lugar para meu coração morar'",
-      "summary": "Calleri renovou contrato com o São Paulo até dezembro de 2028, com possibilidade de ser prorrogado por mais uma temporada",
-      "url": "https://www.espn.com.br/futebol/sao-paulo/artigo/_/id/17119200/sao-paulo-anuncia-renovacao-calleri-ate-2028-e-atacante-declara-amor-ao-clube",
-      "publishedAt": "2026-08-14T21:14:32Z",
-      "category": "market",
-      "teams": [
-        "São Paulo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0317/r1629630_1296x729_16-9.jpg",
-      "imageAlt": "Calleri comemora gol pelo São Paulo",
-      "imageCredit": "Getty Images"
-    },
-    {
-      "id": "17119045",
-      "title": "Atlético-MG x Grêmio: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
-      "summary": "Na Arena MRV, o Atlético-MG recebe o Grêmio pela 23ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17119045/atletico-mg-x-gremio-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
-      "publishedAt": "2026-08-14T20:57:57Z",
-      "category": "news",
-      "teams": [
-        "Atlético-MG",
-        "Grêmio"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0814/r1701888_1296x729_16-9.jpg",
-      "imageAlt": "Arena MRV, estádio do Atlético-MG, em Belo Horizonte (MG)",
-      "imageCredit": "Daniela Veiga/ Atlético-MG"
-    },
-    {
-      "id": "17118811",
-      "title": "Neymar tem a missão de conduzir o Santos contra o Vasco; VEJA gols e assistências do craque",
-      "summary": "Santos e Vasco duelam pelo Brasileirão neste domingo (16)",
-      "url": "https://www.espn.com.br/video/clip/_/id/17118811",
-      "publishedAt": "2026-08-14T19:42:14Z",
-      "category": "news",
-      "teams": [
-        "Santos",
-        "Vasco da Gama"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Neymar tem a missão de conduzir o Santos contra o Vasco; VEJA gols e assistências do craque",
-      "imageCredit": null
-    },
-    {
-      "id": "17118648",
-      "title": "Vasco x Santos: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
-      "summary": "Em São Januário, Vasco e Santos se enfrentam pela 23ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17118648/vasco-x-santos-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
-      "publishedAt": "2026-08-14T19:31:48Z",
-      "category": "news",
-      "teams": [
-        "Vasco da Gama",
-        "Santos"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0814/r1701843_1296x729_16-9.jpg",
-      "imageAlt": "Estádio de São Januário, casa do Vasco, no Rio de Janeiro (RJ)",
-      "imageCredit": "Matheus Lima/Vasco"
-    },
-    {
-      "id": "17118337",
-      "title": "Apenas uma vitória em 14 jogos: São Paulo vive sua pior fase desde 2013",
-      "summary": "Sem vencer no Brasileirão há quase quatro meses, Tricolor busca reabilitação neste sábado contra o Coritiba",
-      "url": "https://www.espn.com.br/video/clip/_/id/17118337",
-      "publishedAt": "2026-08-14T18:11:27Z",
+      "id": "17124089",
+      "title": "São Paulo sai na frente com golaço, mas leva empate após falha de Rafael e tropeça contra o Coritiba no Morumbis; veja como foi",
+      "summary": "Tricolor saiu vaiado dentro de casa após empate pelo Brasileirão",
+      "url": "https://www.espn.com.br/video/clip/_/id/17124089",
+      "publishedAt": "2026-08-16T02:44:00Z",
       "category": "news",
       "teams": [
         "Coritiba",
         "São Paulo"
       ],
       "imageUrl": null,
-      "imageAlt": "Apenas uma vitória em 14 jogos: São Paulo vive sua pior fase desde 2013",
+      "imageAlt": "São Paulo sai na frente com golaço, mas leva empate após falha de Rafael e tropeça contra o Coritiba no Morumbis; veja como foi",
       "imageCredit": null
     },
     {
-      "id": "17114367",
-      "title": "Athletico-PR x Red Bull Bragantino: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
-      "summary": "Athletico-PR e Red Bull Bragantino se enfrentam neste sábado (15), em Curitiba, em confronto válido pelo Campeonato Brasileiro",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17114367/athletico-pr-x-red-bull-bragantino-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
-      "publishedAt": "2026-08-14T15:58:54Z",
+      "id": "17123978",
+      "title": "Calleri critica atuação do São Paulo contra o Coritiba e dá razão para protestos da torcida: 'A gente fica p*'",
+      "summary": "São Paulo e Coritiba empataram por 1 a 1 pelo Brasileirão",
+      "url": "https://www.espn.com.br/futebol/sao-paulo/artigo/_/id/17123978/calleri-critica-atuacao-sao-paulo-contra-coritiba-da-razao-protestos-torcida-a-gente-fica-p",
+      "publishedAt": "2026-08-16T02:49:03Z",
+      "category": "news",
+      "teams": [
+        "São Paulo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0816/r1702366_1296x729_16-9.jpg",
+      "imageAlt": "Calleri durante jogo do São Paulo contra o Coritiba",
+      "imageCredit": "Getty Images"
+    },
+    {
+      "id": "17123861",
+      "title": "Gol do Coritiba! Após saída errada de Rafael, Tiago Cóser empata contra o São Paulo; VEJA",
+      "summary": "Coxa saiu atrás, mas empatou no Morumbis pelo Brasileirão",
+      "url": "https://www.espn.com.br/video/clip/_/id/17123861",
+      "publishedAt": "2026-08-16T01:57:00Z",
+      "category": "news",
+      "teams": [
+        "Coritiba",
+        "São Paulo"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Gol do Coritiba! Após saída errada de Rafael, Tiago Cóser empata contra o São Paulo; VEJA",
+      "imageCredit": null
+    },
+    {
+      "id": "17122182",
+      "title": "São Paulo leva empate do Coritiba, tropeça em casa e chega ao nono jogo sem vencer no Brasileirão",
+      "summary": "Confronto foi válido pela 23ª rodada da competição",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17122182/sao-paulo-leva-empate-coritiba-tropeca-casa-chega-nono-jogo-sem-vencer-brasileirao",
+      "publishedAt": "2026-08-16T02:45:55Z",
+      "category": "news",
+      "teams": [
+        "São Paulo",
+        "Coritiba"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0816/r1702357_1296x729_16-9.jpg",
+      "imageAlt": "São Paulo e Coritiba se enfrentarão pelo Brasileirão",
+      "imageCredit": "Getty Images"
+    },
+    {
+      "id": "17123859",
+      "title": "Golaço de Pablo Maia! O gol do São Paulo contra o Coritiba na volta ao Morumbis",
+      "summary": "São Paulo saiu na frente, mas levou empate em casa",
+      "url": "https://www.espn.com.br/video/clip/_/id/17123859",
+      "publishedAt": "2026-08-16T01:55:24Z",
+      "category": "news",
+      "teams": [
+        "Coritiba",
+        "São Paulo"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Golaço de Pablo Maia! O gol do São Paulo contra o Coritiba na volta ao Morumbis",
+      "imageCredit": null
+    },
+    {
+      "id": "17123584",
+      "title": "Athletico-PR e Red Bull Bragantino só empatam no Brasileirão; VEJA como foi",
+      "summary": "Kerwin Vargas e Pedro Henrique marcaram os gols da partida",
+      "url": "https://www.espn.com.br/video/clip/_/id/17123584",
+      "publishedAt": "2026-08-16T00:47:05Z",
       "category": "news",
       "teams": [
         "Athletico Paranaense",
         "Red Bull Bragantino"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2018/0629/r394025_1296x729_16-9.jpg",
-      "imageAlt": "Vista da Arena da Baixada, em Curitiba (PR), antes da partida entre Atlético-PR e Cruzeiro pela Copa do Brasil.",
-      "imageCredit": "Gazeta Press"
+      "imageUrl": null,
+      "imageAlt": "Athletico-PR e Red Bull Bragantino só empatam no Brasileirão; VEJA como foi",
+      "imageCredit": null
+    },
+    {
+      "id": "17123375",
+      "title": "Rogério Caboclo desiste de candidatura à presidência do São Paulo e explica razão",
+      "summary": "Ex-presidente da CBF se pronuncia sobre desistência pelo comando tricolor",
+      "url": "https://www.espn.com.br/futebol/sao-paulo/artigo/_/id/17123375/sao-paulo-rogerio-caboclo-desiste-candidatura-presidencia",
+      "publishedAt": "2026-08-16T00:16:31Z",
+      "category": "news",
+      "teams": [
+        "São Paulo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0816/r1702321_1296x729_16-9.jpg",
+      "imageAlt": "Ex-presidente da CBF, Rogério Caboclo confirmou desistência de candidatura à presidência do São Paulo",
+      "imageCredit": "Getty Images"
+    },
+    {
+      "id": "17123340",
+      "title": "O que significa gesto de punho cerrado acima da cabeça que Daronco fez em Fluminense x Palmeiras durante 'confusão'? Entenda nova regra",
+      "summary": "Equipes entraram em campo pela 23ª rodada do Brasileirão neste sábado (15)",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17123340/o-que-significa-gesto-punho-cerrado-acima-cabeca-daronco-fez-fluminense-x-palmeiras-durante-confusao-entenda-nova-regra",
+      "publishedAt": "2026-08-15T23:55:23Z",
+      "category": "news",
+      "teams": [
+        "Palmeiras",
+        "Fluminense"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0815/r1702301_1296x729_16-9.jpg",
+      "imageAlt": "Anderson Daronco atingiu regra 'anti-bolinho' em Fluminense x Palmeiras",
+      "imageCredit": "Reprodução ESPN"
+    },
+    {
+      "id": "17123182",
+      "title": "De La Cruz ou Paulinho? Quem foi mais baixa por lesão nas últimas temporadas após investimentos milionários de Flamengo e Palmeiras?",
+      "summary": "Compare números dos dois jogadores",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17123182/de-la-cruz-paulinho-quem-mais-foi-baixa-lesao-ultimas-temporadas-apos-investimentos-milionarios-flamengo-palmeiras",
+      "publishedAt": "2026-08-16T00:57:24Z",
+      "category": "news",
+      "teams": [
+        "Flamengo",
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0815/r1702305_1296x729_16-9.jpg",
+      "imageAlt": "De La Cruz e Paulinho convivem com problemas físicos por Flamengo e Palmeiras, respectivamente",
+      "imageCredit": "Getty Images / Arte ESPN"
+    },
+    {
+      "id": "17122120",
+      "title": "Athletico-PR sai atrás, mas busca empate contra o Red Bull Bragantino no Brasileirão",
+      "summary": "Duelo foi válido pela 23ª rodada da competição nacional",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17122120/athletico-pr-sai-atras-mas-busca-empate-contra-red-bull-bragantino-brasileirao",
+      "publishedAt": "2026-08-16T02:29:04Z",
+      "category": "news",
+      "teams": [
+        "Athletico Paranaense",
+        "Red Bull Bragantino"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0815/r1702310_1024x576_16-9.jpg",
+      "imageAlt": "Athletico-PR e Red Bull Bragantino se enfrentaram pelo Brasileirão",
+      "imageCredit": "Ari Ferreira/Red Bull Bragantino."
+    },
+    {
+      "id": "17114249",
+      "title": "São Paulo x Coritiba: onde assistir ao vivo e escalações do jogo do Brasileirão",
+      "summary": "São Paulo e Coritiba se enfrentam neste sábado (15), em São Paulo, em duelo válido pelo Campeonato Brasileiro",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17114249/sao-paulo-x-coritiba-onde-assistir-ao-vivo-escalacoes-jogo-brasileirao",
+      "publishedAt": "2026-08-15T23:28:17Z",
+      "category": "news",
+      "teams": [
+        "São Paulo",
+        "Coritiba"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0310/r1626201_1296x729_16-9.jpg",
+      "imageAlt": "Vista do Morumbi antes de jogo entre São Paulo e Grêmio, pelo Brasileirão",
+      "imageCredit": "Alexandre Schneider/Getty Images"
+    },
+    {
+      "id": "17122908",
+      "title": "Abel elogia novas regras da CBF, mas diz que é impossível melhorar futebol com gramado do Maracanã: 'Nunca vi tão ruim'",
+      "summary": "Palmeiras perdeu por 3 a 2 para o Fluminense, neste sábado (15), pelo Brasileirão",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17122908/abel-elogia-novas-regras-cbf-diz-e-impossivel-melhorar-futebol-gramado-maracana-nunca-vi-tao-ruim",
+      "publishedAt": "2026-08-15T23:04:43Z",
+      "category": "news",
+      "teams": [
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0815/r1702291_1296x729_16-9.jpg",
+      "imageAlt": "Abel Ferreira durante jogo do Palmeiras contra o Fluminense no Maracanã",
+      "imageCredit": "Thiago Ribeiro/AGIF"
+    },
+    {
+      "id": "17123076",
+      "title": "Regra 'anti-bolinho' entra em ação pela 1ª vez no Brasileirão em Fluminense x Palmeiras; veja o vídeo",
+      "summary": "Árbitro Anderson Daronco faz gesto relacionado a nova regra do Campeonato Brasileiro",
+      "url": "https://www.espn.com.br/video/clip/_/id/17123076",
+      "publishedAt": "2026-08-15T23:02:41Z",
+      "category": "news",
+      "teams": [
+        "Fluminense",
+        "Palmeiras"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Regra 'anti-bolinho' entra em ação pela 1ª vez no Brasileirão em Fluminense x Palmeiras; veja o vídeo",
+      "imageCredit": null
     }
   ]
 };
