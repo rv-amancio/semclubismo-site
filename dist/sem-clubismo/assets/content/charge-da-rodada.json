@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-12T18:43:18.652Z",
-  "updatedLabel": "12 ago",
-  "round": "Brasileirão 2026 - rodada de 07 a 09 de ago",
+  "generatedAt": "2026-08-17T03:30:48.663Z",
+  "updatedLabel": "17 ago",
+  "round": "Brasileirão 2026 - rodada de 14 a 16 de ago",
   "title": "Resultados da Rodada",
-  "headline": "Palmeiras freou, e a corneta pediu microfone.",
-  "summary": "Rodada com 10 jogos, 22 gols e 4 empates entre 07 a 09 de ago. Palmeiras lidera com 48 pontos; Flamengo vem na cola com 42.",
+  "headline": "Palmeiras caiu, e a tabela ganhou assunto.",
+  "summary": "Rodada com 9 jogos, 31 gols e 3 empates entre 14 a 16 de ago. Palmeiras lidera com 48 pontos; Flamengo vem na cola com 45.",
   "sources": [
     {
       "label": "Placares ESPN início",
-      "url": "https://www.espn.com.br/futebol/resultados/_/liga/bra.1/data/20260807"
+      "url": "https://www.espn.com.br/futebol/resultados/_/liga/bra.1/data/20260814"
     },
     {
       "label": "Placares ESPN fim",
-      "url": "https://www.espn.com.br/futebol/resultados/_/liga/bra.1/data/20260809"
+      "url": "https://www.espn.com.br/futebol/resultados/_/liga/bra.1/data/20260816"
     },
     {
       "label": "Classificação ESPN",
@@ -42,11 +42,11 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
       },
       "points": 48,
-      "played": 22,
-      "goalDifference": 22,
-      "resultLabel": "PAL 0 x 0 INT",
-      "verdict": "Empatou 0 x 0",
-      "punchline": "Palmeiras dividiu pontos e escondeu os gols em algum lugar que ninguém achou."
+      "played": 23,
+      "goalDifference": 21,
+      "resultLabel": "FLU 3 x 2 PAL",
+      "verdict": "Perdeu",
+      "punchline": "Palmeiras caiu no placar e entregou munição premium para a resenha alheia."
     },
     {
       "position": 2,
@@ -64,12 +64,12 @@
         "abbreviation": "FLA",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png"
       },
-      "points": 42,
-      "played": 21,
-      "goalDifference": 21,
-      "resultLabel": "FLA 2 x 0 VIT",
-      "verdict": "Venceu",
-      "punchline": "Flamengo saiu com vitória e munição para calar parente inconveniente."
+      "points": 45,
+      "played": 22,
+      "goalDifference": 25,
+      "resultLabel": "MIR 1 x 5 FLA",
+      "verdict": "Goleou",
+      "punchline": "Flamengo abriu vantagem no placar e fechou a porta da desculpa adversária."
     },
     {
       "position": 3,
@@ -87,12 +87,12 @@
         "abbreviation": "CAP",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png"
       },
-      "points": 40,
-      "played": 22,
+      "points": 41,
+      "played": 23,
       "goalDifference": 11,
-      "resultLabel": "SAN 0 x 2 CAP",
-      "verdict": "Venceu",
-      "punchline": "Athletico-PR buscou vitória fora; a arrogância deve chegar antes do ônibus."
+      "resultLabel": "CAP 1 x 1 BRA",
+      "verdict": "Empatou",
+      "punchline": "Athletico-PR ganhou um ponto e perdeu a chance de parar a choradeira."
     },
     {
       "position": 4,
@@ -110,12 +110,12 @@
         "abbreviation": "FLU",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png"
       },
-      "points": 35,
-      "played": 22,
-      "goalDifference": 5,
-      "resultLabel": "BOT 1 x 1 FLU",
-      "verdict": "Empatou",
-      "punchline": "Fluminense saiu igual no placar e em dívida com a paciência da torcida."
+      "points": 38,
+      "played": 23,
+      "goalDifference": 6,
+      "resultLabel": "FLU 3 x 2 PAL",
+      "verdict": "Venceu",
+      "punchline": "Fluminense venceu contra Palmeiras; a corneta não morreu, só perdeu o sinal."
     },
     {
       "position": 5,
@@ -133,12 +133,12 @@
         "abbreviation": "CRU",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png"
       },
-      "points": 33,
-      "played": 22,
-      "goalDifference": -1,
-      "resultLabel": "CRU 3 x 1 MIR",
+      "points": 36,
+      "played": 23,
+      "goalDifference": 0,
+      "resultLabel": "COR 1 x 2 CRU",
       "verdict": "Venceu",
-      "punchline": "Cruzeiro somou três pontos e liberou a torcida para ficar chata até a próxima."
+      "punchline": "Cruzeiro entrou na casa dos outros e saiu levando a chave da resenha."
     },
     {
       "position": 6,
@@ -156,20 +156,66 @@
         "abbreviation": "BAH",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png"
       },
-      "points": 33,
-      "played": 22,
+      "points": 34,
+      "played": 23,
       "goalDifference": 4,
-      "resultLabel": "BAH 0 x 0 VAS",
-      "verdict": "Empatou 0 x 0",
-      "punchline": "Bahia fez um empate tão seco que até a súmula pediu água."
+      "resultLabel": "CHA 3 x 3 BAH",
+      "verdict": "Empatou",
+      "punchline": "Bahia empatou e deixou a pergunta incômoda: evolução ou desperdício gourmet?"
     },
     {
       "position": 7,
+      "previousPosition": 8,
+      "movement": 1,
+      "movementLabel": "+1",
+      "movementDirection": "up",
+      "movementText": "Subiu 1 posição",
+      "zone": "sul-americana",
+      "zoneLabel": "Meio da briga",
+      "team": {
+        "id": "6079",
+        "name": "Red Bull Bragantino",
+        "shortName": "Bragantino",
+        "abbreviation": "BRA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png"
+      },
+      "points": 32,
+      "played": 22,
+      "goalDifference": 4,
+      "resultLabel": "CAP 1 x 1 BRA",
+      "verdict": "Empatou",
+      "punchline": "Bragantino ficou no quase contra Athletico-PR: quase venceu, quase enganou."
+    },
+    {
+      "position": 8,
+      "previousPosition": 11,
+      "movement": 3,
+      "movementLabel": "+3",
+      "movementDirection": "up",
+      "movementText": "Subiu 3 posiçãoões",
+      "zone": "sul-americana",
+      "zoneLabel": "Meio da briga",
+      "team": {
+        "id": "7632",
+        "name": "Atlético-MG",
+        "shortName": "Atlético-MG",
+        "abbreviation": "CAM",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png"
+      },
+      "points": 32,
+      "played": 22,
+      "goalDifference": 3,
+      "resultLabel": "CAM 3 x 0 GRE",
+      "verdict": "Goleou",
+      "punchline": "Atlético-MG venceu largo; até quem corneta teve que assinar presença na festa."
+    },
+    {
+      "position": 9,
       "previousPosition": 7,
-      "movement": 0,
-      "movementLabel": "0",
-      "movementDirection": "same",
-      "movementText": "Manteve a posição",
+      "movement": -2,
+      "movementLabel": "-2",
+      "movementDirection": "down",
+      "movementText": "Caiu 2 posiçãoões",
       "zone": "sul-americana",
       "zoneLabel": "Meio da briga",
       "team": {
@@ -180,57 +226,11 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png"
       },
       "points": 32,
-      "played": 22,
-      "goalDifference": 4,
-      "resultLabel": "BRA 0 x 2 COR",
-      "verdict": "Venceu",
-      "punchline": "Corinthians ganhou longe da torcida e já vende maturidade como se fosse troféu."
-    },
-    {
-      "position": 8,
-      "previousPosition": 8,
-      "movement": 0,
-      "movementLabel": "0",
-      "movementDirection": "same",
-      "movementText": "Manteve a posição",
-      "zone": "sul-americana",
-      "zoneLabel": "Meio da briga",
-      "team": {
-        "id": "6079",
-        "name": "Red Bull Bragantino",
-        "shortName": "Bragantino",
-        "abbreviation": "BRA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png"
-      },
-      "points": 31,
-      "played": 21,
-      "goalDifference": 4,
-      "resultLabel": "BRA 0 x 2 COR",
+      "played": 23,
+      "goalDifference": 3,
+      "resultLabel": "COR 1 x 2 CRU",
       "verdict": "Perdeu",
-      "punchline": "Bragantino perdeu em casa e transformou apoio em silêncio de estádio vazio."
-    },
-    {
-      "position": 9,
-      "previousPosition": 9,
-      "movement": 0,
-      "movementLabel": "0",
-      "movementDirection": "same",
-      "movementText": "Manteve a posição",
-      "zone": "sul-americana",
-      "zoneLabel": "Meio da briga",
-      "team": {
-        "id": "6086",
-        "name": "Botafogo",
-        "shortName": "Botafogo",
-        "abbreviation": "BOT",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png"
-      },
-      "points": 30,
-      "played": 21,
-      "goalDifference": 2,
-      "resultLabel": "BOT 1 x 1 FLU",
-      "verdict": "Empatou",
-      "punchline": "Botafogo repartiu o placar e deixou a cobrança em condomínio de luxo."
+      "punchline": "Corinthians mandou no endereço; no futebol, quem mandou foi o rival."
     },
     {
       "position": 10,
@@ -248,68 +248,45 @@
         "abbreviation": "CFC",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png"
       },
-      "points": 30,
-      "played": 22,
+      "points": 31,
+      "played": 23,
       "goalDifference": -2,
-      "resultLabel": "CFC 2 x 1 CHA",
-      "verdict": "Venceu",
-      "punchline": "Coritiba ganhou em casa e transformou incêndio em fumacinha controlada."
+      "resultLabel": "SAO 1 x 1 CFC",
+      "verdict": "Empatou",
+      "punchline": "Coritiba não perdeu, também não resolveu. A classificação anotou a covardia."
     },
     {
       "position": 11,
-      "previousPosition": 11,
-      "movement": 0,
-      "movementLabel": "0",
-      "movementDirection": "same",
-      "movementText": "Manteve a posição",
+      "previousPosition": 9,
+      "movement": -2,
+      "movementLabel": "-2",
+      "movementDirection": "down",
+      "movementText": "Caiu 2 posiçãoões",
       "zone": "sul-americana",
       "zoneLabel": "Meio da briga",
       "team": {
-        "id": "7632",
-        "name": "Atlético-MG",
-        "shortName": "Atlético-MG",
-        "abbreviation": "CAM",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png"
+        "id": "6086",
+        "name": "Botafogo",
+        "shortName": "Botafogo",
+        "abbreviation": "BOT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png"
       },
-      "points": 29,
-      "played": 21,
-      "goalDifference": 0,
-      "resultLabel": "REMO 2 x 2 CAM",
-      "verdict": "Empatou",
-      "punchline": "Atlético-MG ficou no meio do caminho: nem crise assumida, nem alegria decente."
+      "points": 30,
+      "played": 22,
+      "goalDifference": 1,
+      "resultLabel": "VIT 1 x 0 BOT",
+      "verdict": "Perdeu",
+      "punchline": "Botafogo saiu derrotado e levou para casa aquele silêncio que humilha sem palavrão."
     },
     {
       "position": 12,
-      "previousPosition": 12,
-      "movement": 0,
-      "movementLabel": "0",
-      "movementDirection": "same",
-      "movementText": "Manteve a posição",
+      "previousPosition": 13,
+      "movement": 1,
+      "movementLabel": "+1",
+      "movementDirection": "up",
+      "movementText": "Subiu 1 posição",
       "zone": "sul-americana",
       "zoneLabel": "Meio da briga",
-      "team": {
-        "id": "2026",
-        "name": "São Paulo",
-        "shortName": "São Paulo",
-        "abbreviation": "SAO",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png"
-      },
-      "points": 26,
-      "played": 21,
-      "goalDifference": 1,
-      "resultLabel": "GRE 2 x 1 SAO",
-      "verdict": "Perdeu",
-      "punchline": "São Paulo voltou vazio no placar e lotado de frase defensiva."
-    },
-    {
-      "position": 13,
-      "previousPosition": 13,
-      "movement": 0,
-      "movementLabel": "0",
-      "movementDirection": "same",
-      "movementText": "Manteve a posição",
-      "zone": "alerta",
-      "zoneLabel": "Alerta ligado",
       "team": {
         "id": "3457",
         "name": "Vitória",
@@ -317,20 +294,66 @@
         "abbreviation": "VIT",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png"
       },
-      "points": 26,
+      "points": 29,
+      "played": 23,
+      "goalDifference": -10,
+      "resultLabel": "VIT 1 x 0 BOT",
+      "verdict": "Venceu",
+      "punchline": "Vitória ganhou, respirou e empurrou a crise para baixo do tapete."
+    },
+    {
+      "position": 13,
+      "previousPosition": 12,
+      "movement": -1,
+      "movementLabel": "-1",
+      "movementDirection": "down",
+      "movementText": "Caiu 1 posição",
+      "zone": "alerta",
+      "zoneLabel": "Alerta ligado",
+      "team": {
+        "id": "2026",
+        "name": "São Paulo",
+        "shortName": "São Paulo",
+        "abbreviation": "SAO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png"
+      },
+      "points": 27,
       "played": 22,
-      "goalDifference": -11,
-      "resultLabel": "FLA 2 x 0 VIT",
-      "verdict": "Perdeu",
-      "punchline": "Vitória perdeu e fez a calculadora da torcida pedir afastamento."
+      "goalDifference": 1,
+      "resultLabel": "SAO 1 x 1 CFC",
+      "verdict": "Empatou",
+      "punchline": "São Paulo levou um ponto para casa e abandonou dois no balcão das explicações."
     },
     {
       "position": 14,
+      "previousPosition": 17,
+      "movement": 3,
+      "movementLabel": "+3",
+      "movementDirection": "up",
+      "movementText": "Subiu 3 posiçãoões",
+      "zone": "alerta",
+      "zoneLabel": "Alerta ligado",
+      "team": {
+        "id": "2674",
+        "name": "Santos",
+        "shortName": "Santos",
+        "abbreviation": "SAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
+      },
+      "points": 25,
+      "played": 22,
+      "goalDifference": -3,
+      "resultLabel": "VAS 0 x 3 SAN",
+      "verdict": "Goleou",
+      "punchline": "Santos atropelou o jogo e deixou a resenha com laudo, foto e testemunha."
+    },
+    {
+      "position": 15,
       "previousPosition": 14,
-      "movement": 0,
-      "movementLabel": "0",
-      "movementDirection": "same",
-      "movementText": "Manteve a posição",
+      "movement": -1,
+      "movementLabel": "-1",
+      "movementDirection": "down",
+      "movementText": "Caiu 1 posição",
       "zone": "alerta",
       "zoneLabel": "Alerta ligado",
       "team": {
@@ -341,19 +364,19 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png"
       },
       "points": 25,
-      "played": 21,
-      "goalDifference": -3,
-      "resultLabel": "GRE 2 x 1 SAO",
-      "verdict": "Venceu",
-      "punchline": "Grêmio venceu; resta saber se foi reação ou só o adversário colaborou."
+      "played": 22,
+      "goalDifference": -6,
+      "resultLabel": "CAM 3 x 0 GRE",
+      "verdict": "Tomou pancada",
+      "punchline": "Grêmio saiu de campo com derrota que vira pauta, meme e reunião emergencial."
     },
     {
-      "position": 15,
+      "position": 16,
       "previousPosition": 15,
-      "movement": 0,
-      "movementLabel": "0",
-      "movementDirection": "same",
-      "movementText": "Manteve a posição",
+      "movement": -1,
+      "movementLabel": "-1",
+      "movementDirection": "down",
+      "movementText": "Caiu 1 posição",
       "zone": "alerta",
       "zoneLabel": "Alerta ligado",
       "team": {
@@ -364,21 +387,21 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
       },
       "points": 23,
-      "played": 21,
-      "goalDifference": -6,
-      "resultLabel": "CRU 3 x 1 MIR",
-      "verdict": "Perdeu",
-      "punchline": "Mirassol saiu procurando onde deixou a reação que prometeu na semana passada."
+      "played": 22,
+      "goalDifference": -10,
+      "resultLabel": "MIR 1 x 5 FLA",
+      "verdict": "Tomou pancada",
+      "punchline": "Mirassol entregou um placar que não cabe em desculpa curta nem longa."
     },
     {
-      "position": 16,
+      "position": 17,
       "previousPosition": 16,
-      "movement": 0,
-      "movementLabel": "0",
-      "movementDirection": "same",
-      "movementText": "Manteve a posição",
-      "zone": "alerta",
-      "zoneLabel": "Alerta ligado",
+      "movement": -1,
+      "movementLabel": "-1",
+      "movementDirection": "down",
+      "movementText": "Caiu 1 posição",
+      "zone": "z4",
+      "zoneLabel": "Z4",
       "team": {
         "id": "1936",
         "name": "Internacional",
@@ -389,63 +412,17 @@
       "points": 23,
       "played": 22,
       "goalDifference": -4,
-      "resultLabel": "PAL 0 x 0 INT",
-      "verdict": "Empatou 0 x 0",
-      "punchline": "Internacional entregou um 0 x 0 que deveria vir com pedido de desculpas ao público."
-    },
-    {
-      "position": 17,
-      "previousPosition": 17,
-      "movement": 0,
-      "movementLabel": "0",
-      "movementDirection": "same",
-      "movementText": "Manteve a posição",
-      "zone": "z4",
-      "zoneLabel": "Z4",
-      "team": {
-        "id": "2674",
-        "name": "Santos",
-        "shortName": "Santos",
-        "abbreviation": "SAN",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
-      },
-      "points": 22,
-      "played": 21,
-      "goalDifference": -6,
-      "resultLabel": "SAN 0 x 2 CAP",
-      "verdict": "Perdeu",
-      "punchline": "Santos fez a torcida sair revisando promessa, escalação e paciência esportiva."
+      "resultLabel": "Sem jogo na janela",
+      "verdict": "Sem jogo",
+      "punchline": "Internacional descansou a chuteira; a cobrança, infelizmente para eles, não descansou."
     },
     {
       "position": 18,
-      "previousPosition": 18,
-      "movement": 0,
-      "movementLabel": "0",
-      "movementDirection": "same",
-      "movementText": "Manteve a posição",
-      "zone": "z4",
-      "zoneLabel": "Z4",
-      "team": {
-        "id": "3454",
-        "name": "Vasco da Gama",
-        "shortName": "Vasco",
-        "abbreviation": "VAS",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png"
-      },
-      "points": 22,
-      "played": 21,
-      "goalDifference": -8,
-      "resultLabel": "BAH 0 x 0 VAS",
-      "verdict": "Empatou 0 x 0",
-      "punchline": "Vasco saiu sem balançar a rede e cheio de frase pronta para vender solidez."
-    },
-    {
-      "position": 19,
       "previousPosition": 19,
-      "movement": 0,
-      "movementLabel": "0",
-      "movementDirection": "same",
-      "movementText": "Manteve a posição",
+      "movement": 1,
+      "movementLabel": "+1",
+      "movementDirection": "up",
+      "movementText": "Subiu 1 posição",
       "zone": "z4",
       "zoneLabel": "Z4",
       "team": {
@@ -458,9 +435,32 @@
       "points": 22,
       "played": 22,
       "goalDifference": -10,
-      "resultLabel": "REMO 2 x 2 CAM",
-      "verdict": "Empatou",
-      "punchline": "Remo levou um ponto para casa e abandonou dois no balcão das explicações."
+      "resultLabel": "Sem jogo na janela",
+      "verdict": "Sem jogo",
+      "punchline": "Remo não jogou; mesmo assim a corneta achou expediente."
+    },
+    {
+      "position": 19,
+      "previousPosition": 18,
+      "movement": -1,
+      "movementLabel": "-1",
+      "movementDirection": "down",
+      "movementText": "Caiu 1 posição",
+      "zone": "z4",
+      "zoneLabel": "Z4",
+      "team": {
+        "id": "3454",
+        "name": "Vasco da Gama",
+        "shortName": "Vasco",
+        "abbreviation": "VAS",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png"
+      },
+      "points": 22,
+      "played": 22,
+      "goalDifference": -11,
+      "resultLabel": "VAS 0 x 3 SAN",
+      "verdict": "Tomou pancada",
+      "punchline": "Vasco perdeu grande; nem o otimismo passou pela catraca."
     },
     {
       "position": 20,
@@ -478,12 +478,12 @@
         "abbreviation": "CHA",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png"
       },
-      "points": 10,
-      "played": 21,
+      "points": 11,
+      "played": 22,
       "goalDifference": -23,
-      "resultLabel": "CFC 2 x 1 CHA",
-      "verdict": "Perdeu",
-      "punchline": "Chapecoense deixou o jogo com menos pontos e mais desculpas que finalização."
+      "resultLabel": "CHA 3 x 3 BAH",
+      "verdict": "Empatou",
+      "punchline": "Chapecoense dividiu pontos, culpa e desculpas em parcelas vergonhosamente iguais."
     }
   ]
 }

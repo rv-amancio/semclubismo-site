@@ -1,30 +1,30 @@
-# O líder freou, o vice respondeu e a rodada encurtou a conversa.
+# O líder caiu, o vice aproveitou e a perseguição voltou para a mesa.
 
-**Brasileirão 2026 - rodada em análise | 10 ago**
+**Brasileirão 2026 - rodada em análise | 17 ago**
 
-Foram 10 jogos, 22 gols e 4 empates na janela analisada. Palmeiras segue no topo com 48 pontos, Flamengo vem depois com 42. A diferença entre os dois é de 6 pontos, e a parte de baixo segue comprimida o bastante para transformar cada tropeço em crise.
+Foram 9 jogos, 31 gols e 3 empates na janela analisada. Palmeiras segue no topo com 48 pontos, Flamengo vem depois com 45. A diferença entre os dois é de 3 pontos, e a parte de baixo segue comprimida o bastante para transformar cada tropeço em crise.
 
 ## Fatos
-- **Líder freado:** Palmeiras 0 x 0 Internacional
-- **Perseguidor respondeu:** Flamengo 2 x 0 Vitória
-- **Pressão no Z4:** Remo 2 x 2 Atlético-MG
-- **Topo da tabela:** Palmeiras 48 pts; Flamengo 42
+- **Jogo que muda clima:** Fluminense 3 x 2 Palmeiras
+- **Perseguidor respondeu:** Mirassol 1 x 5 Flamengo
+- **Pressão no Z4:** Chapecoense 3 x 3 Bahia
+- **Topo da tabela:** Palmeiras 48 pts; Flamengo 45
 
 ## Opiniões
 ### Rodrigo - Provocação
-**Seis pontos ainda é folga, mas já não é anestesia.**
+**Palmeiras perdeu, mas a cobrança maior é para quem não aproveitou.**
 
-Palmeiras não perdeu, mas deixou a rodada com cara de administração. Flamengo fez a parte dele e reduziu o barulho da distância. Liderança segue liderança, só que agora a perseguição tem placar para puxar assunto.
+Rodada boa para testar discurso. Se o líder tropeça, todo perseguidor precisa transformar oportunidade em incômodo real. Quando a porta abre e ninguém empurra, a culpa não é da tabela: é de quem faltou chegar com apetite.
 
 ### Tadeu - Análise
-**Palmeiras (48), Flamengo (42), Athletico-PR (40), Fluminense (35): a parte de cima ainda tem hierarquia.**
+**Palmeiras (48), Flamengo (45), Athletico-PR (41), Fluminense (38): a parte de cima ainda tem hierarquia.**
 
 A tabela ainda protege quem fez gordura, mas a leitura da rodada vai além dos pontos. Resultado em casa, resposta fora e sequência curta pesam muito no começo do returno. A diferença agora é mental: quem absorve o tropeço e quem transforma empate em sintoma.
 
 ### Daniel - Resenha
 **Essa foi a rodada do "calma, ainda tem muita história".**
 
-Teve líder sendo cutucado, vice fazendo o dever e Z4 virando fila de gente aflita. É o tipo de rodada em que ninguém muda o campeonato sozinho, mas todo mundo muda o tom da segunda-feira.
+Teve líder sendo cutucado, vice deixando papo escapar e Z4 virando fila de gente aflita. É o tipo de rodada em que ninguém sai totalmente feliz, mas todo mundo sai com uma frase pronta para defender o próprio lado.
 
 ## Críticas
 - Palmeiras não pode transformar vantagem em modo espera: empate de líder também entrega argumento para quem vem atrás.
@@ -33,7 +33,7 @@ Teve líder sendo cutucado, vice fazendo o dever e Z4 virando fila de gente afli
 
 ## Elogios
 - Flamengo fez o básico com peso de obrigação: venceu e impediu que o tropeço do líder virasse rodada desperdiçada.
-- Corinthians buscou resultado fora de casa e lembrou que rodada grande também se decide longe do próprio estádio.
+- Santos buscou resultado fora de casa e lembrou que rodada grande também se decide longe do próprio estádio.
 - A rodada premiou eficiência. Nem sempre o melhor discurso é posse; às vezes é pontaria e casca.
 
 ## Resenha
