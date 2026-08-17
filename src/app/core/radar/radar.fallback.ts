@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-08-17T03:30:48.447Z",
-  "expiresAt": "2026-08-21T03:30:48.447Z",
+  "generatedAt": "2026-08-17T14:03:54.176Z",
+  "expiresAt": "2026-08-21T14:03:54.176Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -1179,37 +1179,10 @@ export const RADAR_FALLBACK: RadarPayload = {
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909064/gremio-internacional"
     },
     {
-      "id": "401841208",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-29T18:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
-      "clock": null,
-      "venue": "Arena da Baixada",
-      "home": {
-        "id": "3458",
-        "name": "Athletico Paranaense",
-        "shortName": "Athletico-PR",
-        "abbreviation": "CAP",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png"
-      },
-      "away": {
-        "id": "3445",
-        "name": "Fluminense",
-        "shortName": "Fluminense",
-        "abbreviation": "FLU",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png"
-      },
-      "homeScore": null,
-      "awayScore": null,
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841208/fluminense-athletico-paranaense"
-    },
-    {
       "id": "401841216",
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-29T18:00Z",
+      "date": "2026-08-29T21:30Z",
       "status": "scheduled",
       "statusLabel": "Agendado",
       "clock": null,
@@ -1233,172 +1206,10 @@ export const RADAR_FALLBACK: RadarPayload = {
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841216/vitoria-atletico-mg"
     },
     {
-      "id": "401841215",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-29T18:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
-      "clock": null,
-      "venue": "Arena Fonte Nova",
-      "home": {
-        "id": "9967",
-        "name": "Bahia",
-        "shortName": "Bahia",
-        "abbreviation": "BAH",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png"
-      },
-      "away": {
-        "id": "1936",
-        "name": "Internacional",
-        "shortName": "Internacional",
-        "abbreviation": "INT",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png"
-      },
-      "homeScore": null,
-      "awayScore": null,
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841215/internacional-bahia"
-    },
-    {
-      "id": "401841214",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-29T18:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
-      "clock": null,
-      "venue": "Neo Química Arena",
-      "home": {
-        "id": "874",
-        "name": "Corinthians",
-        "shortName": "Corinthians",
-        "abbreviation": "COR",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png"
-      },
-      "away": {
-        "id": "2674",
-        "name": "Santos",
-        "shortName": "Santos",
-        "abbreviation": "SAN",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
-      },
-      "homeScore": null,
-      "awayScore": null,
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841214/santos-corinthians"
-    },
-    {
-      "id": "401841213",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-29T18:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
-      "clock": null,
-      "venue": "Estadio do Maracana",
-      "home": {
-        "id": "819",
-        "name": "Flamengo",
-        "shortName": "Flamengo",
-        "abbreviation": "FLA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png"
-      },
-      "away": {
-        "id": "6086",
-        "name": "Botafogo",
-        "shortName": "Botafogo",
-        "abbreviation": "BOT",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png"
-      },
-      "homeScore": null,
-      "awayScore": null,
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841213/botafogo-flamengo"
-    },
-    {
-      "id": "401841217",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-29T18:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
-      "clock": null,
-      "venue": "Arena do Grêmio",
-      "home": {
-        "id": "6273",
-        "name": "Grêmio",
-        "shortName": "Grêmio",
-        "abbreviation": "GRE",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png"
-      },
-      "away": {
-        "id": "9318",
-        "name": "Chapecoense",
-        "shortName": "Chapecoense",
-        "abbreviation": "CHA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png"
-      },
-      "homeScore": null,
-      "awayScore": null,
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841217/chapecoense-gremio"
-    },
-    {
-      "id": "401841211",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-29T18:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
-      "clock": null,
-      "venue": "Estadio Municipal José Maria de Campos Maia",
-      "home": {
-        "id": "9169",
-        "name": "Mirassol",
-        "shortName": "Mirassol",
-        "abbreviation": "MIR",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
-      },
-      "away": {
-        "id": "2029",
-        "name": "Palmeiras",
-        "shortName": "Palmeiras",
-        "abbreviation": "PAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
-      },
-      "homeScore": null,
-      "awayScore": null,
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841211/palmeiras-mirassol"
-    },
-    {
-      "id": "401841210",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-29T18:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
-      "clock": null,
-      "venue": "Estadio Evandro Almeida (Baenao)",
-      "home": {
-        "id": "4936",
-        "name": "Remo",
-        "shortName": "Remo",
-        "abbreviation": "REMO",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png"
-      },
-      "away": {
-        "id": "3456",
-        "name": "Coritiba",
-        "shortName": "Coritiba",
-        "abbreviation": "CFC",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png"
-      },
-      "homeScore": null,
-      "awayScore": null,
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841210/coritiba-remo"
-    },
-    {
       "id": "401841209",
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-29T18:00Z",
+      "date": "2026-08-29T23:00Z",
       "status": "scheduled",
       "statusLabel": "Agendado",
       "clock": null,
@@ -1425,7 +1236,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "id": "401841212",
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-29T18:00Z",
+      "date": "2026-08-30T00:20Z",
       "status": "scheduled",
       "statusLabel": "Agendado",
       "clock": null,
@@ -1447,6 +1258,195 @@ export const RADAR_FALLBACK: RadarPayload = {
       "homeScore": null,
       "awayScore": null,
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841212/cruzeiro-vasco-da-gama"
+    },
+    {
+      "id": "401841208",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-08-30T14:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Arena da Baixada",
+      "home": {
+        "id": "3458",
+        "name": "Athletico Paranaense",
+        "shortName": "Athletico-PR",
+        "abbreviation": "CAP",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png"
+      },
+      "away": {
+        "id": "3445",
+        "name": "Fluminense",
+        "shortName": "Fluminense",
+        "abbreviation": "FLU",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841208/fluminense-athletico-paranaense"
+    },
+    {
+      "id": "401841215",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-08-30T19:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Arena Fonte Nova",
+      "home": {
+        "id": "9967",
+        "name": "Bahia",
+        "shortName": "Bahia",
+        "abbreviation": "BAH",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png"
+      },
+      "away": {
+        "id": "1936",
+        "name": "Internacional",
+        "shortName": "Internacional",
+        "abbreviation": "INT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841215/internacional-bahia"
+    },
+    {
+      "id": "401841214",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-08-30T19:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Neo Química Arena",
+      "home": {
+        "id": "874",
+        "name": "Corinthians",
+        "shortName": "Corinthians",
+        "abbreviation": "COR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png"
+      },
+      "away": {
+        "id": "2674",
+        "name": "Santos",
+        "shortName": "Santos",
+        "abbreviation": "SAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841214/santos-corinthians"
+    },
+    {
+      "id": "401841213",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-08-30T19:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Estadio do Maracana",
+      "home": {
+        "id": "819",
+        "name": "Flamengo",
+        "shortName": "Flamengo",
+        "abbreviation": "FLA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png"
+      },
+      "away": {
+        "id": "6086",
+        "name": "Botafogo",
+        "shortName": "Botafogo",
+        "abbreviation": "BOT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841213/botafogo-flamengo"
+    },
+    {
+      "id": "401841217",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-08-30T21:30Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Arena do Grêmio",
+      "home": {
+        "id": "6273",
+        "name": "Grêmio",
+        "shortName": "Grêmio",
+        "abbreviation": "GRE",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png"
+      },
+      "away": {
+        "id": "9318",
+        "name": "Chapecoense",
+        "shortName": "Chapecoense",
+        "abbreviation": "CHA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841217/chapecoense-gremio"
+    },
+    {
+      "id": "401841211",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-08-30T22:30Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Estadio Municipal José Maria de Campos Maia",
+      "home": {
+        "id": "9169",
+        "name": "Mirassol",
+        "shortName": "Mirassol",
+        "abbreviation": "MIR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
+      },
+      "away": {
+        "id": "2029",
+        "name": "Palmeiras",
+        "shortName": "Palmeiras",
+        "abbreviation": "PAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841211/palmeiras-mirassol"
+    },
+    {
+      "id": "401841210",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-08-31T23:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Mangueirão",
+      "home": {
+        "id": "4936",
+        "name": "Remo",
+        "shortName": "Remo",
+        "abbreviation": "REMO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png"
+      },
+      "away": {
+        "id": "3456",
+        "name": "Coritiba",
+        "shortName": "Coritiba",
+        "abbreviation": "CFC",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841210/coritiba-remo"
     }
   ],
   "standings": [
@@ -1813,6 +1813,21 @@ export const RADAR_FALLBACK: RadarPayload = {
   ],
   "news": [
     {
+      "id": "17129061",
+      "title": "Súmula de Corinthians x Cruzeiro relata copos arremessados e invasão de torcedor na Neo Química Arena",
+      "summary": "Cruzeiro venceu o Corinthians por 2 a 1 pelo Campeonato Brasileiro",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17129061/corinthians-1-x-2-cruzeiro-sumula-copos-arremessados-invasao-torcedor",
+      "publishedAt": "2026-08-17T12:37:43Z",
+      "category": "news",
+      "teams": [
+        "Corinthians",
+        "Cruzeiro"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0817/r1702893_1296x729_16-9.jpg",
+      "imageAlt": "Torcida do Corinthians",
+      "imageCredit": "Marcello Zambrana/AGIF"
+    },
+    {
       "id": "17128552",
       "title": "William Tavares analisa bom momento de Neymar no Santos: 'Percebo uma mudança de comportamento nele'",
       "summary": "Alvinegro paulista venceu o Vasco por 3 a 0 fora de casa com bom desempenho do camisa 10",
@@ -2035,21 +2050,6 @@ export const RADAR_FALLBACK: RadarPayload = {
       ],
       "imageUrl": null,
       "imageAlt": "Após derrota para o Atlético-MG, Luís Castro segue no comando? Diretor do Grêmio responde: 'O trabalho está sendo feito'",
-      "imageCredit": null
-    },
-    {
-      "id": "17127880",
-      "title": "Pedro marca duas vezes, Luiz Araújo desentanca, e Carrascal e Lino brilham: os gols do passeio do Flamengo sobre o Mirassol",
-      "summary": "Rubro-Negro não toma conhecimento de equipe paulista fora de casa e encosta no Palmeiras na briga pelo topo do Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17127880",
-      "publishedAt": "2026-08-16T23:23:06Z",
-      "category": "news",
-      "teams": [
-        "Flamengo",
-        "Mirassol"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Pedro marca duas vezes, Luiz Araújo desentanca, e Carrascal e Lino brilham: os gols do passeio do Flamengo sobre o Mirassol",
       "imageCredit": null
     }
   ]
