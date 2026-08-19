@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-08-18T14:16:26.177Z",
-  "expiresAt": "2026-08-22T14:16:26.177Z",
+  "generatedAt": "2026-08-19T14:16:36.363Z",
+  "expiresAt": "2026-08-23T14:16:36.363Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -22,7 +22,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "id": "bra.copa_do_brazil",
       "name": "Copa do Brasil",
       "shortName": "Copa do Brasil",
-      "matchCount": 5,
+      "matchCount": 7,
       "liveCount": 0,
       "nextMatchAt": "2026-08-26T00:00Z"
     },
@@ -30,155 +30,20 @@ export const RADAR_FALLBACK: RadarPayload = {
       "id": "conmebol.libertadores",
       "name": "CONMEBOL Libertadores",
       "shortName": "Libertadores",
-      "matchCount": 7,
+      "matchCount": 5,
       "liveCount": 0,
-      "nextMatchAt": "2026-08-18T22:00Z"
+      "nextMatchAt": "2026-08-19T22:00Z"
     },
     {
       "id": "conmebol.sudamericana",
       "name": "CONMEBOL Sudamericana",
       "shortName": "Sul-Americana",
-      "matchCount": 8,
+      "matchCount": 5,
       "liveCount": 0,
-      "nextMatchAt": "2026-08-19T00:30Z"
+      "nextMatchAt": "2026-08-19T22:00Z"
     }
   ],
   "matches": [
-    {
-      "id": "401874073",
-      "competitionId": "conmebol.libertadores",
-      "competitionName": "CONMEBOL Libertadores",
-      "date": "2026-08-13T22:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estadio Municipal José Maria de Campos Maia",
-      "home": {
-        "id": "9169",
-        "name": "Mirassol",
-        "shortName": "Mirassol",
-        "abbreviation": "MIR",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
-      },
-      "away": {
-        "id": "4816",
-        "name": "Liga de Quito",
-        "shortName": "LDU",
-        "abbreviation": "LDU",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png"
-      },
-      "homeScore": "1",
-      "awayScore": "1",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401874073/liga-de-quito-mirassol"
-    },
-    {
-      "id": "401902572",
-      "competitionId": "conmebol.sudamericana",
-      "competitionName": "CONMEBOL Sudamericana",
-      "date": "2026-08-13T22:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
-      "home": {
-        "id": "2674",
-        "name": "Santos",
-        "shortName": "Santos",
-        "abbreviation": "SAN",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
-      },
-      "away": {
-        "id": "18439",
-        "name": "Macará",
-        "shortName": "Macará",
-        "abbreviation": "MAC",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18439.png"
-      },
-      "homeScore": "2",
-      "awayScore": "1",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401902572/macara-santos"
-    },
-    {
-      "id": "401902742",
-      "competitionId": "conmebol.sudamericana",
-      "competitionName": "CONMEBOL Sudamericana",
-      "date": "2026-08-13T22:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estádio São Januário",
-      "home": {
-        "id": "3454",
-        "name": "Vasco da Gama",
-        "shortName": "Vasco",
-        "abbreviation": "VAS",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png"
-      },
-      "away": {
-        "id": "2675",
-        "name": "Club Olimpia",
-        "shortName": "Olimpia",
-        "abbreviation": "OLI",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2675.png"
-      },
-      "homeScore": "0",
-      "awayScore": "0",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401902742/club-olimpia-vasco-da-gama"
-    },
-    {
-      "id": "401874075",
-      "competitionId": "conmebol.libertadores",
-      "competitionName": "CONMEBOL Libertadores",
-      "date": "2026-08-14T00:30Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Gigante de Arroyito",
-      "home": {
-        "id": "17",
-        "name": "Rosário Central",
-        "shortName": "Rosário Central",
-        "abbreviation": "ROS",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png"
-      },
-      "away": {
-        "id": "874",
-        "name": "Corinthians",
-        "shortName": "Corinthians",
-        "abbreviation": "COR",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png"
-      },
-      "homeScore": "0",
-      "awayScore": "0",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401874075/corinthians-rosario-central"
-    },
-    {
-      "id": "401902715",
-      "competitionId": "conmebol.sudamericana",
-      "competitionName": "CONMEBOL Sudamericana",
-      "date": "2026-08-14T00:30Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estadio Inca Garcilaso de la Vega",
-      "home": {
-        "id": "3372",
-        "name": "Cienciano del Cusco",
-        "shortName": "Cienciano",
-        "abbreviation": "CIE",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3372.png"
-      },
-      "away": {
-        "id": "6086",
-        "name": "Botafogo",
-        "shortName": "Botafogo",
-        "abbreviation": "BOT",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png"
-      },
-      "homeScore": "6",
-      "awayScore": "1",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401902715/botafogo-cienciano-del-cusco"
-    },
     {
       "id": "401841192",
       "competitionId": "bra.1",
@@ -454,8 +319,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.libertadores",
       "competitionName": "CONMEBOL Libertadores",
       "date": "2026-08-18T22:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final Score - After Penalties",
       "clock": null,
       "venue": "Malvinas Argentinas (Mendoza)",
       "home": {
@@ -472,8 +337,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "FLU",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "1",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401874156/fluminense-independiente-rivadavia"
     },
     {
@@ -481,8 +346,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.sudamericana",
       "competitionName": "CONMEBOL Sudamericana",
       "date": "2026-08-19T00:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estádio Cícero Pompeu de Toledo",
       "home": {
@@ -499,8 +364,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "BOL",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2681.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "3",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401903294/bolivar-sao-paulo"
     },
     {
@@ -1287,33 +1152,6 @@ export const RADAR_FALLBACK: RadarPayload = {
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841217/chapecoense-gremio"
     },
     {
-      "id": "401841215",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-30T22:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
-      "clock": null,
-      "venue": "Arena Fonte Nova",
-      "home": {
-        "id": "9967",
-        "name": "Bahia",
-        "shortName": "Bahia",
-        "abbreviation": "BAH",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png"
-      },
-      "away": {
-        "id": "1936",
-        "name": "Internacional",
-        "shortName": "Internacional",
-        "abbreviation": "INT",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png"
-      },
-      "homeScore": null,
-      "awayScore": null,
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841215/internacional-bahia"
-    },
-    {
       "id": "401841211",
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
@@ -1339,6 +1177,33 @@ export const RADAR_FALLBACK: RadarPayload = {
       "homeScore": null,
       "awayScore": null,
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841211/palmeiras-mirassol"
+    },
+    {
+      "id": "401841215",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-08-30T22:30Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Arena Fonte Nova",
+      "home": {
+        "id": "9967",
+        "name": "Bahia",
+        "shortName": "Bahia",
+        "abbreviation": "BAH",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png"
+      },
+      "away": {
+        "id": "1936",
+        "name": "Internacional",
+        "shortName": "Internacional",
+        "abbreviation": "INT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841215/internacional-bahia"
     },
     {
       "id": "401841210",
@@ -1393,6 +1258,60 @@ export const RADAR_FALLBACK: RadarPayload = {
       "homeScore": null,
       "awayScore": null,
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909112/cruzeiro-atletico-mg"
+    },
+    {
+      "id": "401909110",
+      "competitionId": "bra.copa_do_brazil",
+      "competitionName": "Copa do Brasil",
+      "date": "2026-09-03T00:30Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "home": {
+        "id": "2674",
+        "name": "Santos",
+        "shortName": "Santos",
+        "abbreviation": "SAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
+      },
+      "away": {
+        "id": "2029",
+        "name": "Palmeiras",
+        "shortName": "Palmeiras",
+        "abbreviation": "PAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909110/palmeiras-santos"
+    },
+    {
+      "id": "401909111",
+      "competitionId": "bra.copa_do_brazil",
+      "competitionName": "Copa do Brasil",
+      "date": "2026-09-03T00:30Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Estadio Manoel Barradas",
+      "home": {
+        "id": "3457",
+        "name": "Vitória",
+        "shortName": "Vitória",
+        "abbreviation": "VIT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png"
+      },
+      "away": {
+        "id": "3454",
+        "name": "Vasco da Gama",
+        "shortName": "Vasco",
+        "abbreviation": "VAS",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909111/vasco-da-gama-vitoria"
     }
   ],
   "standings": [
@@ -1759,6 +1678,133 @@ export const RADAR_FALLBACK: RadarPayload = {
   ],
   "news": [
     {
+      "id": "17137080",
+      "title": "Textor sai em defesa de Franclim Carvalho, diz que Botafogo 'jogou técnico aos abutres' e dispara: 'Tem uma criança comandando o clube'",
+      "summary": "John Textor concedeu entrevista à ESPN e falou sobre o técnico Franclim Carvalho, que foi demitido na última terça-feira (18) pelo Botafogo",
+      "url": "https://www.espn.com.br/futebol/botafogo/artigo/_/id/17137080/textor-sai-defesa-franclim-carvalho-diz-botafogo-jogou-tecnico-abutres-dispara-tem-crianca-comandando-clube",
+      "publishedAt": "2026-08-19T14:15:07Z",
+      "category": "news",
+      "teams": [
+        "Botafogo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0819/r1703833_1296x729_16-9.jpg",
+      "imageAlt": "Franclim Carvalho durante jogo entre Botafogo e Chapecoense, pela Copa do Brasil",
+      "imageCredit": "Vitor Silva/Botafogo"
+    },
+    {
+      "id": "17137172",
+      "title": "Quantos milhões Botafogo vai pagar para Franclim após demissão? Veja valores",
+      "summary": "Treinador foi dispensado do clube na noite de terça-feira (18)",
+      "url": "https://www.espn.com.br/futebol/botafogo/artigo/_/id/17137172/botafogo-franclim-quantos-milhoes-vai-pagar-apos-demissao-veja-valores",
+      "publishedAt": "2026-08-19T14:01:43Z",
+      "category": "news",
+      "teams": [
+        "Botafogo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0724/r1693043_1296x729_16-9.jpg",
+      "imageAlt": "Franclim Carvalho durante jogo do Botafogo no Brasileirão",
+      "imageCredit": "Thiago Ribeiro/AGIF"
+    },
+    {
+      "id": "17135885",
+      "title": "Elton Serra comenta demissão de Franclim Carvalho do Botafogo: 'Decisão acertada'",
+      "summary": "Comentarista da ESPN fala sobre a saída do português do comando da equipe carioca",
+      "url": "https://www.espn.com.br/video/clip/_/id/17135885",
+      "publishedAt": "2026-08-19T02:50:11Z",
+      "category": "news",
+      "teams": [
+        "Botafogo"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Elton Serra comenta demissão de Franclim Carvalho do Botafogo: 'Decisão acertada'",
+      "imageCredit": null
+    },
+    {
+      "id": "17135252",
+      "title": "Botafogo anuncia demissão do técnico Franclim Carvalho",
+      "summary": "Botafogo anunciou a saída do técnico Franclim Carvalho na noite desta terça-feira (18)",
+      "url": "https://www.espn.com.br/futebol/botafogo/artigo/_/id/17135252/botafogo-anuncia-demissao-treinador-franclim-carvalho",
+      "publishedAt": "2026-08-18T23:55:47Z",
+      "category": "news",
+      "teams": [
+        "Botafogo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0817/r1703034_1296x729_16-9.jpg",
+      "imageAlt": "Franclim Carvalho durante treino do Botafogo, em 11 de agosto de 2026",
+      "imageCredit": "Vitor Silva/Botafogo"
+    },
+    {
+      "id": "17134099",
+      "title": "Corinthians oficializa renovação de Memphis Depay até 2028: 'Não vejo a hora de voltar ao trabalho'",
+      "summary": "Memphis Depay já está regularizado no sistema da CBF e pode voltar a jogar pelo Corinthians",
+      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17134099/corinthians-oficializa-renovacao-memphis-depay-2028-nao-vejo-hora-voltar-trabalho",
+      "publishedAt": "2026-08-18T18:59:36Z",
+      "category": "market",
+      "teams": [
+        "Corinthians"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0818/r1703527_1296x729_16-9.jpg",
+      "imageAlt": "Memphis Depay acertou renovação com o Corinthians até 2028",
+      "imageCredit": "Rodrigo Coca/Agência Corinthians"
+    },
+    {
+      "id": "17134032",
+      "title": "Memphis Depay aparece no BID após renovação e pode voltar a jogar pelo Corinthians",
+      "summary": "Memphis Depay está regularizado no sistema da CBF e pode voltar a jogar pelo Corinthians",
+      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17134032/memphis-depay-aparece-bid-renovacao-pode-voltar-jogar-corinthians",
+      "publishedAt": "2026-08-18T18:42:53Z",
+      "category": "market",
+      "teams": [
+        "Corinthians"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0818/r1703520_1296x729_16-9.jpg",
+      "imageAlt": "Memphis Depay comemora após marcar para o Corinthians sobre o Vasco",
+      "imageCredit": "Rodrigo Coca/Agência Corinthians"
+    },
+    {
+      "id": "17134010",
+      "title": "Carrascal, do Flamengo, é o melhor da 23ª rodada no Bola de Prata ESPN",
+      "summary": "Flamengo atropelou o Mirassol por 5 a 1, fora de casa, pelo Campeonato Brasileiro",
+      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17134010/flamengo-carrascal-eleito-melhor-rodada-23-rodada-bola-de-prata-espn",
+      "publishedAt": "2026-08-18T18:40:01Z",
+      "category": "news",
+      "teams": [
+        "Flamengo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0417/r1644855_1296x729_16-9.jpg",
+      "imageAlt": "Meia colombiano Jorge Carrascal durante partida do Flamengo contra o Fluminense, no Maracanã, no Rio de Janeiro (RJ), pelo Brasileirão de 2026",
+      "imageCredit": "Ruano Carneiro/Getty Images"
+    },
+    {
+      "id": "17133850",
+      "title": "Pedro Ivo detona postura de Stabile no processo de renovação com Memphis: 'Quem assinou foi a torcida'",
+      "summary": "Holandês participou do treino com a equipe na manhã de hoje (18)",
+      "url": "https://www.espn.com.br/video/clip/_/id/17133850",
+      "publishedAt": "2026-08-18T18:12:43Z",
+      "category": "market",
+      "teams": [
+        "Corinthians",
+        "Holanda"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Pedro Ivo detona postura de Stabile no processo de renovação com Memphis: 'Quem assinou foi a torcida'",
+      "imageCredit": null
+    },
+    {
+      "id": "17133396",
+      "title": "Reforço do Internacional! Relembre golaço de Sanabria com direito a drible em goleiro na Itália",
+      "summary": "Atacante paraguaio tem 30 anos e passou a última temporada no futebol italiano",
+      "url": "https://www.espn.com.br/video/clip/_/id/17133396",
+      "publishedAt": "2026-08-18T16:12:50Z",
+      "category": "market",
+      "teams": [
+        "Internacional"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Reforço do Internacional! Relembre golaço de Sanabria com direito a drible em goleiro na Itália",
+      "imageCredit": null
+    },
+    {
       "id": "17131954",
       "title": "Presidente do Corinthians explica por que 'voltou atrás' e decidiu renovar com Memphis",
       "summary": "Osmar Stabile falou sobre a negociação com Memphis Depay até o acerto na noite desta segunda-feira (17)",
@@ -1860,139 +1906,6 @@ export const RADAR_FALLBACK: RadarPayload = {
       "imageUrl": "https://a.espncdn.com/photo/2026/0210/r1613457_1296x729_16-9.jpg",
       "imageAlt": "Dirigente brasileira Leila Pereira, presidente do Palmeiras, na Supercopa feminina de 2026 entre Palmeiras e Corinthians, na Arena Barueri, em Barueri (SP)",
       "imageCredit": "Theo Daolio/Mochila Press/Gazeta Press"
-    },
-    {
-      "id": "17130034",
-      "title": "Botafogo discute demissão de Franclim Carvalho após pressão aumentar",
-      "summary": "Segundo apurou a ESPN, diretoria do Botafogo discute internamente a demissão do técnico Franclim Carvalho",
-      "url": "https://www.espn.com.br/futebol/botafogo/artigo/_/id/17130034/botafogo-discute-demissao-franclim-carvalho-pressao-aumentar",
-      "publishedAt": "2026-08-17T19:04:15Z",
-      "category": "news",
-      "teams": [
-        "Botafogo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0817/r1703034_1296x729_16-9.jpg",
-      "imageAlt": "Franclim Carvalho durante treino do Botafogo, em 11 de agosto de 2026",
-      "imageCredit": "Vitor Silva/Botafogo"
-    },
-    {
-      "id": "17129985",
-      "title": "Rodrigo Bueno diz que Flamengo deve passar Palmeiras no Brasileirão e critica Abel Ferreira: 'Só está perdendo'",
-      "summary": "Distância entre as equipes é de apenas 3 pontos",
-      "url": "https://www.espn.com.br/video/clip/_/id/17129985",
-      "publishedAt": "2026-08-17T21:43:08Z",
-      "category": "news",
-      "teams": [
-        "Flamengo",
-        "Palmeiras"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Rodrigo Bueno diz que Flamengo deve passar Palmeiras no Brasileirão e critica Abel Ferreira: 'Só está perdendo'",
-      "imageCredit": null
-    },
-    {
-      "id": "17129473",
-      "title": "Diego Carlos e mais duas posições: os planos do Vasco para reforçar elenco nesta janela",
-      "summary": "Clube vascaíno ainda trabalha para se fortalecer",
-      "url": "https://www.espn.com.br/futebol/vasco/artigo/_/id/17129473/vasco-diego-carlos-mais-posicao-planos-reforcar-elenco-nesta-janela",
-      "publishedAt": "2026-08-17T15:49:54Z",
-      "category": "market",
-      "teams": [
-        "Vasco da Gama"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688775_1296x729_16-9.jpg",
-      "imageAlt": "Pedro Emanuel técnico do Vasco conhece elenco no CT Moacyr Barbosa",
-      "imageCredit": "Matheus Lima / Vasco da Gama"
-    },
-    {
-      "id": "17129454",
-      "title": "Rivalidade com Thiago Mendes? Neymar responde e ironiza: 'Tenho coisa melhor para resolver...'",
-      "summary": "Neymar usou suas redes sociais nesta segunda-feira (17) para falar de polêmica gerada com Thiago Mendes, do Vasco",
-      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17129454/rivalidade-thiago-mendes-neymar-responde-ironiza-tenho-coisa-melhor-resolver",
-      "publishedAt": "2026-08-17T15:32:41Z",
-      "category": "news",
-      "teams": [
-        "Santos",
-        "Vasco da Gama"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0817/r1702949_1199x674_16-9.jpg",
-      "imageAlt": "Neymar durante jogo entre Santos e Vasco, pelo Campeonato Brasileiro",
-      "imageCredit": "Reinaldo Campos/Santos FC"
-    },
-    {
-      "id": "17129332",
-      "title": "São Paulo desiste de Vardy e define duas prioridades para reforçar elenco; veja as posições",
-      "summary": "ESPN traz informações a respeito do mercado de transferências do São Paulo",
-      "url": "https://www.espn.com.br/futebol/sao-paulo/artigo/_/id/17129332/sao-paulo-desiste-de-vardy-e-define-duas-prioridades-para-reforcar-elenco-veja-as-posicoes",
-      "publishedAt": "2026-08-17T14:46:22Z",
-      "category": "market",
-      "teams": [
-        "São Paulo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0817/r1702942_1296x729_16-9.jpg",
-      "imageAlt": "Jamie Vardy",
-      "imageCredit": "Getty Images"
-    },
-    {
-      "id": "17129061",
-      "title": "Súmula de Corinthians x Cruzeiro relata copos arremessados e invasão de torcedor na Neo Química Arena",
-      "summary": "Cruzeiro venceu o Corinthians por 2 a 1 pelo Campeonato Brasileiro",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17129061/corinthians-1-x-2-cruzeiro-sumula-copos-arremessados-invasao-torcedor",
-      "publishedAt": "2026-08-17T12:37:43Z",
-      "category": "news",
-      "teams": [
-        "Corinthians",
-        "Cruzeiro"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0817/r1702893_1296x729_16-9.jpg",
-      "imageAlt": "Torcida do Corinthians",
-      "imageCredit": "Marcello Zambrana/AGIF"
-    },
-    {
-      "id": "17128552",
-      "title": "William Tavares analisa bom momento de Neymar no Santos: 'Percebo uma mudança de comportamento nele'",
-      "summary": "Alvinegro paulista venceu o Vasco por 3 a 0 fora de casa com bom desempenho do camisa 10",
-      "url": "https://www.espn.com.br/video/clip/_/id/17128552",
-      "publishedAt": "2026-08-17T02:34:28Z",
-      "category": "news",
-      "teams": [
-        "Brasil",
-        "Santos",
-        "Vasco da Gama"
-      ],
-      "imageUrl": null,
-      "imageAlt": "William Tavares analisa bom momento de Neymar no Santos: 'Percebo uma mudança de comportamento nele'",
-      "imageCredit": null
-    },
-    {
-      "id": "17128544",
-      "title": "Vitória leva a melhor e amplia crise no Botafogo em jogo marcado por confusão no fim; VEJA",
-      "summary": "Imagens: Premiere/Globo | Equipe baiana se impõe em casa e aumenta pressão no Glorioso após derrota de goleada na Sul-Americana",
-      "url": "https://www.espn.com.br/video/clip/_/id/17128544",
-      "publishedAt": "2026-08-17T02:33:09Z",
-      "category": "news",
-      "teams": [
-        "Botafogo",
-        "Vitória"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Vitória leva a melhor e amplia crise no Botafogo em jogo marcado por confusão no fim; VEJA",
-      "imageCredit": null
-    },
-    {
-      "id": "17128495",
-      "title": "Neymar ironiza Thiago Mendes após vácuo em Vasco x Santos: 'A soberba precede a queda'",
-      "summary": "Duelo ficou marcado por 'ignorada' antes do apito inicial",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17128495/neymar-ironiza-thiago-mendes-vacuo-vasco-x-santos-soberba-precede-queda",
-      "publishedAt": "2026-08-17T02:44:02Z",
-      "category": "news",
-      "teams": [
-        "Santos",
-        "Vasco da Gama"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0817/r1702826_1296x729_16-9.jpg",
-      "imageAlt": "Neymar comemora vitória do Santos contra o Vasco",
-      "imageCredit": "Getty Images"
     }
   ]
 };
