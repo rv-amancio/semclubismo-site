@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-08-19T14:16:36.363Z",
-  "expiresAt": "2026-08-23T14:16:36.363Z",
+  "generatedAt": "2026-08-20T14:18:30.405Z",
+  "expiresAt": "2026-08-24T14:18:30.405Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -22,7 +22,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "id": "bra.copa_do_brazil",
       "name": "Copa do Brasil",
       "shortName": "Copa do Brasil",
-      "matchCount": 7,
+      "matchCount": 8,
       "liveCount": 0,
       "nextMatchAt": "2026-08-26T00:00Z"
     },
@@ -32,7 +32,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Libertadores",
       "matchCount": 5,
       "liveCount": 0,
-      "nextMatchAt": "2026-08-19T22:00Z"
+      "nextMatchAt": "2026-08-20T22:00Z"
     },
     {
       "id": "conmebol.sudamericana",
@@ -40,7 +40,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Sul-Americana",
       "matchCount": 5,
       "liveCount": 0,
-      "nextMatchAt": "2026-08-19T22:00Z"
+      "nextMatchAt": "2026-08-20T22:00Z"
     }
   ],
   "matches": [
@@ -373,8 +373,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.libertadores",
       "competitionName": "CONMEBOL Libertadores",
       "date": "2026-08-19T22:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estadio ueno La Nueva Olla",
       "home": {
@@ -391,8 +391,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "PAL",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "0",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401874155/palmeiras-cerro-porteno"
     },
     {
@@ -400,8 +400,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.sudamericana",
       "competitionName": "CONMEBOL Sudamericana",
       "date": "2026-08-19T22:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Arena MRV",
       "home": {
@@ -418,8 +418,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "BRA",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "2",
+      "awayScore": "2",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401902714/red-bull-bragantino-atletico-mg"
     },
     {
@@ -427,8 +427,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.libertadores",
       "competitionName": "CONMEBOL Libertadores",
       "date": "2026-08-20T00:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estadio do Maracana",
       "home": {
@@ -445,8 +445,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "CRU",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "2",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401874141/cruzeiro-flamengo"
     },
     {
@@ -1155,7 +1155,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "id": "401841211",
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-30T22:30Z",
+      "date": "2026-08-30T21:30Z",
       "status": "scheduled",
       "statusLabel": "Agendado",
       "clock": null,
@@ -1312,6 +1312,33 @@ export const RADAR_FALLBACK: RadarPayload = {
       "homeScore": null,
       "awayScore": null,
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909111/vasco-da-gama-vitoria"
+    },
+    {
+      "id": "401909114",
+      "competitionId": "bra.copa_do_brazil",
+      "competitionName": "Copa do Brasil",
+      "date": "2026-09-03T23:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Arena do Grêmio",
+      "home": {
+        "id": "6273",
+        "name": "Grêmio",
+        "shortName": "Grêmio",
+        "abbreviation": "GRE",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png"
+      },
+      "away": {
+        "id": "1936",
+        "name": "Internacional",
+        "shortName": "Internacional",
+        "abbreviation": "INT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909114/internacional-gremio"
     }
   ],
   "standings": [
@@ -1678,11 +1705,227 @@ export const RADAR_FALLBACK: RadarPayload = {
   ],
   "news": [
     {
+      "id": "17141716",
+      "title": "Flamengo provoca Gerson após classificação contra o Cruzeiro na Libertadores: 'Nosso time é forte'",
+      "summary": "Meio-campista ainda tem um processo na Justiça contra o Flamengo",
+      "url": "https://www.espn.com.br/futebol/libertadores/artigo/_/id/17141716/flamengo-provoca-gerson-apos-classificacao-contra-o-cruzeiro-na-libertadores-nosso-time-e-forte",
+      "publishedAt": "2026-08-20T13:00:24Z",
+      "category": "news",
+      "teams": [
+        "Flamengo",
+        "Cruzeiro"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0820/r1704375_1296x729_16-9.jpg",
+      "imageAlt": "Gerson, do Cruzeiro",
+      "imageCredit": "Getty Images"
+    },
+    {
+      "id": "17141400",
+      "title": "Zagueiro vendido por R$ 27 milhões vai à Justiça e tenta bloquear contas do Inter",
+      "summary": "ESPN teve acesso ao processo movido por ex-jogador do Internacional contra o clube na Justiça do Rio Grande do Sul",
+      "url": "https://www.espn.com.br/futebol/internacional/artigo/_/id/17141400/zagueiro-vendido-r-27-milhoes-vai-justica-tenta-bloquear-contas-inter",
+      "publishedAt": "2026-08-20T11:56:43Z",
+      "category": "news",
+      "teams": [
+        "Internacional"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2025/0401/r1472295_1296x729_16-9.jpg",
+      "imageAlt": "Escudo do Internacional",
+      "imageCredit": "Getty Images"
+    },
+    {
+      "id": "17134266",
+      "title": "Por que Santos vive dilema que impacta até salário e pode definir escalação de Neymar e outros na Sul-Americana",
+      "summary": "Santos visita o Macará, do Equador, pelas oitavas de final da CONMEBOL Sul-Americana",
+      "url": "https://www.espn.com.br/futebol/sul-americana/artigo/_/id/17134266/santos-sul-americana-dilema-crescimento-impacto-salario-escalacoes-neymar-companhia",
+      "publishedAt": "2026-08-20T10:24:25Z",
+      "category": "news",
+      "teams": [
+        "Santos"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0818/r1703533_1296x729_16-9.jpg",
+      "imageAlt": "Neymar, do Santos",
+      "imageCredit": "Reinaldo Campos/ Santos F.C."
+    },
+    {
+      "id": "17138172",
+      "title": "Textor detona GDA e Social, diz que torcedores 'choram' de saudade e revela como planeja voltar ao poder no Botafogo: 'Eu nunca desisto'",
+      "summary": "John Textor concedeu entrevista exclusiva à ESPN e falou sobre seu possível retorno ao poder na SAF do Botafogo",
+      "url": "https://www.espn.com.br/futebol/botafogo/artigo/_/id/17138172/textor-detona-gda-social-diz-torcedores-choram-saudade-revela-planeja-voltar-poder-botafogo-eu-nunca-desisto",
+      "publishedAt": "2026-08-20T10:20:11Z",
+      "category": "news",
+      "teams": [
+        "Botafogo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0819/r1703945_1296x729_16-9.jpg",
+      "imageAlt": "John Textor durante jogo entre Portugal e Espanha, na Copa do Mundo 2026",
+      "imageCredit": "Sebastian Frej/Getty Images"
+    },
+    {
+      "id": "17140736",
+      "title": "lmeiras segue na liderança? Flamengo vence? E o Z-4? Os palpites da rodada no Brasileirão",
+      "summary": "Campeonato chega a sua 24ª rodada neste sábado (22)",
+      "url": "https://www.espn.com.br/video/clip/_/id/17140736",
+      "publishedAt": "2026-08-20T03:05:16Z",
+      "category": "news",
+      "teams": [],
+      "imageUrl": null,
+      "imageAlt": "lmeiras segue na liderança? Flamengo vence? E o Z-4? Os palpites da rodada no Brasileirão",
+      "imageCredit": null
+    },
+    {
+      "id": "17140225",
+      "title": "Neymar dispara contra Thiago Mendes após 'vácuo': 'Isso é soberba e falta de respeito'",
+      "summary": "O Santos venceu o Vasco por 3 a 0 pelo Brasileirão",
+      "url": "https://www.espn.com.br/video/clip/_/id/17140225",
+      "publishedAt": "2026-08-20T01:09:12Z",
+      "category": "news",
+      "teams": [
+        "Santos",
+        "Vasco da Gama"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Neymar dispara contra Thiago Mendes após 'vácuo': 'Isso é soberba e falta de respeito'",
+      "imageCredit": null
+    },
+    {
+      "id": "17138967",
+      "title": "Torcida do Corinthians protesta em frente ao Ministério Público; Entenda o motivo",
+      "summary": "Outras manifestações estão programadas até o final da semana",
+      "url": "https://www.espn.com.br/video/clip/_/id/17138967",
+      "publishedAt": "2026-08-19T20:36:29Z",
+      "category": "news",
+      "teams": [
+        "Corinthians"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Torcida do Corinthians protesta em frente ao Ministério Público; Entenda o motivo",
+      "imageCredit": null
+    },
+    {
+      "id": "17138756",
+      "title": "Pedrinho detona Bap após Flamengo notificar agência de fair play sobre gastos do Vasco: 'Mau-caráter, arrogante, prepotente e hipócrita'",
+      "summary": "Presidente do Vasco criticou o mandatário do Flamengo",
+      "url": "https://www.espn.com.br/futebol/artigo/_/id/17138756/flamengo-vasco-pedrinho-detona-bap-notificar-agencia-fair-play-gastos-mau-carater-arrogante-prepotente-hipocrita",
+      "publishedAt": "2026-08-19T20:02:02Z",
+      "category": "news",
+      "teams": [
+        "Flamengo",
+        "Vasco da Gama"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0819/r1704013_1296x729_16-9.jpg",
+      "imageAlt": "Pedrinho, do Vasco, à esquerda, e Bap, do Flamengo, à direita",
+      "imageCredit": "Arte ESPN (Fabio Giannelli/AGIF e Jorge Rodrigues/AGIF)"
+    },
+    {
+      "id": "17138705",
+      "title": "Pedrinho sobe o tom e dispara contra BAP no Flamengo: 'Mau-caráter, arrogante, prepotente e hipócrita'",
+      "summary": "Créditos: BTB Sports | Presidente do Vasco soltou o verbo após Flamengo notificar agência de fair play sobre gastos no Cruzmaltino",
+      "url": "https://www.espn.com.br/video/clip/_/id/17138705",
+      "publishedAt": "2026-08-19T19:30:36Z",
+      "category": "news",
+      "teams": [
+        "Flamengo",
+        "Vasco da Gama"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Pedrinho sobe o tom e dispara contra BAP no Flamengo: 'Mau-caráter, arrogante, prepotente e hipócrita'",
+      "imageCredit": null
+    },
+    {
+      "id": "17138616",
+      "title": "Marco Ruben no São Paulo? À ESPN, Rui Costa lembra quando atacante do Rosario Central quase foi parar no Tricolor",
+      "summary": "Ex-dirigente do São Paulo concedeu entrevista exclusiva ao ESPN.com.br",
+      "url": "https://www.espn.com.br/video/clip/_/id/17138616",
+      "publishedAt": "2026-08-19T19:08:32Z",
+      "category": "news",
+      "teams": [
+        "Corinthians",
+        "Rosário Central",
+        "São Paulo"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Marco Ruben no São Paulo? À ESPN, Rui Costa lembra quando atacante do Rosario Central quase foi parar no Tricolor",
+      "imageCredit": null
+    },
+    {
+      "id": "17138506",
+      "title": "Pressionado no Brasileirão, Vasco pode 'reencontrar a paz' com Sul-Americana? André Donke analisa",
+      "summary": "Comentarista da ESPN analisa momento do Cruzmaltino antes de confronto decisivo em torneio continental",
+      "url": "https://www.espn.com.br/video/clip/_/id/17138506",
+      "publishedAt": "2026-08-19T18:42:17Z",
+      "category": "news",
+      "teams": [
+        "Club Olimpia",
+        "Vasco da Gama"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Pressionado no Brasileirão, Vasco pode 'reencontrar a paz' com Sul-Americana? André Donke analisa",
+      "imageCredit": null
+    },
+    {
+      "id": "17138277",
+      "title": "Detalhes do novo contrato de Memphis Depay com Corinthians vão de bônus por vaga no Mundial a percentual por patrocínios",
+      "summary": "Craque holandês acertou renovação de contrato com o Corinthians até 2028",
+      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17138277/corinthians-memphis-depay-contrato-detalhes-bonus-mundial-percentual-patrocinios",
+      "publishedAt": "2026-08-19T17:57:07Z",
+      "category": "market",
+      "teams": [
+        "Corinthians"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0730/r1695675_1296x729_16-9.jpg",
+      "imageAlt": "Memphis Depay no Corinthians",
+      "imageCredit": "Marco Buenavista/Sports Press Photo/Getty Images"
+    },
+    {
+      "id": "17137985",
+      "title": "Arthur no Palmeiras? O que sabemos sobre futuro do volante e o plano alviverde para reforços na janela",
+      "summary": "Jogador deve rescindir com a Juventus",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17137985/arthur-palmeiras-que-sabemos-sobre-futuro-volante-plano-alviverde-reforcos-janela",
+      "publishedAt": "2026-08-19T16:59:45Z",
+      "category": "market",
+      "teams": [
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0819/r1703928_1296x729_16-9.jpg",
+      "imageAlt": "Arthur em jogo da Juventus",
+      "imageCredit": "Getty Images"
+    },
+    {
+      "id": "17137950",
+      "title": "Joel Santana chama Leonardo Jardim de 'maluco' e dispara contra técnico do Flamengo: 'Ganhou o quê?'",
+      "summary": "Ex-treinador concedeu entrevista exclusiva à ESPN",
+      "url": "https://www.espn.com.br/video/clip/_/id/17137950",
+      "publishedAt": "2026-08-19T18:50:39Z",
+      "category": "news",
+      "teams": [
+        "Flamengo"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Joel Santana chama Leonardo Jardim de 'maluco' e dispara contra técnico do Flamengo: 'Ganhou o quê?'",
+      "imageCredit": null
+    },
+    {
+      "id": "17137544",
+      "title": "Fluminense classificado na Libertadores! De Thiago Silva ao herói Fábio, a disputa de pênaltis que levou Tricolor às quartas",
+      "summary": "Equipe carioca garantiu vaga na próxima fase do mata-mata após disputa nas penalidades",
+      "url": "https://www.espn.com.br/video/clip/_/id/17137544",
+      "publishedAt": "2026-08-19T14:42:15Z",
+      "category": "news",
+      "teams": [
+        "Fluminense",
+        "Independiente Rivadavia"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Fluminense classificado na Libertadores! De Thiago Silva ao herói Fábio, a disputa de pênaltis que levou Tricolor às quartas",
+      "imageCredit": null
+    },
+    {
       "id": "17137080",
       "title": "Textor sai em defesa de Franclim Carvalho, diz que Botafogo 'jogou técnico aos abutres' e dispara: 'Tem uma criança comandando o clube'",
       "summary": "John Textor concedeu entrevista à ESPN e falou sobre o técnico Franclim Carvalho, que foi demitido na última terça-feira (18) pelo Botafogo",
       "url": "https://www.espn.com.br/futebol/botafogo/artigo/_/id/17137080/textor-sai-defesa-franclim-carvalho-diz-botafogo-jogou-tecnico-abutres-dispara-tem-crianca-comandando-clube",
-      "publishedAt": "2026-08-19T14:15:07Z",
+      "publishedAt": "2026-08-19T17:14:12Z",
       "category": "news",
       "teams": [
         "Botafogo"
@@ -1690,222 +1933,6 @@ export const RADAR_FALLBACK: RadarPayload = {
       "imageUrl": "https://a.espncdn.com/photo/2026/0819/r1703833_1296x729_16-9.jpg",
       "imageAlt": "Franclim Carvalho durante jogo entre Botafogo e Chapecoense, pela Copa do Brasil",
       "imageCredit": "Vitor Silva/Botafogo"
-    },
-    {
-      "id": "17137172",
-      "title": "Quantos milhões Botafogo vai pagar para Franclim após demissão? Veja valores",
-      "summary": "Treinador foi dispensado do clube na noite de terça-feira (18)",
-      "url": "https://www.espn.com.br/futebol/botafogo/artigo/_/id/17137172/botafogo-franclim-quantos-milhoes-vai-pagar-apos-demissao-veja-valores",
-      "publishedAt": "2026-08-19T14:01:43Z",
-      "category": "news",
-      "teams": [
-        "Botafogo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0724/r1693043_1296x729_16-9.jpg",
-      "imageAlt": "Franclim Carvalho durante jogo do Botafogo no Brasileirão",
-      "imageCredit": "Thiago Ribeiro/AGIF"
-    },
-    {
-      "id": "17135885",
-      "title": "Elton Serra comenta demissão de Franclim Carvalho do Botafogo: 'Decisão acertada'",
-      "summary": "Comentarista da ESPN fala sobre a saída do português do comando da equipe carioca",
-      "url": "https://www.espn.com.br/video/clip/_/id/17135885",
-      "publishedAt": "2026-08-19T02:50:11Z",
-      "category": "news",
-      "teams": [
-        "Botafogo"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Elton Serra comenta demissão de Franclim Carvalho do Botafogo: 'Decisão acertada'",
-      "imageCredit": null
-    },
-    {
-      "id": "17135252",
-      "title": "Botafogo anuncia demissão do técnico Franclim Carvalho",
-      "summary": "Botafogo anunciou a saída do técnico Franclim Carvalho na noite desta terça-feira (18)",
-      "url": "https://www.espn.com.br/futebol/botafogo/artigo/_/id/17135252/botafogo-anuncia-demissao-treinador-franclim-carvalho",
-      "publishedAt": "2026-08-18T23:55:47Z",
-      "category": "news",
-      "teams": [
-        "Botafogo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0817/r1703034_1296x729_16-9.jpg",
-      "imageAlt": "Franclim Carvalho durante treino do Botafogo, em 11 de agosto de 2026",
-      "imageCredit": "Vitor Silva/Botafogo"
-    },
-    {
-      "id": "17134099",
-      "title": "Corinthians oficializa renovação de Memphis Depay até 2028: 'Não vejo a hora de voltar ao trabalho'",
-      "summary": "Memphis Depay já está regularizado no sistema da CBF e pode voltar a jogar pelo Corinthians",
-      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17134099/corinthians-oficializa-renovacao-memphis-depay-2028-nao-vejo-hora-voltar-trabalho",
-      "publishedAt": "2026-08-18T18:59:36Z",
-      "category": "market",
-      "teams": [
-        "Corinthians"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0818/r1703527_1296x729_16-9.jpg",
-      "imageAlt": "Memphis Depay acertou renovação com o Corinthians até 2028",
-      "imageCredit": "Rodrigo Coca/Agência Corinthians"
-    },
-    {
-      "id": "17134032",
-      "title": "Memphis Depay aparece no BID após renovação e pode voltar a jogar pelo Corinthians",
-      "summary": "Memphis Depay está regularizado no sistema da CBF e pode voltar a jogar pelo Corinthians",
-      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17134032/memphis-depay-aparece-bid-renovacao-pode-voltar-jogar-corinthians",
-      "publishedAt": "2026-08-18T18:42:53Z",
-      "category": "market",
-      "teams": [
-        "Corinthians"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0818/r1703520_1296x729_16-9.jpg",
-      "imageAlt": "Memphis Depay comemora após marcar para o Corinthians sobre o Vasco",
-      "imageCredit": "Rodrigo Coca/Agência Corinthians"
-    },
-    {
-      "id": "17134010",
-      "title": "Carrascal, do Flamengo, é o melhor da 23ª rodada no Bola de Prata ESPN",
-      "summary": "Flamengo atropelou o Mirassol por 5 a 1, fora de casa, pelo Campeonato Brasileiro",
-      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17134010/flamengo-carrascal-eleito-melhor-rodada-23-rodada-bola-de-prata-espn",
-      "publishedAt": "2026-08-18T18:40:01Z",
-      "category": "news",
-      "teams": [
-        "Flamengo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0417/r1644855_1296x729_16-9.jpg",
-      "imageAlt": "Meia colombiano Jorge Carrascal durante partida do Flamengo contra o Fluminense, no Maracanã, no Rio de Janeiro (RJ), pelo Brasileirão de 2026",
-      "imageCredit": "Ruano Carneiro/Getty Images"
-    },
-    {
-      "id": "17133850",
-      "title": "Pedro Ivo detona postura de Stabile no processo de renovação com Memphis: 'Quem assinou foi a torcida'",
-      "summary": "Holandês participou do treino com a equipe na manhã de hoje (18)",
-      "url": "https://www.espn.com.br/video/clip/_/id/17133850",
-      "publishedAt": "2026-08-18T18:12:43Z",
-      "category": "market",
-      "teams": [
-        "Corinthians",
-        "Holanda"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Pedro Ivo detona postura de Stabile no processo de renovação com Memphis: 'Quem assinou foi a torcida'",
-      "imageCredit": null
-    },
-    {
-      "id": "17133396",
-      "title": "Reforço do Internacional! Relembre golaço de Sanabria com direito a drible em goleiro na Itália",
-      "summary": "Atacante paraguaio tem 30 anos e passou a última temporada no futebol italiano",
-      "url": "https://www.espn.com.br/video/clip/_/id/17133396",
-      "publishedAt": "2026-08-18T16:12:50Z",
-      "category": "market",
-      "teams": [
-        "Internacional"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Reforço do Internacional! Relembre golaço de Sanabria com direito a drible em goleiro na Itália",
-      "imageCredit": null
-    },
-    {
-      "id": "17131954",
-      "title": "Presidente do Corinthians explica por que 'voltou atrás' e decidiu renovar com Memphis",
-      "summary": "Osmar Stabile falou sobre a negociação com Memphis Depay até o acerto na noite desta segunda-feira (17)",
-      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17131954/corinthians-osmar-stabile-explica-por-que-decidiu-renovar-memphis-depay",
-      "publishedAt": "2026-08-18T05:13:23Z",
-      "category": "market",
-      "teams": [
-        "Corinthians"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2025/1126/r1581128_1296x729_16-9.jpg",
-      "imageAlt": "Dirigente brasileiro Osmar Stabile, presidente do Corinthians, no CT Joaquim Grava, em São Paulo (SP)",
-      "imageCredit": "Rodrigo Coca/Agência Corinthians"
-    },
-    {
-      "id": "17131666",
-      "title": "Corinthians vai renovar com Memphis Depay? Conselho de orientação dá parecer favorável; ENTENDA",
-      "summary": "Linha de Passe desta segunda-feira (17) repercute a votação favorável à renovação do atacante holandês com o clube alvinegro",
-      "url": "https://www.espn.com.br/video/clip/_/id/17131666",
-      "publishedAt": "2026-08-18T02:06:15Z",
-      "category": "market",
-      "teams": [
-        "Corinthians"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Corinthians vai renovar com Memphis Depay? Conselho de orientação dá parecer favorável; ENTENDA",
-      "imageCredit": null
-    },
-    {
-      "id": "17131568",
-      "title": "Remo busca empate nos acréscimos e frustra Internacional no Beira-Rio; VEJA",
-      "summary": "Resultado mantém as duas equipes ameaçadas pelo Z4 do Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17131568",
-      "publishedAt": "2026-08-18T01:30:18Z",
-      "category": "news",
-      "teams": [
-        "Internacional",
-        "Remo"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Remo busca empate nos acréscimos e frustra Internacional no Beira-Rio; VEJA",
-      "imageCredit": null
-    },
-    {
-      "id": "17131475",
-      "title": "Internacional perde chances e sofre empate do Remo no último lance em confronto direto contra o rebaixamento no Brasileirão",
-      "summary": "Internacional sofreu o empate do Remo no último lance da partida realizada no Estádio Beira-Rio",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17131475/internacional-perde-chances-sofre-empate-remo-ultimo-lance-confronto-direto-rebaixamento-brasileirao",
-      "publishedAt": "2026-08-18T01:05:33Z",
-      "category": "news",
-      "teams": [
-        "Internacional",
-        "Remo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0818/r1703223_1296x729_16-9.jpg",
-      "imageAlt": "Bernabei e Zé Welison disputam bola durante Internacional x Remo",
-      "imageCredit": "Ricardo Duarte / Internacional"
-    },
-    {
-      "id": "17131479",
-      "title": "Gol do Internacional! Carbonero não perde tempo e abre o placar no Beira-Rio aos três minutos de jogo",
-      "summary": "Colorado e Remo brigam para se afastar do Z4 do Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17131479",
-      "publishedAt": "2026-08-18T01:10:25Z",
-      "category": "news",
-      "teams": [
-        "Colômbia",
-        "Colombia U20",
-        "Internacional"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Gol do Internacional! Carbonero não perde tempo e abre o placar no Beira-Rio aos três minutos de jogo",
-      "imageCredit": null
-    },
-    {
-      "id": "17119712",
-      "title": "Internacional x Remo: onde assistir ao vivo e escalações do jogo do Brasileirão",
-      "summary": "O confronto acontecerá nesta segunda-feira, às 20h (de Brasília), no Estádio Beira-Rio, em Porto Alegre (RS)",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17119712/internacional-remo-onde-assistir-ao-vivo-escalacoes-jogo-brasileirao",
-      "publishedAt": "2026-08-17T22:49:15Z",
-      "category": "news",
-      "teams": [
-        "Internacional",
-        "Remo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2025/0929/r1553087_1296x729_16-9.jpg",
-      "imageAlt": "Vista do Beira-Rio, estádio do Internacional, em Porto Alegre",
-      "imageCredit": "SILVIO AVILA/AFP via Getty Images"
-    },
-    {
-      "id": "17130352",
-      "title": "O recado de Leila Pereira para a torcida do Palmeiras antes de decisão pela Libertadores: 'O importante é que...'",
-      "summary": "Palmeiras vive mau momento na temporada e tem decisões pela frente",
-      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17130352/palmeiras-leila-pereira-recado-torcida-antes-decisao-libertadores-importante-e-que",
-      "publishedAt": "2026-08-17T19:17:00Z",
-      "category": "news",
-      "teams": [
-        "Palmeiras"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0210/r1613457_1296x729_16-9.jpg",
-      "imageAlt": "Dirigente brasileira Leila Pereira, presidente do Palmeiras, na Supercopa feminina de 2026 entre Palmeiras e Corinthians, na Arena Barueri, em Barueri (SP)",
-      "imageCredit": "Theo Daolio/Mochila Press/Gazeta Press"
     }
   ]
 };
