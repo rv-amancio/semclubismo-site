@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-08-20T14:18:30.405Z",
-  "expiresAt": "2026-08-24T14:18:30.405Z",
+  "generatedAt": "2026-08-21T14:16:51.807Z",
+  "expiresAt": "2026-08-25T14:16:51.807Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -14,7 +14,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "id": "bra.1",
       "name": "Campeonato Brasileiro",
       "shortName": "Brasileirão",
-      "matchCount": 30,
+      "matchCount": 27,
       "liveCount": 0,
       "nextMatchAt": "2026-08-22T19:00Z"
     },
@@ -32,7 +32,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Libertadores",
       "matchCount": 5,
       "liveCount": 0,
-      "nextMatchAt": "2026-08-20T22:00Z"
+      "nextMatchAt": null
     },
     {
       "id": "conmebol.sudamericana",
@@ -40,91 +40,10 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Sul-Americana",
       "matchCount": 5,
       "liveCount": 0,
-      "nextMatchAt": "2026-08-20T22:00Z"
+      "nextMatchAt": null
     }
   ],
   "matches": [
-    {
-      "id": "401841192",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-15T19:30Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estadio do Maracana",
-      "home": {
-        "id": "3445",
-        "name": "Fluminense",
-        "shortName": "Fluminense",
-        "abbreviation": "FLU",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png"
-      },
-      "away": {
-        "id": "2029",
-        "name": "Palmeiras",
-        "shortName": "Palmeiras",
-        "abbreviation": "PAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
-      },
-      "homeScore": "3",
-      "awayScore": "2",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841192/palmeiras-fluminense"
-    },
-    {
-      "id": "401841196",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-15T21:30Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Arena da Baixada",
-      "home": {
-        "id": "3458",
-        "name": "Athletico Paranaense",
-        "shortName": "Athletico-PR",
-        "abbreviation": "CAP",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png"
-      },
-      "away": {
-        "id": "6079",
-        "name": "Red Bull Bragantino",
-        "shortName": "Bragantino",
-        "abbreviation": "BRA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png"
-      },
-      "homeScore": "1",
-      "awayScore": "1",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841196/red-bull-bragantino-athletico-paranaense"
-    },
-    {
-      "id": "401841189",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-16T00:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estádio Cícero Pompeu de Toledo",
-      "home": {
-        "id": "2026",
-        "name": "São Paulo",
-        "shortName": "São Paulo",
-        "abbreviation": "SAO",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png"
-      },
-      "away": {
-        "id": "3456",
-        "name": "Coritiba",
-        "shortName": "Coritiba",
-        "abbreviation": "CFC",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png"
-      },
-      "homeScore": "1",
-      "awayScore": "1",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841189/coritiba-sao-paulo"
-    },
     {
       "id": "401841194",
       "competitionId": "bra.1",
@@ -454,8 +373,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.libertadores",
       "competitionName": "CONMEBOL Libertadores",
       "date": "2026-08-20T22:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final Score - After Penalties",
       "clock": null,
       "venue": "Rodrigo Paz Delgado",
       "home": {
@@ -472,8 +391,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "MIR",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "0",
+      "awayScore": "0",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401874142/mirassol-liga-de-quito"
     },
     {
@@ -481,8 +400,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.sudamericana",
       "competitionName": "CONMEBOL Sudamericana",
       "date": "2026-08-20T22:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Defensores del Chaco",
       "home": {
@@ -499,8 +418,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "VAS",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "1",
+      "awayScore": "4",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401902740/vasco-da-gama-club-olimpia"
     },
     {
@@ -508,8 +427,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.sudamericana",
       "competitionName": "CONMEBOL Sudamericana",
       "date": "2026-08-20T22:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estadio Bellavista",
       "home": {
@@ -526,8 +445,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "SAN",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "0",
+      "awayScore": "0",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401902449/santos-macara"
     },
     {
@@ -535,8 +454,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.libertadores",
       "competitionName": "CONMEBOL Libertadores",
       "date": "2026-08-21T00:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Neo Química Arena",
       "home": {
@@ -553,8 +472,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "ROS",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "1",
+      "awayScore": "0",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401874149/rosario-central-corinthians"
     },
     {
@@ -562,8 +481,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.sudamericana",
       "competitionName": "CONMEBOL Sudamericana",
       "date": "2026-08-21T00:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Joao Havelange Stadium",
       "home": {
@@ -580,8 +499,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "CIE",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3372.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "1",
+      "awayScore": "0",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401902741/cienciano-del-cusco-botafogo"
     },
     {
@@ -1705,6 +1624,93 @@ export const RADAR_FALLBACK: RadarPayload = {
   ],
   "news": [
     {
+      "id": "17145443",
+      "title": "Flamengo e Palmeiras repetem roteiro? Corinthians e Fluminense avançam? Quem vai ser o campeão? Os palpites para a Libertadores",
+      "summary": "Jornalistas da ESPN, Diego Garcia e Elton Serra projetam duelos das próximas fases",
+      "url": "https://www.espn.com.br/video/clip/_/id/17145443",
+      "publishedAt": "2026-08-21T11:58:30Z",
+      "category": "news",
+      "teams": [
+        "Corinthians",
+        "Flamengo",
+        "Fluminense"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Flamengo e Palmeiras repetem roteiro? Corinthians e Fluminense avançam? Quem vai ser o campeão? Os palpites para a Libertadores",
+      "imageCredit": null
+    },
+    {
+      "id": "17144657",
+      "title": "Botafogo vence Cienciano, mas desperdiça diversas oportunidades e é eliminado nas oitavas da Sul-Americana",
+      "summary": "Fogão precisava de uma vitória de 6 gols para se classificar",
+      "url": "https://www.espn.com.br/video/clip/_/id/17144657",
+      "publishedAt": "2026-08-21T02:34:04Z",
+      "category": "news",
+      "teams": [
+        "Botafogo",
+        "Cienciano del Cusco"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Botafogo vence Cienciano, mas desperdiça diversas oportunidades e é eliminado nas oitavas da Sul-Americana",
+      "imageCredit": null
+    },
+    {
+      "id": "17144324",
+      "title": "Marcelo Paz festeja renovação de Memphis Depay, cita 'responsabilidade financeira' e esfria reforços: 'A prioridade é...'",
+      "summary": "Marcelo Paz esfriou a busca por reforços após a renovação do contrato de Memphis Depay",
+      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17144324/corinthians-marcelo-paz-festeja-renovacao-memphis-depay-cita-responsabilidade-financeira-e-esfria-reforcos",
+      "publishedAt": "2026-08-21T00:13:35Z",
+      "category": "market",
+      "teams": [
+        "Corinthians"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0111/r1599199_1296x729_16-9.jpg",
+      "imageAlt": "Marcelo Paz durante entrevista coletiva do Corinthians",
+      "imageCredit": "Rodrigo Coca/Agência Corinthians"
+    },
+    {
+      "id": "17142697",
+      "title": "São Paulo avalia contratação de ex-meia do Palmeiras",
+      "summary": "Atleta, de 26 anos, está livre no mercado",
+      "url": "https://www.espn.com.br/futebol/sao-paulo/artigo/_/id/17142697/sao-paulo-avalia-contratacao-ex-meia-palmeiras",
+      "publishedAt": "2026-08-20T18:12:32Z",
+      "category": "market",
+      "teams": [
+        "São Paulo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0520/r1660783_1296x729_16-9.jpg",
+      "imageAlt": "Dorival Júnior comandando o São Paulo no Morumbis",
+      "imageCredit": "Nelson ALMEIDA / AFP via Getty Images"
+    },
+    {
+      "id": "17142278",
+      "title": "Susto no treino do São Paulo! Victor Sá leva entrada feia e deixa campo carregado; VEJA",
+      "summary": "Lance envolvendo lateral Wendell interrompeu atividade nesta quinta-feira (20)",
+      "url": "https://www.espn.com.br/video/clip/_/id/17142278",
+      "publishedAt": "2026-08-20T14:49:18Z",
+      "category": "news",
+      "teams": [
+        "São Paulo"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Susto no treino do São Paulo! Victor Sá leva entrada feia e deixa campo carregado; VEJA",
+      "imageCredit": null
+    },
+    {
+      "id": "17142218",
+      "title": "Joel Santana detona gestão de Pedrinho no Vasco: 'Vai ter que ralar muito...'",
+      "summary": "Ex-treinador concedeu entrevista exclusiva à ESPN",
+      "url": "https://www.espn.com.br/video/clip/_/id/17142218",
+      "publishedAt": "2026-08-20T14:41:20Z",
+      "category": "news",
+      "teams": [
+        "Vasco da Gama"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Joel Santana detona gestão de Pedrinho no Vasco: 'Vai ter que ralar muito...'",
+      "imageCredit": null
+    },
+    {
       "id": "17141716",
       "title": "Flamengo provoca Gerson após classificação contra o Cruzeiro na Libertadores: 'Nosso time é forte'",
       "summary": "Meio-campista ainda tem um processo na Justiça contra o Flamengo",
@@ -1724,7 +1730,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "title": "Zagueiro vendido por R$ 27 milhões vai à Justiça e tenta bloquear contas do Inter",
       "summary": "ESPN teve acesso ao processo movido por ex-jogador do Internacional contra o clube na Justiça do Rio Grande do Sul",
       "url": "https://www.espn.com.br/futebol/internacional/artigo/_/id/17141400/zagueiro-vendido-r-27-milhoes-vai-justica-tenta-bloquear-contas-inter",
-      "publishedAt": "2026-08-20T11:56:43Z",
+      "publishedAt": "2026-08-20T17:53:36Z",
       "category": "news",
       "teams": [
         "Internacional"
@@ -1763,14 +1769,14 @@ export const RADAR_FALLBACK: RadarPayload = {
     },
     {
       "id": "17140736",
-      "title": "lmeiras segue na liderança? Flamengo vence? E o Z-4? Os palpites da rodada no Brasileirão",
+      "title": "Palmeiras segue na liderança? Flamengo vence? E o Z-4? Os palpites da rodada no Brasileirão",
       "summary": "Campeonato chega a sua 24ª rodada neste sábado (22)",
       "url": "https://www.espn.com.br/video/clip/_/id/17140736",
-      "publishedAt": "2026-08-20T03:05:16Z",
+      "publishedAt": "2026-08-20T18:20:05Z",
       "category": "news",
       "teams": [],
       "imageUrl": null,
-      "imageAlt": "lmeiras segue na liderança? Flamengo vence? E o Z-4? Os palpites da rodada no Brasileirão",
+      "imageAlt": "Palmeiras segue na liderança? Flamengo vence? E o Z-4? Os palpites da rodada no Brasileirão",
       "imageCredit": null
     },
     {
@@ -1847,92 +1853,6 @@ export const RADAR_FALLBACK: RadarPayload = {
       "imageUrl": null,
       "imageAlt": "Marco Ruben no São Paulo? À ESPN, Rui Costa lembra quando atacante do Rosario Central quase foi parar no Tricolor",
       "imageCredit": null
-    },
-    {
-      "id": "17138506",
-      "title": "Pressionado no Brasileirão, Vasco pode 'reencontrar a paz' com Sul-Americana? André Donke analisa",
-      "summary": "Comentarista da ESPN analisa momento do Cruzmaltino antes de confronto decisivo em torneio continental",
-      "url": "https://www.espn.com.br/video/clip/_/id/17138506",
-      "publishedAt": "2026-08-19T18:42:17Z",
-      "category": "news",
-      "teams": [
-        "Club Olimpia",
-        "Vasco da Gama"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Pressionado no Brasileirão, Vasco pode 'reencontrar a paz' com Sul-Americana? André Donke analisa",
-      "imageCredit": null
-    },
-    {
-      "id": "17138277",
-      "title": "Detalhes do novo contrato de Memphis Depay com Corinthians vão de bônus por vaga no Mundial a percentual por patrocínios",
-      "summary": "Craque holandês acertou renovação de contrato com o Corinthians até 2028",
-      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17138277/corinthians-memphis-depay-contrato-detalhes-bonus-mundial-percentual-patrocinios",
-      "publishedAt": "2026-08-19T17:57:07Z",
-      "category": "market",
-      "teams": [
-        "Corinthians"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0730/r1695675_1296x729_16-9.jpg",
-      "imageAlt": "Memphis Depay no Corinthians",
-      "imageCredit": "Marco Buenavista/Sports Press Photo/Getty Images"
-    },
-    {
-      "id": "17137985",
-      "title": "Arthur no Palmeiras? O que sabemos sobre futuro do volante e o plano alviverde para reforços na janela",
-      "summary": "Jogador deve rescindir com a Juventus",
-      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17137985/arthur-palmeiras-que-sabemos-sobre-futuro-volante-plano-alviverde-reforcos-janela",
-      "publishedAt": "2026-08-19T16:59:45Z",
-      "category": "market",
-      "teams": [
-        "Palmeiras"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0819/r1703928_1296x729_16-9.jpg",
-      "imageAlt": "Arthur em jogo da Juventus",
-      "imageCredit": "Getty Images"
-    },
-    {
-      "id": "17137950",
-      "title": "Joel Santana chama Leonardo Jardim de 'maluco' e dispara contra técnico do Flamengo: 'Ganhou o quê?'",
-      "summary": "Ex-treinador concedeu entrevista exclusiva à ESPN",
-      "url": "https://www.espn.com.br/video/clip/_/id/17137950",
-      "publishedAt": "2026-08-19T18:50:39Z",
-      "category": "news",
-      "teams": [
-        "Flamengo"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Joel Santana chama Leonardo Jardim de 'maluco' e dispara contra técnico do Flamengo: 'Ganhou o quê?'",
-      "imageCredit": null
-    },
-    {
-      "id": "17137544",
-      "title": "Fluminense classificado na Libertadores! De Thiago Silva ao herói Fábio, a disputa de pênaltis que levou Tricolor às quartas",
-      "summary": "Equipe carioca garantiu vaga na próxima fase do mata-mata após disputa nas penalidades",
-      "url": "https://www.espn.com.br/video/clip/_/id/17137544",
-      "publishedAt": "2026-08-19T14:42:15Z",
-      "category": "news",
-      "teams": [
-        "Fluminense",
-        "Independiente Rivadavia"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Fluminense classificado na Libertadores! De Thiago Silva ao herói Fábio, a disputa de pênaltis que levou Tricolor às quartas",
-      "imageCredit": null
-    },
-    {
-      "id": "17137080",
-      "title": "Textor sai em defesa de Franclim Carvalho, diz que Botafogo 'jogou técnico aos abutres' e dispara: 'Tem uma criança comandando o clube'",
-      "summary": "John Textor concedeu entrevista à ESPN e falou sobre o técnico Franclim Carvalho, que foi demitido na última terça-feira (18) pelo Botafogo",
-      "url": "https://www.espn.com.br/futebol/botafogo/artigo/_/id/17137080/textor-sai-defesa-franclim-carvalho-diz-botafogo-jogou-tecnico-abutres-dispara-tem-crianca-comandando-clube",
-      "publishedAt": "2026-08-19T17:14:12Z",
-      "category": "news",
-      "teams": [
-        "Botafogo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0819/r1703833_1296x729_16-9.jpg",
-      "imageAlt": "Franclim Carvalho durante jogo entre Botafogo e Chapecoense, pela Copa do Brasil",
-      "imageCredit": "Vitor Silva/Botafogo"
     }
   ]
 };
