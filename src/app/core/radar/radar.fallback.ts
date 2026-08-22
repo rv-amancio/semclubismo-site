@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-08-21T14:16:51.807Z",
-  "expiresAt": "2026-08-25T14:16:51.807Z",
+  "generatedAt": "2026-08-22T13:56:03.217Z",
+  "expiresAt": "2026-08-26T13:56:03.217Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -14,7 +14,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "id": "bra.1",
       "name": "Campeonato Brasileiro",
       "shortName": "Brasileirão",
-      "matchCount": 27,
+      "matchCount": 26,
       "liveCount": 0,
       "nextMatchAt": "2026-08-22T19:00Z"
     },
@@ -44,168 +44,6 @@ export const RADAR_FALLBACK: RadarPayload = {
     }
   ],
   "matches": [
-    {
-      "id": "401841194",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-16T14:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Arena Condá",
-      "home": {
-        "id": "9318",
-        "name": "Chapecoense",
-        "shortName": "Chapecoense",
-        "abbreviation": "CHA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png"
-      },
-      "away": {
-        "id": "9967",
-        "name": "Bahia",
-        "shortName": "Bahia",
-        "abbreviation": "BAH",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png"
-      },
-      "homeScore": "3",
-      "awayScore": "3",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841194/bahia-chapecoense"
-    },
-    {
-      "id": "401841195",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-16T19:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Arena MRV",
-      "home": {
-        "id": "7632",
-        "name": "Atlético-MG",
-        "shortName": "Atlético-MG",
-        "abbreviation": "CAM",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png"
-      },
-      "away": {
-        "id": "6273",
-        "name": "Grêmio",
-        "shortName": "Grêmio",
-        "abbreviation": "GRE",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png"
-      },
-      "homeScore": "3",
-      "awayScore": "0",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841195/gremio-atletico-mg"
-    },
-    {
-      "id": "401841188",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-16T19:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estádio São Januário",
-      "home": {
-        "id": "3454",
-        "name": "Vasco da Gama",
-        "shortName": "Vasco",
-        "abbreviation": "VAS",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png"
-      },
-      "away": {
-        "id": "2674",
-        "name": "Santos",
-        "shortName": "Santos",
-        "abbreviation": "SAN",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
-      },
-      "homeScore": "0",
-      "awayScore": "3",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841188/santos-vasco-da-gama"
-    },
-    {
-      "id": "401841190",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-16T21:30Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estadio Municipal José Maria de Campos Maia",
-      "home": {
-        "id": "9169",
-        "name": "Mirassol",
-        "shortName": "Mirassol",
-        "abbreviation": "MIR",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
-      },
-      "away": {
-        "id": "819",
-        "name": "Flamengo",
-        "shortName": "Flamengo",
-        "abbreviation": "FLA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png"
-      },
-      "homeScore": "1",
-      "awayScore": "5",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841190/flamengo-mirassol"
-    },
-    {
-      "id": "401841197",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-16T21:30Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estadio Manoel Barradas",
-      "home": {
-        "id": "3457",
-        "name": "Vitória",
-        "shortName": "Vitória",
-        "abbreviation": "VIT",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png"
-      },
-      "away": {
-        "id": "6086",
-        "name": "Botafogo",
-        "shortName": "Botafogo",
-        "abbreviation": "BOT",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png"
-      },
-      "homeScore": "1",
-      "awayScore": "0",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841197/botafogo-vitoria"
-    },
-    {
-      "id": "401841193",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-16T22:30Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Neo Química Arena",
-      "home": {
-        "id": "874",
-        "name": "Corinthians",
-        "shortName": "Corinthians",
-        "abbreviation": "COR",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png"
-      },
-      "away": {
-        "id": "2022",
-        "name": "Cruzeiro",
-        "shortName": "Cruzeiro",
-        "abbreviation": "CRU",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png"
-      },
-      "homeScore": "1",
-      "awayScore": "2",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841193/cruzeiro-corinthians"
-    },
     {
       "id": "401841191",
       "competitionId": "bra.1",
@@ -1179,6 +1017,33 @@ export const RADAR_FALLBACK: RadarPayload = {
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909112/cruzeiro-atletico-mg"
     },
     {
+      "id": "401913077",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-09-02T22:30Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Estadio do Maracana",
+      "home": {
+        "id": "819",
+        "name": "Flamengo",
+        "shortName": "Flamengo",
+        "abbreviation": "FLA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png"
+      },
+      "away": {
+        "id": "9169",
+        "name": "Mirassol",
+        "shortName": "Mirassol",
+        "abbreviation": "MIR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401913077/mirassol-flamengo"
+    },
+    {
       "id": "401909110",
       "competitionId": "bra.copa_do_brazil",
       "competitionName": "Copa do Brasil",
@@ -1258,6 +1123,114 @@ export const RADAR_FALLBACK: RadarPayload = {
       "homeScore": null,
       "awayScore": null,
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909114/internacional-gremio"
+    },
+    {
+      "id": "401841224",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-09-05T19:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Estádio Municipal Cicero de Souza Marques",
+      "home": {
+        "id": "6079",
+        "name": "Red Bull Bragantino",
+        "shortName": "Bragantino",
+        "abbreviation": "BRA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png"
+      },
+      "away": {
+        "id": "9967",
+        "name": "Bahia",
+        "shortName": "Bahia",
+        "abbreviation": "BAH",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841224/bahia-red-bull-bragantino"
+    },
+    {
+      "id": "401841219",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-09-05T21:30Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Couto Pereira",
+      "home": {
+        "id": "3456",
+        "name": "Coritiba",
+        "shortName": "Coritiba",
+        "abbreviation": "CFC",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png"
+      },
+      "away": {
+        "id": "9169",
+        "name": "Mirassol",
+        "shortName": "Mirassol",
+        "abbreviation": "MIR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841219/mirassol-coritiba"
+    },
+    {
+      "id": "401841226",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-09-05T21:30Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Estádio Cícero Pompeu de Toledo",
+      "home": {
+        "id": "2026",
+        "name": "São Paulo",
+        "shortName": "São Paulo",
+        "abbreviation": "SAO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png"
+      },
+      "away": {
+        "id": "7632",
+        "name": "Atlético-MG",
+        "shortName": "Atlético-MG",
+        "abbreviation": "CAM",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841226/atletico-mg-sao-paulo"
+    },
+    {
+      "id": "401841227",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-09-06T00:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Estadio do Maracana",
+      "home": {
+        "id": "3445",
+        "name": "Fluminense",
+        "shortName": "Fluminense",
+        "abbreviation": "FLU",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png"
+      },
+      "away": {
+        "id": "3454",
+        "name": "Vasco da Gama",
+        "shortName": "Vasco",
+        "abbreviation": "VAS",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841227/vasco-da-gama-fluminense"
     }
   ],
   "standings": [
@@ -1624,235 +1597,242 @@ export const RADAR_FALLBACK: RadarPayload = {
   ],
   "news": [
     {
-      "id": "17145443",
-      "title": "Flamengo e Palmeiras repetem roteiro? Corinthians e Fluminense avançam? Quem vai ser o campeão? Os palpites para a Libertadores",
-      "summary": "Jornalistas da ESPN, Diego Garcia e Elton Serra projetam duelos das próximas fases",
-      "url": "https://www.espn.com.br/video/clip/_/id/17145443",
-      "publishedAt": "2026-08-21T11:58:30Z",
+      "id": "17144229",
+      "title": "Como Lukaku pode mudar destino de Gabriel Jesus na Europa e o que assistir no Disney+",
+      "summary": "Gabriel Jesus é um dos alvos do Napoli para substituir Lukaku, vendido para o Fenerbahçe",
+      "url": "https://www.espn.com.br/futebol/italiano/artigo/_/id/17144229/lukaku-como-pode-mudar-destino-gabriel-jesus-na-europa-e-o-que-assistir-disney",
+      "publishedAt": "2026-08-22T02:22:27Z",
       "category": "news",
       "teams": [
-        "Corinthians",
-        "Flamengo",
-        "Fluminense"
+        "Napoli",
+        "Arsenal",
+        "Fenerbahçe"
       ],
-      "imageUrl": null,
-      "imageAlt": "Flamengo e Palmeiras repetem roteiro? Corinthians e Fluminense avançam? Quem vai ser o campeão? Os palpites para a Libertadores",
-      "imageCredit": null
+      "imageUrl": "https://a.espncdn.com/photo/2026/0527/r1664479_1296x729_16-9.jpg",
+      "imageAlt": "Gabriel Jesus, do Arsenal",
+      "imageCredit": "Getty Images"
     },
     {
-      "id": "17144657",
-      "title": "Botafogo vence Cienciano, mas desperdiça diversas oportunidades e é eliminado nas oitavas da Sul-Americana",
-      "summary": "Fogão precisava de uma vitória de 6 gols para se classificar",
-      "url": "https://www.espn.com.br/video/clip/_/id/17144657",
-      "publishedAt": "2026-08-21T02:34:04Z",
+      "id": "17148779",
+      "title": "Cruzeiro recebe ofício da CBF sobre proibição de bets em MG e pode ficar impedido de usar Mineirão",
+      "summary": "Cruzeiro recebeu ofício da CBF informando sobre proibição de exibição de bets em locais públicos, como o Mineirão",
+      "url": "https://www.espn.com.br/futebol/cruzeiro/artigo/_/id/17148779/cruzeiro-recebe-oficio-cbf-proibicao-bets-mg-pode-ficar-impedido-usar-mineirao",
+      "publishedAt": "2026-08-22T01:43:33Z",
       "category": "news",
       "teams": [
-        "Botafogo",
-        "Cienciano del Cusco"
+        "Cruzeiro"
       ],
-      "imageUrl": null,
-      "imageAlt": "Botafogo vence Cienciano, mas desperdiça diversas oportunidades e é eliminado nas oitavas da Sul-Americana",
-      "imageCredit": null
+      "imageUrl": "https://a.espncdn.com/photo/2025/0530/r1500352_1296x729_16-9.jpg",
+      "imageAlt": "Vista do Mineirão antes de jogo entre Cruzeiro e Atlético-MG",
+      "imageCredit": "Pedro Vilela/Getty Images"
     },
     {
-      "id": "17144324",
-      "title": "Marcelo Paz festeja renovação de Memphis Depay, cita 'responsabilidade financeira' e esfria reforços: 'A prioridade é...'",
-      "summary": "Marcelo Paz esfriou a busca por reforços após a renovação do contrato de Memphis Depay",
-      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17144324/corinthians-marcelo-paz-festeja-renovacao-memphis-depay-cita-responsabilidade-financeira-e-esfria-reforcos",
-      "publishedAt": "2026-08-21T00:13:35Z",
-      "category": "market",
-      "teams": [
-        "Corinthians"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0111/r1599199_1296x729_16-9.jpg",
-      "imageAlt": "Marcelo Paz durante entrevista coletiva do Corinthians",
-      "imageCredit": "Rodrigo Coca/Agência Corinthians"
-    },
-    {
-      "id": "17142697",
-      "title": "São Paulo avalia contratação de ex-meia do Palmeiras",
-      "summary": "Atleta, de 26 anos, está livre no mercado",
-      "url": "https://www.espn.com.br/futebol/sao-paulo/artigo/_/id/17142697/sao-paulo-avalia-contratacao-ex-meia-palmeiras",
-      "publishedAt": "2026-08-20T18:12:32Z",
-      "category": "market",
-      "teams": [
-        "São Paulo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0520/r1660783_1296x729_16-9.jpg",
-      "imageAlt": "Dorival Júnior comandando o São Paulo no Morumbis",
-      "imageCredit": "Nelson ALMEIDA / AFP via Getty Images"
-    },
-    {
-      "id": "17142278",
-      "title": "Susto no treino do São Paulo! Victor Sá leva entrada feia e deixa campo carregado; VEJA",
-      "summary": "Lance envolvendo lateral Wendell interrompeu atividade nesta quinta-feira (20)",
-      "url": "https://www.espn.com.br/video/clip/_/id/17142278",
-      "publishedAt": "2026-08-20T14:49:18Z",
+      "id": "17148728",
+      "title": "Por que Palmeiras não poderá estrear nova camisa azul contra o Vasco; veja quando uniforme deve ser usado",
+      "summary": "O uniforme é uma homenagem à seleção italiana campeã da Copa do Mundo de 2006",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17148728/por-que-palmeiras-nao-podera-estrear-nova-camisa-azul-contra-vasco-veja-quando-uniforme-deve-ser-usado",
+      "publishedAt": "2026-08-22T01:08:36Z",
       "category": "news",
       "teams": [
-        "São Paulo"
+        "Palmeiras",
+        "Vasco da Gama"
       ],
-      "imageUrl": null,
-      "imageAlt": "Susto no treino do São Paulo! Victor Sá leva entrada feia e deixa campo carregado; VEJA",
-      "imageCredit": null
+      "imageUrl": "https://a.espncdn.com/photo/2026/0821/r1704794_1296x729_16-9.jpg",
+      "imageAlt": "Palmeiras apresentou nova camisa 3 para a temporada 2026",
+      "imageCredit": "Divulgação/Puma"
     },
     {
-      "id": "17142218",
-      "title": "Joel Santana detona gestão de Pedrinho no Vasco: 'Vai ter que ralar muito...'",
-      "summary": "Ex-treinador concedeu entrevista exclusiva à ESPN",
-      "url": "https://www.espn.com.br/video/clip/_/id/17142218",
-      "publishedAt": "2026-08-20T14:41:20Z",
+      "id": "17148712",
+      "title": "Palmeiras e Vasco se enfrentam pelo Brasileirão com aproveitamentos parecidos após a Copa do Mundo; VEJA",
+      "summary": "As duas equipes seguem vivas em três competições",
+      "url": "https://www.espn.com.br/video/clip/_/id/17148712",
+      "publishedAt": "2026-08-22T01:05:39Z",
       "category": "news",
       "teams": [
+        "Palmeiras",
         "Vasco da Gama"
       ],
       "imageUrl": null,
-      "imageAlt": "Joel Santana detona gestão de Pedrinho no Vasco: 'Vai ter que ralar muito...'",
+      "imageAlt": "Palmeiras e Vasco se enfrentam pelo Brasileirão com aproveitamentos parecidos após a Copa do Mundo; VEJA",
       "imageCredit": null
     },
     {
-      "id": "17141716",
-      "title": "Flamengo provoca Gerson após classificação contra o Cruzeiro na Libertadores: 'Nosso time é forte'",
-      "summary": "Meio-campista ainda tem um processo na Justiça contra o Flamengo",
-      "url": "https://www.espn.com.br/futebol/libertadores/artigo/_/id/17141716/flamengo-provoca-gerson-apos-classificacao-contra-o-cruzeiro-na-libertadores-nosso-time-e-forte",
-      "publishedAt": "2026-08-20T13:00:24Z",
+      "id": "17148710",
+      "title": "Botafogo tem negociação avançada para contratar atacante Tiquinho Soares, livre no mercado após deixar o Santos",
+      "summary": "Tiquinho Soares disputou mais de 100 partidas e marcou 44 gols na primeira passagem pelo Botafogo",
+      "url": "https://www.espn.com.br/futebol/botafogo/artigo/_/id/17148710/botafogo-negociacao-avancada-contratar-tiquinho-soares-livre-apos-deixar-santos",
+      "publishedAt": "2026-08-22T01:03:54Z",
+      "category": "market",
+      "teams": [
+        "Botafogo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2023/0407/r1155452_1296x729_16-9.jpg",
+      "imageAlt": "Tiquinho Soares comemora gol do Botafogo contra o Magallanes na estreia da Sul-Americana",
+      "imageCredit": "Vitor Silva/Botafogo"
+    },
+    {
+      "id": "17148630",
+      "title": "Kaio César, do Corinthians, pode aplicar 'lei do ex' contra Coritiba, que revelou o atacante",
+      "summary": "Meia de 22 anos é um dos titulares do time paulista",
+      "url": "https://www.espn.com.br/video/clip/_/id/17148630",
+      "publishedAt": "2026-08-22T00:33:23Z",
       "category": "news",
       "teams": [
-        "Flamengo",
-        "Cruzeiro"
+        "Corinthians",
+        "Coritiba"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0820/r1704375_1296x729_16-9.jpg",
-      "imageAlt": "Gerson, do Cruzeiro",
+      "imageUrl": null,
+      "imageAlt": "Kaio César, do Corinthians, pode aplicar 'lei do ex' contra Coritiba, que revelou o atacante",
+      "imageCredit": null
+    },
+    {
+      "id": "17148619",
+      "title": "Flamengo tem primeira 'final' contra o Palmeiras em reencontro com o Cruzeiro e já depende só de si no Brasileirão; veja as contas pelo bi",
+      "summary": "Rubro-Negro visita o Cruzeiro às 20h30 (de Brasília) pelo Brasileirão",
+      "url": "https://www.espn.com.br/video/clip/_/id/17148619",
+      "publishedAt": "2026-08-22T11:33:04Z",
+      "category": "news",
+      "teams": [
+        "Cruzeiro",
+        "Flamengo"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Flamengo tem primeira 'final' contra o Palmeiras em reencontro com o Cruzeiro e já depende só de si no Brasileirão; veja as contas pelo bi",
+      "imageCredit": null
+    },
+    {
+      "id": "17147824",
+      "title": "Red Bull Bragantino x Grêmio: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+      "summary": "O confronto será às 16h (de Brasília), no Cícero de Souza Marques, em Bragança Paulista",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17147824/red-bull-bragantino-gremio-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao-serie-a",
+      "publishedAt": "2026-08-21T20:54:47Z",
+      "category": "news",
+      "teams": [
+        "Red Bull Bragantino",
+        "Grêmio"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0821/r1705015_1296x729_16-9.jpg",
+      "imageAlt": "Cícero de Souza Marques, vista geral do estádio do Red Bull Bragantino",
       "imageCredit": "Getty Images"
     },
     {
-      "id": "17141400",
-      "title": "Zagueiro vendido por R$ 27 milhões vai à Justiça e tenta bloquear contas do Inter",
-      "summary": "ESPN teve acesso ao processo movido por ex-jogador do Internacional contra o clube na Justiça do Rio Grande do Sul",
-      "url": "https://www.espn.com.br/futebol/internacional/artigo/_/id/17141400/zagueiro-vendido-r-27-milhoes-vai-justica-tenta-bloquear-contas-inter",
-      "publishedAt": "2026-08-20T17:53:36Z",
+      "id": "17147593",
+      "title": "Palmeiras x Vasco: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+      "summary": "Palmeiras e Vasco se enfrentam neste domingo (23), no Nubank Parque, em partida da 24ª rodada do Campeonato Brasileiro",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17147593/palmeiras-x-vasco-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
+      "publishedAt": "2026-08-21T20:46:58Z",
       "category": "news",
       "teams": [
-        "Internacional"
+        "Palmeiras",
+        "Vasco da Gama"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2025/0401/r1472295_1296x729_16-9.jpg",
-      "imageAlt": "Escudo do Internacional",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0811/r1700170_1296x864_3-2.jpg",
+      "imageAlt": "Vista geral do Nubank Parque, estádio do Palmeiras",
+      "imageCredit": "Anderson Romão/AGIF"
+    },
+    {
+      "id": "17147579",
+      "title": "Coritiba x Corinthians: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+      "summary": "No Couto Pereira, o Coritiba recebe o Corinthians pela 24ª rodada do Brasileirão",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17147579/coritiba-x-corinthians-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
+      "publishedAt": "2026-08-21T19:52:49Z",
+      "category": "news",
+      "teams": [
+        "Coritiba",
+        "Corinthians"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0728/r1694839_1296x729_16-9.jpg",
+      "imageAlt": "Couto Pereira, estádio do Coritiba",
       "imageCredit": "Getty Images"
     },
     {
-      "id": "17134266",
-      "title": "Por que Santos vive dilema que impacta até salário e pode definir escalação de Neymar e outros na Sul-Americana",
-      "summary": "Santos visita o Macará, do Equador, pelas oitavas de final da CONMEBOL Sul-Americana",
-      "url": "https://www.espn.com.br/futebol/sul-americana/artigo/_/id/17134266/santos-sul-americana-dilema-crescimento-impacto-salario-escalacoes-neymar-companhia",
-      "publishedAt": "2026-08-20T10:24:25Z",
+      "id": "17147286",
+      "title": "Vitória x Bahia: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+      "summary": "Neste domingo, Vitória e Bahia se enfrentam no Barradão, às 16h (de Brasília), pelo Campeonato Brasileiro",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17147286/vitoria-x-bahia-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
+      "publishedAt": "2026-08-21T21:09:38Z",
       "category": "news",
       "teams": [
-        "Santos"
+        "Bahia",
+        "Vitória"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0818/r1703533_1296x729_16-9.jpg",
-      "imageAlt": "Neymar, do Santos",
-      "imageCredit": "Reinaldo Campos/ Santos F.C."
+      "imageUrl": "https://a.espncdn.com/photo/2026/0512/r1657362_1296x864_3-2.jpg",
+      "imageAlt": "Vista geral do Estádio Manoel Barradas, o Barradão, casa do Vitória",
+      "imageCredit": "Márcio José/AGIF"
     },
     {
-      "id": "17138172",
-      "title": "Textor detona GDA e Social, diz que torcedores 'choram' de saudade e revela como planeja voltar ao poder no Botafogo: 'Eu nunca desisto'",
-      "summary": "John Textor concedeu entrevista exclusiva à ESPN e falou sobre seu possível retorno ao poder na SAF do Botafogo",
-      "url": "https://www.espn.com.br/futebol/botafogo/artigo/_/id/17138172/textor-detona-gda-social-diz-torcedores-choram-saudade-revela-planeja-voltar-poder-botafogo-eu-nunca-desisto",
-      "publishedAt": "2026-08-20T10:20:11Z",
+      "id": "17147264",
+      "title": "Santos x Mirassol: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+      "summary": "Santos e Mirassol se enfrentam neste domingo (23), na Vila Belmiro, em duelo pela 24ª rodada do Campeonato Brasileiro",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17147264/santos-x-mirassol-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
+      "publishedAt": "2026-08-21T19:42:50Z",
+      "category": "news",
+      "teams": [
+        "Santos",
+        "Mirassol"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0224/r1619394_1296x729_16-9.jpg",
+      "imageAlt": "Vista da Vila Belmiro antes de jogo",
+      "imageCredit": "Mauro Horita/Getty Images"
+    },
+    {
+      "id": "17147539",
+      "title": "Diretoria do São Paulo dificulta saída de joia para o Ajax e toma decisão sobre Bakambu; veja bastidores",
+      "summary": "São Paulo corre atrás de reforços enquanto também tenta vender joias em potencial",
+      "url": "https://www.espn.com.br/futebol/sao-paulo/artigo/_/id/17147539/sao-paulo-dificulta-saida-joia-ajax-decisao-bakambu-veja-bastidores",
+      "publishedAt": "2026-08-21T19:30:40Z",
+      "category": "market",
+      "teams": [
+        "São Paulo",
+        "Ajax"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0821/r1704963_1296x729_16-9.jpg",
+      "imageAlt": "Tetê durante jogo entre São Paulo e O'Higgins, pela CONMEBOL Sul-Americana",
+      "imageCredit": "NELSON ALMEIDA/AFP via Getty Images"
+    },
+    {
+      "id": "17147379",
+      "title": "Chapecoense x São Paulo: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+      "summary": "Na Arena Condá, Chapecoense e São Paulo se enfrentam pela 24ª rodada do Brasileirão",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17147379/chapecoense-x-sao-paulo-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
+      "publishedAt": "2026-08-21T21:14:15Z",
+      "category": "news",
+      "teams": [
+        "São Paulo",
+        "Chapecoense"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2025/1024/r1565241_1296x729_16-9.jpg",
+      "imageAlt": "Vista da Arena Condá, estádio da Chapecoense",
+      "imageCredit": "Luiz Ferrazzo/Chapecoense"
+    },
+    {
+      "id": "17146752",
+      "title": "Textor fala sobre inimigo no Brasil e conta times que nunca compraria no país; VEJA",
+      "summary": "Executivo concedeu entrevista exclusiva à ESPN",
+      "url": "https://www.espn.com.br/video/clip/_/id/17146752",
+      "publishedAt": "2026-08-21T17:02:57Z",
       "category": "news",
       "teams": [
         "Botafogo"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0819/r1703945_1296x729_16-9.jpg",
-      "imageAlt": "John Textor durante jogo entre Portugal e Espanha, na Copa do Mundo 2026",
-      "imageCredit": "Sebastian Frej/Getty Images"
-    },
-    {
-      "id": "17140736",
-      "title": "Palmeiras segue na liderança? Flamengo vence? E o Z-4? Os palpites da rodada no Brasileirão",
-      "summary": "Campeonato chega a sua 24ª rodada neste sábado (22)",
-      "url": "https://www.espn.com.br/video/clip/_/id/17140736",
-      "publishedAt": "2026-08-20T18:20:05Z",
-      "category": "news",
-      "teams": [],
       "imageUrl": null,
-      "imageAlt": "Palmeiras segue na liderança? Flamengo vence? E o Z-4? Os palpites da rodada no Brasileirão",
+      "imageAlt": "Textor fala sobre inimigo no Brasil e conta times que nunca compraria no país; VEJA",
       "imageCredit": null
     },
     {
-      "id": "17140225",
-      "title": "Neymar dispara contra Thiago Mendes após 'vácuo': 'Isso é soberba e falta de respeito'",
-      "summary": "O Santos venceu o Vasco por 3 a 0 pelo Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17140225",
-      "publishedAt": "2026-08-20T01:09:12Z",
+      "id": "17143115",
+      "title": "Internacional x Atlético-MG: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+      "summary": "Duelo enre Inter e Atlético-MG será disputado neste sábado (22)",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17143115/internacional-x-atletico-mg-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
+      "publishedAt": "2026-08-21T15:37:49Z",
       "category": "news",
       "teams": [
-        "Santos",
-        "Vasco da Gama"
+        "Internacional",
+        "Atlético-MG"
       ],
-      "imageUrl": null,
-      "imageAlt": "Neymar dispara contra Thiago Mendes após 'vácuo': 'Isso é soberba e falta de respeito'",
-      "imageCredit": null
-    },
-    {
-      "id": "17138967",
-      "title": "Torcida do Corinthians protesta em frente ao Ministério Público; Entenda o motivo",
-      "summary": "Outras manifestações estão programadas até o final da semana",
-      "url": "https://www.espn.com.br/video/clip/_/id/17138967",
-      "publishedAt": "2026-08-19T20:36:29Z",
-      "category": "news",
-      "teams": [
-        "Corinthians"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Torcida do Corinthians protesta em frente ao Ministério Público; Entenda o motivo",
-      "imageCredit": null
-    },
-    {
-      "id": "17138756",
-      "title": "Pedrinho detona Bap após Flamengo notificar agência de fair play sobre gastos do Vasco: 'Mau-caráter, arrogante, prepotente e hipócrita'",
-      "summary": "Presidente do Vasco criticou o mandatário do Flamengo",
-      "url": "https://www.espn.com.br/futebol/artigo/_/id/17138756/flamengo-vasco-pedrinho-detona-bap-notificar-agencia-fair-play-gastos-mau-carater-arrogante-prepotente-hipocrita",
-      "publishedAt": "2026-08-19T20:02:02Z",
-      "category": "news",
-      "teams": [
-        "Flamengo",
-        "Vasco da Gama"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0819/r1704013_1296x729_16-9.jpg",
-      "imageAlt": "Pedrinho, do Vasco, à esquerda, e Bap, do Flamengo, à direita",
-      "imageCredit": "Arte ESPN (Fabio Giannelli/AGIF e Jorge Rodrigues/AGIF)"
-    },
-    {
-      "id": "17138705",
-      "title": "Pedrinho sobe o tom e dispara contra BAP no Flamengo: 'Mau-caráter, arrogante, prepotente e hipócrita'",
-      "summary": "Créditos: BTB Sports | Presidente do Vasco soltou o verbo após Flamengo notificar agência de fair play sobre gastos no Cruzmaltino",
-      "url": "https://www.espn.com.br/video/clip/_/id/17138705",
-      "publishedAt": "2026-08-19T19:30:36Z",
-      "category": "news",
-      "teams": [
-        "Flamengo",
-        "Vasco da Gama"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Pedrinho sobe o tom e dispara contra BAP no Flamengo: 'Mau-caráter, arrogante, prepotente e hipócrita'",
-      "imageCredit": null
-    },
-    {
-      "id": "17138616",
-      "title": "Marco Ruben no São Paulo? À ESPN, Rui Costa lembra quando atacante do Rosario Central quase foi parar no Tricolor",
-      "summary": "Ex-dirigente do São Paulo concedeu entrevista exclusiva ao ESPN.com.br",
-      "url": "https://www.espn.com.br/video/clip/_/id/17138616",
-      "publishedAt": "2026-08-19T19:08:32Z",
-      "category": "news",
-      "teams": [
-        "Corinthians",
-        "Rosário Central",
-        "São Paulo"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Marco Ruben no São Paulo? À ESPN, Rui Costa lembra quando atacante do Rosario Central quase foi parar no Tricolor",
-      "imageCredit": null
+      "imageUrl": "https://a.espncdn.com/photo/2025/0929/r1553087_1296x729_16-9.jpg",
+      "imageAlt": "Vista do Beira-Rio, estádio do Internacional, em Porto Alegre",
+      "imageCredit": "SILVIO AVILA/AFP via Getty Images"
     }
   ]
 };
