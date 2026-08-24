@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-08-24T03:35:15.556Z",
-  "expiresAt": "2026-08-28T03:35:15.556Z",
+  "generatedAt": "2026-08-24T14:22:56.627Z",
+  "expiresAt": "2026-08-28T14:22:56.627Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -1071,33 +1071,6 @@ export const RADAR_FALLBACK: RadarPayload = {
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841224/bahia-red-bull-bragantino"
     },
     {
-      "id": "401841219",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-09-05T21:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
-      "clock": null,
-      "venue": "Couto Pereira",
-      "home": {
-        "id": "3456",
-        "name": "Coritiba",
-        "shortName": "Coritiba",
-        "abbreviation": "CFC",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png"
-      },
-      "away": {
-        "id": "9169",
-        "name": "Mirassol",
-        "shortName": "Mirassol",
-        "abbreviation": "MIR",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
-      },
-      "homeScore": null,
-      "awayScore": null,
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841219/mirassol-coritiba"
-    },
-    {
       "id": "401841226",
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
@@ -1150,6 +1123,33 @@ export const RADAR_FALLBACK: RadarPayload = {
       "homeScore": null,
       "awayScore": null,
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841227/vasco-da-gama-fluminense"
+    },
+    {
+      "id": "401841219",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-09-06T14:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Couto Pereira",
+      "home": {
+        "id": "3456",
+        "name": "Coritiba",
+        "shortName": "Coritiba",
+        "abbreviation": "CFC",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png"
+      },
+      "away": {
+        "id": "9169",
+        "name": "Mirassol",
+        "shortName": "Mirassol",
+        "abbreviation": "MIR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841219/mirassol-coritiba"
     },
     {
       "id": "401841218",
@@ -1678,6 +1678,80 @@ export const RADAR_FALLBACK: RadarPayload = {
   ],
   "news": [
     {
+      "id": "17160074",
+      "title": "Palmeiras anuncia renovação de Gustavo Gómez, e zagueiro faz carta aberta para a torcida; VEJA",
+      "summary": "Novo vínculo do paraguaio vai até o final de 2030 Imagens: TV palmeiras",
+      "url": "https://www.espn.com.br/video/clip/_/id/17160074",
+      "publishedAt": "2026-08-24T14:13:31Z",
+      "category": "market",
+      "teams": [
+        "Palmeiras",
+        "Paraguai"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Palmeiras anuncia renovação de Gustavo Gómez, e zagueiro faz carta aberta para a torcida; VEJA",
+      "imageCredit": null
+    },
+    {
+      "id": "17159962",
+      "title": "'O Tigre está de volta!': jornal espanhol vai à loucura com gol de Vitor Roque pelo Palmeiras",
+      "summary": "Gol de Vitor Roque na vitória do Palmeiras por 4 a 1 sobre o Vasco, no último domingo, pelo Brasileirão, foi destaque da Espanha",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17159962/jornal-espanhol-vai-a-loucura-gol-vitor-roque-palmeiras-tigre-esta-de-volta",
+      "publishedAt": "2026-08-24T13:44:35Z",
+      "category": "news",
+      "teams": [
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0824/r1706185_1296x729_16-9.jpg",
+      "imageAlt": "Vitor Roque comemora gol do Palmeiras contra o Vasco pelo Brasileirão",
+      "imageCredit": "Riquelve Nata/Sports Press Photo/Getty Images"
+    },
+    {
+      "id": "17159740",
+      "title": "Luís Castro desabafa após derrota do Grêmio, pede respeito e cita até Abel Ferreira: 'As pessoas estão doentes'",
+      "summary": "Grêmio perdeu por 1 a 0 para o Red Bull Bragantino",
+      "url": "https://www.espn.com.br/futebol/gremio/artigo/_/id/17159740/gremio-luis-castro-desabafo-derrota-pede-respeito-cita-abel-ferreira-pessoas-estao-doentes",
+      "publishedAt": "2026-08-24T12:52:24Z",
+      "category": "news",
+      "teams": [
+        "Grêmio"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0824/r1706167_1296x729_16-9.jpg",
+      "imageAlt": "Luís Castro, treinador do Grêmio",
+      "imageCredit": "Fernando Roberto/GRÊMIO FBPA"
+    },
+    {
+      "id": "17159699",
+      "title": "Súmula de Santos x Mirassol relata cusparada de torcedor em Reinaldo",
+      "summary": "Reinaldo foi atingido com uma cusparada no primeiro tempo de Santos x Mirassol na Vila Belmiro",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17159699/sumula-santos-x-mirassol-relata-cusparada-torcedor-reinaldo",
+      "publishedAt": "2026-08-24T12:45:06Z",
+      "category": "news",
+      "teams": [
+        "Santos",
+        "Mirassol"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0824/r1706166_1296x729_16-9.jpg",
+      "imageAlt": "Reinaldo e Neymar discutem em Santos x Mirassol pelo Brasileirão",
+      "imageCredit": "Fabio Giannelli/AGIF"
+    },
+    {
+      "id": "17159637",
+      "title": "Multicampeão com Palmeiras, Zé Rafael é anunciado como novo reforço de time de Portugal",
+      "summary": "Meio-campista está com 33 anos e é o novo reforço do Alverca",
+      "url": "https://www.espn.com.br/futebol/artigo/_/id/17159637/ze-rafael-anunciado-alverca-novo-reforco-multicampeao-palmeiras",
+      "publishedAt": "2026-08-24T12:12:51Z",
+      "category": "market",
+      "teams": [
+        "Santos",
+        "Palmeiras",
+        "Alverca"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0824/r1706156_1296x729_16-9.jpg",
+      "imageAlt": "Zé Rafael, no Alverca",
+      "imageCredit": "Reprodução/Site Oficial/Alverca SAD"
+    },
+    {
       "id": "17159010",
       "title": "Diniz diz se Corinthians precisa de reforços: 'Se conseguirmos pagar o transfer ban...'",
       "summary": "Fernando Diniz valorizou o elenco, mas abriu as portas para reforços no Corinthians",
@@ -1839,80 +1913,6 @@ export const RADAR_FALLBACK: RadarPayload = {
       "imageUrl": null,
       "imageAlt": "Gol do Santos! Neymar dá bela assistência, e Barreal marca um golaço; VEJA",
       "imageCredit": null
-    },
-    {
-      "id": "17158158",
-      "title": "Gol do Mirassol! Leão parte em contra-ataque, e Eduardo marca golaço de fora da área; VEJA",
-      "summary": "Santos e Mirassol brigam contra a ameaça da zona de rebaixamento no Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17158158",
-      "publishedAt": "2026-08-23T23:33:54Z",
-      "category": "news",
-      "teams": [
-        "Mirassol",
-        "Santos"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Gol do Mirassol! Leão parte em contra-ataque, e Eduardo marca golaço de fora da área; VEJA",
-      "imageCredit": null
-    },
-    {
-      "id": "17158141",
-      "title": "Cacá tenta rasgar camisa de Jean Lucas após jogador marcar em Vitória x Bahia; VEJA",
-      "summary": "Bahia venceu o clássico deste domingo (23) por 2 a 0",
-      "url": "https://www.espn.com.br/video/clip/_/id/17158141",
-      "publishedAt": "2026-08-23T22:53:06Z",
-      "category": "news",
-      "teams": [
-        "Bahia",
-        "Vitória"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Cacá tenta rasgar camisa de Jean Lucas após jogador marcar em Vitória x Bahia; VEJA",
-      "imageCredit": null
-    },
-    {
-      "id": "17158124",
-      "title": "Abel é direto sobre possível saída de Allan para o Manchester City: 'Por enquanto...'",
-      "summary": "Manchester City tem interesse na contratação de Allan, do Palmeiras",
-      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17158124/palmeiras-abel-ferreira-direto-sobre-possivel-saida-allan-para-manchester-city",
-      "publishedAt": "2026-08-23T22:47:19Z",
-      "category": "market",
-      "teams": [
-        "Palmeiras",
-        "Manchester City"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0823/r1705981_1296x729_16-9.jpg",
-      "imageAlt": "Abel Ferreira durante jogo do Palmeiras no Brasileirão",
-      "imageCredit": "Anderson Romao/AGIF"
-    },
-    {
-      "id": "17158120",
-      "title": "Bahia vence o clássico contra o Vitória no Brasileirão; VEJA os gols",
-      "summary": "Alejo Véliz e Jean Lucas marcaram os gols da partida",
-      "url": "https://www.espn.com.br/video/clip/_/id/17158120",
-      "publishedAt": "2026-08-23T22:45:50Z",
-      "category": "news",
-      "teams": [
-        "Bahia",
-        "Vitória"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Bahia vence o clássico contra o Vitória no Brasileirão; VEJA os gols",
-      "imageCredit": null
-    },
-    {
-      "id": "17157985",
-      "title": "Abel cita Barcelona e City e culpa calendário por oscilação do Palmeiras: 'Quem consegue jogar a temporada toda bem?'",
-      "summary": "Palmeiras goleou o Vasco por 4 a 1 neste domingo (23)",
-      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17157985/palmeiras-abel-cita-barcelona-city-culpa-calendario-oscilacao-quem-consegue-jogar-temporada-toda-bem",
-      "publishedAt": "2026-08-24T00:08:15Z",
-      "category": "news",
-      "teams": [
-        "Palmeiras"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0823/r1705970_1296x729_16-9.jpg",
-      "imageAlt": "Abel Ferreira durante jogo do Palmeiras contra o Vasco",
-      "imageCredit": "Getty Images"
     }
   ]
 };
