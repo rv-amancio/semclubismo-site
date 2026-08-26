@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-08-25T14:25:28.581Z",
-  "expiresAt": "2026-08-29T14:25:28.581Z",
+  "generatedAt": "2026-08-26T14:22:45.812Z",
+  "expiresAt": "2026-08-30T14:22:45.812Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -24,161 +24,26 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Copa do Brasil",
       "matchCount": 8,
       "liveCount": 0,
-      "nextMatchAt": "2026-08-26T00:00Z"
+      "nextMatchAt": "2026-08-27T00:30Z"
     },
     {
       "id": "conmebol.libertadores",
       "name": "CONMEBOL Libertadores",
       "shortName": "Libertadores",
-      "matchCount": 2,
+      "matchCount": 4,
       "liveCount": 0,
-      "nextMatchAt": null
+      "nextMatchAt": "2026-09-09T18:00Z"
     },
     {
       "id": "conmebol.sudamericana",
       "name": "CONMEBOL Sudamericana",
       "shortName": "Sul-Americana",
-      "matchCount": 3,
+      "matchCount": 2,
       "liveCount": 0,
-      "nextMatchAt": null
+      "nextMatchAt": "2026-09-09T18:00Z"
     }
   ],
   "matches": [
-    {
-      "id": "401874142",
-      "competitionId": "conmebol.libertadores",
-      "competitionName": "CONMEBOL Libertadores",
-      "date": "2026-08-20T22:00Z",
-      "status": "finished",
-      "statusLabel": "Final Score - After Penalties",
-      "clock": null,
-      "venue": "Rodrigo Paz Delgado",
-      "home": {
-        "id": "4816",
-        "name": "Liga de Quito",
-        "shortName": "LDU",
-        "abbreviation": "LDU",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png"
-      },
-      "away": {
-        "id": "9169",
-        "name": "Mirassol",
-        "shortName": "Mirassol",
-        "abbreviation": "MIR",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
-      },
-      "homeScore": "0",
-      "awayScore": "0",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401874142/mirassol-liga-de-quito"
-    },
-    {
-      "id": "401902740",
-      "competitionId": "conmebol.sudamericana",
-      "competitionName": "CONMEBOL Sudamericana",
-      "date": "2026-08-20T22:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Defensores del Chaco",
-      "home": {
-        "id": "2675",
-        "name": "Club Olimpia",
-        "shortName": "Olimpia",
-        "abbreviation": "OLI",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2675.png"
-      },
-      "away": {
-        "id": "3454",
-        "name": "Vasco da Gama",
-        "shortName": "Vasco",
-        "abbreviation": "VAS",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png"
-      },
-      "homeScore": "1",
-      "awayScore": "4",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401902740/vasco-da-gama-club-olimpia"
-    },
-    {
-      "id": "401902449",
-      "competitionId": "conmebol.sudamericana",
-      "competitionName": "CONMEBOL Sudamericana",
-      "date": "2026-08-20T22:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estadio Bellavista",
-      "home": {
-        "id": "18439",
-        "name": "Macará",
-        "shortName": "Macará",
-        "abbreviation": "MAC",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18439.png"
-      },
-      "away": {
-        "id": "2674",
-        "name": "Santos",
-        "shortName": "Santos",
-        "abbreviation": "SAN",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
-      },
-      "homeScore": "0",
-      "awayScore": "0",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401902449/santos-macara"
-    },
-    {
-      "id": "401874149",
-      "competitionId": "conmebol.libertadores",
-      "competitionName": "CONMEBOL Libertadores",
-      "date": "2026-08-21T00:30Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Neo Química Arena",
-      "home": {
-        "id": "874",
-        "name": "Corinthians",
-        "shortName": "Corinthians",
-        "abbreviation": "COR",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png"
-      },
-      "away": {
-        "id": "17",
-        "name": "Rosário Central",
-        "shortName": "Rosário Central",
-        "abbreviation": "ROS",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png"
-      },
-      "homeScore": "1",
-      "awayScore": "0",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401874149/rosario-central-corinthians"
-    },
-    {
-      "id": "401902741",
-      "competitionId": "conmebol.sudamericana",
-      "competitionName": "CONMEBOL Sudamericana",
-      "date": "2026-08-21T00:30Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Joao Havelange Stadium",
-      "home": {
-        "id": "6086",
-        "name": "Botafogo",
-        "shortName": "Botafogo",
-        "abbreviation": "BOT",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png"
-      },
-      "away": {
-        "id": "3372",
-        "name": "Cienciano del Cusco",
-        "shortName": "Cienciano",
-        "abbreviation": "CIE",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3372.png"
-      },
-      "homeScore": "1",
-      "awayScore": "0",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401902741/cienciano-del-cusco-botafogo"
-    },
     {
       "id": "401841205",
       "competitionId": "bra.1",
@@ -454,8 +319,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.copa_do_brazil",
       "competitionName": "Copa do Brasil",
       "date": "2026-08-26T00:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estadio Mineirão",
       "home": {
@@ -472,8 +337,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "CAM",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "1",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909066/atletico-mg-cruzeiro"
     },
     {
@@ -1231,6 +1096,168 @@ export const RADAR_FALLBACK: RadarPayload = {
       "homeScore": null,
       "awayScore": null,
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841222/gremio-vitoria"
+    },
+    {
+      "id": "401912541",
+      "competitionId": "conmebol.libertadores",
+      "competitionName": "CONMEBOL Libertadores",
+      "date": "2026-09-09T18:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Estadio Jorge Luis Hirschi",
+      "home": {
+        "id": "8",
+        "name": "Estudiantes de La Plata",
+        "shortName": "Estudiantes",
+        "abbreviation": "EST",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png"
+      },
+      "away": {
+        "id": "874",
+        "name": "Corinthians",
+        "shortName": "Corinthians",
+        "abbreviation": "COR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401912541/corinthians-estudiantes-de-la-plata"
+    },
+    {
+      "id": "401912518",
+      "competitionId": "conmebol.libertadores",
+      "competitionName": "CONMEBOL Libertadores",
+      "date": "2026-09-09T18:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Estadio do Maracana",
+      "home": {
+        "id": "3445",
+        "name": "Fluminense",
+        "shortName": "Fluminense",
+        "abbreviation": "FLU",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png"
+      },
+      "away": {
+        "id": "7764",
+        "name": "Platense",
+        "shortName": "Platense",
+        "abbreviation": "PLA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401912518/platense-fluminense"
+    },
+    {
+      "id": "401912543",
+      "competitionId": "conmebol.libertadores",
+      "competitionName": "CONMEBOL Libertadores",
+      "date": "2026-09-09T18:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": null,
+      "home": {
+        "id": "17086",
+        "name": "Independiente del Valle",
+        "shortName": "Ind. del Valle",
+        "abbreviation": "IDV",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png"
+      },
+      "away": {
+        "id": "819",
+        "name": "Flamengo",
+        "shortName": "Flamengo",
+        "abbreviation": "FLA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401912543/flamengo-independiente-del-valle"
+    },
+    {
+      "id": "401912527",
+      "competitionId": "conmebol.libertadores",
+      "competitionName": "CONMEBOL Libertadores",
+      "date": "2026-09-09T18:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Allianz Parque",
+      "home": {
+        "id": "2029",
+        "name": "Palmeiras",
+        "shortName": "Palmeiras",
+        "abbreviation": "PAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
+      },
+      "away": {
+        "id": "4816",
+        "name": "Liga de Quito",
+        "shortName": "LDU",
+        "abbreviation": "LDU",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401912527/liga-de-quito-palmeiras"
+    },
+    {
+      "id": "401912542",
+      "competitionId": "conmebol.sudamericana",
+      "competitionName": "CONMEBOL Sudamericana",
+      "date": "2026-09-09T18:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Alberto José Armando (La Bombonera)",
+      "home": {
+        "id": "5",
+        "name": "Boca Juniors",
+        "shortName": "Boca",
+        "abbreviation": "CABJ",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png"
+      },
+      "away": {
+        "id": "2026",
+        "name": "São Paulo",
+        "shortName": "São Paulo",
+        "abbreviation": "SAO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401912542/sao-paulo-boca-juniors"
+    },
+    {
+      "id": "401913073",
+      "competitionId": "conmebol.sudamericana",
+      "competitionName": "CONMEBOL Sudamericana",
+      "date": "2026-09-09T18:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "home": {
+        "id": "2674",
+        "name": "Santos",
+        "shortName": "Santos",
+        "abbreviation": "SAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
+      },
+      "away": {
+        "id": "7632",
+        "name": "Atlético-MG",
+        "shortName": "Atlético-MG",
+        "abbreviation": "CAM",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401913073/atletico-mg-santos"
     }
   ],
   "standings": [
@@ -1597,6 +1624,126 @@ export const RADAR_FALLBACK: RadarPayload = {
   ],
   "news": [
     {
+      "id": "17164475",
+      "title": "Com saídas de Allan e goleiro, Palmeiras se aproxima de meta milionária de vendas para 2026; veja os números",
+      "summary": "Segundo apurou a ESPN, Palmeiras está próximo de atingir meta de vendas estipulada no final de 2025",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17164475/palmeiras-meta-de-vendas-saidas-allan-kaique-quantia-milionaria-veja-os-numeros",
+      "publishedAt": "2026-08-26T10:09:36Z",
+      "category": "market",
+      "teams": [
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0601/r1666911_1296x729_16-9.jpg",
+      "imageAlt": "Leila Pereira, presidente do Palmeiras, durante entrevista",
+      "imageCredit": "Getty Images"
+    },
+    {
+      "id": "17166617",
+      "title": "Bap processa Pedrinho, pede indenização por danos morais e exige retratação pública",
+      "summary": "ESPN teve acesso ao processo de Bap, presidente do Flamengo, contra Pedrinho, mandatário do Vasco da Gama",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17166617/bap-flamengo-processa-pedrinho-vasco-indenizacao-danos-morais-retratacao-publica",
+      "publishedAt": "2026-08-26T00:05:51Z",
+      "category": "news",
+      "teams": [
+        "Flamengo",
+        "Vasco da Gama"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0819/r1704013_1296x729_16-9.jpg",
+      "imageAlt": "Pedrinho, do Vasco, à esquerda, e Bap, do Flamengo, à direita",
+      "imageCredit": "Arte ESPN (Fabio Giannelli/AGIF e Jorge Rodrigues/AGIF)"
+    },
+    {
+      "id": "17165541",
+      "title": "Onde Allan entra no ranking das maiores vendas do Brasil que tem 'domínio' do Palmeiras; veja lista",
+      "summary": "Joia palmeirense vai para o Manchester City, da Inglaterra",
+      "url": "https://www.espn.com.br/futebol/artigo/_/id/17165541/allan-palmeiras-onde-entra-ranking-maiores-vendas-brasil-veja-lista",
+      "publishedAt": "2026-08-25T22:04:38Z",
+      "category": "market",
+      "teams": [
+        "Palmeiras",
+        "Manchester City"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0825/r1706856_1296x729_16-9.jpg",
+      "imageAlt": "Neymar, Allan e Endrick, da esquerda para a direita",
+      "imageCredit": "Arte ESPN (Getty Images)"
+    },
+    {
+      "id": "17165497",
+      "title": "Lembrava dessa? Última vitória do Botafogo contra o Flamengo aconteceu há mais de dois anos; VEJA os gols da partida",
+      "summary": "Matheus Martins marcou duas vezes na partida, que terminou 4 a 1 para o Glorioso",
+      "url": "https://www.espn.com.br/video/clip/_/id/17165497",
+      "publishedAt": "2026-08-25T20:22:25Z",
+      "category": "news",
+      "teams": [
+        "Botafogo",
+        "Flamengo"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Lembrava dessa? Última vitória do Botafogo contra o Flamengo aconteceu há mais de dois anos; VEJA os gols da partida",
+      "imageCredit": null
+    },
+    {
+      "id": "17165340",
+      "title": "Melhor centroavante do Brasil? Pedro é o artilheiro do Flamengo na temporada; VEJA números",
+      "summary": "Atacante tem 3 gols nos últimos 3 jogos",
+      "url": "https://www.espn.com.br/video/clip/_/id/17165340",
+      "publishedAt": "2026-08-25T19:40:43Z",
+      "category": "news",
+      "teams": [
+        "Botafogo",
+        "Flamengo"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Melhor centroavante do Brasil? Pedro é o artilheiro do Flamengo na temporada; VEJA números",
+      "imageCredit": null
+    },
+    {
+      "id": "17164591",
+      "title": "Pedro ou Flaco? Vagner Love responde quem é o melhor centroavante do Brasil; VEJA",
+      "summary": "Assista ao Fshow na ESPN pelo Plano Premium do Disney+",
+      "url": "https://www.espn.com.br/video/clip/_/id/17164591",
+      "publishedAt": "2026-08-25T16:42:44Z",
+      "category": "news",
+      "teams": [
+        "Argentina",
+        "Flamengo",
+        "Palmeiras"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Pedro ou Flaco? Vagner Love responde quem é o melhor centroavante do Brasil; VEJA",
+      "imageCredit": null
+    },
+    {
+      "id": "17164167",
+      "title": "Palmeiras anuncia contratação do goleiro Bruno Bertinato, e reforço exalta clube: 'Maior do Brasil'",
+      "summary": "Palmeiras anunciou nesta terça-feira (25) a contratação do goleiro Bruno Bertinato, ex-Portuguesa",
+      "url": "https://www.espn.com.br/futebol/mercado-da-bola/artigo/_/id/17164167/palmeiras-anuncia-contratacao-goleiro-bruno-bertinato-reforco-exalta-clube-maior-brasil",
+      "publishedAt": "2026-08-25T15:25:56Z",
+      "category": "market",
+      "teams": [
+        "Palmeiras",
+        "Portuguesa"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0825/r1706716_1024x576_16-9.jpg",
+      "imageAlt": "Bruno Bertinato posa ao lado de imagem de Marcos na Academia do Palmeiras",
+      "imageCredit": "Fabio Menotti/Palmeiras/by Canon"
+    },
+    {
+      "id": "17164075",
+      "title": "Partiu Inglaterra? Nottingham Forest negocia a contratação de André, do Corinthians; VEJA lances do jogador",
+      "summary": "Volante de 20 anos é cria das categorias de base da equipe paulista",
+      "url": "https://www.espn.com.br/video/clip/_/id/17164075",
+      "publishedAt": "2026-08-25T14:58:09Z",
+      "category": "market",
+      "teams": [
+        "Corinthians",
+        "Nottingham Forest"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Partiu Inglaterra? Nottingham Forest negocia a contratação de André, do Corinthians; VEJA lances do jogador",
+      "imageCredit": null
+    },
+    {
       "id": "17163898",
       "title": "Matheus Pereira brilha na vitória do Cruzeiro e é o melhor da 24ª rodada no Bola de Prata ESPN",
       "summary": "Veja como ficou a seleção do ESPN Bola de Prata 2026 após a 24ª rodada do Brasileirão",
@@ -1710,121 +1857,6 @@ export const RADAR_FALLBACK: RadarPayload = {
       "imageUrl": null,
       "imageAlt": "Athletico vence o Botafogo com show de Viveros pelo Brasileirão; VEJA os melhores momentos",
       "imageCredit": null
-    },
-    {
-      "id": "17162759",
-      "title": "Santos é denunciado pelo STJD por cusparada de torcedor em Reinaldo; veja possíveis punições",
-      "summary": "Santos foi denunciado pelo STJD pela cusparada de um torcedor no lateral-esquerdo Reinaldo, do Mirassol",
-      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17162759/santos-denunciado-pelo-stjd-cusparada-de-torcedor-em-reinaldo-veja-possiveis-punicoes",
-      "publishedAt": "2026-08-25T01:28:14Z",
-      "category": "news",
-      "teams": [
-        "Santos"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688431_1296x729_16-9.jpg",
-      "imageAlt": "Vila Belmiro, estádio do Santos",
-      "imageCredit": "Getty Images"
-    },
-    {
-      "id": "17162342",
-      "title": "Viveros passa Pedro na artilharia, e Athletico-PR vence Botafogo pelo Brasileirão após 'sustos' no fim",
-      "summary": "No Nilton Santos, o Athletico-PR venceu o Botafogo pelo fechamento da 24ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17162342/athletico-pr-vence-botafogo-brasileirao-apos-sustos-no-fim-kevin-viveros-passa-pedro-na-artilharia",
-      "publishedAt": "2026-08-25T01:54:07Z",
-      "category": "news",
-      "teams": [
-        "Botafogo",
-        "Athletico Paranaense"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0825/r1706549_1296x729_16-9.jpg",
-      "imageAlt": "Atacante colombiano Kevin Viveros comemora gol sobre o Botafogo com jogadores do Athletico-PR no Nilton Santos, no Rio de Janeiro (RJ), durante partida da rodada 24 do Brasileirão de 2026",
-      "imageCredit": "Thiago Ribeiro/AGIF"
-    },
-    {
-      "id": "17162692",
-      "title": "O gol de Viveros que decretou a vitória do Athletico contra o Botafogo pelo Brasileirão",
-      "summary": "O Athletico venceu o Botafogo por 3 a 2 pelo Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17162692",
-      "publishedAt": "2026-08-25T01:53:02Z",
-      "category": "news",
-      "teams": [
-        "Athletico Paranaense",
-        "Botafogo"
-      ],
-      "imageUrl": null,
-      "imageAlt": "O gol de Viveros que decretou a vitória do Athletico contra o Botafogo pelo Brasileirão",
-      "imageCredit": null
-    },
-    {
-      "id": "17162266",
-      "title": "Santos identifica torcedor que cuspiu em Reinaldo durante jogo do Brasileirão",
-      "summary": "Santos comunicou que o torcedor que cuspiu em Reinaldo durante o jogo do último domingo (23) foi identificado",
-      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17162266/santos-identifica-torcedor-cuspiu-em-reinaldo-do-mirassol-durante-jogo-brasileirao",
-      "publishedAt": "2026-08-24T22:41:15Z",
-      "category": "news",
-      "teams": [
-        "Santos"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0824/r1706492_1296x729_16-9.jpg",
-      "imageAlt": "Reinaldo é lateral do Mirassol",
-      "imageCredit": "Fabio Giannelli/AGIF"
-    },
-    {
-      "id": "17161830",
-      "title": "Presidente de organizada cita salários atrasados, poupa jogadores e ataca diretoria do São Paulo: 'Verdadeiros culpados'",
-      "summary": "Torcida organizada se reuniu com diretoria e jogadores do São Paulo nesta segunda-feira (24), no CT da Barra Funda",
-      "url": "https://www.espn.com.br/futebol/sao-paulo/artigo/_/id/17161830/presidente-organizada-cita-salarios-atrasados-poupa-jogadores-ataca-diretoria-sao-paulo-reuniao-ct-verdadeiros-culpados",
-      "publishedAt": "2026-08-24T20:44:08Z",
-      "category": "news",
-      "teams": [
-        "São Paulo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0824/r1706443_1296x729_16-9.jpg",
-      "imageAlt": "Organizados do São Paulo protestam no CT do clube após derrota para a Chape",
-      "imageCredit": "ESPN"
-    },
-    {
-      "id": "17161676",
-      "title": "Palmeiras acerta venda de Allan para clube do futebol inglês; VEJA detalhes do negócio",
-      "summary": "O atacante foi titular na vitória do Palmeiras sobre o Vasco",
-      "url": "https://www.espn.com.br/video/clip/_/id/17161676",
-      "publishedAt": "2026-08-24T19:44:24Z",
-      "category": "market",
-      "teams": [
-        "Palmeiras"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Palmeiras acerta venda de Allan para clube do futebol inglês; VEJA detalhes do negócio",
-      "imageCredit": null
-    },
-    {
-      "id": "17161503",
-      "title": "Organizada do São Paulo se reúne com jogadores e diretoria no CT após derrota para a Chapecoense no Brasileirão",
-      "summary": "As conversas acontecem na tarde desta segunda (24), após o time chegar a um jejum de 10 jogos sem vitória no Campeonato Brasileiro",
-      "url": "https://www.espn.com.br/video/clip/_/id/17161503",
-      "publishedAt": "2026-08-24T18:59:02Z",
-      "category": "news",
-      "teams": [
-        "São Paulo"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Organizada do São Paulo se reúne com jogadores e diretoria no CT após derrota para a Chapecoense no Brasileirão",
-      "imageCredit": null
-    },
-    {
-      "id": "17161074",
-      "title": "Cusparada em Reinaldo deve virar denúncia no STJD e ameaçar Santos de multa financeira e até 10 jogos fora da Vila",
-      "summary": "Fato aconteceu no empate entre Santos e Mirassol, por 1 a 1, no domingo (23)",
-      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17161074/cusparada-reinaldo-deve-virar-denuncia-stjd-ameacar-santos-multa-financeira-ate-10-jogos-fora-vila",
-      "publishedAt": "2026-08-24T17:40:00Z",
-      "category": "news",
-      "teams": [
-        "Santos",
-        "Mirassol"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0824/r1706333_1296x729_16-9.jpg",
-      "imageAlt": "Santos e Mirassol se enfrentaram no domingo (23)",
-      "imageCredit": "BR futebol santos x mirassol reinaldo 240826"
     }
   ]
 };
