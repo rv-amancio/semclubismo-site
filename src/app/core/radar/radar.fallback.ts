@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-08-26T14:22:45.812Z",
-  "expiresAt": "2026-08-30T14:22:45.812Z",
+  "generatedAt": "2026-08-27T23:03:10.648Z",
+  "expiresAt": "2026-08-31T23:03:10.648Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -24,7 +24,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Copa do Brasil",
       "matchCount": 8,
       "liveCount": 0,
-      "nextMatchAt": "2026-08-27T00:30Z"
+      "nextMatchAt": "2026-09-02T00:00Z"
     },
     {
       "id": "conmebol.libertadores",
@@ -32,15 +32,15 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Libertadores",
       "matchCount": 4,
       "liveCount": 0,
-      "nextMatchAt": "2026-09-09T18:00Z"
+      "nextMatchAt": "2026-09-08T22:00Z"
     },
     {
       "id": "conmebol.sudamericana",
       "name": "CONMEBOL Sudamericana",
       "shortName": "Sul-Americana",
-      "matchCount": 2,
+      "matchCount": 3,
       "liveCount": 0,
-      "nextMatchAt": "2026-09-09T18:00Z"
+      "nextMatchAt": "2026-09-08T22:00Z"
     }
   ],
   "matches": [
@@ -346,8 +346,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.copa_do_brazil",
       "competitionName": "Copa do Brasil",
       "date": "2026-08-27T00:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Allianz Parque",
       "home": {
@@ -364,8 +364,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "SAN",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "3",
+      "awayScore": "0",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909065/santos-palmeiras"
     },
     {
@@ -373,8 +373,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.copa_do_brazil",
       "competitionName": "Copa do Brasil",
       "date": "2026-08-27T00:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estádio São Januário",
       "home": {
@@ -391,8 +391,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "VIT",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "1",
+      "awayScore": "0",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909113/vitoria-vasco-da-gama"
     },
     {
@@ -1098,37 +1098,10 @@ export const RADAR_FALLBACK: RadarPayload = {
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841222/gremio-vitoria"
     },
     {
-      "id": "401912541",
-      "competitionId": "conmebol.libertadores",
-      "competitionName": "CONMEBOL Libertadores",
-      "date": "2026-09-09T18:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
-      "clock": null,
-      "venue": "Estadio Jorge Luis Hirschi",
-      "home": {
-        "id": "8",
-        "name": "Estudiantes de La Plata",
-        "shortName": "Estudiantes",
-        "abbreviation": "EST",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png"
-      },
-      "away": {
-        "id": "874",
-        "name": "Corinthians",
-        "shortName": "Corinthians",
-        "abbreviation": "COR",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png"
-      },
-      "homeScore": null,
-      "awayScore": null,
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401912541/corinthians-estudiantes-de-la-plata"
-    },
-    {
       "id": "401912518",
       "competitionId": "conmebol.libertadores",
       "competitionName": "CONMEBOL Libertadores",
-      "date": "2026-09-09T18:00Z",
+      "date": "2026-09-08T22:00Z",
       "status": "scheduled",
       "statusLabel": "Agendado",
       "clock": null,
@@ -1152,64 +1125,37 @@ export const RADAR_FALLBACK: RadarPayload = {
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401912518/platense-fluminense"
     },
     {
-      "id": "401912543",
-      "competitionId": "conmebol.libertadores",
-      "competitionName": "CONMEBOL Libertadores",
-      "date": "2026-09-09T18:00Z",
+      "id": "401913960",
+      "competitionId": "conmebol.sudamericana",
+      "competitionName": "CONMEBOL Sudamericana",
+      "date": "2026-09-08T22:00Z",
       "status": "scheduled",
       "statusLabel": "Agendado",
       "clock": null,
-      "venue": null,
+      "venue": "Estadio Nemesio Camacho El Campín",
       "home": {
-        "id": "17086",
-        "name": "Independiente del Valle",
-        "shortName": "Ind. del Valle",
-        "abbreviation": "IDV",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png"
+        "id": "5488",
+        "name": "Independiente Santa Fe",
+        "shortName": "Santa Fe",
+        "abbreviation": "SFE",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5488.png"
       },
       "away": {
-        "id": "819",
-        "name": "Flamengo",
-        "shortName": "Flamengo",
-        "abbreviation": "FLA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png"
+        "id": "3454",
+        "name": "Vasco da Gama",
+        "shortName": "Vasco",
+        "abbreviation": "VAS",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png"
       },
       "homeScore": null,
       "awayScore": null,
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401912543/flamengo-independiente-del-valle"
-    },
-    {
-      "id": "401912527",
-      "competitionId": "conmebol.libertadores",
-      "competitionName": "CONMEBOL Libertadores",
-      "date": "2026-09-09T18:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
-      "clock": null,
-      "venue": "Allianz Parque",
-      "home": {
-        "id": "2029",
-        "name": "Palmeiras",
-        "shortName": "Palmeiras",
-        "abbreviation": "PAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
-      },
-      "away": {
-        "id": "4816",
-        "name": "Liga de Quito",
-        "shortName": "LDU",
-        "abbreviation": "LDU",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png"
-      },
-      "homeScore": null,
-      "awayScore": null,
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401912527/liga-de-quito-palmeiras"
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401913960/vasco-da-gama-independiente-santa-fe"
     },
     {
       "id": "401912542",
       "competitionId": "conmebol.sudamericana",
       "competitionName": "CONMEBOL Sudamericana",
-      "date": "2026-09-09T18:00Z",
+      "date": "2026-09-09T00:30Z",
       "status": "scheduled",
       "statusLabel": "Agendado",
       "clock": null,
@@ -1233,10 +1179,37 @@ export const RADAR_FALLBACK: RadarPayload = {
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401912542/sao-paulo-boca-juniors"
     },
     {
+      "id": "401912527",
+      "competitionId": "conmebol.libertadores",
+      "competitionName": "CONMEBOL Libertadores",
+      "date": "2026-09-09T22:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Allianz Parque",
+      "home": {
+        "id": "2029",
+        "name": "Palmeiras",
+        "shortName": "Palmeiras",
+        "abbreviation": "PAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
+      },
+      "away": {
+        "id": "4816",
+        "name": "Liga de Quito",
+        "shortName": "LDU",
+        "abbreviation": "LDU",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401912527/liga-de-quito-palmeiras"
+    },
+    {
       "id": "401913073",
       "competitionId": "conmebol.sudamericana",
       "competitionName": "CONMEBOL Sudamericana",
-      "date": "2026-09-09T18:00Z",
+      "date": "2026-09-09T22:00Z",
       "status": "scheduled",
       "statusLabel": "Agendado",
       "clock": null,
@@ -1258,6 +1231,60 @@ export const RADAR_FALLBACK: RadarPayload = {
       "homeScore": null,
       "awayScore": null,
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401913073/atletico-mg-santos"
+    },
+    {
+      "id": "401912541",
+      "competitionId": "conmebol.libertadores",
+      "competitionName": "CONMEBOL Libertadores",
+      "date": "2026-09-10T00:30Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Estadio Jorge Luis Hirschi",
+      "home": {
+        "id": "8",
+        "name": "Estudiantes de La Plata",
+        "shortName": "Estudiantes",
+        "abbreviation": "EST",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png"
+      },
+      "away": {
+        "id": "874",
+        "name": "Corinthians",
+        "shortName": "Corinthians",
+        "abbreviation": "COR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401912541/corinthians-estudiantes-de-la-plata"
+    },
+    {
+      "id": "401912543",
+      "competitionId": "conmebol.libertadores",
+      "competitionName": "CONMEBOL Libertadores",
+      "date": "2026-09-11T00:30Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Estadio Olímpico Atahualpa",
+      "home": {
+        "id": "17086",
+        "name": "Independiente del Valle",
+        "shortName": "Ind. del Valle",
+        "abbreviation": "IDV",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png"
+      },
+      "away": {
+        "id": "819",
+        "name": "Flamengo",
+        "shortName": "Flamengo",
+        "abbreviation": "FLA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401912543/flamengo-independiente-del-valle"
     }
   ],
   "standings": [
@@ -1624,238 +1651,234 @@ export const RADAR_FALLBACK: RadarPayload = {
   ],
   "news": [
     {
-      "id": "17164475",
-      "title": "Com saídas de Allan e goleiro, Palmeiras se aproxima de meta milionária de vendas para 2026; veja os números",
-      "summary": "Segundo apurou a ESPN, Palmeiras está próximo de atingir meta de vendas estipulada no final de 2025",
-      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17164475/palmeiras-meta-de-vendas-saidas-allan-kaique-quantia-milionaria-veja-os-numeros",
-      "publishedAt": "2026-08-26T10:09:36Z",
-      "category": "market",
-      "teams": [
-        "Palmeiras"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0601/r1666911_1296x729_16-9.jpg",
-      "imageAlt": "Leila Pereira, presidente do Palmeiras, durante entrevista",
-      "imageCredit": "Getty Images"
-    },
-    {
-      "id": "17166617",
-      "title": "Bap processa Pedrinho, pede indenização por danos morais e exige retratação pública",
-      "summary": "ESPN teve acesso ao processo de Bap, presidente do Flamengo, contra Pedrinho, mandatário do Vasco da Gama",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17166617/bap-flamengo-processa-pedrinho-vasco-indenizacao-danos-morais-retratacao-publica",
-      "publishedAt": "2026-08-26T00:05:51Z",
+      "id": "17175678",
+      "title": "Ex-meia do Corinthians aciona o clube na Justiça do Trabalho por dívida de R$ 1,3 milhão",
+      "summary": "A equipe entrou em acordo com o jogador para quitar a dívida - antes de R$ 1.332.853,35 - em 16 parcelas mensais em 2024",
+      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17175678/ex-meia-corinthians-aciona-clube-justica-do-trabalho-divida-r-13-milhao",
+      "publishedAt": "2026-08-27T22:47:05Z",
       "category": "news",
-      "teams": [
-        "Flamengo",
-        "Vasco da Gama"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0819/r1704013_1296x729_16-9.jpg",
-      "imageAlt": "Pedrinho, do Vasco, à esquerda, e Bap, do Flamengo, à direita",
-      "imageCredit": "Arte ESPN (Fabio Giannelli/AGIF e Jorge Rodrigues/AGIF)"
-    },
-    {
-      "id": "17165541",
-      "title": "Onde Allan entra no ranking das maiores vendas do Brasil que tem 'domínio' do Palmeiras; veja lista",
-      "summary": "Joia palmeirense vai para o Manchester City, da Inglaterra",
-      "url": "https://www.espn.com.br/futebol/artigo/_/id/17165541/allan-palmeiras-onde-entra-ranking-maiores-vendas-brasil-veja-lista",
-      "publishedAt": "2026-08-25T22:04:38Z",
-      "category": "market",
-      "teams": [
-        "Palmeiras",
-        "Manchester City"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0825/r1706856_1296x729_16-9.jpg",
-      "imageAlt": "Neymar, Allan e Endrick, da esquerda para a direita",
-      "imageCredit": "Arte ESPN (Getty Images)"
-    },
-    {
-      "id": "17165497",
-      "title": "Lembrava dessa? Última vitória do Botafogo contra o Flamengo aconteceu há mais de dois anos; VEJA os gols da partida",
-      "summary": "Matheus Martins marcou duas vezes na partida, que terminou 4 a 1 para o Glorioso",
-      "url": "https://www.espn.com.br/video/clip/_/id/17165497",
-      "publishedAt": "2026-08-25T20:22:25Z",
-      "category": "news",
-      "teams": [
-        "Botafogo",
-        "Flamengo"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Lembrava dessa? Última vitória do Botafogo contra o Flamengo aconteceu há mais de dois anos; VEJA os gols da partida",
-      "imageCredit": null
-    },
-    {
-      "id": "17165340",
-      "title": "Melhor centroavante do Brasil? Pedro é o artilheiro do Flamengo na temporada; VEJA números",
-      "summary": "Atacante tem 3 gols nos últimos 3 jogos",
-      "url": "https://www.espn.com.br/video/clip/_/id/17165340",
-      "publishedAt": "2026-08-25T19:40:43Z",
-      "category": "news",
-      "teams": [
-        "Botafogo",
-        "Flamengo"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Melhor centroavante do Brasil? Pedro é o artilheiro do Flamengo na temporada; VEJA números",
-      "imageCredit": null
-    },
-    {
-      "id": "17164591",
-      "title": "Pedro ou Flaco? Vagner Love responde quem é o melhor centroavante do Brasil; VEJA",
-      "summary": "Assista ao Fshow na ESPN pelo Plano Premium do Disney+",
-      "url": "https://www.espn.com.br/video/clip/_/id/17164591",
-      "publishedAt": "2026-08-25T16:42:44Z",
-      "category": "news",
-      "teams": [
-        "Argentina",
-        "Flamengo",
-        "Palmeiras"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Pedro ou Flaco? Vagner Love responde quem é o melhor centroavante do Brasil; VEJA",
-      "imageCredit": null
-    },
-    {
-      "id": "17164167",
-      "title": "Palmeiras anuncia contratação do goleiro Bruno Bertinato, e reforço exalta clube: 'Maior do Brasil'",
-      "summary": "Palmeiras anunciou nesta terça-feira (25) a contratação do goleiro Bruno Bertinato, ex-Portuguesa",
-      "url": "https://www.espn.com.br/futebol/mercado-da-bola/artigo/_/id/17164167/palmeiras-anuncia-contratacao-goleiro-bruno-bertinato-reforco-exalta-clube-maior-brasil",
-      "publishedAt": "2026-08-25T15:25:56Z",
-      "category": "market",
-      "teams": [
-        "Palmeiras",
-        "Portuguesa"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0825/r1706716_1024x576_16-9.jpg",
-      "imageAlt": "Bruno Bertinato posa ao lado de imagem de Marcos na Academia do Palmeiras",
-      "imageCredit": "Fabio Menotti/Palmeiras/by Canon"
-    },
-    {
-      "id": "17164075",
-      "title": "Partiu Inglaterra? Nottingham Forest negocia a contratação de André, do Corinthians; VEJA lances do jogador",
-      "summary": "Volante de 20 anos é cria das categorias de base da equipe paulista",
-      "url": "https://www.espn.com.br/video/clip/_/id/17164075",
-      "publishedAt": "2026-08-25T14:58:09Z",
-      "category": "market",
-      "teams": [
-        "Corinthians",
-        "Nottingham Forest"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Partiu Inglaterra? Nottingham Forest negocia a contratação de André, do Corinthians; VEJA lances do jogador",
-      "imageCredit": null
-    },
-    {
-      "id": "17163898",
-      "title": "Matheus Pereira brilha na vitória do Cruzeiro e é o melhor da 24ª rodada no Bola de Prata ESPN",
-      "summary": "Veja como ficou a seleção do ESPN Bola de Prata 2026 após a 24ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/futebol/bola-de-prata/artigo/_/id/17163898/matheus-pereira-brilha-na-vitoria-do-cruzeiro-melhor-24-rodada-bola-de-prata-espn",
-      "publishedAt": "2026-08-25T14:24:25Z",
-      "category": "news",
-      "teams": [],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0825/r1706691_1296x729_16-9.jpg",
-      "imageAlt": "Matheus Pereira comemora gol do Cruzeiro contra o Flamengo pelo Brasileirão",
-      "imageCredit": "Gustavo Aleixo/Cruzeiro"
-    },
-    {
-      "id": "17163784",
-      "title": "Palmeiras dispara e chega a 57% de chances de título brasileiro após rodada com tropeço do Flamengo; veja números",
-      "summary": "Palmeiras venceu enquanto o Flamengo foi derrotado na rodada 24",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17163784/brasileirao-chances-de-titulo-palmeiras-dispara-tropeco-flamengo-veja-numeros",
-      "publishedAt": "2026-08-25T14:19:42Z",
-      "category": "news",
-      "teams": [
-        "Palmeiras",
-        "Flamengo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0825/r1706685_1280x720_16-9.png",
-      "imageAlt": "Palmeiras comemora gol no Campeonato Brasileiro",
-      "imageCredit": "Cesar Greco/Palmeiras/by Canon"
-    },
-    {
-      "id": "17163748",
-      "title": "Marcelo Paz revela que atacante ex-seleção da Itália foi oferecido ao Corinthians: 'Tem mais, mas vou segurar...'",
-      "summary": "Corinthians poderia ter contratado dois nomes de impacto mundial",
-      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17163748/marcelo-paz-revela-atacante-ex-selecao-italia-foi-oferecido-corinthians-tem-mais-mas-vou-segurar",
-      "publishedAt": "2026-08-25T13:55:53Z",
-      "category": "market",
       "teams": [
         "Corinthians"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0825/r1706675_1296x729_16-9.jpg",
-      "imageAlt": "Marcelo Paz no CT Joaquim Grava",
-      "imageCredit": "Rodrigo Coca/Agência Corinthians"
+      "imageUrl": "https://a.espncdn.com/photo/2026/0827/r1707865_1296x729_16-9.jpg",
+      "imageAlt": "Giuliano cobra Corinthians na Justiça de Trabalho",
+      "imageCredit": "Getty Images"
     },
     {
-      "id": "17163301",
-      "title": "Bastidores da saída de Allan: como foi negociação do Manchester City para tirar joia do Palmeiras",
-      "summary": "Citizens ofereceram proposta milionária para contar com jogador na Premier League; Bruno Andrade atualiza informações",
-      "url": "https://www.espn.com.br/video/clip/_/id/17163301",
-      "publishedAt": "2026-08-25T11:31:33Z",
+      "id": "17175780",
+      "title": "Santos conta com 'ajuda' de Neymar e acerta com Arthur, ex-Grêmio e Juventus; saiba os bastidores",
+      "summary": "Jornalista da ESPN, Felipe Silva traz detalhes de negociação",
+      "url": "https://www.espn.com.br/video/clip/_/id/17175780",
+      "publishedAt": "2026-08-27T22:28:26Z",
       "category": "market",
+      "teams": [
+        "Brasil",
+        "Juventus",
+        "Santos"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Santos conta com 'ajuda' de Neymar e acerta com Arthur, ex-Grêmio e Juventus; saiba os bastidores",
+      "imageCredit": null
+    },
+    {
+      "id": "17175680",
+      "title": "Santos conta com ajuda de Neymar e fecha com Arthur, ex-Grêmio",
+      "summary": "Santos acertou a contratação do volante Arthur, ex-Grêmio e Juventus",
+      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17175680/santos-conta-ajuda-neymar-fecha-contratacao-arthur-ex-gremio",
+      "publishedAt": "2026-08-27T22:29:05Z",
+      "category": "market",
+      "teams": [
+        "Santos"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689135_1296x729_16-9.jpg",
+      "imageAlt": "Arthur Melo com a camisa azul de treino do Grêmio em janeiro de 2026",
+      "imageCredit": "Lucas Uebel/Grêmio FBPA"
+    },
+    {
+      "id": "17175513",
+      "title": "Empresa da família de Neymar quita dívida e livra Santos de transferban",
+      "summary": "Valores eram de dívida com o Monaco por Jean Lucas",
+      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17175513/santos-empresa-familia-neymar-quita-divida-livra-transferban",
+      "publishedAt": "2026-08-27T21:18:48Z",
+      "category": "market",
+      "teams": [
+        "Santos"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0804/r1697329_1296x729_16-9.jpg",
+      "imageAlt": "Neymar pede apoio da torcida durante jogo do Santos",
+      "imageCredit": "Marco Miatelo/Sports Press Photo/Getty Images"
+    },
+    {
+      "id": "17175327",
+      "title": "Ainda vivo nas Copas, Vasco chega pressionado para enfrentar o Cruzeiro no Brasileirão? Osvaldo Pascoal analisa",
+      "summary": "Cruzmaltino ainda ocupa a zona de rebaixamento",
+      "url": "https://www.espn.com.br/video/clip/_/id/17175327",
+      "publishedAt": "2026-08-27T20:35:38Z",
+      "category": "news",
+      "teams": [
+        "Cruzeiro",
+        "Vasco da Gama"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Ainda vivo nas Copas, Vasco chega pressionado para enfrentar o Cruzeiro no Brasileirão? Osvaldo Pascoal analisa",
+      "imageCredit": null
+    },
+    {
+      "id": "17174958",
+      "title": "STJD pune Cacá em dois jogos por tentar rasgar camisa do Bahia; Jean Lucas é absolvido, enquanto Marinho é advertido por confusão",
+      "summary": "STJD puniu jogadores de Vitória e Bahia após confusão no clássico Ba-Vi pelo Brasileirão",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17174958/stjd-pune-caca-em-dois-jogos-tentar-rasgar-camisa-bahia-jean-lucas-absolvido-enquanto-marinho-advertido-confusao",
+      "publishedAt": "2026-08-27T20:05:19Z",
+      "category": "news",
+      "teams": [
+        "Vitória",
+        "Bahia"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0827/r1707796_1296x729_16-9.jpg",
+      "imageAlt": "Volante brasileiro Jean Lucas mostrando camisa do Bahia em direção à torcida do Vitória, no Barradão, em Salvador (BA), durante partida da rodada 24 do Campeonato Brasileiro de 2026",
+      "imageCredit": "Letícia Martins/EC Bahia"
+    },
+    {
+      "id": "17174716",
+      "title": "Allan vai brilhar na Premier League? Como joia do Palmeiras virou esperança para futuro do Manchester City",
+      "summary": "Na espera de joia alviverde, Citizens visitam o Crystal Palace nesta sexta-feira (28), abrindo a 2ª rodada",
+      "url": "https://www.espn.com.br/video/clip/_/id/17174716",
+      "publishedAt": "2026-08-27T18:47:52Z",
+      "category": "news",
       "teams": [
         "Manchester City",
         "Palmeiras"
       ],
       "imageUrl": null,
-      "imageAlt": "Bastidores da saída de Allan: como foi negociação do Manchester City para tirar joia do Palmeiras",
+      "imageAlt": "Allan vai brilhar na Premier League? Como joia do Palmeiras virou esperança para futuro do Manchester City",
       "imageCredit": null
     },
     {
-      "id": "17162900",
-      "title": "Flaco é o melhor jogador do Brasil? Amoroso se rende a argentino do Palmeiras: 'Jogador fantástico'",
-      "summary": "Flaco López foi decisivo na vitória do Palmeiras sobre o Vasco com dois golaços",
-      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17162900/flaco-lopez-amoroso-se-rende-a-argentino-do-palmeiras-jogador-fantastico",
-      "publishedAt": "2026-08-25T02:56:09Z",
+      "id": "17174578",
+      "title": "Danilo indica renovação com Flamengo e fim da carreira em 2027: 'Vou terminar no meu clube do coração'",
+      "summary": "Zagueiro e lateral-direito do Flamengo encerrará a carreira ao final de 2027",
+      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17174578/flamengo-danilo-indica-renovacao-fim-de-carreira-2027-vou-terminar-no-meu-clube-do-coracao",
+      "publishedAt": "2026-08-27T18:24:56Z",
+      "category": "market",
+      "teams": [
+        "Flamengo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0527/r1664243_1296x729_16-9.jpg",
+      "imageAlt": "Danilo em ação durante Flamengo x Cusco, no Maracanã, na 6ª rodada da fase de grupos da CONMEBOL Libertadores 2026",
+      "imageCredit": "Getty Images"
+    },
+    {
+      "id": "17174414",
+      "title": "Palmeiras emite boletim médico e atualiza situação física de Gustavo Gómez, Árias e Piquerez",
+      "summary": "Palmeiras venceu o Santos por 3 a 0 pela Copa do Brasil, na última quarta-feira (26)",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17174414/palmeiras-emite-boletim-medico-e-atualiza-situacao-fisica-de-gustavo-gomez-arias-e-piquerez",
+      "publishedAt": "2026-08-27T17:51:34Z",
       "category": "news",
       "teams": [
         "Palmeiras"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0505/r1654090_1296x729_16-9.jpg",
-      "imageAlt": "Atacante argentino Flaco López comemora gol do Palmeiras sobre o Sporting Cristal, no Estádio Alejandro Villanueva, em Lima (PER), pela fase de grupos da CONMEBOL Libertadores de 2026",
-      "imageCredit": "Mariana Bazo/Getty Images"
+      "imageUrl": "https://a.espncdn.com/photo/2026/0827/r1707694_1023x576_16-9.png",
+      "imageAlt": "Gustavo Gómez, do Palmeiras",
+      "imageCredit": "Cesar Greco/Palmeiras/by Canon"
     },
     {
-      "id": "17162876",
-      "title": "Paulo Calçade elogia poder de negociação do Palmeiras após venda de Allan: 'Não negociam por qualquer coisa'",
-      "summary": "Assista ao Linha de Passe pela ESPN no Plano Premium do Disney+",
-      "url": "https://www.espn.com.br/video/clip/_/id/17162876",
-      "publishedAt": "2026-08-25T02:30:02Z",
+      "id": "17173364",
+      "title": "Botafogo faz oferta salarial por Luiz Henrique e pode envolver Danilo e joia por retorno de ídolo",
+      "summary": "Botafogo tenta acertar o retorno do atacante que ganhou Brasileirão e Libertadores pelo clube em 2024",
+      "url": "https://www.espn.com.br/futebol/botafogo/artigo/_/id/17173364/botafogo-luiz-henrique-oferta-salarial-pode-envolver-danilo-joia",
+      "publishedAt": "2026-08-27T15:36:06Z",
       "category": "market",
       "teams": [
-        "Palmeiras",
-        "Vasco da Gama"
+        "Botafogo",
+        "Zenit St Petersburg"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0401/r1636878_1296x729_16-9.jpg",
+      "imageAlt": "Volante brasileiro Danilo, do Botafogo, e atacante brasileiro Luiz Henrique, do Zenit-RUS, comemoram gol do Brasil em amistoso contra a Croácia, no Camping World Stadium, em Orlando, Flórida (EUA)",
+      "imageCredit": "Rich Storry/Getty Images"
+    },
+    {
+      "id": "17171834",
+      "title": "Idealizador da SAFiel dá detalhes de reunião com diretoria do Corinthians: 'Começou lavando roupa suja'",
+      "summary": "Eduardo Salusse atendeu a imprensa após o compromisso",
+      "url": "https://www.espn.com.br/video/clip/_/id/17171834",
+      "publishedAt": "2026-08-27T01:25:29Z",
+      "category": "news",
+      "teams": [
+        "Corinthians"
       ],
       "imageUrl": null,
-      "imageAlt": "Paulo Calçade elogia poder de negociação do Palmeiras após venda de Allan: 'Não negociam por qualquer coisa'",
+      "imageAlt": "Idealizador da SAFiel dá detalhes de reunião com diretoria do Corinthians: 'Começou lavando roupa suja'",
       "imageCredit": null
     },
     {
-      "id": "17162835",
-      "title": "Zé Elias critica Memphis Depay após jogador colocar fogo no Parque São Jorge em música: 'Isso não é arte'",
-      "summary": "Assista ao Equipe F pela ESPN no Plano Premium do Disney+",
-      "url": "https://www.espn.com.br/video/clip/_/id/17162835",
-      "publishedAt": "2026-08-25T02:02:06Z",
+      "id": "17171485",
+      "title": "Clássicos entre Corinthians e Santos, Flamengo e Botafogo e mais: o palpitômetro da 25ª rodada do Brasileirão",
+      "summary": "André Donke dá os palpites para os jogos da rodada",
+      "url": "https://www.espn.com.br/video/clip/_/id/17171485",
+      "publishedAt": "2026-08-27T00:14:44Z",
       "category": "news",
-      "teams": [
-        "Corinthians",
-        "Coritiba"
-      ],
+      "teams": [],
       "imageUrl": null,
-      "imageAlt": "Zé Elias critica Memphis Depay após jogador colocar fogo no Parque São Jorge em música: 'Isso não é arte'",
+      "imageAlt": "Clássicos entre Corinthians e Santos, Flamengo e Botafogo e mais: o palpitômetro da 25ª rodada do Brasileirão",
       "imageCredit": null
     },
     {
-      "id": "17162809",
-      "title": "Athletico vence o Botafogo com show de Viveros pelo Brasileirão; VEJA os melhores momentos",
-      "summary": "O Athletico venceu o Botafogo por 3 a 2 pelo Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17162809",
-      "publishedAt": "2026-08-25T01:53:43Z",
+      "id": "17170391",
+      "title": "Juventude e Criciúma seguem na briga pelo título, corrida pela fuga do Z4 e mais: os palpites para a 25ª rodada da Série B",
+      "summary": "Assista à Série B na ESPN pelo Plano Premium do Disney+",
+      "url": "https://www.espn.com.br/video/clip/_/id/17170391",
+      "publishedAt": "2026-08-26T19:56:31Z",
       "category": "news",
       "teams": [
-        "Athletico Paranaense",
+        "Criciúma",
+        "Juventude"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Juventude e Criciúma seguem na briga pelo título, corrida pela fuga do Z4 e mais: os palpites para a 25ª rodada da Série B",
+      "imageCredit": null
+    },
+    {
+      "id": "17159644",
+      "title": "Botafogo anuncia retorno do atacante Tiquinho Soares",
+      "summary": "Tiquinho Soares assinou contrato com o Botafogo até o fim do ano",
+      "url": "https://www.espn.com.br/futebol/botafogo/artigo/_/id/17159644/botafogo-anuncia-retorno-atacante-tiquinho-soares",
+      "publishedAt": "2026-08-26T14:39:20Z",
+      "category": "market",
+      "teams": [
         "Botafogo"
       ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0826/r1707147_1099x618_16-9.jpg",
+      "imageAlt": "Tiquinho Soares foi anunciado como reforço do Botafogo",
+      "imageCredit": "Divulgação"
+    },
+    {
+      "id": "17167764",
+      "title": "Bap usa até Gregorio Duvivier e Wagner Moura para tentar condenar Pedrinho na Justiça",
+      "summary": "ESPN teve acesso ao processo de Bap, presidente do Flamengo, contra Pedrinho, mandatário do Vasco da Gama",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17167764/bap-usa-gregorio-duvivier-wagner-moura-tentar-condenar-pedrinho-justica",
+      "publishedAt": "2026-08-26T13:59:52Z",
+      "category": "news",
+      "teams": [
+        "Flamengo",
+        "Vasco da Gama"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2025/1206/r1585611_1296x729_16-9.jpg",
+      "imageAlt": "Luiz Eduardo Baptista, o Bap, presidente do Flamengo",
+      "imageCredit": "Flamengo TV"
+    },
+    {
+      "id": "17168152",
+      "title": "Cenas fortes em Cruzeiro x Atlético-MG! A queda feia que tirou Ruan Tressoldi de clássico na Copa do Brasil",
+      "summary": "Zagueiro precisou ser substituído em partida nessa terça-feira (25)",
+      "url": "https://www.espn.com.br/video/clip/_/id/17168152",
+      "publishedAt": "2026-08-26T12:39:22Z",
+      "category": "news",
+      "teams": [
+        "Atlético-MG",
+        "Cruzeiro"
+      ],
       "imageUrl": null,
-      "imageAlt": "Athletico vence o Botafogo com show de Viveros pelo Brasileirão; VEJA os melhores momentos",
+      "imageAlt": "Cenas fortes em Cruzeiro x Atlético-MG! A queda feia que tirou Ruan Tressoldi de clássico na Copa do Brasil",
       "imageCredit": null
     }
   ]
