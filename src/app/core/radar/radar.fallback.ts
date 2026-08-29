@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-08-28T23:11:33.416Z",
-  "expiresAt": "2026-09-01T23:11:33.416Z",
+  "generatedAt": "2026-08-29T17:21:58.346Z",
+  "expiresAt": "2026-09-02T17:21:58.346Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -14,7 +14,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "id": "bra.1",
       "name": "Campeonato Brasileiro",
       "shortName": "Brasileirão",
-      "matchCount": 28,
+      "matchCount": 32,
       "liveCount": 0,
       "nextMatchAt": "2026-08-29T21:30Z"
     },
@@ -44,168 +44,6 @@ export const RADAR_FALLBACK: RadarPayload = {
     }
   ],
   "matches": [
-    {
-      "id": "401841203",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-23T19:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Allianz Parque",
-      "home": {
-        "id": "2029",
-        "name": "Palmeiras",
-        "shortName": "Palmeiras",
-        "abbreviation": "PAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
-      },
-      "away": {
-        "id": "3454",
-        "name": "Vasco da Gama",
-        "shortName": "Vasco",
-        "abbreviation": "VAS",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png"
-      },
-      "homeScore": "4",
-      "awayScore": "1",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841203/vasco-da-gama-palmeiras"
-    },
-    {
-      "id": "401841202",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-23T19:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estádio Municipal Cicero de Souza Marques",
-      "home": {
-        "id": "6079",
-        "name": "Red Bull Bragantino",
-        "shortName": "Bragantino",
-        "abbreviation": "BRA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png"
-      },
-      "away": {
-        "id": "6273",
-        "name": "Grêmio",
-        "shortName": "Grêmio",
-        "abbreviation": "GRE",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png"
-      },
-      "homeScore": "1",
-      "awayScore": "0",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841202/gremio-red-bull-bragantino"
-    },
-    {
-      "id": "401841200",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-23T19:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estadio Manoel Barradas",
-      "home": {
-        "id": "3457",
-        "name": "Vitória",
-        "shortName": "Vitória",
-        "abbreviation": "VIT",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png"
-      },
-      "away": {
-        "id": "9967",
-        "name": "Bahia",
-        "shortName": "Bahia",
-        "abbreviation": "BAH",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png"
-      },
-      "homeScore": "0",
-      "awayScore": "2",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841200/bahia-vitoria"
-    },
-    {
-      "id": "401841199",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-23T21:30Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Arena Condá",
-      "home": {
-        "id": "9318",
-        "name": "Chapecoense",
-        "shortName": "Chapecoense",
-        "abbreviation": "CHA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png"
-      },
-      "away": {
-        "id": "2026",
-        "name": "São Paulo",
-        "shortName": "São Paulo",
-        "abbreviation": "SAO",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png"
-      },
-      "homeScore": "1",
-      "awayScore": "0",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841199/sao-paulo-chapecoense"
-    },
-    {
-      "id": "401841201",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-23T21:30Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
-      "home": {
-        "id": "2674",
-        "name": "Santos",
-        "shortName": "Santos",
-        "abbreviation": "SAN",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
-      },
-      "away": {
-        "id": "9169",
-        "name": "Mirassol",
-        "shortName": "Mirassol",
-        "abbreviation": "MIR",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
-      },
-      "homeScore": "1",
-      "awayScore": "1",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841201/mirassol-santos"
-    },
-    {
-      "id": "401841207",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-23T22:30Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Couto Pereira",
-      "home": {
-        "id": "3456",
-        "name": "Coritiba",
-        "shortName": "Coritiba",
-        "abbreviation": "CFC",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png"
-      },
-      "away": {
-        "id": "874",
-        "name": "Corinthians",
-        "shortName": "Corinthians",
-        "abbreviation": "COR",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png"
-      },
-      "homeScore": "2",
-      "awayScore": "1",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841207/corinthians-coritiba"
-    },
     {
       "id": "401841198",
       "competitionId": "bra.1",
@@ -1204,6 +1042,276 @@ export const RADAR_FALLBACK: RadarPayload = {
       "homeScore": null,
       "awayScore": null,
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401912543/flamengo-independiente-del-valle"
+    },
+    {
+      "id": "401841231",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-09-12T18:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Arena MRV",
+      "home": {
+        "id": "7632",
+        "name": "Atlético-MG",
+        "shortName": "Atlético-MG",
+        "abbreviation": "CAM",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png"
+      },
+      "away": {
+        "id": "3445",
+        "name": "Fluminense",
+        "shortName": "Fluminense",
+        "abbreviation": "FLU",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841231/fluminense-atletico-mg"
+    },
+    {
+      "id": "401841230",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-09-12T18:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Arena Fonte Nova",
+      "home": {
+        "id": "9967",
+        "name": "Bahia",
+        "shortName": "Bahia",
+        "abbreviation": "BAH",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png"
+      },
+      "away": {
+        "id": "4936",
+        "name": "Remo",
+        "shortName": "Remo",
+        "abbreviation": "REMO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841230/remo-bahia"
+    },
+    {
+      "id": "401841229",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-09-12T18:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Joao Havelange Stadium",
+      "home": {
+        "id": "6086",
+        "name": "Botafogo",
+        "shortName": "Botafogo",
+        "abbreviation": "BOT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png"
+      },
+      "away": {
+        "id": "6079",
+        "name": "Red Bull Bragantino",
+        "shortName": "Bragantino",
+        "abbreviation": "BRA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841229/red-bull-bragantino-botafogo"
+    },
+    {
+      "id": "401841228",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-09-12T18:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Arena Condá",
+      "home": {
+        "id": "9318",
+        "name": "Chapecoense",
+        "shortName": "Chapecoense",
+        "abbreviation": "CHA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png"
+      },
+      "away": {
+        "id": "1936",
+        "name": "Internacional",
+        "shortName": "Internacional",
+        "abbreviation": "INT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841228/internacional-chapecoense"
+    },
+    {
+      "id": "401841232",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-09-12T18:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Couto Pereira",
+      "home": {
+        "id": "3456",
+        "name": "Coritiba",
+        "shortName": "Coritiba",
+        "abbreviation": "CFC",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png"
+      },
+      "away": {
+        "id": "3458",
+        "name": "Athletico Paranaense",
+        "shortName": "Athletico-PR",
+        "abbreviation": "CAP",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841232/athletico-paranaense-coritiba"
+    },
+    {
+      "id": "401841237",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-09-12T18:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Estadio do Maracana",
+      "home": {
+        "id": "819",
+        "name": "Flamengo",
+        "shortName": "Flamengo",
+        "abbreviation": "FLA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png"
+      },
+      "away": {
+        "id": "874",
+        "name": "Corinthians",
+        "shortName": "Corinthians",
+        "abbreviation": "COR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841237/corinthians-flamengo"
+    },
+    {
+      "id": "401841236",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-09-12T18:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Arena do Grêmio",
+      "home": {
+        "id": "6273",
+        "name": "Grêmio",
+        "shortName": "Grêmio",
+        "abbreviation": "GRE",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png"
+      },
+      "away": {
+        "id": "3454",
+        "name": "Vasco da Gama",
+        "shortName": "Vasco",
+        "abbreviation": "VAS",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841236/vasco-da-gama-gremio"
+    },
+    {
+      "id": "401841235",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-09-12T18:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Estadio Municipal José Maria de Campos Maia",
+      "home": {
+        "id": "9169",
+        "name": "Mirassol",
+        "shortName": "Mirassol",
+        "abbreviation": "MIR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
+      },
+      "away": {
+        "id": "3457",
+        "name": "Vitória",
+        "shortName": "Vitória",
+        "abbreviation": "VIT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841235/vitoria-mirassol"
+    },
+    {
+      "id": "401841234",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-09-12T18:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Allianz Parque",
+      "home": {
+        "id": "2029",
+        "name": "Palmeiras",
+        "shortName": "Palmeiras",
+        "abbreviation": "PAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
+      },
+      "away": {
+        "id": "2026",
+        "name": "São Paulo",
+        "shortName": "São Paulo",
+        "abbreviation": "SAO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841234/sao-paulo-palmeiras"
+    },
+    {
+      "id": "401841233",
+      "competitionId": "bra.1",
+      "competitionName": "Campeonato Brasileiro",
+      "date": "2026-09-12T18:00Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "home": {
+        "id": "2674",
+        "name": "Santos",
+        "shortName": "Santos",
+        "abbreviation": "SAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
+      },
+      "away": {
+        "id": "2022",
+        "name": "Cruzeiro",
+        "shortName": "Cruzeiro",
+        "abbreviation": "CRU",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841233/cruzeiro-santos"
     }
   ],
   "standings": [
@@ -1570,6 +1678,155 @@ export const RADAR_FALLBACK: RadarPayload = {
   ],
   "news": [
     {
+      "id": "17182526",
+      "title": "Vai fazer falta? Santos encaminha empréstimo de Robinho Jr para time da Itália; VEJA detalhes",
+      "summary": "Jovem buscava mais minutos em campo",
+      "url": "https://www.espn.com.br/video/clip/_/id/17182526",
+      "publishedAt": "2026-08-29T14:50:13Z",
+      "category": "market",
+      "teams": [
+        "Genoa",
+        "Santos"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Vai fazer falta? Santos encaminha empréstimo de Robinho Jr para time da Itália; VEJA detalhes",
+      "imageCredit": null
+    },
+    {
+      "id": "17177773",
+      "title": "Como Artur Jorge se sai contra portugueses antes do confronto inédito contra Pedro Emanuel em Vasco x Cruzeiro",
+      "summary": "Embalado por quatro vitórias no Brasileirão, o Cruzeiro encara o Vasco, neste sábado (29), pela 25ª rodada",
+      "url": "https://www.espn.com.br/futebol/cruzeiro/artigo/_/id/17177773/vasco-x-cruzeiro-como-artur-jorge-se-sai-contra-portugueses-antes-confronto-inedito-contra-pedro-emanuel",
+      "publishedAt": "2026-08-29T11:27:45Z",
+      "category": "news",
+      "teams": [
+        "Cruzeiro",
+        "Vasco da Gama"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0402/r1637453_1296x729_16-9.jpg",
+      "imageAlt": "Artur Jorge comemora vitória pelo Cruzeiro",
+      "imageCredit": "Gustavo Martins/ Cruzeiro"
+    },
+    {
+      "id": "17178011",
+      "title": "São Paulo vai ser rebaixado? Compare campanha de 2026 com a de outros anos que clube lutou para não cair",
+      "summary": "São Paulo busca reabilitação neste sábado contra o Red Bull Bragantino no Morumbis",
+      "url": "https://www.espn.com.br/futebol/sao-paulo/artigo/_/id/17178011/sao-paulo-vai-ser-rebaixado-compare-campanha-2026-com-outros-anos-clube-lutou-nao-cair",
+      "publishedAt": "2026-08-29T11:28:19Z",
+      "category": "news",
+      "teams": [
+        "São Paulo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0828/r1708118_1296x729_16-9.jpg",
+      "imageAlt": "Dorival Jr. em jogo do São Paulo",
+      "imageCredit": "Marcio Cunha/Sports Press Photo/Getty Images"
+    },
+    {
+      "id": "17176587",
+      "title": "'Sempre especial': Odair Hellmann reencontra Fluminense após ajudar na reconstrução do clube",
+      "summary": "Odair Hellmann atuou pelo Fluminense como jogador em 1999 e depois retornou como treinador em 2020",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17176587/athletico-pr-odair-hellmann-reencontra-fluminense-apos-ajudar-reconstrucao-do-clube",
+      "publishedAt": "2026-08-29T11:31:13Z",
+      "category": "news",
+      "teams": [
+        "Fluminense",
+        "Athletico Paranaense"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0828/r1707967_1296x729_16-9.jpg",
+      "imageAlt": "Odair Hellmann durante jogo do Athletico-PR no Maracanã",
+      "imageCredit": "Wagner Meier/Getty Images"
+    },
+    {
+      "id": "17180866",
+      "title": "Remo x Coritiba: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+      "summary": "Remo e Coritiba fecham a 25ª rodada do Brasileirão nesta segunda-feira (31)",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17180866/remo-x-coritiba-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
+      "publishedAt": "2026-08-29T01:56:54Z",
+      "category": "news",
+      "teams": [
+        "Remo",
+        "Coritiba"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0829/r1708371_1296x729_16-9.jpg",
+      "imageAlt": "Vista geral do Mangueirão",
+      "imageCredit": "Getty Images"
+    },
+    {
+      "id": "17180931",
+      "title": "Grêmio x Chapecoense: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+      "summary": "Grêmio e Chapecoense vêm de resultados diferentes na última rodada, mas com mesmo objetivo de lutar contra o Z4",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17180931/gremio-x-chapecoense-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-do-jogo-do-brasileirao",
+      "publishedAt": "2026-08-29T01:59:38Z",
+      "category": "news",
+      "teams": [
+        "Grêmio",
+        "Chapecoense"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0519/r1660555_1296x729_16-9.jpg",
+      "imageAlt": "Vista da Arena do Grêmio",
+      "imageCredit": "Getty Images"
+    },
+    {
+      "id": "17180485",
+      "title": "Athletico-PR x Fluminense: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+      "summary": "O Athletico-PR recebe o Fluminense neste domingo (30), às 11h (de Brasília), na Arena da Baixada, em Curitiba (PR)",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17180485/athletico-pr-x-fluminense-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
+      "publishedAt": "2026-08-29T01:21:22Z",
+      "category": "news",
+      "teams": [
+        "Athletico Paranaense",
+        "Fluminense"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2025/0927/r1552041_1296x729_16-9.jpg",
+      "imageAlt": "Vista da Arena da Baixada antes de jogo do Athletico-PR",
+      "imageCredit": "André Oito/Operário"
+    },
+    {
+      "id": "17180623",
+      "title": "Bahia x Internacional: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+      "summary": "Opostos na tabela, Bahia e Internacional se encontram pelo Brasileirão após clássicos na última semana",
+      "url": "https://www.espn.com.br/futebol/serie-b/artigo/_/id/17180623/bahia-x-internacional-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-do-jogo-do-brasileirao",
+      "publishedAt": "2026-08-29T02:00:25Z",
+      "category": "news",
+      "teams": [
+        "Internacional",
+        "Bahia"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0330/r1636068_1296x729_16-9.jpg",
+      "imageAlt": "Vista da Fonte Nova antes de jogo entre Brasil e Uruguai, pelas eliminatórias",
+      "imageCredit": "Pedro Vilela/Getty Images"
+    },
+    {
+      "id": "17180584",
+      "title": "DECISIVO! Como Flaco virou homem de confiança do Palmeiras para fazer valer 'regra' de força máxima de Abel",
+      "summary": "Mirassol x Palmeiras se enfrentam neste domingo (30), às 18h30 (de Brasília), pela 25ª rodada do Campeonato Brasileiro",
+      "url": "https://www.espn.com.br/video/clip/_/id/17180584",
+      "publishedAt": "2026-08-29T00:02:57Z",
+      "category": "news",
+      "teams": [
+        "Mirassol",
+        "Palmeiras"
+      ],
+      "imageUrl": null,
+      "imageAlt": "DECISIVO! Como Flaco virou homem de confiança do Palmeiras para fazer valer 'regra' de força máxima de Abel",
+      "imageCredit": null
+    },
+    {
+      "id": "17180350",
+      "title": "Atlético-MG x Vitória: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+      "summary": "O Atlético-MG recebe o Vitória neste sábado (29) pelo Brasileirão",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17180350/atletico-mg-x-vitoria-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
+      "publishedAt": "2026-08-29T00:05:30Z",
+      "category": "news",
+      "teams": [
+        "América Mineiro",
+        "Vitória"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689353_1296x729_16-9.jpg",
+      "imageAlt": "Vista da Arena MRV",
+      "imageCredit": "Getty Images"
+    },
+    {
       "id": "17179216",
       "title": "Flamengo x Botafogo: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
       "summary": "Flamengo e Botafogo se enfrentam neste domingo (30), no Maracanã, em clássico pela 25ª rodada do Campeonato Brasileiro",
@@ -1656,153 +1913,6 @@ export const RADAR_FALLBACK: RadarPayload = {
       "imageUrl": "https://a.espncdn.com/photo/2026/0818/r1703520_1296x729_16-9.jpg",
       "imageAlt": "Memphis Depay comemora após marcar para o Corinthians sobre o Vasco",
       "imageCredit": "Rodrigo Coca/Agência Corinthians"
-    },
-    {
-      "id": "17177834",
-      "title": "Presidente do Corinthians explica como é 'cláusula anti-política' e diz que não é só para Memphis Depay: 'Todos têm'",
-      "summary": "Mandatário concedeu entrevista exclusiva à ESPN",
-      "url": "https://www.espn.com.br/video/clip/_/id/17177834",
-      "publishedAt": "2026-08-28T14:46:58Z",
-      "category": "news",
-      "teams": [
-        "Corinthians",
-        "Holanda"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Presidente do Corinthians explica como é 'cláusula anti-política' e diz que não é só para Memphis Depay: 'Todos têm'",
-      "imageCredit": null
-    },
-    {
-      "id": "17177164",
-      "title": "Palmeiras: quanto clube deve gastar e qual a condição por possível novo reforço após negociações de Allan e joia da base",
-      "summary": "Verdão tem desfalques no setor de ataque com as saídas de Allan e Riquelme Fillipe",
-      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17177164/palmeiras-reforcos-quanto-clube-deve-gastar-e-qual-a-condicao-por-possivel-novo-reforco-apos-negociacoes-de-allan-e-joia-da-base",
-      "publishedAt": "2026-08-28T13:45:50Z",
-      "category": "market",
-      "teams": [
-        "Palmeiras"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2022/0524/r1016925_1296x729_16-9.jpg",
-      "imageAlt": "Abel Ferreira e a presidente Leila Pereira durante treino do Palmeiras",
-      "imageCredit": "Cesar Greco/Ag Palmeiras"
-    },
-    {
-      "id": "17167454",
-      "title": "Sensação do Brasileirão, Athletico-PR tem 'fórmula' para bater de frente com Palmeiras e Flamengo",
-      "summary": "Odair Hellmann contou ao ESPN.com.br o segredo do sucesso do Athletico-PR no Campeonato Brasileiro",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17167454/brasileirao-athletico-pr-sensacao-formula-bater-frente-com-palmeiras-e-flamengo",
-      "publishedAt": "2026-08-28T10:34:59Z",
-      "category": "news",
-      "teams": [
-        "Athletico Paranaense"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0420/r1646295_1296x729_16-9.jpg",
-      "imageAlt": "Odair Hellmann reclama com arbitragem em Palmeiras x Athletico-PR, na 12ª rodada do Brasileirão 2026",
-      "imageCredit": "Anderson Romão/AGIF"
-    },
-    {
-      "id": "17176733",
-      "title": "Presidente vê Inter prejudicado e promete tomar medidas contra arbitragem: 'É lamentável'",
-      "summary": "O embate terminou sem gols e com um lance polêmico entre Carlos Vinicius e Bruno Gomes",
-      "url": "https://www.espn.com.br/futebol/copa-do-brasil/artigo/_/id/17176733/presidente-ve-inter-prejudicado-promete-tomar-medidas-contra-arbitragem-e-lamentavel",
-      "publishedAt": "2026-08-28T03:38:50Z",
-      "category": "news",
-      "teams": [
-        "Internacional",
-        "Grêmio"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0803/r1697253_1296x729_16-9.jpg",
-      "imageAlt": "Alessandro Barcellos, presidente do Internacional",
-      "imageCredit": "Divulgação/Ricardo Duarte"
-    },
-    {
-      "id": "17176610",
-      "title": "Dia de Corinthians x Santos: clássico paulista coloca Memphis e Neymar frente a frente novamente; quem leva a melhor?",
-      "summary": "Corinthians e Santos se enfrentam neste domingo (30) pelo Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17176610",
-      "publishedAt": "2026-08-28T02:34:09Z",
-      "category": "news",
-      "teams": [
-        "Corinthians",
-        "Santos"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Dia de Corinthians x Santos: clássico paulista coloca Memphis e Neymar frente a frente novamente; quem leva a melhor?",
-      "imageCredit": null
-    },
-    {
-      "id": "17175952",
-      "title": "Vasco x Cruzeiro: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
-      "summary": "O jogo da 25ª rodada da competição nacional será disputado no Estádio de São Januário, no Rio de Janeiro (RJ), a partir das 21h20, no horário de Brasília",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17175952/vasco-cruzeiro-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao-serie-a",
-      "publishedAt": "2026-08-28T01:50:04Z",
-      "category": "news",
-      "teams": [
-        "Cruzeiro",
-        "Vasco da Gama"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0416/r1644590_1296x729_16-9.jpg",
-      "imageAlt": "Vista de São Januário antes de jogo do Vasco",
-      "imageCredit": "Matheus Lima/Vasco"
-    },
-    {
-      "id": "17175996",
-      "title": "São Paulo x Red Bull Bragantino: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
-      "summary": "São Paulo recebe Red Bull Bragantino querendo quebrar um jejum de quatro meses no Campeonato Brasileiro",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17175996/sao-paulo-x-red-bull-bragantino-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
-      "publishedAt": "2026-08-28T01:45:20Z",
-      "category": "news",
-      "teams": [
-        "São Paulo",
-        "Red Bull Bragantino"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0319/r1630769_1296x729_16-9.jpg",
-      "imageAlt": "Vista do Morumbi antes de jogo entre São Paulo e Botafogo, pela Libertadores",
-      "imageCredit": "MIGUEL SCHINCARIOL/AFP via Getty Images"
-    },
-    {
-      "id": "17175678",
-      "title": "Ex-meia do Corinthians aciona o clube na Justiça do Trabalho por dívida de R$ 1,3 milhão",
-      "summary": "A equipe entrou em acordo com o jogador para quitar a dívida - antes de R$ 1.332.853,35 - em 16 parcelas mensais em 2024",
-      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17175678/ex-meia-corinthians-aciona-clube-justica-do-trabalho-divida-r-13-milhao",
-      "publishedAt": "2026-08-28T13:57:30Z",
-      "category": "news",
-      "teams": [
-        "Corinthians"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0827/r1707865_1296x729_16-9.jpg",
-      "imageAlt": "Giuliano cobra Corinthians na Justiça de Trabalho",
-      "imageCredit": "Getty Images"
-    },
-    {
-      "id": "17175780",
-      "title": "Santos conta com 'ajuda' de Neymar e acerta com Arthur, ex-Grêmio e Juventus; saiba os bastidores",
-      "summary": "Jornalista da ESPN, Felipe Silva traz detalhes de negociação",
-      "url": "https://www.espn.com.br/video/clip/_/id/17175780",
-      "publishedAt": "2026-08-27T22:28:26Z",
-      "category": "market",
-      "teams": [
-        "Brasil",
-        "Juventus",
-        "Santos"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Santos conta com 'ajuda' de Neymar e acerta com Arthur, ex-Grêmio e Juventus; saiba os bastidores",
-      "imageCredit": null
-    },
-    {
-      "id": "17175680",
-      "title": "Santos conta com ajuda de Neymar e fecha com Arthur, ex-Grêmio",
-      "summary": "Santos acertou a contratação do volante Arthur, ex-Grêmio e Juventus",
-      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17175680/santos-conta-ajuda-neymar-fecha-contratacao-arthur-ex-gremio",
-      "publishedAt": "2026-08-27T22:29:05Z",
-      "category": "market",
-      "teams": [
-        "Santos"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689135_1296x729_16-9.jpg",
-      "imageAlt": "Arthur Melo com a camisa azul de treino do Grêmio em janeiro de 2026",
-      "imageCredit": "Lucas Uebel/Grêmio FBPA"
     }
   ]
 };
