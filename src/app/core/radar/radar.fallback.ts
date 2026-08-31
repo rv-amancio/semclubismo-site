@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-08-31T08:53:35.624Z",
-  "expiresAt": "2026-09-04T08:53:35.624Z",
+  "generatedAt": "2026-08-31T19:37:33.876Z",
+  "expiresAt": "2026-09-04T19:37:33.876Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -1624,6 +1624,165 @@ export const RADAR_FALLBACK: RadarPayload = {
   ],
   "news": [
     {
+      "id": "17193225",
+      "title": "Palmeiras: Barboza, Piquerez e Arias treinam e podem ser reforços contra o Santos",
+      "summary": "Verdão ainda conta com outros nomes do elenco no DM",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17193225/palmeiras-barboza-piquerez-e-arias-treinam-e-podem-ser-reforcos-contra-o-santos",
+      "publishedAt": "2026-08-31T18:25:00Z",
+      "category": "market",
+      "teams": [
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0831/r1709569_1023x576_16-9.png",
+      "imageAlt": "Jhon Arias, do Palmeiras",
+      "imageCredit": "Cesar Greco/Palmeiras/by Canon"
+    },
+    {
+      "id": "17193094",
+      "title": "De 'terno alinhado', Arthur, ex-Grêmio, é anunciado como novo reforço do Santos",
+      "summary": "Peixe vai em busca de mais reforços após derrubar o transfer ban",
+      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17193094/santos-anuncia-arthur-ex-gremio-terno-alinhado-novo-reforco",
+      "publishedAt": "2026-08-31T17:45:24Z",
+      "category": "market",
+      "teams": [
+        "Santos",
+        "Grêmio"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0831/r1709555_1296x729_16-9.jpg",
+      "imageAlt": "Arthur, do Santos",
+      "imageCredit": "Divulgação/Santos F.C."
+    },
+    {
+      "id": "17192516",
+      "title": "Palmeiras: Abel entra na mira do STJD por chute em microfone e pode tomar mais um gancho pesado",
+      "summary": "Abel Ferreira concedeu entrevista coletiva após o empate com o Mirassol, neste domingo (30), pelo Brasileirão",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17192516/abel-ferreira-entra-mira-stjd-chute-microfone-mirassol-palmeiras-pode-tomar-gancho-pesado",
+      "publishedAt": "2026-08-31T16:04:13Z",
+      "category": "news",
+      "teams": [
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0830/r1709256_1280x720_16-9.jpg",
+      "imageAlt": "Abel Ferreira durante jogo entre Mirassol e Palmeiras, pelo Brasileirão",
+      "imageCredit": "Cesar Greco/Palmeiras/by Canon"
+    },
+    {
+      "id": "17192369",
+      "title": "Felipe Melo detona Abel Ferreira por expor atletas do Palmeiras em críticas públicas: 'A culpa é sempre do treinador'",
+      "summary": "Abel Ferreira criticou jogadores do Palmeiras, entre eles Vitor Roque, ao analisar o desempenho do time",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17192369/felipe-melo-detona-abel-ferreira-expor-atletas-palmeiras-criticas-publicas-a-culpa-e-sempre-do-treinador",
+      "publishedAt": "2026-08-31T15:13:20Z",
+      "category": "news",
+      "teams": [
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0813/r1701073_1296x729_16-9.jpg",
+      "imageAlt": "Abel Ferreira, em confronto entre Palmeiras x Cerro Porteño",
+      "imageCredit": "Getty Images"
+    },
+    {
+      "id": "17192247",
+      "title": "Corinthians repudia violência contra criança que ganhou camisa do Neymar: 'Há limites que não podem ser ultrapassados'",
+      "summary": "Corinthians se pronunciou nesta segunda (31) sobre o episódio lamentável envolvendo uma criança na Neo Química Arena",
+      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17192247/corinthians-repudia-violencia-contra-crianca-ganhou-camisa-neymar-ha-limites-que-nao-podem-ser-ultrapassados",
+      "publishedAt": "2026-08-31T15:11:02Z",
+      "category": "news",
+      "teams": [
+        "Corinthians",
+        "Santos"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0813/r1701216_1296x729_16-9.jpg",
+      "imageAlt": "Neymar posando com a camisa do Santos para a CONMEBOL Sul-Americana",
+      "imageCredit": "CONMEBOL"
+    },
+    {
+      "id": "17192202",
+      "title": "Allan crê em adaptação rápida ao City e exalta Premier League: 'Não tem jogo ruim'",
+      "summary": "Jogador assinou contrato até 2031 com o clube inglês",
+      "url": "https://www.espn.com.br/video/clip/_/id/17192202",
+      "publishedAt": "2026-08-31T14:32:53Z",
+      "category": "market",
+      "teams": [
+        "Manchester City",
+        "Palmeiras"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Allan crê em adaptação rápida ao City e exalta Premier League: 'Não tem jogo ruim'",
+      "imageCredit": null
+    },
+    {
+      "id": "17192095",
+      "title": "Reforço do Flamengo, Joaquín Freitas se diz pronto para jogar em qualquer posição: 'Venho para somar'",
+      "summary": "Jogador concedeu entrevista exclusiva à ESPN no embarque para o Brasil",
+      "url": "https://www.espn.com.br/video/clip/_/id/17192095",
+      "publishedAt": "2026-08-31T14:02:06Z",
+      "category": "market",
+      "teams": [
+        "Flamengo"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Reforço do Flamengo, Joaquín Freitas se diz pronto para jogar em qualquer posição: 'Venho para somar'",
+      "imageCredit": null
+    },
+    {
+      "id": "17192084",
+      "title": "Polícia Civil cumpre mandado de busca e apreensão na casa de David, e atacante do Vasco se apresenta à delegacia; VEJA as imagens",
+      "summary": "Atleta é um dos alvos da operação da Polícia do Rio contra tráfico de drogas e armas",
+      "url": "https://www.espn.com.br/video/clip/_/id/17192084",
+      "publishedAt": "2026-08-31T14:12:38Z",
+      "category": "news",
+      "teams": [
+        "Vasco da Gama"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Polícia Civil cumpre mandado de busca e apreensão na casa de David, e atacante do Vasco se apresenta à delegacia; VEJA as imagens",
+      "imageCredit": null
+    },
+    {
+      "id": "17191996",
+      "title": "Novo reforço do Flamengo, Anthony Valencia desembarca no RJ; negociação gira em torno dos R$ 30 milhões",
+      "summary": "Atacante estava no futebol belga e chegou a ser convocado para a Copa do Mundo",
+      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17191996/flamengo-anthony-valencia-desembarca-rio-de-janeiro-negociacao-30-milhoes",
+      "publishedAt": "2026-08-31T13:47:06Z",
+      "category": "market",
+      "teams": [
+        "Flamengo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0831/r1709447_1296x729_16-9.jpg",
+      "imageAlt": "Anthony Valencia, do Royal Antwerp",
+      "imageCredit": "Getty Images"
+    },
+    {
+      "id": "17191673",
+      "title": "A caminho do Flamengo, atacante do River Plate se despede do clube e se coloca à disposição de Jardim: 'Onde for necessário'",
+      "summary": "Atacante de 19 anos fez sua última partida com a camisa do River Plate",
+      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17191673/flamengo-joaquin-freitas-despede-river-plate-se-coloca-disposicao-jardim-onde-for-necessario",
+      "publishedAt": "2026-08-31T12:19:59Z",
+      "category": "news",
+      "teams": [
+        "River Plate",
+        "Flamengo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0831/r1709414_1296x729_16-9.jpg",
+      "imageAlt": "Joaquín Freitas",
+      "imageCredit": "Getty Images"
+    },
+    {
+      "id": "17191589",
+      "title": "Jogador do Vasco e ex-Santos são alvos de operação da Polícia do Rio contra tráfico de drogas e armas",
+      "summary": "Operação cumpre quatro mandados de prisão temporária e 15 mandados de busca e apreensão",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17191589/jogador-do-vasco-e-ex-santos-sao-alvos-de-operacao-da-policia-do-rio-contra-trafico-de-drogas-e-armas",
+      "publishedAt": "2026-08-31T13:59:54Z",
+      "category": "news",
+      "teams": [
+        "Vasco da Gama",
+        "Santos"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0831/r1709400_1296x729_16-9.jpg",
+      "imageAlt": "David, do Vasco da Gama",
+      "imageCredit": "Matheus Lima/Vasco"
+    },
+    {
       "id": "17191055",
       "title": "Treinador do Mirassol lamenta arbitragem contra Palmeiras e é direto sobre reclamações de Abel Ferreira: 'A gente está acostumado'",
       "summary": "Rafael Guanaes rebateu as críticas de Abel Ferreira sobre a arbitragem do empate entre Mirassol e Palmeiras",
@@ -1696,170 +1855,6 @@ export const RADAR_FALLBACK: RadarPayload = {
       ],
       "imageUrl": null,
       "imageAlt": "Abel Ferreira fala sobre condição física de Vitor Roque após empate do Palmeiras: 'Não está em boa forma'",
-      "imageCredit": null
-    },
-    {
-      "id": "17190839",
-      "title": "Gustavo Henrique sobe tom e diz que Corinthians não pode brigar para não cair no Brasileirão todo ano: 'Isso aqui é muito sério'",
-      "summary": "Gustavo Henrique fez forte desabafo após a derrota do Corinthians para o Santos, pelo Campeonato Brasileiro",
-      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17190839/gustavo-henrique-sobe-tom-diz-corinthians-nao-pode-brigar-nao-cair-brasileirao-todo-ano-isso-aqui-muito-serio",
-      "publishedAt": "2026-08-31T01:10:36Z",
-      "category": "news",
-      "teams": [
-        "Corinthians"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0831/r1709285_1296x729_16-9.jpg",
-      "imageAlt": "Gustavo Henrique (dir), do Corinthians, disputa jogada com Neymar, do Santos",
-      "imageCredit": "Miguel Schincariol/Getty Images"
-    },
-    {
-      "id": "17190659",
-      "title": "Abel detona árbitro 'de Paulistão' e é duro sobre Vitor Roque após empate do Palmeiras: 'Não está em boa forma, é notório'",
-      "summary": "Abel Ferreira concedeu entrevista coletiva após o empate com o Mirassol, neste domingo (30), pelo Brasileirão",
-      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17190659/abel-detona-arbitro-paulistao-duro-vitor-roque-empate-palmeiras-nao-esta-boa-forma-notorio",
-      "publishedAt": "2026-08-31T01:40:14Z",
-      "category": "news",
-      "teams": [
-        "Palmeiras"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0831/r1709276_1280x720_16-9.jpg",
-      "imageAlt": "Vitor Roque durante jogo entre Palmeiras e Mirassol, pelo Brasileirão",
-      "imageCredit": "Cesar Greco/Palmeiras/by Canon"
-    },
-    {
-      "id": "17190681",
-      "title": "Bahia vence Inter com show de Pulga, entra no G-5 do Brasileirão e joga rival para a zona de rebaixamento",
-      "summary": "Duelo terminou por 3 a 2 neste domingo (30), pela 25ª rodada do Campeonato Brasileiro",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17190681/bahia-vence-inter-show-erick-pulga-entra-g-5-brasileirao-joga-rival-para-zona-de-rebaixamento",
-      "publishedAt": "2026-08-31T02:08:57Z",
-      "category": "news",
-      "teams": [
-        "Bahia",
-        "Internacional"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0831/r1709270_1296x729_16-9.jpg",
-      "imageAlt": "Erick Pulga comemora gol marcado pelo Bahia contra o Internacional, no Brasileirão",
-      "imageCredit": "Jhony Pinho/AGIF"
-    },
-    {
-      "id": "17190617",
-      "title": "Palmeiras empata com o Mirassol e vê Flamengo se aproximar no Brasileirão; VEJA como foi",
-      "summary": "Equipes se enfrentaram pela 25ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17190617",
-      "publishedAt": "2026-08-30T23:51:08Z",
-      "category": "news",
-      "teams": [
-        "Mirassol",
-        "Palmeiras"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Palmeiras empata com o Mirassol e vê Flamengo se aproximar no Brasileirão; VEJA como foi",
-      "imageCredit": null
-    },
-    {
-      "id": "17190601",
-      "title": "Virada do Santos sobre o Palmeiras é impossível? Neymar, Gabigol e Cuca respondem após vitória sobre Corinthians",
-      "summary": "Santos precisa ganhar do Palmeiras por pelo menos quatro gols de diferença para avançar na Copa do Brasil",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17190601/neymar-gabigol-e-cuca-projetam-jogo-entre-santos-x-palmeiras-pela-copa-do-brasil",
-      "publishedAt": "2026-08-30T23:49:16Z",
-      "category": "news",
-      "teams": [
-        "Santos",
-        "Palmeiras"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0830/r1709253_962x541_16-9.jpg",
-      "imageAlt": "Neymar e Gabigol conversam durante jogo do Santos contra o Corinthians",
-      "imageCredit": "Joisel Amaral/AGIF"
-    },
-    {
-      "id": "17190590",
-      "title": "Grêmio leva susto, mas vira contra a Chapecoense em casa; VEJA os melhores momentos",
-      "summary": "Gustavo Martins, duas vezes, e Cristian Pavón marcaram para o tricolor gaúcho; Maurício Garcez fez o gol dos visitantes",
-      "url": "https://www.espn.com.br/video/clip/_/id/17190590",
-      "publishedAt": "2026-08-30T23:49:10Z",
-      "category": "news",
-      "teams": [
-        "Chapecoense",
-        "Grêmio"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Grêmio leva susto, mas vira contra a Chapecoense em casa; VEJA os melhores momentos",
-      "imageCredit": null
-    },
-    {
-      "id": "17190538",
-      "title": "Neymar compara gramado da Neo Química Arena ao do estádio do PSG e exalta torcida do Corinthians: 'A melhor que tem'",
-      "summary": "Neymar concedeu entrevista após a vitória do Santos sobre o Corinthians, na Neo Química Arena, pelo Campeonato Brasileiro",
-      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17190538/neymar-compara-gramado-neo-quimica-arena-estadio-psg-exalta-torcida-corinthians-melhor-tem",
-      "publishedAt": "2026-08-30T23:42:33Z",
-      "category": "news",
-      "teams": [
-        "Santos",
-        "Corinthians",
-        "Paris Saint-Germain"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0830/r1709235_1296x729_16-9.jpg",
-      "imageAlt": "Neymar durante jogo entre Santos e Corinthians, pelo Brasileirão",
-      "imageCredit": "Raul Baretta/Santos FC"
-    },
-    {
-      "id": "17190132",
-      "title": "Palmeiras busca empate com Mirassol, mas vê Flamengo encurtar distância no Brasileirão",
-      "summary": "Mirassol e Palmeiras se enfrentaram neste domingo (30), em duelo pela 25ª rodada do Campeonato Brasileiro",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17190132/palmeiras-busca-empate-mirassol-mas-ve-flamengo-encurtar-distancia-brasileirao",
-      "publishedAt": "2026-08-30T23:58:42Z",
-      "category": "news",
-      "teams": [
-        "Mirassol",
-        "Palmeiras"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0830/r1709243_1280x720_16-9.jpg",
-      "imageAlt": "Flaco López durante jogo entre Palmeiras e Mirassol, pelo Brasileirão",
-      "imageCredit": "Cesar Greco/Palmeiras/by Canon"
-    },
-    {
-      "id": "17190019",
-      "title": "Grêmio leva susto da lanterna Chapecoense, mas volta a vencer no Brasileirão após dois jogos e mantém distância do Z-4",
-      "summary": "O duelo foi disputado na Arena do Grêmio, em Porto Alegre",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17190019/gremio-leva-susto-lanterna-chapecoense-mas-volta-vencer-brasileirao-apos-dois-jogos-mantem-distancia-z-4",
-      "publishedAt": "2026-08-31T00:31:11Z",
-      "category": "news",
-      "teams": [
-        "Grêmio",
-        "Chapecoense"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0830/r1709239_1296x729_16-9.jpg",
-      "imageAlt": "Grêmio comemora gol marcado contra a Chapecoense, no Brasileirão",
-      "imageCredit": "Maxi Franzoi/AGIF"
-    },
-    {
-      "id": "17190414",
-      "title": "Neymar é sincero sobre momento do Santos: 'Não somos mais uma potência do futebol brasileiro'",
-      "summary": "Astro do Santos falou com a imprensa após a vitória contra o Corinthians pelo Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17190414",
-      "publishedAt": "2026-08-30T22:59:41Z",
-      "category": "news",
-      "teams": [
-        "Corinthians",
-        "Santos"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Neymar é sincero sobre momento do Santos: 'Não somos mais uma potência do futebol brasileiro'",
-      "imageCredit": null
-    },
-    {
-      "id": "17190404",
-      "title": "Léo Ortiz prega cautela antes de jogo atrasado contra o Mirassol: 'Não é um jogo que está entregue para a gente'",
-      "summary": "O Flamengo venceu o Botafogo por 3 a 0 pelo Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17190404",
-      "publishedAt": "2026-08-30T22:59:16Z",
-      "category": "news",
-      "teams": [
-        "Botafogo",
-        "Flamengo"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Léo Ortiz prega cautela antes de jogo atrasado contra o Mirassol: 'Não é um jogo que está entregue para a gente'",
       "imageCredit": null
     }
   ]
