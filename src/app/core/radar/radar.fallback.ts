@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-08-30T17:45:05.731Z",
-  "expiresAt": "2026-09-03T17:45:05.731Z",
+  "generatedAt": "2026-08-31T08:53:35.624Z",
+  "expiresAt": "2026-09-04T08:53:35.624Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -16,13 +16,13 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Brasileirão",
       "matchCount": 31,
       "liveCount": 0,
-      "nextMatchAt": "2026-08-30T19:00Z"
+      "nextMatchAt": "2026-08-31T23:00Z"
     },
     {
       "id": "bra.copa_do_brazil",
       "name": "Copa do Brasil",
       "shortName": "Copa do Brasil",
-      "matchCount": 8,
+      "matchCount": 7,
       "liveCount": 0,
       "nextMatchAt": "2026-09-02T00:00Z"
     },
@@ -44,33 +44,6 @@ export const RADAR_FALLBACK: RadarPayload = {
     }
   ],
   "matches": [
-    {
-      "id": "401909066",
-      "competitionId": "bra.copa_do_brazil",
-      "competitionName": "Copa do Brasil",
-      "date": "2026-08-26T00:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estadio Mineirão",
-      "home": {
-        "id": "2022",
-        "name": "Cruzeiro",
-        "shortName": "Cruzeiro",
-        "abbreviation": "CRU",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png"
-      },
-      "away": {
-        "id": "7632",
-        "name": "Atlético-MG",
-        "shortName": "Atlético-MG",
-        "abbreviation": "CAM",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png"
-      },
-      "homeScore": "1",
-      "awayScore": "1",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909066/atletico-mg-cruzeiro"
-    },
     {
       "id": "401909065",
       "competitionId": "bra.copa_do_brazil",
@@ -265,8 +238,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
       "date": "2026-08-30T19:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Neo Química Arena",
       "home": {
@@ -283,8 +256,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "SAN",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "0",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841214/santos-corinthians"
     },
     {
@@ -292,8 +265,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
       "date": "2026-08-30T19:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estadio do Maracana",
       "home": {
@@ -310,8 +283,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "BOT",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "3",
+      "awayScore": "0",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841213/botafogo-flamengo"
     },
     {
@@ -319,8 +292,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
       "date": "2026-08-30T21:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Arena do Grêmio",
       "home": {
@@ -337,8 +310,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "CHA",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "3",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841217/chapecoense-gremio"
     },
     {
@@ -346,8 +319,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
       "date": "2026-08-30T21:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estadio Municipal José Maria de Campos Maia",
       "home": {
@@ -364,8 +337,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "PAL",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "1",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841211/palmeiras-mirassol"
     },
     {
@@ -373,8 +346,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
       "date": "2026-08-30T22:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Arena Fonte Nova",
       "home": {
@@ -391,8 +364,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "INT",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "3",
+      "awayScore": "2",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841215/internacional-bahia"
     },
     {
@@ -1297,13 +1270,13 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "PAL",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
       },
-      "points": 51,
-      "played": 24,
+      "points": 52,
+      "played": 25,
       "wins": 15,
-      "draws": 6,
+      "draws": 7,
       "losses": 3,
-      "goalsFor": 44,
-      "goalsAgainst": 20,
+      "goalsFor": 45,
+      "goalsAgainst": 21,
       "goalDifference": 24
     },
     {
@@ -1315,14 +1288,14 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "FLA",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png"
       },
-      "points": 45,
-      "played": 23,
-      "wins": 13,
+      "points": 48,
+      "played": 24,
+      "wins": 14,
       "draws": 6,
       "losses": 4,
-      "goalsFor": 45,
+      "goalsFor": 48,
       "goalsAgainst": 21,
-      "goalDifference": 24
+      "goalDifference": 27
     },
     {
       "position": 3,
@@ -1363,6 +1336,24 @@ export const RADAR_FALLBACK: RadarPayload = {
     {
       "position": 5,
       "team": {
+        "id": "9967",
+        "name": "Bahia",
+        "shortName": "Bahia",
+        "abbreviation": "BAH",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png"
+      },
+      "points": 40,
+      "played": 25,
+      "wins": 10,
+      "draws": 10,
+      "losses": 5,
+      "goalsFor": 37,
+      "goalsAgainst": 30,
+      "goalDifference": 7
+    },
+    {
+      "position": 6,
+      "team": {
         "id": "2022",
         "name": "Cruzeiro",
         "shortName": "Cruzeiro",
@@ -1377,24 +1368,6 @@ export const RADAR_FALLBACK: RadarPayload = {
       "goalsFor": 35,
       "goalsAgainst": 36,
       "goalDifference": -1
-    },
-    {
-      "position": 6,
-      "team": {
-        "id": "9967",
-        "name": "Bahia",
-        "shortName": "Bahia",
-        "abbreviation": "BAH",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png"
-      },
-      "points": 37,
-      "played": 24,
-      "wins": 9,
-      "draws": 10,
-      "losses": 5,
-      "goalsFor": 34,
-      "goalsAgainst": 28,
-      "goalDifference": 6
     },
     {
       "position": 7,
@@ -1460,13 +1433,13 @@ export const RADAR_FALLBACK: RadarPayload = {
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png"
       },
       "points": 32,
-      "played": 24,
+      "played": 25,
       "wins": 8,
       "draws": 8,
-      "losses": 8,
+      "losses": 9,
       "goalsFor": 26,
-      "goalsAgainst": 24,
-      "goalDifference": 2
+      "goalsAgainst": 25,
+      "goalDifference": 1
     },
     {
       "position": 11,
@@ -1496,13 +1469,13 @@ export const RADAR_FALLBACK: RadarPayload = {
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png"
       },
       "points": 30,
-      "played": 23,
+      "played": 24,
       "wins": 8,
       "draws": 6,
-      "losses": 9,
+      "losses": 10,
       "goalsFor": 37,
-      "goalsAgainst": 37,
-      "goalDifference": 0
+      "goalsAgainst": 40,
+      "goalDifference": -3
     },
     {
       "position": 13,
@@ -1531,14 +1504,14 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "SAN",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
       },
-      "points": 26,
-      "played": 23,
-      "wins": 6,
+      "points": 29,
+      "played": 24,
+      "wins": 7,
       "draws": 8,
       "losses": 9,
-      "goalsFor": 33,
+      "goalsFor": 34,
       "goalsAgainst": 36,
-      "goalDifference": -3
+      "goalDifference": -2
     },
     {
       "position": 15,
@@ -1549,17 +1522,35 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "GRE",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png"
       },
-      "points": 25,
-      "played": 23,
-      "wins": 6,
+      "points": 28,
+      "played": 24,
+      "wins": 7,
       "draws": 7,
       "losses": 10,
-      "goalsFor": 24,
-      "goalsAgainst": 31,
-      "goalDifference": -7
+      "goalsFor": 27,
+      "goalsAgainst": 32,
+      "goalDifference": -5
     },
     {
       "position": 16,
+      "team": {
+        "id": "9169",
+        "name": "Mirassol",
+        "shortName": "Mirassol",
+        "abbreviation": "MIR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
+      },
+      "points": 25,
+      "played": 24,
+      "wins": 6,
+      "draws": 7,
+      "losses": 11,
+      "goalsFor": 27,
+      "goalsAgainst": 37,
+      "goalDifference": -10
+    },
+    {
+      "position": 17,
       "team": {
         "id": "3454",
         "name": "Vasco da Gama",
@@ -1577,7 +1568,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "goalDifference": -12
     },
     {
-      "position": 17,
+      "position": 18,
       "team": {
         "id": "1936",
         "name": "Internacional",
@@ -1586,31 +1577,13 @@ export const RADAR_FALLBACK: RadarPayload = {
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png"
       },
       "points": 25,
-      "played": 24,
+      "played": 25,
       "wins": 5,
       "draws": 10,
-      "losses": 9,
-      "goalsFor": 24,
-      "goalsAgainst": 28,
-      "goalDifference": -4
-    },
-    {
-      "position": 18,
-      "team": {
-        "id": "9169",
-        "name": "Mirassol",
-        "shortName": "Mirassol",
-        "abbreviation": "MIR",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
-      },
-      "points": 24,
-      "played": 23,
-      "wins": 6,
-      "draws": 6,
-      "losses": 11,
+      "losses": 10,
       "goalsFor": 26,
-      "goalsAgainst": 36,
-      "goalDifference": -10
+      "goalsAgainst": 31,
+      "goalDifference": -5
     },
     {
       "position": 19,
@@ -1640,251 +1613,253 @@ export const RADAR_FALLBACK: RadarPayload = {
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png"
       },
       "points": 14,
-      "played": 23,
+      "played": 24,
       "wins": 2,
       "draws": 8,
-      "losses": 13,
-      "goalsFor": 24,
-      "goalsAgainst": 46,
-      "goalDifference": -22
+      "losses": 14,
+      "goalsFor": 25,
+      "goalsAgainst": 49,
+      "goalDifference": -24
     }
   ],
   "news": [
     {
-      "id": "17187666",
-      "title": "Athletico-PR e Fluminense empatam em jogaço de seis gols, e Flamengo mantém vice-liderança do Brasileirão",
-      "summary": "Em um jogo eletrizante, Athletico-PR e Fluminense empataram em 3 a 3, neste sábado (30), na Arena da Baixada, pela 25ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17187666/athletico-pr-fluminense-empatam-jogaco-seis-gols-flamengo-mantem-vice-lideranca-brasileirao",
-      "publishedAt": "2026-08-30T16:17:24Z",
+      "id": "17191055",
+      "title": "Treinador do Mirassol lamenta arbitragem contra Palmeiras e é direto sobre reclamações de Abel Ferreira: 'A gente está acostumado'",
+      "summary": "Rafael Guanaes rebateu as críticas de Abel Ferreira sobre a arbitragem do empate entre Mirassol e Palmeiras",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17191055/mirassol-treinador-lamenta-arbitragem-direto-sobre-reclamacoes-abel-ferreira-a-gente-esta-acostumado",
+      "publishedAt": "2026-08-31T02:35:11Z",
       "category": "news",
       "teams": [
-        "Athletico Paranaense",
-        "Fluminense"
+        "Mirassol",
+        "Palmeiras"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0830/r1709016_1296x729_16-9.jpg",
-      "imageAlt": "Arthur Dias e Hulk durante Athletico-PR x Fluminense pelo Brasileirão",
-      "imageCredit": "Gabriel Machado/AGIF"
-    },
-    {
-      "id": "17187584",
-      "title": "Santos negocia a contratação de Rodinei, ex-Flamengo; saiba detalhes",
-      "summary": "Peixe continua ativo na janela de transferências",
-      "url": "https://www.espn.com.br/video/clip/_/id/17187584",
-      "publishedAt": "2026-08-30T14:31:28Z",
-      "category": "market",
-      "teams": [
-        "Olympiacos",
-        "Santos"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Santos negocia a contratação de Rodinei, ex-Flamengo; saiba detalhes",
-      "imageCredit": null
-    },
-    {
-      "id": "17180622",
-      "title": "Athletico-PR x Fluminense: onde assistir ao vivo e escalações do jogo do Brasileirão",
-      "summary": "O duelo é válido pela 25ª rodada do Campeonato Brasileiro",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17180622/athletico-pr-fluminense-onde-assistir-ao-vivo-escalacoes-jogo-brasileirao",
-      "publishedAt": "2026-08-30T14:12:47Z",
-      "category": "news",
-      "teams": [
-        "Athletico Paranaense",
-        "Fluminense"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2025/1024/r1565237_1296x729_16-9.jpg",
-      "imageAlt": "Vista da Arena da Baixada, estádio do Athletico-PR",
-      "imageCredit": "José Tramontin/athletico.com.br"
-    },
-    {
-      "id": "17178986",
-      "title": "Como Rafael Guanaes encantou Abel Ferreira em meio a desabafo sincero sobre momento ruim do Palmeiras",
-      "summary": "Palmeiras visita o Mirassol pelo Campeonato Brasileiro",
-      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17178986/palmeiras-x-mirassol-brasileirao-rafael-guanaes-encantou-abel-ferreira-desabafo-sincero-momento-ruim",
-      "publishedAt": "2026-08-30T11:17:56Z",
-      "category": "news",
-      "teams": [
-        "Palmeiras",
-        "Mirassol"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0806/r1698216_1296x729_16-9.jpg",
-      "imageAlt": "Abel Ferreira em jogo do Palmeiras",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0413/r1642907_1296x729_16-9.jpg",
+      "imageAlt": "Rafael Guanaes, treinador do Mirassol, durante estreia do time na CONMEBOL Libertadores 2026",
       "imageCredit": "Getty Images"
     },
     {
-      "id": "17180890",
-      "title": "Primeiro gol em Copas, vaias, xingamentos e meme com substituição: o histórico de Neymar na casa do Corinthians",
-      "summary": "Neymar volta à Neo Química Arena para clássico do Santos contra o Corinthians pelo Brasileirão",
-      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17180890/historico-neymar-na-casa-do-corinthians-primeiro-gol-copas-do-mundo-vaias-xingamentos-meme-substituicao",
-      "publishedAt": "2026-08-30T11:17:14Z",
+      "id": "17191027",
+      "title": "Neymar reprova torcedores do Corinthians após garoto de 8 anos receber sua camisa",
+      "summary": "O Santos venceu o clássico contra o Corinthians por 1 a 0",
+      "url": "https://www.espn.com.br/video/clip/_/id/17191027",
+      "publishedAt": "2026-08-31T02:31:02Z",
+      "category": "news",
+      "teams": [
+        "Corinthians",
+        "Santos"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Neymar reprova torcedores do Corinthians após garoto de 8 anos receber sua camisa",
+      "imageCredit": null
+    },
+    {
+      "id": "17190984",
+      "title": "Bahia vence Inter em jogo de cinco gols e afunda rival no Z-4 do Brasileirão; VEJA como foi",
+      "summary": "Imagens: Premiere/Globo | Equipes se enfrentaram pela 25ª rodada do Brasileirão",
+      "url": "https://www.espn.com.br/video/clip/_/id/17190984",
+      "publishedAt": "2026-08-31T02:08:36Z",
+      "category": "news",
+      "teams": [
+        "Bahia",
+        "Internacional"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Bahia vence Inter em jogo de cinco gols e afunda rival no Z-4 do Brasileirão; VEJA como foi",
+      "imageCredit": null
+    },
+    {
+      "id": "17190908",
+      "title": "Santos 'atualiza' faixas da torcida do Corinthians e segue provocações após vitória em clássico",
+      "summary": "Santos provocou o Corinthians após a vitória no clássico deste domingo (30)",
+      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17190908/santos-atualiza-faixas-torcida-corinthians-provocacao-apos-vitoria-classico",
+      "publishedAt": "2026-08-31T01:27:18Z",
+      "category": "news",
+      "teams": [
+        "Santos",
+        "Corinthians"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0831/r1709295_1296x729_16-9.jpg",
+      "imageAlt": "Jogadores do Santos comemoram vitória sobre o Corinthians",
+      "imageCredit": "Ettore Chiereguini/AGIF"
+    },
+    {
+      "id": "17190882",
+      "title": "Abel Ferreira fala sobre condição física de Vitor Roque após empate do Palmeiras: 'Não está em boa forma'",
+      "summary": "O Palmeiras empatou com o Mirassol por 1 a 1 pelo Brasileirão",
+      "url": "https://www.espn.com.br/video/clip/_/id/17190882",
+      "publishedAt": "2026-08-31T01:20:42Z",
+      "category": "news",
+      "teams": [
+        "Mirassol",
+        "Palmeiras"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Abel Ferreira fala sobre condição física de Vitor Roque após empate do Palmeiras: 'Não está em boa forma'",
+      "imageCredit": null
+    },
+    {
+      "id": "17190839",
+      "title": "Gustavo Henrique sobe tom e diz que Corinthians não pode brigar para não cair no Brasileirão todo ano: 'Isso aqui é muito sério'",
+      "summary": "Gustavo Henrique fez forte desabafo após a derrota do Corinthians para o Santos, pelo Campeonato Brasileiro",
+      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17190839/gustavo-henrique-sobe-tom-diz-corinthians-nao-pode-brigar-nao-cair-brasileirao-todo-ano-isso-aqui-muito-serio",
+      "publishedAt": "2026-08-31T01:10:36Z",
+      "category": "news",
+      "teams": [
+        "Corinthians"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0831/r1709285_1296x729_16-9.jpg",
+      "imageAlt": "Gustavo Henrique (dir), do Corinthians, disputa jogada com Neymar, do Santos",
+      "imageCredit": "Miguel Schincariol/Getty Images"
+    },
+    {
+      "id": "17190659",
+      "title": "Abel detona árbitro 'de Paulistão' e é duro sobre Vitor Roque após empate do Palmeiras: 'Não está em boa forma, é notório'",
+      "summary": "Abel Ferreira concedeu entrevista coletiva após o empate com o Mirassol, neste domingo (30), pelo Brasileirão",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17190659/abel-detona-arbitro-paulistao-duro-vitor-roque-empate-palmeiras-nao-esta-boa-forma-notorio",
+      "publishedAt": "2026-08-31T01:40:14Z",
+      "category": "news",
+      "teams": [
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0831/r1709276_1280x720_16-9.jpg",
+      "imageAlt": "Vitor Roque durante jogo entre Palmeiras e Mirassol, pelo Brasileirão",
+      "imageCredit": "Cesar Greco/Palmeiras/by Canon"
+    },
+    {
+      "id": "17190681",
+      "title": "Bahia vence Inter com show de Pulga, entra no G-5 do Brasileirão e joga rival para a zona de rebaixamento",
+      "summary": "Duelo terminou por 3 a 2 neste domingo (30), pela 25ª rodada do Campeonato Brasileiro",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17190681/bahia-vence-inter-show-erick-pulga-entra-g-5-brasileirao-joga-rival-para-zona-de-rebaixamento",
+      "publishedAt": "2026-08-31T02:08:57Z",
+      "category": "news",
+      "teams": [
+        "Bahia",
+        "Internacional"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0831/r1709270_1296x729_16-9.jpg",
+      "imageAlt": "Erick Pulga comemora gol marcado pelo Bahia contra o Internacional, no Brasileirão",
+      "imageCredit": "Jhony Pinho/AGIF"
+    },
+    {
+      "id": "17190617",
+      "title": "Palmeiras empata com o Mirassol e vê Flamengo se aproximar no Brasileirão; VEJA como foi",
+      "summary": "Equipes se enfrentaram pela 25ª rodada do Brasileirão",
+      "url": "https://www.espn.com.br/video/clip/_/id/17190617",
+      "publishedAt": "2026-08-30T23:51:08Z",
+      "category": "news",
+      "teams": [
+        "Mirassol",
+        "Palmeiras"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Palmeiras empata com o Mirassol e vê Flamengo se aproximar no Brasileirão; VEJA como foi",
+      "imageCredit": null
+    },
+    {
+      "id": "17190601",
+      "title": "Virada do Santos sobre o Palmeiras é impossível? Neymar, Gabigol e Cuca respondem após vitória sobre Corinthians",
+      "summary": "Santos precisa ganhar do Palmeiras por pelo menos quatro gols de diferença para avançar na Copa do Brasil",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17190601/neymar-gabigol-e-cuca-projetam-jogo-entre-santos-x-palmeiras-pela-copa-do-brasil",
+      "publishedAt": "2026-08-30T23:49:16Z",
+      "category": "news",
+      "teams": [
+        "Santos",
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0830/r1709253_962x541_16-9.jpg",
+      "imageAlt": "Neymar e Gabigol conversam durante jogo do Santos contra o Corinthians",
+      "imageCredit": "Joisel Amaral/AGIF"
+    },
+    {
+      "id": "17190590",
+      "title": "Grêmio leva susto, mas vira contra a Chapecoense em casa; VEJA os melhores momentos",
+      "summary": "Gustavo Martins, duas vezes, e Cristian Pavón marcaram para o tricolor gaúcho; Maurício Garcez fez o gol dos visitantes",
+      "url": "https://www.espn.com.br/video/clip/_/id/17190590",
+      "publishedAt": "2026-08-30T23:49:10Z",
+      "category": "news",
+      "teams": [
+        "Chapecoense",
+        "Grêmio"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Grêmio leva susto, mas vira contra a Chapecoense em casa; VEJA os melhores momentos",
+      "imageCredit": null
+    },
+    {
+      "id": "17190538",
+      "title": "Neymar compara gramado da Neo Química Arena ao do estádio do PSG e exalta torcida do Corinthians: 'A melhor que tem'",
+      "summary": "Neymar concedeu entrevista após a vitória do Santos sobre o Corinthians, na Neo Química Arena, pelo Campeonato Brasileiro",
+      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17190538/neymar-compara-gramado-neo-quimica-arena-estadio-psg-exalta-torcida-corinthians-melhor-tem",
+      "publishedAt": "2026-08-30T23:42:33Z",
       "category": "news",
       "teams": [
         "Santos",
         "Corinthians",
-        "Brasil"
+        "Paris Saint-Germain"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0520/r1661026_1296x729_16-9.jpg",
-      "imageAlt": "Neymar durante jogo entre Santos e Coritiba, pelo Brasileirão",
-      "imageCredit": "EFE/Sebastião Moreira"
+      "imageUrl": "https://a.espncdn.com/photo/2026/0830/r1709235_1296x729_16-9.jpg",
+      "imageAlt": "Neymar durante jogo entre Santos e Corinthians, pelo Brasileirão",
+      "imageCredit": "Raul Baretta/Santos FC"
     },
     {
-      "id": "17186407",
-      "title": "Artur Jorge cobra elenco do Cruzeiro após derrota para o Vasco: 'Precisamos ser mais intensos'",
-      "summary": "Artur Jorge mostrou preocupação com a falta de intensidade do Cruzeiro contra o Vasco",
-      "url": "https://www.espn.com.br/futebol/cruzeiro/artigo/_/id/17186407/cruzeiro-artur-jorge-cobra-elenco-apos-derrota-para-vasco-precisamos-mais-intensos",
-      "publishedAt": "2026-08-30T03:48:37Z",
+      "id": "17190132",
+      "title": "Palmeiras busca empate com Mirassol, mas vê Flamengo encurtar distância no Brasileirão",
+      "summary": "Mirassol e Palmeiras se enfrentaram neste domingo (30), em duelo pela 25ª rodada do Campeonato Brasileiro",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17190132/palmeiras-busca-empate-mirassol-mas-ve-flamengo-encurtar-distancia-brasileirao",
+      "publishedAt": "2026-08-30T23:58:42Z",
       "category": "news",
       "teams": [
-        "Cruzeiro"
+        "Mirassol",
+        "Palmeiras"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0421/r1646894_1296x729_16-9.jpg",
-      "imageAlt": "Artur Jorge, técnico do Cruzeiro",
-      "imageCredit": "Gustavo Aleixo/Cruzeiro"
+      "imageUrl": "https://a.espncdn.com/photo/2026/0830/r1709243_1280x720_16-9.jpg",
+      "imageAlt": "Flaco López durante jogo entre Palmeiras e Mirassol, pelo Brasileirão",
+      "imageCredit": "Cesar Greco/Palmeiras/by Canon"
     },
     {
-      "id": "17186232",
-      "title": "Mancini esbraveja com pênalti para São Paulo: 'Sinto vergonha, inclusive se fosse a meu favor'",
-      "summary": "Vagner Mancini criticou Anderson Daronco pelo pênalti assinalado para o São Paulo logo no início do jogo",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17186232/red-bull-bragantino-vagner-mancini-sobre-penalti-para-sao-paulo-sinto-vergonha",
-      "publishedAt": "2026-08-30T02:55:16Z",
+      "id": "17190019",
+      "title": "Grêmio leva susto da lanterna Chapecoense, mas volta a vencer no Brasileirão após dois jogos e mantém distância do Z-4",
+      "summary": "O duelo foi disputado na Arena do Grêmio, em Porto Alegre",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17190019/gremio-leva-susto-lanterna-chapecoense-mas-volta-vencer-brasileirao-apos-dois-jogos-mantem-distancia-z-4",
+      "publishedAt": "2026-08-31T00:31:11Z",
       "category": "news",
       "teams": [
-        "Red Bull Bragantino"
+        "Grêmio",
+        "Chapecoense"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0525/r1663616_1296x729_16-9.jpg",
-      "imageAlt": "Vagner Mancini, técnico do Red Bull Bragantino, em jogo no estádio Cícero de Souza Marques",
-      "imageCredit": "Anderson Romão/AGIF"
+      "imageUrl": "https://a.espncdn.com/photo/2026/0830/r1709239_1296x729_16-9.jpg",
+      "imageAlt": "Grêmio comemora gol marcado contra a Chapecoense, no Brasileirão",
+      "imageCredit": "Maxi Franzoi/AGIF"
     },
     {
-      "id": "17186190",
-      "title": "Dorival desabafa sobre salários atrasados no São Paulo e agradece torcida após fim de longo jejum: 'Nunca abandonou'",
-      "summary": "Dorival Júnior concedeu entrevista coletiva após a vitória do São Paulo sobre o Red Bull Bragantino, pelo Brasileirão",
-      "url": "https://www.espn.com.br/futebol/sao-paulo/artigo/_/id/17186190/dorival-desabafa-salarios-atrasados-sao-paulo-agradece-torcida-fim-longo-jejum-nunca-abandonou",
-      "publishedAt": "2026-08-30T02:51:53Z",
+      "id": "17190414",
+      "title": "Neymar é sincero sobre momento do Santos: 'Não somos mais uma potência do futebol brasileiro'",
+      "summary": "Astro do Santos falou com a imprensa após a vitória contra o Corinthians pelo Brasileirão",
+      "url": "https://www.espn.com.br/video/clip/_/id/17190414",
+      "publishedAt": "2026-08-30T22:59:41Z",
       "category": "news",
       "teams": [
-        "São Paulo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0830/r1708833_1296x729_16-9.jpg",
-      "imageAlt": "Dorival Júnior durante jogo entre São Paulo e Red Bull Bragantino",
-      "imageCredit": "Rubens Chiri/São Paulo FC"
-    },
-    {
-      "id": "17186188",
-      "title": "Vasco vence o Cruzeiro por 3 a 1 com atuação dominante e dorme fora do Z-4 do Brasileirão; VEJA como foi",
-      "summary": "Equipes se enfrentaram pela 25ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17186188",
-      "publishedAt": "2026-08-30T02:40:51Z",
-      "category": "news",
-      "teams": [
-        "Cruzeiro",
-        "Vasco da Gama"
+        "Corinthians",
+        "Santos"
       ],
       "imageUrl": null,
-      "imageAlt": "Vasco vence o Cruzeiro por 3 a 1 com atuação dominante e dorme fora do Z-4 do Brasileirão; VEJA como foi",
+      "imageAlt": "Neymar é sincero sobre momento do Santos: 'Não somos mais uma potência do futebol brasileiro'",
       "imageCredit": null
     },
     {
-      "id": "17186113",
-      "title": "São Paulo e Dorival Júnior quebram jejuns com vitória sobre o Red Bull Bragantino",
-      "summary": "São Paulo e Dorival Júnior quebraram longos jejuns no Campeonato Brasileiro com a vitória sobre o Red Bull Bragantino",
-      "url": "https://www.espn.com.br/futebol/sao-paulo/artigo/_/id/17186113/sao-paulo-e-dorival-junior-quebram-jejuns-com-vitoria-sobre-red-bull-bragantino-no-brasileirao",
-      "publishedAt": "2026-08-30T02:20:51Z",
+      "id": "17190404",
+      "title": "Léo Ortiz prega cautela antes de jogo atrasado contra o Mirassol: 'Não é um jogo que está entregue para a gente'",
+      "summary": "O Flamengo venceu o Botafogo por 3 a 0 pelo Brasileirão",
+      "url": "https://www.espn.com.br/video/clip/_/id/17190404",
+      "publishedAt": "2026-08-30T22:59:16Z",
       "category": "news",
       "teams": [
-        "São Paulo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0830/r1708828_1296x729_16-9.jpg",
-      "imageAlt": "Dorival Júnior durante jogo do São Paulo no Morumbis",
-      "imageCredit": "Paulo Pinto / São Paulo FC"
-    },
-    {
-      "id": "17185817",
-      "title": "Vasco vence Cruzeiro e dorme fora do Z4; Lamacchia é aplaudido",
-      "summary": "Vasco da Gama e Cruzeiro se enfrentaram neste sábado (29), em São Januário, pelo Campeonato Brasileiro",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17185817/vasco-vence-cruzeiro-dorme-fora-zona-rebaixamento-lamacchia-aplaudido",
-      "publishedAt": "2026-08-30T02:53:35Z",
-      "category": "news",
-      "teams": [
-        "Vasco da Gama",
-        "Cruzeiro"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0830/r1708810_1296x729_16-9.jpg",
-      "imageAlt": "Lucas Freitas comemora após marcar para o Vasco sobre o Cruzeiro",
-      "imageCredit": "Wagner Meier/Getty Images"
-    },
-    {
-      "id": "17185839",
-      "title": "São Paulo vence Red Bull Bragantino e dá fim a jejum de quatro meses no Brasileirão; VEJA como foi",
-      "summary": "Equipes se enfrentaram pela 25ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17185839",
-      "publishedAt": "2026-08-30T01:25:16Z",
-      "category": "news",
-      "teams": [
-        "Red Bull Bragantino",
-        "São Paulo"
+        "Botafogo",
+        "Flamengo"
       ],
       "imageUrl": null,
-      "imageAlt": "São Paulo vence Red Bull Bragantino e dá fim a jejum de quatro meses no Brasileirão; VEJA como foi",
-      "imageCredit": null
-    },
-    {
-      "id": "17185837",
-      "title": "São Paulo 2 x 1 Red Bull Bragantino: os gols que fizeram o Tricolor voltar a vencer no Brasileirão",
-      "summary": "Equipes se enfrentaram pela 25ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17185837",
-      "publishedAt": "2026-08-30T01:25:48Z",
-      "category": "news",
-      "teams": [
-        "Red Bull Bragantino",
-        "São Paulo"
-      ],
-      "imageUrl": null,
-      "imageAlt": "São Paulo 2 x 1 Red Bull Bragantino: os gols que fizeram o Tricolor voltar a vencer no Brasileirão",
-      "imageCredit": null
-    },
-    {
-      "id": "17185781",
-      "title": "São Paulo vence Red Bull Bragantino, encerra jejum de quatro meses no Brasileirão e respira contra o rebaixamento",
-      "summary": "São Paulo não vencia no Campeonato Brasileiro há quatro meses",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17185781/sao-paulo-vence-red-bull-bragantino-encerra-jejum-quatro-meses-respira-rebaixamento-brasileirao",
-      "publishedAt": "2026-08-30T01:26:55Z",
-      "category": "news",
-      "teams": [
-        "São Paulo",
-        "Red Bull Bragantino"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0830/r1708791_1296x729_16-9.jpg",
-      "imageAlt": "Luciano e Gustavo Santana comemoram um dos gols do São Paulo sobre o Red Bull Bragantino",
-      "imageCredit": "Joisel Amaral/AGIF"
-    },
-    {
-      "id": "17185772",
-      "title": "Pênalti polêmico? Luciano abre o placar em São Paulo x Red Bull Bragantino; VEJA",
-      "summary": "Equipes se enfrentaram pela 25ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17185772",
-      "publishedAt": "2026-08-30T01:17:30Z",
-      "category": "news",
-      "teams": [
-        "Red Bull Bragantino",
-        "São Paulo"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Pênalti polêmico? Luciano abre o placar em São Paulo x Red Bull Bragantino; VEJA",
-      "imageCredit": null
-    },
-    {
-      "id": "17185384",
-      "title": "Atlético-MG poupa titulares e bate Vitória com golaço de Reinier; VEJA os melhores momentos",
-      "summary": "Thiago Borbas e Reinier marcaram para o Galo, e Erick descontou para os visitantes",
-      "url": "https://www.espn.com.br/video/clip/_/id/17185384",
-      "publishedAt": "2026-08-29T23:38:21Z",
-      "category": "news",
-      "teams": [
-        "Atlético-MG",
-        "Vitória"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Atlético-MG poupa titulares e bate Vitória com golaço de Reinier; VEJA os melhores momentos",
+      "imageAlt": "Léo Ortiz prega cautela antes de jogo atrasado contra o Mirassol: 'Não é um jogo que está entregue para a gente'",
       "imageCredit": null
     }
   ]
