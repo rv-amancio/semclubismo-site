@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-09-02T17:18:48.989Z",
-  "expiresAt": "2026-09-06T17:18:48.989Z",
+  "generatedAt": "2026-09-03T17:10:49.328Z",
+  "expiresAt": "2026-09-07T17:10:49.328Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -16,7 +16,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Brasileirão",
       "matchCount": 32,
       "liveCount": 0,
-      "nextMatchAt": "2026-09-02T22:30Z"
+      "nextMatchAt": "2026-09-05T19:00Z"
     },
     {
       "id": "bra.copa_do_brazil",
@@ -24,13 +24,13 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Copa do Brasil",
       "matchCount": 4,
       "liveCount": 0,
-      "nextMatchAt": "2026-09-03T00:30Z"
+      "nextMatchAt": "2026-09-03T23:00Z"
     },
     {
       "id": "conmebol.libertadores",
       "name": "CONMEBOL Libertadores",
       "shortName": "Libertadores",
-      "matchCount": 7,
+      "matchCount": 8,
       "liveCount": 0,
       "nextMatchAt": "2026-09-08T22:00Z"
     },
@@ -346,8 +346,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
       "date": "2026-09-02T22:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estadio do Maracana",
       "home": {
@@ -364,8 +364,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "MIR",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "2",
+      "awayScore": "0",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401913077/mirassol-flamengo"
     },
     {
@@ -373,8 +373,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.copa_do_brazil",
       "competitionName": "Copa do Brasil",
       "date": "2026-09-03T00:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
       "home": {
@@ -391,8 +391,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "PAL",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "0",
+      "awayScore": "0",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909110/palmeiras-santos"
     },
     {
@@ -400,8 +400,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.copa_do_brazil",
       "competitionName": "Copa do Brasil",
       "date": "2026-09-03T00:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estadio Manoel Barradas",
       "home": {
@@ -418,8 +418,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "VAS",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "0",
+      "awayScore": "2",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909111/vasco-da-gama-vitoria"
     },
     {
@@ -1366,6 +1366,33 @@ export const RADAR_FALLBACK: RadarPayload = {
       "homeScore": null,
       "awayScore": null,
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401912540/estudiantes-de-la-plata-corinthians"
+    },
+    {
+      "id": "401912526",
+      "competitionId": "conmebol.libertadores",
+      "competitionName": "CONMEBOL Libertadores",
+      "date": "2026-09-18T00:30Z",
+      "status": "scheduled",
+      "statusLabel": "Agendado",
+      "clock": null,
+      "venue": "Estadio do Maracana",
+      "home": {
+        "id": "819",
+        "name": "Flamengo",
+        "shortName": "Flamengo",
+        "abbreviation": "FLA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png"
+      },
+      "away": {
+        "id": "17086",
+        "name": "Independiente del Valle",
+        "shortName": "Ind. del Valle",
+        "abbreviation": "IDV",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png"
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401912526/independiente-del-valle-flamengo"
     }
   ],
   "standings": [
@@ -1396,14 +1423,14 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "FLA",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png"
       },
-      "points": 48,
-      "played": 24,
-      "wins": 14,
+      "points": 51,
+      "played": 25,
+      "wins": 15,
       "draws": 6,
       "losses": 4,
-      "goalsFor": 48,
+      "goalsFor": 50,
       "goalsAgainst": 21,
-      "goalDifference": 27
+      "goalDifference": 29
     },
     {
       "position": 3,
@@ -1649,13 +1676,13 @@ export const RADAR_FALLBACK: RadarPayload = {
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
       },
       "points": 25,
-      "played": 24,
+      "played": 25,
       "wins": 6,
       "draws": 7,
-      "losses": 11,
+      "losses": 12,
       "goalsFor": 27,
-      "goalsAgainst": 37,
-      "goalDifference": -10
+      "goalsAgainst": 39,
+      "goalDifference": -12
     },
     {
       "position": 17,
@@ -1732,237 +1759,234 @@ export const RADAR_FALLBACK: RadarPayload = {
   ],
   "news": [
     {
-      "id": "17200801",
-      "title": "Santos anuncia Rodinei como novo reforço, e lateral promete alegria à torcida: 'Merecem sorrir'",
-      "summary": "Santos anunciou nesta quarta-feira (2) a contratação do lateral-direito Rodinei, ex-Flamengo e Olympiacos",
-      "url": "https://www.espn.com.br/futebol/mercado-da-bola/artigo/_/id/17200801/santos-anuncia-rodinei-novo-reforco-lateral-promete-alegria-torcida-merecem-sorrir",
-      "publishedAt": "2026-09-02T16:20:09Z",
-      "category": "market",
+      "id": "17205114",
+      "title": "Arthur diz como foi papo com Neymar por ida ao Santos e faz coro contra gramado da Vila: 'Talvez tenha sido o pior que eu vi'",
+      "summary": "Apresentado nesta quinta, Arthur Melo revelou como foi o papo que teve com Neymar antes de acertar com o Santos",
+      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17205114/arthur-diz-como-foi-papo-neymar-por-ida-santos-faz-coro-contra-gramado-vila-talvez-tenha-sido-o-pior-que-eu-vi",
+      "publishedAt": "2026-09-03T16:11:00Z",
+      "category": "news",
       "teams": [
-        "Olympiacos",
         "Santos"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0902/r1710456_1079x607_16-9.jpg",
-      "imageAlt": "Rodinei foi anunciado pelo Santos como novo reforço",
-      "imageCredit": "Divulgação Santos"
+      "imageUrl": "https://a.espncdn.com/photo/2026/0903/r1710917_2_1296x729_16-9.jpg",
+      "imageAlt": "Arthur durante treino do Santos",
+      "imageCredit": "Raul Baretta/ Santos FC"
     },
     {
-      "id": "17200774",
-      "title": "Gustavo Henrique é vice-artilheiro do Corinthians na temporada; VEJA números do defensor",
-      "summary": "Apenas Yuri Alberto marcou mais gols pelo Timão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17200774",
-      "publishedAt": "2026-09-02T16:09:22Z",
+      "id": "17205037",
+      "title": "Jornal espanhol cita 'novo calvário' para Neymar e critica: 'Não vê a melhor forma há muito tempo'",
+      "summary": "A nova lesão de Neymar,sofrida durante a eliminação do Santos para o Palmeiras, repercutiu na imprensa espanhola",
+      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17205037/jornal-espanhol-cita-novo-calvario-neymar-critica-nao-ve-a-melhor-forma-ha-muito-tempo",
+      "publishedAt": "2026-09-03T15:41:54Z",
       "category": "news",
       "teams": [
-        "Chapecoense",
-        "Corinthians"
+        "Santos"
       ],
-      "imageUrl": null,
-      "imageAlt": "Gustavo Henrique é vice-artilheiro do Corinthians na temporada; VEJA números do defensor",
-      "imageCredit": null
+      "imageUrl": "https://a.espncdn.com/photo/2026/0903/r1710906_1296x729_16-9.jpg",
+      "imageAlt": "Neymar sentiu a coxa durante clássico contra o Palmeiras na Copa do Brasil",
+      "imageCredit": "Ricardo Moreira/Getty Images"
     },
     {
-      "id": "17200670",
-      "title": "De 'xodó' a criticado por Bap: como Plata, de volta ao Flamengo, viveu furacão no clube desde 1º dia até retorno polêmico",
-      "summary": "Atacante foi reprovado nos exames médicos do Dínamo Moscou",
-      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17200670/flamengo-gonzalo-plata-retorno-xodo-criticado-bap-viveu-furacao-primeiro-dia",
-      "publishedAt": "2026-09-02T15:56:51Z",
-      "category": "news",
-      "teams": [
-        "Flamengo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0902/r1710445_1296x729_16-9.jpg",
-      "imageAlt": "Gonzalo Plata, do Flamengo",
-      "imageCredit": "Getty Images"
-    },
-    {
-      "id": "17200661",
-      "title": "Presidente do São Paulo ataca Olten e empresa derrotada para gerir ingressos do Morumbis: 'Tentativa de prejudicar'",
-      "summary": "Presidente do São Paulo atacou Olten Ayres, comandante do Conselho do clube, no caso Ticketmaster",
-      "url": "https://www.espn.com.br/futebol/sao-paulo/artigo/_/id/17200661/presidente-sao-paulo-ataca-olten-ayres-empresa-derrotada-gerir-ingressos-morumbis-tentativa-prejudicar-processo-estruturado",
-      "publishedAt": "2026-09-02T15:45:17Z",
-      "category": "news",
+      "id": "17204451",
+      "title": "São Paulo e volante Luan fecham acordo por rescisão de contrato",
+      "summary": "Jogador estava fora dos planos do técnico Dorival Júnior",
+      "url": "https://www.espn.com.br/futebol/sao-paulo/artigo/_/id/17204451/sao-paulo-e-volante-luan-fecham-acordo-por-rescisao-de-contrato",
+      "publishedAt": "2026-09-03T13:42:25Z",
+      "category": "market",
       "teams": [
         "São Paulo"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0902/r1710444_1296x729_16-9.jpg",
-      "imageAlt": "Harry Massis Jr. durante jogo entre São Paulo e Corinthians, pelo Brasileirão",
-      "imageCredit": "Bruno Escolastico Sousa Silva/NurPhoto via Getty Images"
+      "imageUrl": "https://a.espncdn.com/photo/2025/0902/r1540233_1296x729_16-9.jpg",
+      "imageAlt": "Volante brasileiro Luan durante partida do São Paulo contra o Sport, na Ilha do Retiro, em Recife (PE) pelo Brasileirão de 2025",
+      "imageCredit": "Rubens Chiri / São Paulo FC"
     },
     {
-      "id": "17200058",
-      "title": "Golpista que se passava por Luís Castro tirou R$ 22 mil de atacante do Grêmio e pediu para jogadores irem treinar mais cedo",
-      "summary": "Golpista que se passava por Luís Castro causou problemas para jogadores do Grêmio, segundo a polícia",
-      "url": "https://www.espn.com.br/futebol/gremio/artigo/_/id/17200058/golpista-passava-por-luis-castro-tirou-r-22-mil-atacante-gremio-pediu-jogadores-irem-treinar-mais-cedo",
-      "publishedAt": "2026-09-02T16:56:36Z",
+      "id": "17204143",
+      "title": "Súmula de Vitória 0 x 2 Vasco tem descrição de artefato explosivo arremessado ao gramado do Barradão",
+      "summary": "Vasco venceu o Vitória por 2 a 0 e está na semifinal da Copa do Brasil",
+      "url": "https://www.espn.com.br/futebol/copa-do-brasil/artigo/_/id/17204143/copa-do-brasil-sumula-de-vitoria-0-x-2-vasco-tem-descricao-de-artefato-explosivo-arremessado-ao-gramado-do-barradao",
+      "publishedAt": "2026-09-03T12:10:47Z",
       "category": "news",
       "teams": [
-        "Grêmio"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0902/r1710377_1296x729_16-9.jpg",
-      "imageAlt": "Luís Castro durante jogo entre Grêmio e Red Bull Bragantino",
-      "imageCredit": "Fernando Roberto/GRÊMIO FBPA"
-    },
-    {
-      "id": "17200013",
-      "title": "Quanto Palmeiras tem direito a receber por venda de Gabriel Jesus do Arsenal para o Barcelona",
-      "summary": "Atacante se transferiu do Arsenal para o Barcelona",
-      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17200013/quanto-palmeiras-tem-direito-a-receber-por-venda-de-gabriel-jesus-do-arsenal-para-o-barcelona",
-      "publishedAt": "2026-09-02T13:53:32Z",
-      "category": "market",
-      "teams": [
-        "Palmeiras",
-        "Arsenal",
-        "Barcelona"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0902/r1710378_1296x729_16-9.jpg",
-      "imageAlt": "Gabriel Jesus, do Barcelona",
-      "imageCredit": "Getty Images"
-    },
-    {
-      "id": "17199803",
-      "title": "Corinthians perde na Justiça em ação que admite pagar mais de R$ 31 milhões a neta de Dualib",
-      "summary": "Corinthians acumula graves problemas financeiros",
-      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17199803/corinthians-perde-na-justica-em-acao-que-admite-pagar-mais-de-31-milhoes-a-neta-de-dualib",
-      "publishedAt": "2026-09-02T13:47:54Z",
-      "category": "news",
-      "teams": [
-        "Corinthians"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2019/0529/r549281_1296x729_16-9.jpg",
-      "imageAlt": "Alberto Dualib durante coletiva no Corinthians, em julho de 2005",
-      "imageCredit": "Gazeta Press"
-    },
-    {
-      "id": "17199715",
-      "title": "Pulgar renova com o Flamengo até 2029 e se declara: 'O carinho da torcida é o maior prêmio que tenho'",
-      "summary": "Meio-campista estava na mira de times do Oriente Médio",
-      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17199715/flamengo-pulgar-contrato-renovado-2029-carinho-torcida-e-maior-premio-que-tenho",
-      "publishedAt": "2026-09-02T12:47:29Z",
-      "category": "market",
-      "teams": [
-        "Flamengo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0902/r1710346_2_1280x720_16-9.jpg",
-      "imageAlt": "Erick Pulgar, ao lado de José Boto, renovou o contrato com o Flamengo até 2029",
-      "imageCredit": "Adriano Fontes/Flamengo"
-    },
-    {
-      "id": "17199629",
-      "title": "Flamengo diz à Justiça que Vasco e Palmeiras causaram graves danos ao gramado do Maracanã: 'Repleto de buracos'",
-      "summary": "Partida entre Vasco e Palmeiras aconteceu pelo Campeonato Brasileiro de 2023",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17199629/flamengo-diz-a-justica-que-vasco-e-palmeiras-causaram-graves-danos-ao-gramado-do-maracana-repleto-de-buracos",
-      "publishedAt": "2026-09-02T14:37:40Z",
-      "category": "news",
-      "teams": [
-        "Flamengo",
-        "Palmeiras",
         "Vasco da Gama"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0515/r1658742_1296x729_16-9.jpg",
-      "imageAlt": "Vista geral do Maracanã",
-      "imageCredit": "Getty Images"
+      "imageUrl": "https://a.espncdn.com/photo/2026/0903/r1710828_2_1296x729_16-9.jpg",
+      "imageAlt": "Vitória x Vasco pela Copa do Brasil",
+      "imageCredit": "Márcio José/AGIF"
     },
     {
-      "id": "17199434",
-      "title": "Dínamo Moscou emite nota e dá sua versão sobre negócios frustrados por Plata e Matheus Martins: 'Decisão pautada pelos interesses de longo prazo'",
-      "summary": "Jogadores retornarão aos seus respectivos clubes após negociações frustradas",
-      "url": "https://www.espn.com.br/futebol/artigo/_/id/17199434/dinamo-moscou-plata-e-matheus-martins-nota-oficial-versao-decisao-pautada-pelos-interesses-de-longo-prazo",
-      "publishedAt": "2026-09-02T11:31:36Z",
+      "id": "17204067",
+      "title": "Abel Ferreira revela condição por reforços no Palmeiras: 'Maior risco da vida é não arriscar'",
+      "summary": "Palmeiras está no mercado em busca de reforços para o setor de ataque",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17204067/palmeiras-reforcos-abel-ferreira-revela-condicao-por-reforcos-maior-risco-da-vida-e-nao-arriscar",
+      "publishedAt": "2026-09-03T11:34:59Z",
       "category": "market",
-      "teams": [
-        "Flamengo",
-        "Botafogo",
-        "Dinamo Moscow"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0829/r1708356_1296x729_16-9.jpg",
-      "imageAlt": "Atacante colombiano Gonzalo Plata durante partida do Flamengo contra o Cruzeiro, no Mineirão, em Belo Horizonte (MG), pela ida das oitavas de final da CONMEBOL Libertadores de 2026",
-      "imageCredit": "Pedro Vilela/Getty Images"
-    },
-    {
-      "id": "17199022",
-      "title": "Cruzeiro é eliminado duas vezes em 14 dias, amarga prejuízo financeiro e vê sonho por 'grande título' adiado de novo",
-      "summary": "Cruzeiro amargou mais uma eliminação na temporada após queda para o Atlético-MG nas quartas da Copa do Brasil",
-      "url": "https://www.espn.com.br/futebol/cruzeiro/artigo/_/id/17199022/cruzeiro-eliminado-duas-vezes-14-dias-amarga-prejuizo-financeiro-ve-sonho-grande-titulo-adiado-de-novo",
-      "publishedAt": "2026-09-02T03:20:36Z",
-      "category": "news",
-      "teams": [
-        "Cruzeiro"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0902/r1710263_1296x729_16-9.jpg",
-      "imageAlt": "Jogadores do Cruzeiro na Arena MRV, em Belo Horizonte (MG), em clássico contra o Atlético-MG na volta das quartas de final da Copa do Brasil de 2026",
-      "imageCredit": "Gustavo Aleixo/Cruzeiro"
-    },
-    {
-      "id": "17197947",
-      "title": "Cuiabá aciona CNRD e pede bloqueio de receitas do Corinthians por atraso em pagamento por Raniele",
-      "summary": "Segundo o Dourado, a equipe do Pq. São Jorge não cumpriu com a nova data prometida",
-      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17197947/cuiaba-aciona-cnrd-pede-bloqueio-receitas-corinthians-atraso-pagamento-raniele",
-      "publishedAt": "2026-09-01T21:00:48Z",
-      "category": "news",
-      "teams": [
-        "Corinthians",
-        "Cuiabá"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0525/r1663637_1296x729_16-9.jpg",
-      "imageAlt": "Vista geral da Neo Química Arena, casa do Corinthians, na Zona Leste de São Paulo",
-      "imageCredit": "Getty Images"
-    },
-    {
-      "id": "17197879",
-      "title": "Conselho Deliberativo do São Paulo cria comissão para analisar contrato com Ticketmaster; clube se defende",
-      "summary": "No documento, Daurio Speranzini, Flavio Marques, Daniel Fonseca e Marcel Bonilha foram escolhidos para formar o grupo",
-      "url": "https://www.espn.com.br/futebol/sao-paulo/artigo/_/id/17197879/conselho-deliberativo-sao-paulo-comissao-analisar-contrato-ticketmaster-clube-defende",
-      "publishedAt": "2026-09-01T22:28:02Z",
-      "category": "market",
-      "teams": [
-        "São Paulo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0901/r1710113_1296x729_16-9.jpg",
-      "imageAlt": "Vista geral do Morumbis, estádio do São Paulo",
-      "imageCredit": "Getty Images"
-    },
-    {
-      "id": "17197520",
-      "title": "Megaempresário cobra R$ 19 milhões do Grêmio e tenta prenhorar prêmio da Copa do Brasil e venda de zagueiro",
-      "summary": "Empresário Giuliano Bertolucci pediu penhora de valores do Grêmio em meio a processo de R$ 19 milhões",
-      "url": "https://www.espn.com.br/futebol/gremio/artigo/_/id/17197520/megaempresario-cobra-r-19-milhoes-gremio-tenta-prenhorar-premio-copa-brasil-venda-zagueiro",
-      "publishedAt": "2026-09-01T19:06:00Z",
-      "category": "market",
-      "teams": [
-        "Grêmio"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0828/r1708145_1296x729_16-9.jpg",
-      "imageAlt": "O escudo do Grêmio na nova camisa 3 do clube para a temporada 2026",
-      "imageCredit": "Divulgação/Grêmio FBPA"
-    },
-    {
-      "id": "17197353",
-      "title": "São Paulo atrasa direitos de imagens e faz promessa aos jogadores para quitar dívida ainda em setembro",
-      "summary": "Em crise financeira, o São Paulo deu um novo prazo aos jogadores de quitar dois meses de direitos de imagem atrasados",
-      "url": "https://www.espn.com.br/futebol/sao-paulo/artigo/_/id/17197353/sao-paulo-atrasa-direitos-imagens-faz-promessa-jogadores-quitar-divida-ainda-setembro",
-      "publishedAt": "2026-09-01T18:09:08Z",
-      "category": "news",
-      "teams": [
-        "São Paulo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0824/r1706301_1296x729_16-9.jpg",
-      "imageAlt": "Dorival Júnior durante jogo entre São Paulo e Chapecoense, pelo Brasileirão",
-      "imageCredit": "Rubens Chiri/São Paulo FC"
-    },
-    {
-      "id": "17196959",
-      "title": "Abel, do Palmeiras, é denunciado ao STJD por chute em microfone e pode pegar mais um gancho pesado",
-      "summary": "Abel Ferreira foi denunciado nesta terça-feira (1º) ao STJD por chute em microfone durante Mirassol x Palmeiras",
-      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17196959/abel-ferreira-palmeiras-denunciado-stjd-chute-microfone-pode-pegar-mais-gancho-pesado",
-      "publishedAt": "2026-09-01T17:10:16Z",
-      "category": "news",
       "teams": [
         "Palmeiras"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0901/r1710015_1296x729_16-9.jpg",
-      "imageAlt": "Abel Ferreira durante jogo entre Palmeiras e Mirassol, pelo Brasileirão",
-      "imageCredit": "Rapha Marques/Sports Press Photo/Getty Images"
+      "imageUrl": "https://a.espncdn.com/photo/2026/0903/r1710816_1280x720_16-9.png",
+      "imageAlt": "Abel Ferreira",
+      "imageCredit": "Cesar Greco/Palmeiras/by Canon"
+    },
+    {
+      "id": "17197614",
+      "title": "Douglas cita gestões ruins, vê Grêmio e Inter 'devendo' para times brasileiros e cobra revolução: 'Muito atrás'",
+      "summary": "Depois de anos figurando entre os principais clubes do Brasil, Grêmio e Internacional vivem um momento delicado",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17197614/douglas-cita-gestoes-ruins-ve-gremio-internacional-devendo-para-times-brasileiros-cobra-revolucao-muito-atras",
+      "publishedAt": "2026-09-03T10:34:47Z",
+      "category": "news",
+      "teams": [
+        "Grêmio",
+        "Internacional"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0901/r1710083_1296x729_16-9.jpg",
+      "imageAlt": "Douglas, ex-meia do Grêmio",
+      "imageCredit": "Getty Images"
+    },
+    {
+      "id": "17203777",
+      "title": "Jair Ventura reconhece momento ruim e é direto sobre futuro no Vitória: 'Depende da diretoria'",
+      "summary": "Vitória perdeu a quarta seguida e se despediu da Copa do Brasil nesta quarta-feira (2)",
+      "url": "https://www.espn.com.br/futebol/artigo/_/id/17203777/vitoria-jair-ventura-reconhece-momento-ruim-deixa-futuro-diretoria",
+      "publishedAt": "2026-09-03T04:42:59Z",
+      "category": "news",
+      "teams": [
+        "Vitória"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0515/r1658454_1296x729_16-9.jpg",
+      "imageAlt": "Brasileiro Jair Ventura, técnico do Vitória, em partida contra o Flamengo, no Barradão, em Salvador (BA), pela volta da quinta fase da Copa do Brasil de 2026",
+      "imageCredit": "Marcio Jose/AGIF"
+    },
+    {
+      "id": "17203631",
+      "title": "777 chega a acordo com Vasco e declara à Justiça que não se opõe à venda da nova SAF",
+      "summary": "Vasco e 777 chegaram a um acordo na Justiça para venda de 90% da nova SAF",
+      "url": "https://www.espn.com.br/futebol/vasco/artigo/_/id/17203631/777-chega-acordo-vasco-declara-justica-nao-opoe-venda-nova-saf",
+      "publishedAt": "2026-09-03T03:54:50Z",
+      "category": "market",
+      "teams": [
+        "Vasco da Gama"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0903/r1710729_1296x729_16-9.jpg",
+      "imageAlt": "Camisa do Vasco no Barradão antes de jogo contra o Vitória, pela Copa do Brasil",
+      "imageCredit": "Matheus Lima/Vasco"
+    },
+    {
+      "id": "17203351",
+      "title": "Samuel Lino esclarece polêmica com Jardim ao ser substituído e aponta outro problema no Flamengo: 'Não depende da gente'",
+      "summary": "Samuel Lino reclamou do gramado do Maracanã ao ser substituído por Leonardo Jardim",
+      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17203351/flamengo-samuel-lino-esclarece-polemica-com-jardim-ao-ser-substituido-nao-depende-da-gente",
+      "publishedAt": "2026-09-03T01:59:59Z",
+      "category": "news",
+      "teams": [
+        "Flamengo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0903/r1710701_1296x729_16-9.jpg",
+      "imageAlt": "Samuel Lino escapa da marcação de jogador do Mirassol",
+      "imageCredit": "Jorge Rodrigues/AGIF"
+    },
+    {
+      "id": "17203268",
+      "title": "Na bronca com Leonardo Jardim? Samuel Lino dá resposta sincera sobre irritação ao ser substituído em vitória do Flamengo",
+      "summary": "Atacante flamenguista saiu, não escondeu insatisfação e justificou na zona mista",
+      "url": "https://www.espn.com.br/video/clip/_/id/17203268",
+      "publishedAt": "2026-09-03T01:22:32Z",
+      "category": "news",
+      "teams": [
+        "Flamengo",
+        "Mirassol"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Na bronca com Leonardo Jardim? Samuel Lino dá resposta sincera sobre irritação ao ser substituído em vitória do Flamengo",
+      "imageCredit": null
+    },
+    {
+      "id": "17203191",
+      "title": "Jorginho e capitão relembram 'Barcelusa' histórica após 15 anos: 'Vocês vão fazer o que eu quero que vocês façam'",
+      "summary": "Comandante da Portuguesa campeã da Série B em 2011 participa do Resenha ESPN desta quinta-feira (3)",
+      "url": "https://www.espn.com.br/video/clip/_/id/17203191",
+      "publishedAt": "2026-09-03T10:14:32Z",
+      "category": "news",
+      "teams": [
+        "Portuguesa"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Jorginho e capitão relembram 'Barcelusa' histórica após 15 anos: 'Vocês vão fazer o que eu quero que vocês façam'",
+      "imageCredit": null
+    },
+    {
+      "id": "17203173",
+      "title": "Arrascaeta e o óculos de luz verde: o que significa objeto usado pelo meia do Flamengo antes de jogo com Mirassol",
+      "summary": "Arrascaeta chamou a atenção ao chegar no Maracanã utilizando um óculos de luz verde",
+      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17203173/flamengo-arrascaeta-oculos-luz-verde-o-que-significa-objeto-usado-pelo-meia-antes-jogo-mirassol",
+      "publishedAt": "2026-09-03T00:43:29Z",
+      "category": "news",
+      "teams": [
+        "Flamengo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0903/r1710674_1296x729_16-9.jpg",
+      "imageAlt": "Arrascaeta chega ao Maracanã usando óculos verde",
+      "imageCredit": "Daniel Brasil / Maracanã"
+    },
+    {
+      "id": "17202868",
+      "title": "Carrascal brilha, Flamengo vence o Mirassol em jogo atrasado do Brasileirão e fica a um ponto do Palmeiras na tabela",
+      "summary": "No Maracanã, o Flamengo venceu o Mirassol em jogo atrasado da 4ª rodada do Brasileirão",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17202868/flamengo-vence-mirassol-jogo-atrasado-brasileiro-fica-a-um-ponto-palmeiras-jorge-carrascal-brilha",
+      "publishedAt": "2026-09-03T00:27:54Z",
+      "category": "news",
+      "teams": [
+        "Flamengo",
+        "Mirassol"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0903/r1710654_1236x695_16-9.jpg",
+      "imageAlt": "Meia colombiano Jorge Carrascal comemora gol pelo Flamengo sobre o Mirassol, no Maracanã, no Rio de Janeiro (RJ), pela rodada 4 do Brasileirão de 2026",
+      "imageCredit": "Divulgação/ Flamengo"
+    },
+    {
+      "id": "17203092",
+      "title": "Paquetá e Carrascal brilham em vitória do Flamengo contra o Mirassol em jogo atrasado no Brasileirão; veja os lances",
+      "summary": "Rubro-Negro venceu pelo Brasileirão e colou no líder Palmeiras",
+      "url": "https://www.espn.com.br/video/clip/_/id/17203092",
+      "publishedAt": "2026-09-03T01:13:00Z",
+      "category": "news",
+      "teams": [
+        "Flamengo",
+        "Mirassol"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Paquetá e Carrascal brilham em vitória do Flamengo contra o Mirassol em jogo atrasado no Brasileirão; veja os lances",
+      "imageCredit": null
+    },
+    {
+      "id": "17203074",
+      "title": "Jorginho, Carrascal, Paquetá e gol! O cabeceio que decretou a vitória do Flamengo contra o Mirassol no Brasileirão",
+      "summary": "Paquetá completou lindo cruzamento e não perdoou Walter em jogo atrasado no Maracanã; assista!",
+      "url": "https://www.espn.com.br/video/clip/_/id/17203074",
+      "publishedAt": "2026-09-03T00:27:28Z",
+      "category": "news",
+      "teams": [
+        "Flamengo",
+        "Mirassol"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Jorginho, Carrascal, Paquetá e gol! O cabeceio que decretou a vitória do Flamengo contra o Mirassol no Brasileirão",
+      "imageCredit": null
+    },
+    {
+      "id": "17202976",
+      "title": "VEJA a 'bomba' de Carrascal que abriu o placar para o Flamengo contra o Mirassol em jogo atrasado no Brasileirão",
+      "summary": "Colombiano pôs o Rubro-Negro em vantagem no Maracanã; VEJA",
+      "url": "https://www.espn.com.br/video/clip/_/id/17202976",
+      "publishedAt": "2026-09-03T00:27:25Z",
+      "category": "news",
+      "teams": [
+        "Flamengo",
+        "Mirassol"
+      ],
+      "imageUrl": null,
+      "imageAlt": "VEJA a 'bomba' de Carrascal que abriu o placar para o Flamengo contra o Mirassol em jogo atrasado no Brasileirão",
+      "imageCredit": null
     }
   ]
 };
