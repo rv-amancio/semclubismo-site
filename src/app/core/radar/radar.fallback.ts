@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-09-04T07:30:57.717Z",
-  "expiresAt": "2026-09-08T07:30:57.717Z",
+  "generatedAt": "2026-09-04T17:03:42.227Z",
+  "expiresAt": "2026-09-08T17:03:42.227Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -1678,6 +1678,136 @@ export const RADAR_FALLBACK: RadarPayload = {
   ],
   "news": [
     {
+      "id": "17209090",
+      "title": "Vitória contra Botafogo é 'obrigação' para o Palmeiras? Breiller Pires analisa",
+      "summary": "Palmeiras enfrenta o Botafogo neste domingo (6) pelo Brasileirão",
+      "url": "https://www.espn.com.br/video/clip/_/id/17209090",
+      "publishedAt": "2026-09-04T16:28:20Z",
+      "category": "news",
+      "teams": [
+        "Botafogo",
+        "Palmeiras"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Vitória contra Botafogo é 'obrigação' para o Palmeiras? Breiller Pires analisa",
+      "imageCredit": null
+    },
+    {
+      "id": "17209042",
+      "title": "Boto explica porque Flamengo não contratou Almada e cita ex-dirigente: 'Se tivéssemos 50% da irresponsabilidade de alguns clubes...'",
+      "summary": "José Boto explicou, nesta sexta-feira (4), os últimos movimentos do Flamengo na janela de transferências",
+      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17209042/boto-explica-porque-flamengo-nao-contratou-almada-cita-ex-dirigente-se-tivessemos-50-irresponsabilidade-alguns-clubes",
+      "publishedAt": "2026-09-04T16:31:24Z",
+      "category": "market",
+      "teams": [
+        "Flamengo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688481_1296x729_16-9.jpg",
+      "imageAlt": "José Boto em jogo do Flamengo",
+      "imageCredit": "Jorge Rodrigues/AGIF"
+    },
+    {
+      "id": "17209032",
+      "title": "Abel é suspenso por dois jogos pelo STJD por chute no microfone e vira desfalque no Palmeiras",
+      "summary": "Abel Ferreira foi julgado nesta sexta-feira (4) pela 3ª Comissão Disciplinar do STJD sobre chute no microfone durante Mirassol x Palmeiras",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17209032/abel-ferreira-suspenso-dois-jogos-stjd-chute-microfone-vira-desfalque-palmeiras",
+      "publishedAt": "2026-09-04T16:25:21Z",
+      "category": "news",
+      "teams": [
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0904/r1711375_1296x729_16-9.jpg",
+      "imageAlt": "Abel Ferreira durante jogo entre Palmeiras e Santos, pela Copa do Brasil",
+      "imageCredit": "Ricardo Moreira/Getty Images"
+    },
+    {
+      "id": "17209039",
+      "title": "Gols desperdiçados podem comprometer Palmeiras em busca por maior vantagem na liderança? VEJA",
+      "summary": "Botafogo e Palmeiras se enfrentam neste domingo (6) pelo Brasileirão",
+      "url": "https://www.espn.com.br/video/clip/_/id/17209039",
+      "publishedAt": "2026-09-04T16:20:18Z",
+      "category": "news",
+      "teams": [
+        "Botafogo",
+        "Palmeiras"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Gols desperdiçados podem comprometer Palmeiras em busca por maior vantagem na liderança? VEJA",
+      "imageCredit": null
+    },
+    {
+      "id": "17208929",
+      "title": "Boto pede paciência a novos reforços do Flamengo e cita Pulgar como exemplo: 'Chegou como um bagre'",
+      "summary": "Flamengo aproveitou a sexta-feira no Ninho do Urubu para celebrar a renovação de contrato de Erick Pulgar",
+      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17208929/boto-pede-paciencia-novos-reforcos-flamengo-cita-pulgar-como-exemplo-chegou-como-um-bagre",
+      "publishedAt": "2026-09-04T15:52:52Z",
+      "category": "market",
+      "teams": [
+        "Flamengo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0904/r1711360_1280x720_16-9.jpg",
+      "imageAlt": "José Boto ao lado de Erick Pulgar",
+      "imageCredit": "Adriano Fontes / CRF"
+    },
+    {
+      "id": "17206334",
+      "title": "Red Bull Bragantino x Bahia: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+      "summary": "O duelo será disputado no Estádio Cícero de Souza Marques, em Bragança Paulista (SP), a partir de 16h (de Brasília)",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17206334/red-bull-bragantino-bahia-brasileirao-onde-assistir-ao-vivo-horario-palpite-escalacoes-do-jogo",
+      "publishedAt": "2026-09-04T15:20:28Z",
+      "category": "news",
+      "teams": [
+        "Bahia",
+        "Red Bull Bragantino"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0903/r1711084_1296x729_16-9.jpg",
+      "imageAlt": "Estádio Cícero de Souza Marques, estádio do Red Bull Bragantino",
+      "imageCredit": "Getty Images"
+    },
+    {
+      "id": "17205934",
+      "title": "Fluminense x Vasco: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+      "summary": "Fluminense e Vasco se enfrentam neste sábado, às 21h (de Brasília), no Maracanã, pela 26ª rodada do Brasileirão",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17205934/fluminense-x-vasco-onde-assistir-ao-vivo-horario-palpite-escalacoes-jogo-brasileirao",
+      "publishedAt": "2026-09-04T15:20:50Z",
+      "category": "news",
+      "teams": [
+        "Vasco da Gama",
+        "Fluminense"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0818/r1703215_1296x729_16-9.jpg",
+      "imageAlt": "Maracanã será palco da NFL, entre Ravens x Cowboys",
+      "imageCredit": "Getty Images"
+    },
+    {
+      "id": "17207666",
+      "title": "Palmeiras divulga balanço de julho e registra déficit acumulado no ano de mais de R$ 150 milhões",
+      "summary": "Palmeiras acumula números ruins nas finanças ao longo do ano",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17207666/palmeiras-divulga-balanco-de-julho-e-registra-deficit-acumulado-no-ano-de-mais-de-150-milhoes",
+      "publishedAt": "2026-09-04T11:47:34Z",
+      "category": "news",
+      "teams": [
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0501/r1652109_1296x729_16-9.jpg",
+      "imageAlt": "Leila Pereira, presidente do Palmeiras",
+      "imageCredit": "Getty Images"
+    },
+    {
+      "id": "17205833",
+      "title": "Vai vender mais alguém? Como Palmeiras lida com investidas do mercado após negociações recentes",
+      "summary": "ESPN traz informações sobre o mercado da bola do Palmeiras",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17205833/palmeiras-vai-vender-mais-alguem-como-clube-lida-com-saidas-negociacoes-recentes",
+      "publishedAt": "2026-09-04T10:21:23Z",
+      "category": "market",
+      "teams": [
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0210/r1613457_1296x729_16-9.jpg",
+      "imageAlt": "Dirigente brasileira Leila Pereira, presidente do Palmeiras, na Supercopa feminina de 2026 entre Palmeiras e Corinthians, na Arena Barueri, em Barueri (SP)",
+      "imageCredit": "Theo Daolio/Mochila Press/Gazeta Press"
+    },
+    {
       "id": "17205556",
       "title": "Polícia revela três mensagens que colocaram David, do Vasco, na mira de investigação contra tráfico",
       "summary": "Polícias Civis do Espírito Santo e do Rio de Janeiro conduziram a operação que cumpria quatro mandados de prisão temporária e 15 mandados de busca e apreensão contra suspeitos investigados por organização criminosa, tráfico de drogas e de armas e lavagem de dinheiro",
@@ -1776,135 +1906,6 @@ export const RADAR_FALLBACK: RadarPayload = {
       "imageUrl": "https://a.espncdn.com/photo/2026/0901/r1710083_1296x729_16-9.jpg",
       "imageAlt": "Douglas, ex-meia do Grêmio",
       "imageCredit": "Getty Images"
-    },
-    {
-      "id": "17203777",
-      "title": "Jair Ventura reconhece momento ruim e é direto sobre futuro no Vitória: 'Depende da diretoria'",
-      "summary": "Vitória perdeu a quarta seguida e se despediu da Copa do Brasil nesta quarta-feira (2)",
-      "url": "https://www.espn.com.br/futebol/artigo/_/id/17203777/vitoria-jair-ventura-reconhece-momento-ruim-deixa-futuro-diretoria",
-      "publishedAt": "2026-09-03T04:42:59Z",
-      "category": "news",
-      "teams": [
-        "Vitória"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0515/r1658454_1296x729_16-9.jpg",
-      "imageAlt": "Brasileiro Jair Ventura, técnico do Vitória, em partida contra o Flamengo, no Barradão, em Salvador (BA), pela volta da quinta fase da Copa do Brasil de 2026",
-      "imageCredit": "Marcio Jose/AGIF"
-    },
-    {
-      "id": "17203631",
-      "title": "777 chega a acordo com Vasco e declara à Justiça que não se opõe à venda da nova SAF",
-      "summary": "Vasco e 777 chegaram a um acordo na Justiça para venda de 90% da nova SAF",
-      "url": "https://www.espn.com.br/futebol/vasco/artigo/_/id/17203631/777-chega-acordo-vasco-declara-justica-nao-opoe-venda-nova-saf",
-      "publishedAt": "2026-09-03T03:54:50Z",
-      "category": "market",
-      "teams": [
-        "Vasco da Gama"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0903/r1710729_1296x729_16-9.jpg",
-      "imageAlt": "Camisa do Vasco no Barradão antes de jogo contra o Vitória, pela Copa do Brasil",
-      "imageCredit": "Matheus Lima/Vasco"
-    },
-    {
-      "id": "17203351",
-      "title": "Samuel Lino esclarece polêmica com Jardim ao ser substituído e aponta outro problema no Flamengo: 'Não depende da gente'",
-      "summary": "Samuel Lino reclamou do gramado do Maracanã ao ser substituído por Leonardo Jardim",
-      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17203351/flamengo-samuel-lino-esclarece-polemica-com-jardim-ao-ser-substituido-nao-depende-da-gente",
-      "publishedAt": "2026-09-03T01:59:59Z",
-      "category": "news",
-      "teams": [
-        "Flamengo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0903/r1710701_1296x729_16-9.jpg",
-      "imageAlt": "Samuel Lino escapa da marcação de jogador do Mirassol",
-      "imageCredit": "Jorge Rodrigues/AGIF"
-    },
-    {
-      "id": "17203268",
-      "title": "Na bronca com Leonardo Jardim? Samuel Lino dá resposta sincera sobre irritação ao ser substituído em vitória do Flamengo",
-      "summary": "Atacante flamenguista saiu, não escondeu insatisfação e justificou na zona mista",
-      "url": "https://www.espn.com.br/video/clip/_/id/17203268",
-      "publishedAt": "2026-09-03T01:22:32Z",
-      "category": "news",
-      "teams": [
-        "Flamengo",
-        "Mirassol"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Na bronca com Leonardo Jardim? Samuel Lino dá resposta sincera sobre irritação ao ser substituído em vitória do Flamengo",
-      "imageCredit": null
-    },
-    {
-      "id": "17203236",
-      "title": "'Não queriam que ele jogasse, achavam fraco': Jorginho relembra briga para Weverton atuar na 'Barcelusa' campeã da Série B",
-      "summary": "Goleiro do Grêmio teve passagem marcante pela Lusa antes de ir para o Athletico-PR",
-      "url": "https://www.espn.com.br/video/clip/_/id/17203236",
-      "publishedAt": "2026-09-04T02:06:26Z",
-      "category": "news",
-      "teams": [
-        "Grêmio",
-        "Portuguesa"
-      ],
-      "imageUrl": null,
-      "imageAlt": "'Não queriam que ele jogasse, achavam fraco': Jorginho relembra briga para Weverton atuar na 'Barcelusa' campeã da Série B",
-      "imageCredit": null
-    },
-    {
-      "id": "17203229",
-      "title": "Lembra da 'Barcelusa'? Time histórico da Portuguesa reunia 'Lionedno Messi, Jorgiola, Ananiesta' e mais: relembre apelidos",
-      "summary": "Campeã da Série B em 2011, Lusa de Jorginho fez campanha histórica e tinha apelidos que marcaram época",
-      "url": "https://www.espn.com.br/video/clip/_/id/17203229",
-      "publishedAt": "2026-09-04T02:06:05Z",
-      "category": "news",
-      "teams": [
-        "Barcelona",
-        "Portuguesa"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Lembra da 'Barcelusa'? Time histórico da Portuguesa reunia 'Lionedno Messi, Jorgiola, Ananiesta' e mais: relembre apelidos",
-      "imageCredit": null
-    },
-    {
-      "id": "17203205",
-      "title": "'Caras que tinham passado em time grande e estavam acomodados, tchau!': Marco Antônio detalha reformulação que levou 'Barcelusa' à glória",
-      "summary": "Líder da Portuguesa de 2011, o meio-campista abriu o jogo sobre liderança de Jorginho",
-      "url": "https://www.espn.com.br/video/clip/_/id/17203205",
-      "publishedAt": "2026-09-04T02:05:43Z",
-      "category": "news",
-      "teams": [
-        "Portuguesa"
-      ],
-      "imageUrl": null,
-      "imageAlt": "'Caras que tinham passado em time grande e estavam acomodados, tchau!': Marco Antônio detalha reformulação que levou 'Barcelusa' à glória",
-      "imageCredit": null
-    },
-    {
-      "id": "17203191",
-      "title": "Jorginho e capitão relembram 'Barcelusa' histórica após 15 anos: 'Vocês vão fazer o que eu quero que vocês façam'",
-      "summary": "Comandante da Portuguesa campeã da Série B em 2011 participa do Resenha ESPN desta quinta-feira (3)",
-      "url": "https://www.espn.com.br/video/clip/_/id/17203191",
-      "publishedAt": "2026-09-03T10:14:32Z",
-      "category": "news",
-      "teams": [
-        "Portuguesa"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Jorginho e capitão relembram 'Barcelusa' histórica após 15 anos: 'Vocês vão fazer o que eu quero que vocês façam'",
-      "imageCredit": null
-    },
-    {
-      "id": "17203173",
-      "title": "Arrascaeta e o óculos de luz verde: o que significa objeto usado pelo meia do Flamengo antes de jogo com Mirassol",
-      "summary": "Arrascaeta chamou a atenção ao chegar no Maracanã utilizando um óculos de luz verde",
-      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17203173/flamengo-arrascaeta-oculos-luz-verde-o-que-significa-objeto-usado-pelo-meia-antes-jogo-mirassol",
-      "publishedAt": "2026-09-03T00:43:29Z",
-      "category": "news",
-      "teams": [
-        "Flamengo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0903/r1710674_1296x729_16-9.jpg",
-      "imageAlt": "Arrascaeta chega ao Maracanã usando óculos verde",
-      "imageCredit": "Daniel Brasil / Maracanã"
     }
   ]
 };
