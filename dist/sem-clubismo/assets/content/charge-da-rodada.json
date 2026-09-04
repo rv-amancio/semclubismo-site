@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T08:53:35.900Z",
-  "updatedLabel": "31 ago",
-  "round": "Brasileirão 2026 - rodada de 28 a 30 de ago",
+  "generatedAt": "2026-09-04T07:30:58.003Z",
+  "updatedLabel": "04 set",
+  "round": "Brasileirão 2026 - rodada de 01 a 03 de set",
   "title": "Resultados da Rodada",
-  "headline": "Palmeiras freou, e a corneta pediu microfone.",
-  "summary": "Rodada com 9 jogos, 31 gols e 2 empates entre 28 a 30 de ago. Palmeiras lidera com 52 pontos; Flamengo vem na cola com 48.",
+  "headline": "A rodada acabou. A desculpa ficou por conta da tabela.",
+  "summary": "Rodada com 1 jogos, 2 gols e 0 empates entre 01 a 03 de set. Palmeiras lidera com 52 pontos; Flamengo vem na cola com 51.",
   "sources": [
     {
       "label": "Placares ESPN início",
-      "url": "https://www.espn.com.br/futebol/resultados/_/liga/bra.1/data/20260828"
+      "url": "https://www.espn.com.br/futebol/resultados/_/liga/bra.1/data/20260901"
     },
     {
       "label": "Placares ESPN fim",
-      "url": "https://www.espn.com.br/futebol/resultados/_/liga/bra.1/data/20260830"
+      "url": "https://www.espn.com.br/futebol/resultados/_/liga/bra.1/data/20260903"
     },
     {
       "label": "Classificação ESPN",
@@ -44,9 +44,9 @@
       "points": 52,
       "played": 25,
       "goalDifference": 24,
-      "resultLabel": "MIR 1 x 1 PAL",
-      "verdict": "Empatou",
-      "punchline": "Palmeiras ficou no quase contra Mirassol: quase venceu, quase enganou."
+      "resultLabel": "Sem jogo na janela",
+      "verdict": "Sem jogo",
+      "punchline": "Palmeiras teve rodada de observação e saiu observado pela própria torcida."
     },
     {
       "position": 2,
@@ -64,12 +64,12 @@
         "abbreviation": "FLA",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png"
       },
-      "points": 48,
-      "played": 24,
-      "goalDifference": 27,
-      "resultLabel": "FLA 3 x 0 BOT",
-      "verdict": "Goleou",
-      "punchline": "Flamengo goleou e a soberba já entrou em campo de terno."
+      "points": 51,
+      "played": 25,
+      "goalDifference": 29,
+      "resultLabel": "FLA 2 x 0 MIR",
+      "verdict": "Venceu",
+      "punchline": "Flamengo ganhou e vai passar 24 horas jurando que estava tudo planejado."
     },
     {
       "position": 3,
@@ -90,9 +90,9 @@
       "points": 45,
       "played": 25,
       "goalDifference": 12,
-      "resultLabel": "CAP 3 x 3 FLU",
-      "verdict": "Empatou",
-      "punchline": "Athletico-PR ganhou um ponto e perdeu a chance de parar a choradeira."
+      "resultLabel": "Sem jogo na janela",
+      "verdict": "Sem jogo",
+      "punchline": "Athletico-PR virou secador profissional, porque jogar bola fica para a próxima."
     },
     {
       "position": 4,
@@ -113,17 +113,17 @@
       "points": 42,
       "played": 25,
       "goalDifference": 7,
-      "resultLabel": "CAP 3 x 3 FLU",
-      "verdict": "Empatou",
-      "punchline": "Fluminense empatou e chamou de ponto importante. A tabela fingiu respeito."
+      "resultLabel": "Sem jogo na janela",
+      "verdict": "Sem jogo",
+      "punchline": "Fluminense não teve 90 minutos; teve 90 cenários ruins no grupo da torcida."
     },
     {
       "position": 5,
-      "previousPosition": 6,
-      "movement": 1,
-      "movementLabel": "+1",
-      "movementDirection": "up",
-      "movementText": "Subiu 1 posição",
+      "previousPosition": 5,
+      "movement": 0,
+      "movementLabel": "0",
+      "movementDirection": "same",
+      "movementText": "Manteve a posição",
       "zone": "libertadores",
       "zoneLabel": "G6",
       "team": {
@@ -136,17 +136,17 @@
       "points": 40,
       "played": 25,
       "goalDifference": 7,
-      "resultLabel": "BAH 3 x 2 INT",
-      "verdict": "Venceu",
-      "punchline": "Bahia achou a vitória e já tem gente fingindo que sempre acreditou."
+      "resultLabel": "Sem jogo na janela",
+      "verdict": "Sem jogo",
+      "punchline": "Bahia ficou sem jogo e ainda assim quase arrumou pauta negativa."
     },
     {
       "position": 6,
-      "previousPosition": 5,
-      "movement": -1,
-      "movementLabel": "-1",
-      "movementDirection": "down",
-      "movementText": "Caiu 1 posição",
+      "previousPosition": 6,
+      "movement": 0,
+      "movementLabel": "0",
+      "movementDirection": "same",
+      "movementText": "Manteve a posição",
       "zone": "libertadores",
       "zoneLabel": "G6",
       "team": {
@@ -159,9 +159,9 @@
       "points": 39,
       "played": 25,
       "goalDifference": -1,
-      "resultLabel": "VAS 3 x 1 CRU",
-      "verdict": "Perdeu",
-      "punchline": "Cruzeiro perdeu e vai chamar cobrança de processo, porque coragem é opcional."
+      "resultLabel": "Sem jogo na janela",
+      "verdict": "Sem jogo",
+      "punchline": "Cruzeiro assistiu ao campeonato pela janela e fingiu que era estratégia."
     },
     {
       "position": 7,
@@ -170,6 +170,29 @@
       "movementLabel": "+2",
       "movementDirection": "up",
       "movementText": "Subiu 2 posiçãoões",
+      "zone": "sul-americana",
+      "zoneLabel": "Meio da briga",
+      "team": {
+        "id": "3456",
+        "name": "Coritiba",
+        "shortName": "Coritiba",
+        "abbreviation": "CFC",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png"
+      },
+      "points": 37,
+      "played": 25,
+      "goalDifference": 0,
+      "resultLabel": "Sem jogo na janela",
+      "verdict": "Sem jogo",
+      "punchline": "Coritiba tirou a noite de campo, mas a tabela apareceu cobrando aluguel."
+    },
+    {
+      "position": 8,
+      "previousPosition": 7,
+      "movement": -1,
+      "movementLabel": "-1",
+      "movementDirection": "down",
+      "movementText": "Caiu 1 posição",
       "zone": "sul-americana",
       "zoneLabel": "Meio da briga",
       "team": {
@@ -182,13 +205,13 @@
       "points": 36,
       "played": 24,
       "goalDifference": 4,
-      "resultLabel": "CAM 2 x 1 VIT",
-      "verdict": "Venceu",
-      "punchline": "Atlético-MG ganhou em casa e transformou incêndio em fumacinha controlada."
+      "resultLabel": "Sem jogo na janela",
+      "verdict": "Sem jogo",
+      "punchline": "Atlético-MG virou fiscal da rodada enquanto tenta parecer no controle."
     },
     {
-      "position": 8,
-      "previousPosition": 7,
+      "position": 9,
+      "previousPosition": 8,
       "movement": -1,
       "movementLabel": "-1",
       "movementDirection": "down",
@@ -205,32 +228,9 @@
       "points": 35,
       "played": 24,
       "goalDifference": 4,
-      "resultLabel": "SAO 2 x 1 BRA",
-      "verdict": "Perdeu",
-      "punchline": "Bragantino deixou o jogo com menos pontos e mais desculpas que finalização."
-    },
-    {
-      "position": 9,
-      "previousPosition": 8,
-      "movement": -1,
-      "movementLabel": "-1",
-      "movementDirection": "down",
-      "movementText": "Caiu 1 posição",
-      "zone": "sul-americana",
-      "zoneLabel": "Meio da briga",
-      "team": {
-        "id": "3456",
-        "name": "Coritiba",
-        "shortName": "Coritiba",
-        "abbreviation": "CFC",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png"
-      },
-      "points": 34,
-      "played": 24,
-      "goalDifference": -1,
       "resultLabel": "Sem jogo na janela",
       "verdict": "Sem jogo",
-      "punchline": "Coritiba viu a rodada passar com aquela paz falsa de quem sabe que deve futebol."
+      "punchline": "Bragantino não suou camisa, só paciência de quem acompanha."
     },
     {
       "position": 10,
@@ -251,17 +251,17 @@
       "points": 32,
       "played": 25,
       "goalDifference": 1,
-      "resultLabel": "COR 0 x 1 SAN",
-      "verdict": "Perdeu",
-      "punchline": "Corinthians abriu a porta para Santos e ainda ofereceu três pontos no capricho."
+      "resultLabel": "Sem jogo na janela",
+      "verdict": "Sem jogo",
+      "punchline": "Corinthians ficou no modo espera: menos gramado, mais crise imaginada."
     },
     {
       "position": 11,
-      "previousPosition": 13,
-      "movement": 2,
-      "movementLabel": "+2",
-      "movementDirection": "up",
-      "movementText": "Subiu 2 posiçãoões",
+      "previousPosition": 11,
+      "movement": 0,
+      "movementLabel": "0",
+      "movementDirection": "same",
+      "movementText": "Manteve a posição",
       "zone": "sul-americana",
       "zoneLabel": "Meio da briga",
       "team": {
@@ -274,17 +274,17 @@
       "points": 30,
       "played": 24,
       "goalDifference": 1,
-      "resultLabel": "SAO 2 x 1 BRA",
-      "verdict": "Venceu",
-      "punchline": "São Paulo venceu contra Bragantino; a corneta não morreu, só perdeu o sinal."
+      "resultLabel": "Sem jogo na janela",
+      "verdict": "Sem jogo",
+      "punchline": "São Paulo não jogou; mesmo assim a corneta achou expediente."
     },
     {
       "position": 12,
-      "previousPosition": 11,
-      "movement": -1,
-      "movementLabel": "-1",
-      "movementDirection": "down",
-      "movementText": "Caiu 1 posição",
+      "previousPosition": 12,
+      "movement": 0,
+      "movementLabel": "0",
+      "movementDirection": "same",
+      "movementText": "Manteve a posição",
       "zone": "sul-americana",
       "zoneLabel": "Meio da briga",
       "team": {
@@ -297,17 +297,17 @@
       "points": 30,
       "played": 24,
       "goalDifference": -3,
-      "resultLabel": "FLA 3 x 0 BOT",
-      "verdict": "Tomou pancada",
-      "punchline": "Botafogo tomou pancada e a reunião de cobrança já nasceu gritando."
+      "resultLabel": "Sem jogo na janela",
+      "verdict": "Sem jogo",
+      "punchline": "Botafogo nem jogou e ainda conseguiu deixar a torcida fazendo conta com medo."
     },
     {
       "position": 13,
-      "previousPosition": 12,
-      "movement": -1,
-      "movementLabel": "-1",
-      "movementDirection": "down",
-      "movementText": "Caiu 1 posição",
+      "previousPosition": 13,
+      "movement": 0,
+      "movementLabel": "0",
+      "movementDirection": "same",
+      "movementText": "Manteve a posição",
       "zone": "alerta",
       "zoneLabel": "Alerta ligado",
       "team": {
@@ -320,9 +320,9 @@
       "points": 29,
       "played": 25,
       "goalDifference": -13,
-      "resultLabel": "CAM 2 x 1 VIT",
-      "verdict": "Perdeu",
-      "punchline": "Vitória perdeu; a classificação não gritou, só abriu um sorriso cruel."
+      "resultLabel": "Sem jogo na janela",
+      "verdict": "Sem jogo",
+      "punchline": "Vitória descansou, mas a torcida seguiu em plantão de reclamação."
     },
     {
       "position": 14,
@@ -343,9 +343,9 @@
       "points": 29,
       "played": 24,
       "goalDifference": -2,
-      "resultLabel": "COR 0 x 1 SAN",
-      "verdict": "Venceu",
-      "punchline": "Santos calou a casa alheia e deixou recibo colado na testa da tabela."
+      "resultLabel": "Sem jogo na janela",
+      "verdict": "Sem jogo",
+      "punchline": "Santos poupou as chuteiras e gastou todos os álibis possíveis."
     },
     {
       "position": 15,
@@ -366,17 +366,17 @@
       "points": 28,
       "played": 24,
       "goalDifference": -5,
-      "resultLabel": "GRE 3 x 1 CHA",
-      "verdict": "Venceu",
-      "punchline": "Grêmio venceu e autorizou exagero moderado, o que ninguém vai respeitar."
+      "resultLabel": "Sem jogo na janela",
+      "verdict": "Sem jogo",
+      "punchline": "Grêmio descansou a chuteira; a cobrança, infelizmente para eles, não descansou."
     },
     {
       "position": 16,
-      "previousPosition": 17,
-      "movement": 1,
-      "movementLabel": "+1",
-      "movementDirection": "up",
-      "movementText": "Subiu 1 posição",
+      "previousPosition": 16,
+      "movement": 0,
+      "movementLabel": "0",
+      "movementDirection": "same",
+      "movementText": "Manteve a posição",
       "zone": "alerta",
       "zoneLabel": "Alerta ligado",
       "team": {
@@ -387,19 +387,19 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
       },
       "points": 25,
-      "played": 24,
-      "goalDifference": -10,
-      "resultLabel": "MIR 1 x 1 PAL",
-      "verdict": "Empatou",
-      "punchline": "Mirassol saiu igual no placar e em dívida com a paciência da torcida."
+      "played": 25,
+      "goalDifference": -12,
+      "resultLabel": "FLA 2 x 0 MIR",
+      "verdict": "Perdeu",
+      "punchline": "Mirassol saiu derrotado e levou para casa aquele silêncio que humilha sem palavrão."
     },
     {
       "position": 17,
-      "previousPosition": 19,
-      "movement": 2,
-      "movementLabel": "+2",
-      "movementDirection": "up",
-      "movementText": "Subiu 2 posiçãoões",
+      "previousPosition": 17,
+      "movement": 0,
+      "movementLabel": "0",
+      "movementDirection": "same",
+      "movementText": "Manteve a posição",
       "zone": "z4",
       "zoneLabel": "Z4",
       "team": {
@@ -412,17 +412,17 @@
       "points": 25,
       "played": 24,
       "goalDifference": -12,
-      "resultLabel": "VAS 3 x 1 CRU",
-      "verdict": "Venceu",
-      "punchline": "Vasco ganhou e vai passar 24 horas jurando que estava tudo planejado."
+      "resultLabel": "Sem jogo na janela",
+      "verdict": "Sem jogo",
+      "punchline": "Vasco folgou no campo e trabalhou dobrado no tribunal da resenha."
     },
     {
       "position": 18,
-      "previousPosition": 16,
-      "movement": -2,
-      "movementLabel": "-2",
-      "movementDirection": "down",
-      "movementText": "Caiu 2 posiçãoões",
+      "previousPosition": 18,
+      "movement": 0,
+      "movementLabel": "0",
+      "movementDirection": "same",
+      "movementText": "Manteve a posição",
       "zone": "z4",
       "zoneLabel": "Z4",
       "team": {
@@ -435,17 +435,17 @@
       "points": 25,
       "played": 25,
       "goalDifference": -5,
-      "resultLabel": "BAH 3 x 2 INT",
-      "verdict": "Perdeu",
-      "punchline": "Internacional deixou três pontos escaparem e ganhou uma semana de julgamento público."
+      "resultLabel": "Sem jogo na janela",
+      "verdict": "Sem jogo",
+      "punchline": "Internacional viu a rodada passar com aquela paz falsa de quem sabe que deve futebol."
     },
     {
       "position": 19,
-      "previousPosition": 18,
-      "movement": -1,
-      "movementLabel": "-1",
-      "movementDirection": "down",
-      "movementText": "Caiu 1 posição",
+      "previousPosition": 19,
+      "movement": 0,
+      "movementLabel": "0",
+      "movementDirection": "same",
+      "movementText": "Manteve a posição",
       "zone": "z4",
       "zoneLabel": "Z4",
       "team": {
@@ -456,11 +456,11 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png"
       },
       "points": 23,
-      "played": 24,
-      "goalDifference": -11,
+      "played": 25,
+      "goalDifference": -12,
       "resultLabel": "Sem jogo na janela",
       "verdict": "Sem jogo",
-      "punchline": "Remo folgou no campo e trabalhou dobrado no tribunal da resenha."
+      "punchline": "Remo não entrou em campo; a ansiedade entrou e correu mais que o time."
     },
     {
       "position": 20,
@@ -481,9 +481,9 @@
       "points": 14,
       "played": 24,
       "goalDifference": -24,
-      "resultLabel": "GRE 3 x 1 CHA",
-      "verdict": "Perdeu",
-      "punchline": "Chapecoense saiu derrotado e levou para casa aquele silêncio que humilha sem palavrão."
+      "resultLabel": "Sem jogo na janela",
+      "verdict": "Sem jogo",
+      "punchline": "Chapecoense ficou parado torcendo para ninguém expor o tamanho do problema."
     }
   ]
 }

@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-09-03T17:10:49.328Z",
-  "expiresAt": "2026-09-07T17:10:49.328Z",
+  "generatedAt": "2026-09-04T07:30:57.717Z",
+  "expiresAt": "2026-09-08T07:30:57.717Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -14,7 +14,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "id": "bra.1",
       "name": "Campeonato Brasileiro",
       "shortName": "Brasileirão",
-      "matchCount": 32,
+      "matchCount": 29,
       "liveCount": 0,
       "nextMatchAt": "2026-09-05T19:00Z"
     },
@@ -24,7 +24,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Copa do Brasil",
       "matchCount": 4,
       "liveCount": 0,
-      "nextMatchAt": "2026-09-03T23:00Z"
+      "nextMatchAt": null
     },
     {
       "id": "conmebol.libertadores",
@@ -44,87 +44,6 @@ export const RADAR_FALLBACK: RadarPayload = {
     }
   ],
   "matches": [
-    {
-      "id": "401841216",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-29T21:30Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Arena MRV",
-      "home": {
-        "id": "7632",
-        "name": "Atlético-MG",
-        "shortName": "Atlético-MG",
-        "abbreviation": "CAM",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png"
-      },
-      "away": {
-        "id": "3457",
-        "name": "Vitória",
-        "shortName": "Vitória",
-        "abbreviation": "VIT",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png"
-      },
-      "homeScore": "2",
-      "awayScore": "1",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841216/vitoria-atletico-mg"
-    },
-    {
-      "id": "401841209",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-29T23:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estádio Cícero Pompeu de Toledo",
-      "home": {
-        "id": "2026",
-        "name": "São Paulo",
-        "shortName": "São Paulo",
-        "abbreviation": "SAO",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png"
-      },
-      "away": {
-        "id": "6079",
-        "name": "Red Bull Bragantino",
-        "shortName": "Bragantino",
-        "abbreviation": "BRA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png"
-      },
-      "homeScore": "2",
-      "awayScore": "1",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841209/red-bull-bragantino-sao-paulo"
-    },
-    {
-      "id": "401841212",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-08-30T00:20Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estádio São Januário",
-      "home": {
-        "id": "3454",
-        "name": "Vasco da Gama",
-        "shortName": "Vasco",
-        "abbreviation": "VAS",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png"
-      },
-      "away": {
-        "id": "2022",
-        "name": "Cruzeiro",
-        "shortName": "Cruzeiro",
-        "abbreviation": "CRU",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png"
-      },
-      "homeScore": "3",
-      "awayScore": "1",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841212/cruzeiro-vasco-da-gama"
-    },
     {
       "id": "401841208",
       "competitionId": "bra.1",
@@ -427,8 +346,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.copa_do_brazil",
       "competitionName": "Copa do Brasil",
       "date": "2026-09-03T23:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Arena do Grêmio",
       "home": {
@@ -445,8 +364,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "INT",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "3",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909114/internacional-gremio"
     },
     {
@@ -1759,6 +1678,21 @@ export const RADAR_FALLBACK: RadarPayload = {
   ],
   "news": [
     {
+      "id": "17205556",
+      "title": "Polícia revela três mensagens que colocaram David, do Vasco, na mira de investigação contra tráfico",
+      "summary": "Polícias Civis do Espírito Santo e do Rio de Janeiro conduziram a operação que cumpria quatro mandados de prisão temporária e 15 mandados de busca e apreensão contra suspeitos investigados por organização criminosa, tráfico de drogas e de armas e lavagem de dinheiro",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17205556/policia-revela-tres-mensagens-que-colocaram-david-do-vasco-na-mira-de-investigacao-contra-trafico",
+      "publishedAt": "2026-09-03T17:50:25Z",
+      "category": "news",
+      "teams": [
+        "Vasco da Gama",
+        "Santos"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0831/r1709400_1296x729_16-9.jpg",
+      "imageAlt": "David, do Vasco da Gama",
+      "imageCredit": "Matheus Lima/Vasco"
+    },
+    {
       "id": "17205114",
       "title": "Arthur diz como foi papo com Neymar por ida ao Santos e faz coro contra gramado da Vila: 'Talvez tenha sido o pior que eu vi'",
       "summary": "Apresentado nesta quinta, Arthur Melo revelou como foi o papo que teve com Neymar antes de acertar com o Santos",
@@ -1901,6 +1835,50 @@ export const RADAR_FALLBACK: RadarPayload = {
       "imageCredit": null
     },
     {
+      "id": "17203236",
+      "title": "'Não queriam que ele jogasse, achavam fraco': Jorginho relembra briga para Weverton atuar na 'Barcelusa' campeã da Série B",
+      "summary": "Goleiro do Grêmio teve passagem marcante pela Lusa antes de ir para o Athletico-PR",
+      "url": "https://www.espn.com.br/video/clip/_/id/17203236",
+      "publishedAt": "2026-09-04T02:06:26Z",
+      "category": "news",
+      "teams": [
+        "Grêmio",
+        "Portuguesa"
+      ],
+      "imageUrl": null,
+      "imageAlt": "'Não queriam que ele jogasse, achavam fraco': Jorginho relembra briga para Weverton atuar na 'Barcelusa' campeã da Série B",
+      "imageCredit": null
+    },
+    {
+      "id": "17203229",
+      "title": "Lembra da 'Barcelusa'? Time histórico da Portuguesa reunia 'Lionedno Messi, Jorgiola, Ananiesta' e mais: relembre apelidos",
+      "summary": "Campeã da Série B em 2011, Lusa de Jorginho fez campanha histórica e tinha apelidos que marcaram época",
+      "url": "https://www.espn.com.br/video/clip/_/id/17203229",
+      "publishedAt": "2026-09-04T02:06:05Z",
+      "category": "news",
+      "teams": [
+        "Barcelona",
+        "Portuguesa"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Lembra da 'Barcelusa'? Time histórico da Portuguesa reunia 'Lionedno Messi, Jorgiola, Ananiesta' e mais: relembre apelidos",
+      "imageCredit": null
+    },
+    {
+      "id": "17203205",
+      "title": "'Caras que tinham passado em time grande e estavam acomodados, tchau!': Marco Antônio detalha reformulação que levou 'Barcelusa' à glória",
+      "summary": "Líder da Portuguesa de 2011, o meio-campista abriu o jogo sobre liderança de Jorginho",
+      "url": "https://www.espn.com.br/video/clip/_/id/17203205",
+      "publishedAt": "2026-09-04T02:05:43Z",
+      "category": "news",
+      "teams": [
+        "Portuguesa"
+      ],
+      "imageUrl": null,
+      "imageAlt": "'Caras que tinham passado em time grande e estavam acomodados, tchau!': Marco Antônio detalha reformulação que levou 'Barcelusa' à glória",
+      "imageCredit": null
+    },
+    {
       "id": "17203191",
       "title": "Jorginho e capitão relembram 'Barcelusa' histórica após 15 anos: 'Vocês vão fazer o que eu quero que vocês façam'",
       "summary": "Comandante da Portuguesa campeã da Série B em 2011 participa do Resenha ESPN desta quinta-feira (3)",
@@ -1927,66 +1905,6 @@ export const RADAR_FALLBACK: RadarPayload = {
       "imageUrl": "https://a.espncdn.com/photo/2026/0903/r1710674_1296x729_16-9.jpg",
       "imageAlt": "Arrascaeta chega ao Maracanã usando óculos verde",
       "imageCredit": "Daniel Brasil / Maracanã"
-    },
-    {
-      "id": "17202868",
-      "title": "Carrascal brilha, Flamengo vence o Mirassol em jogo atrasado do Brasileirão e fica a um ponto do Palmeiras na tabela",
-      "summary": "No Maracanã, o Flamengo venceu o Mirassol em jogo atrasado da 4ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17202868/flamengo-vence-mirassol-jogo-atrasado-brasileiro-fica-a-um-ponto-palmeiras-jorge-carrascal-brilha",
-      "publishedAt": "2026-09-03T00:27:54Z",
-      "category": "news",
-      "teams": [
-        "Flamengo",
-        "Mirassol"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0903/r1710654_1236x695_16-9.jpg",
-      "imageAlt": "Meia colombiano Jorge Carrascal comemora gol pelo Flamengo sobre o Mirassol, no Maracanã, no Rio de Janeiro (RJ), pela rodada 4 do Brasileirão de 2026",
-      "imageCredit": "Divulgação/ Flamengo"
-    },
-    {
-      "id": "17203092",
-      "title": "Paquetá e Carrascal brilham em vitória do Flamengo contra o Mirassol em jogo atrasado no Brasileirão; veja os lances",
-      "summary": "Rubro-Negro venceu pelo Brasileirão e colou no líder Palmeiras",
-      "url": "https://www.espn.com.br/video/clip/_/id/17203092",
-      "publishedAt": "2026-09-03T01:13:00Z",
-      "category": "news",
-      "teams": [
-        "Flamengo",
-        "Mirassol"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Paquetá e Carrascal brilham em vitória do Flamengo contra o Mirassol em jogo atrasado no Brasileirão; veja os lances",
-      "imageCredit": null
-    },
-    {
-      "id": "17203074",
-      "title": "Jorginho, Carrascal, Paquetá e gol! O cabeceio que decretou a vitória do Flamengo contra o Mirassol no Brasileirão",
-      "summary": "Paquetá completou lindo cruzamento e não perdoou Walter em jogo atrasado no Maracanã; assista!",
-      "url": "https://www.espn.com.br/video/clip/_/id/17203074",
-      "publishedAt": "2026-09-03T00:27:28Z",
-      "category": "news",
-      "teams": [
-        "Flamengo",
-        "Mirassol"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Jorginho, Carrascal, Paquetá e gol! O cabeceio que decretou a vitória do Flamengo contra o Mirassol no Brasileirão",
-      "imageCredit": null
-    },
-    {
-      "id": "17202976",
-      "title": "VEJA a 'bomba' de Carrascal que abriu o placar para o Flamengo contra o Mirassol em jogo atrasado no Brasileirão",
-      "summary": "Colombiano pôs o Rubro-Negro em vantagem no Maracanã; VEJA",
-      "url": "https://www.espn.com.br/video/clip/_/id/17202976",
-      "publishedAt": "2026-09-03T00:27:25Z",
-      "category": "news",
-      "teams": [
-        "Flamengo",
-        "Mirassol"
-      ],
-      "imageUrl": null,
-      "imageAlt": "VEJA a 'bomba' de Carrascal que abriu o placar para o Flamengo contra o Mirassol em jogo atrasado no Brasileirão",
-      "imageCredit": null
     }
   ]
 };
