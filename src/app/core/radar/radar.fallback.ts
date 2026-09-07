@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-09-07T07:31:53.556Z",
-  "expiresAt": "2026-09-11T07:31:53.556Z",
+  "generatedAt": "2026-09-07T18:22:39.445Z",
+  "expiresAt": "2026-09-11T18:22:39.445Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -1732,6 +1732,170 @@ export const RADAR_FALLBACK: RadarPayload = {
   ],
   "news": [
     {
+      "id": "17223003",
+      "title": "Pré-lista da Seleção Brasileira tem dupla do Flamengo, cinco do Cruzeiro e muitas caras novas; veja o que sabemos",
+      "summary": "ESPN traz apuração importante sobre nomes que estão no radar do técnico Carlo Ancelotti",
+      "url": "https://www.espn.com.br/futebol/selecao-brasileira/artigo/_/id/17223003/selecao-brasileira-pre-convocados-flamengo-dupla-cinco-cruzeiro-caras-novas-o-que-sabemos",
+      "publishedAt": "2026-09-07T17:33:26Z",
+      "category": "news",
+      "teams": [
+        "Flamengo",
+        "Cruzeiro",
+        "Brasil"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0613/r1672649_1296x729_16-9.jpg",
+      "imageAlt": "BR futebol selecao brasileira carlo ancelotti brasil x marrocos copa do mundo 130626",
+      "imageCredit": "Photo by Daniela Porcelli/Getty Images"
+    },
+    {
+      "id": "17222913",
+      "title": "Santos negocia com ex-Atlético-MG, mas tem 1ª oferta recusada",
+      "summary": "Peixe tentou oferta para cinorar 50% dos direitos, mas equipe russa recusou; veja detalhes",
+      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17222913/santos-negocia-ex-atletico-mg-1%C2%AA-oferta-recusada",
+      "publishedAt": "2026-09-07T16:59:58Z",
+      "category": "market",
+      "teams": [
+        "Santos",
+        "Atlético-MG"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2024/1208/r1425311_1296x729_16-9.jpg",
+      "imageAlt": "Rubens comemora o gol que salvou o Atlético-MG e rebaixou o Athletico-PR no Brasileirão",
+      "imageCredit": "Pedro Souza / Atlético"
+    },
+    {
+      "id": "17222703",
+      "title": "Arthur Cabral recebe proposta de mais de R$ 40 milhões do Tigres, e Botafogo avalia saída do atacante; VEJA detalhes",
+      "summary": "Assista ao Fala a Fonte pela ESPN no Plano Premium do Disney+",
+      "url": "https://www.espn.com.br/video/clip/_/id/17222703",
+      "publishedAt": "2026-09-07T15:29:17Z",
+      "category": "market",
+      "teams": [
+        "Botafogo",
+        "Palmeiras"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Arthur Cabral recebe proposta de mais de R$ 40 milhões do Tigres, e Botafogo avalia saída do atacante; VEJA detalhes",
+      "imageCredit": null
+    },
+    {
+      "id": "17222684",
+      "title": "Botafogo recebe proposta de mais de R$ 40 milhões por Arthur Cabral",
+      "summary": "Jogador vem sendo bastante cobrado pela torcida e pode ser negociado",
+      "url": "https://www.espn.com.br/futebol/botafogo/artigo/_/id/17222684/botafogo-recebe-proposta-mais-40-milhoes-arthur-cabral",
+      "publishedAt": "2026-09-07T16:21:07Z",
+      "category": "market",
+      "teams": [
+        "Botafogo",
+        "Tigres UANL"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0111/r1599236_1296x729_16-9.jpg",
+      "imageAlt": "Arthur Cabral durante jogo entre Botafogo e Fortaleza, pelo Brasileirão",
+      "imageCredit": "Vitor Silva/Botafogo"
+    },
+    {
+      "id": "17222676",
+      "title": "Bastidores: como Palmeiras reagiu após perder a liderança do Brasileirão? André Hernan explica",
+      "summary": "Assista ao Fala a Fonte pela ESPN no Plano Premium do Disney+",
+      "url": "https://www.espn.com.br/video/clip/_/id/17222676",
+      "publishedAt": "2026-09-07T15:16:29Z",
+      "category": "news",
+      "teams": [
+        "Botafogo",
+        "Palmeiras"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Bastidores: como Palmeiras reagiu após perder a liderança do Brasileirão? André Hernan explica",
+      "imageCredit": null
+    },
+    {
+      "id": "17222564",
+      "title": "'Palmeiras é muito maior do que você': Felipe Melo se irrita com declaração de Abel Ferreira",
+      "summary": "Ex-jogador foi multicampeão pelo clube sob o comando do treinador português",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17222564/palmeiras-muito-maior-voce-felipe-melo-irrita-declaracao-abel-ferreira",
+      "publishedAt": "2026-09-07T14:48:27Z",
+      "category": "news",
+      "teams": [
+        "Palmeiras",
+        "Flamengo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2021/1221/r953777_1296x729_16-9.jpg",
+      "imageAlt": "Abel Ferreira e Felipe Melo conversando durante treino do Palmeiras, na Academia de Futebol, na temporada 2021",
+      "imageCredit": "Cesar Greco/S.E. Palmeiras"
+    },
+    {
+      "id": "17222552",
+      "title": "De 'obrigado, amigo' a 'deixou chegar': Flamengo provoca nas redes após assumir liderança",
+      "summary": "Flamengo é o novo líder do Campeonato Brasileiro",
+      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17222552/flamengo-provoca-rivais-redes-sociais-assumir-lideranca-do-campeonato-brasileiro",
+      "publishedAt": "2026-09-07T14:44:59Z",
+      "category": "news",
+      "teams": [
+        "Flamengo",
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0907/r1712792_1236x696_16-9.jpg",
+      "imageAlt": "Samuel Lino, do Flamengo",
+      "imageCredit": "Divulgação/Twitter Oficial/Flamengo"
+    },
+    {
+      "id": "17222254",
+      "title": "Matheus Pereira se manifesta após polêmica com Kaio Jorge, e Artur Jorge explica 'lista' de pênaltis do Cruzeiro",
+      "summary": "Jogadores discutiram durante a vitória para cima do Athletico-PR",
+      "url": "https://www.espn.com.br/futebol/cruzeiro/artigo/_/id/17222254/matheus-pereira-manifesta-polemica-kaio-jorge-artur-jorge-explica-lista-penaltis-cruzeiro",
+      "publishedAt": "2026-09-07T14:01:24Z",
+      "category": "news",
+      "teams": [
+        "Cruzeiro",
+        "Athletico Paranaense"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0907/r1712781_1296x729_16-9.jpg",
+      "imageAlt": "Kaio Jorge e Matheus Pereira, ambos de azul, conversam antes de pênalti para o Cruzeiro",
+      "imageCredit": "Pedro Vale/Sports Press Photo/Getty Images"
+    },
+    {
+      "id": "17222237",
+      "title": "Plata se reapresenta após polêmica, e Flamengo 'encerra caso' por foco na Libertadores",
+      "summary": "ESPN traz informações sobre o imbróglio envolvendo o atacante equatoriano",
+      "url": "https://www.espn.com.br/futebol/libertadores/artigo/_/id/17222237/flamengo-gonzalo-plata-reapresenta-polemica-caso-encerrado-foco-libertadores",
+      "publishedAt": "2026-09-07T13:41:44Z",
+      "category": "news",
+      "teams": [
+        "Flamengo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0906/r1712095_1296x729_16-9.jpg",
+      "imageAlt": "Gonzalo Plata, atacante Flamengo",
+      "imageCredit": "Getty Images"
+    },
+    {
+      "id": "17222076",
+      "title": "Internacional já tem dobro de chances de rebaixamento do que Palmeiras de ser campeão; veja números",
+      "summary": "Colorado perdeu mais uma e segue afundado na zona de rebaixamento do Campeonato Brasileiro",
+      "url": "https://www.espn.com.br/futebol/internacional/artigo/_/id/17222076/internacional-ja-tem-dobro-de-chances-de-rebaixamento-do-que-palmeiras-de-ser-campeao-veja-numeros",
+      "publishedAt": "2026-09-07T13:02:52Z",
+      "category": "news",
+      "teams": [
+        "Internacional",
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0907/r1712747_1296x729_16-9.jpg",
+      "imageAlt": "Time do Internacional",
+      "imageCredit": "Ricardo Duarte/Internacional/Flickr Oficial"
+    },
+    {
+      "id": "17221911",
+      "title": "Diniz se diz 'constrangido' após nova derrota do Corinthians e pede desculpas à torcida: 'Tenho me empenhado ao máximo'",
+      "summary": "Treinador pediu desculpas à torcida após mais uma derrota do Corinthians em casa",
+      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17221911/corinthians-fernando-diniz-constrangido-pede-desculpas-torcida-tenho-me-empenhado-ao-maximo",
+      "publishedAt": "2026-09-07T12:18:45Z",
+      "category": "news",
+      "teams": [
+        "Corinthians"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0907/r1712732_1296x729_16-9.jpg",
+      "imageAlt": "Fernando Diniz, treinador do Corinthians",
+      "imageCredit": "Getty Images"
+    },
+    {
       "id": "17221401",
       "title": "Memphis Depay desabafa sobre salários atrasados no Corinthians e minimiza pressão: 'Se você não entende...'",
       "summary": "Craque holandês do Timão abriu o coração após tropeço contra a Chapecoense pelo Brasileirão",
@@ -1803,170 +1967,6 @@ export const RADAR_FALLBACK: RadarPayload = {
       ],
       "imageUrl": null,
       "imageAlt": "Abel agradece elogio de Ancelotti, exalta 'valorização do futuro da Seleção Brasileira' no Palmeiras e lamenta 'tubarões da Europa': 'Não temos como competir'",
-      "imageCredit": null
-    },
-    {
-      "id": "17221054",
-      "title": "Abel 'joga responsabilidade' para o Flamengo e ironiza microfones à sua volta em Botafogo x Palmeiras: 'E vocês não me viram chutar nenhum'",
-      "summary": "Abel Ferreira ironizou a presença de muitos microfones à sua volta em Botafogo x Palmeiras pelo Brasileirão",
-      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17221054/abel-ferreira-joga-responsabilidade-para-flamengo-ironiza-microfones-a-sua-volta-botafogo-x-palmeiras-prontinhos-nao-me-viram-chutar-nenhum",
-      "publishedAt": "2026-09-07T02:27:00Z",
-      "category": "news",
-      "teams": [
-        "Palmeiras",
-        "Flamengo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0907/r1712598_1296x729_16-9.jpg",
-      "imageAlt": "Técnico português Abel Ferreira, do Palmeiras, em partida contra o Botafogo, no Nilton Santos, na Zona Norte do Rio de Janeiro (RJ), pela rodada 26 do Brasileirão de 2026",
-      "imageCredit": "Jorge Rodrigues/AGIF"
-    },
-    {
-      "id": "17221086",
-      "title": "'Time sem vergonha': torcida do Corinthians protesta após derrota para a Chapecoense",
-      "summary": "O Corinthians perdeu para a Chapecoense por 2 a 1 neste domingo (9) e viu a torcida protestar contra o elenco",
-      "url": "https://www.espn.com.br/video/clip/_/id/17221086",
-      "publishedAt": "2026-09-07T01:32:06Z",
-      "category": "news",
-      "teams": [
-        "Chapecoense",
-        "Corinthians"
-      ],
-      "imageUrl": null,
-      "imageAlt": "'Time sem vergonha': torcida do Corinthians protesta após derrota para a Chapecoense",
-      "imageCredit": null
-    },
-    {
-      "id": "17221051",
-      "title": "Barros diz que Marçal deveria ter sido expulso em Botafogo x Palmeiras e é direto sobre briga pelo título do Brasileirão: 'Não vamos cometer os mesmos erros'",
-      "summary": "Após o empate sem gols contra o Botafogo, o Palmeiras perdeu a liderança para o Flamengo neste domingo (06)",
-      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17221051/brasileirao-botafogo-palmeiras-anderson-barros-marcal-deveria-expulso-direto-sobre-briga-titulo-nao-vamos-cometer-mesmos-erros",
-      "publishedAt": "2026-09-07T01:27:21Z",
-      "category": "news",
-      "teams": [
-        "Palmeiras",
-        "Botafogo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2024/0512/r1332095_1296x729_16-9.jpg",
-      "imageAlt": "Anderson Barros, diretor de futebol do Palmeiras",
-      "imageCredit": "Cesar Greco/ S.E. Palmeiras"
-    },
-    {
-      "id": "17220979",
-      "title": "Flamengo dispara em chances de título após assumir a liderança do Brasileirão",
-      "summary": "O Mengo assumiu a liderança do Campeonato Brasileiro neste domingo (06), em confronto pela 26ª rodada do torneio",
-      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17220979/flamengo-dispara-chances-titulo-apos-assumir-lideranca-brasileirao",
-      "publishedAt": "2026-09-07T01:13:17Z",
-      "category": "news",
-      "teams": [
-        "Flamengo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0907/r1712587_1296x729_16-9.jpg",
-      "imageAlt": "Flamengo comemora vitória contra Remo no Brasileirão",
-      "imageCredit": "Fernando Torres/AGIF"
-    },
-    {
-      "id": "17220976",
-      "title": "Corinthians leva virada da 'lanterna' Chapecoense e perde mais uma em casa no Brasileirão; VEJA como foi",
-      "summary": "Equipes se enfrentaram pela 26ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17220976",
-      "publishedAt": "2026-09-07T00:49:51Z",
-      "category": "news",
-      "teams": [
-        "Chapecoense",
-        "Corinthians"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Corinthians leva virada da 'lanterna' Chapecoense e perde mais uma em casa no Brasileirão; VEJA como foi",
-      "imageCredit": null
-    },
-    {
-      "id": "17220962",
-      "title": "Corinthians 1 x 2 Chapecoense: os gols da derrota do Timão em casa",
-      "summary": "Equipes se enfrentaram pela 26ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17220962",
-      "publishedAt": "2026-09-07T01:01:41Z",
-      "category": "news",
-      "teams": [
-        "Chapecoense",
-        "Corinthians"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Corinthians 1 x 2 Chapecoense: os gols da derrota do Timão em casa",
-      "imageCredit": null
-    },
-    {
-      "id": "17220804",
-      "title": "Corinthians leva virada da 'lanterninha' Chapecoense e perde a 4ª seguida com Diniz no Brasileirão",
-      "summary": "Na Neo Química Arena, o Corinthians levou virada da Chapecoense e perdeu a quarta seguida no Brasileirão",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17220804/corinthians-leva-virada-lanterninha-chapecoense-perde-quarta-seguida-com-fernando-diniz-brasileirao",
-      "publishedAt": "2026-09-07T00:50:11Z",
-      "category": "news",
-      "teams": [
-        "Corinthians",
-        "Chapecoense"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0907/r1712578_1296x729_16-9.jpg",
-      "imageAlt": "Jogadores da Chapecoense comemorando virada sobre o Corinthians, na Neo Química Arena, em Itaquera (SP), pela rodada 26 do Brasileirão de 2026",
-      "imageCredit": "Marcello Zambrana/AGIF"
-    },
-    {
-      "id": "17220698",
-      "title": "Palmeiras fica no empate com o Botafogo e perde liderança do Brasileirão para o Flamengo; veja como foi",
-      "summary": "Alviverde esbarrou em grande atuação do goleiro botafoguense e empatou o segundo jogo seguido na Série A",
-      "url": "https://www.espn.com.br/video/clip/_/id/17220698",
-      "publishedAt": "2026-09-06T23:47:57Z",
-      "category": "news",
-      "teams": [
-        "Botafogo",
-        "Palmeiras"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Palmeiras fica no empate com o Botafogo e perde liderança do Brasileirão para o Flamengo; veja como foi",
-      "imageCredit": null
-    },
-    {
-      "id": "17220671",
-      "title": "Rua! Barboza leva um amarelo em cada tempo e acaba expulso de Palmeiras x Botafogo em reencontro com ex-clube; VEJA",
-      "summary": "Verdão ficou no empate e perdeu a liderança do Brasileirão para o Flamengo",
-      "url": "https://www.espn.com.br/video/clip/_/id/17220671",
-      "publishedAt": "2026-09-06T23:44:08Z",
-      "category": "news",
-      "teams": [
-        "Botafogo",
-        "Palmeiras"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Rua! Barboza leva um amarelo em cada tempo e acaba expulso de Palmeiras x Botafogo em reencontro com ex-clube; VEJA",
-      "imageCredit": null
-    },
-    {
-      "id": "17220160",
-      "title": "Palmeiras tem Alexander Barboza expulso, fica no 0 a 0 com o Botafogo e vê Flamengo tomar liderança do Brasileirão",
-      "summary": "No Nilton Santos, Botafogo e Palmeiras empataram por 0 a 0 pela 26ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17220160/palmeiras-nao-sai-do-0-a-0-com-botafogo-ve-flamengo-tomar-lideranca-brasileirao-alexander-barboza-expulso",
-      "publishedAt": "2026-09-06T23:49:25Z",
-      "category": "news",
-      "teams": [
-        "Botafogo",
-        "Palmeiras"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0906/r1712537_1296x729_16-9.jpg",
-      "imageAlt": "Volante brasileiro Marlon Freitas e atacante Arthur Cabral disputam bola em jogo entre Botafogo e Palmeiras, no Nilton Santos, no Rio de Janeiro (RJ), pela rodada 26 do Brasileirão de 2026",
-      "imageCredit": "Vitor Silva/Botafogo"
-    },
-    {
-      "id": "17220292",
-      "title": "Clima tenso na Raposa? Matheus Pereira perde primeiro pênalti, Kaio Jorge pega a bola no segundo, discute com o meia e marca; VEJA",
-      "summary": "Cruzeiro venceu, mas disputa entre Matheus Pereira e Kaio Jorge animou bastidores",
-      "url": "https://www.espn.com.br/video/clip/_/id/17220292",
-      "publishedAt": "2026-09-06T22:22:00Z",
-      "category": "news",
-      "teams": [
-        "Athletico Paranaense",
-        "Cruzeiro"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Clima tenso na Raposa? Matheus Pereira perde primeiro pênalti, Kaio Jorge pega a bola no segundo, discute com o meia e marca; VEJA",
       "imageCredit": null
     }
   ]
