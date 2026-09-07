@@ -1,24 +1,24 @@
 {
   "round": "Brasileirão 2026 - rodada em análise",
-  "updatedLabel": "04 set",
-  "title": "O vice fez a parte dele e manteve a perseguição acesa.",
-  "summary": "Foram 1 jogos, 2 gols e 0 empates na janela analisada. Palmeiras segue no topo com 52 pontos, Flamengo vem depois com 51. A diferença entre os dois é de 1 ponto, e a parte de baixo segue comprimida o bastante para transformar cada tropeço em crise.",
+  "updatedLabel": "07 set",
+  "title": "A rodada mexeu na tabela e abriu pauta para a mesa.",
+  "summary": "Foram 9 jogos, 24 gols e 1 empates na janela analisada. Flamengo segue no topo com 54 pontos, Palmeiras vem depois com 53. A diferença entre os dois é de 1 ponto, e a parte de baixo segue comprimida o bastante para transformar cada tropeço em crise.",
   "facts": [
     {
       "label": "Jogo que muda clima",
-      "value": "Flamengo 2 x 0 Mirassol"
+      "value": "Remo 0 x 1 Flamengo"
     },
     {
-      "label": "Perseguidor respondeu",
-      "value": "Flamengo 2 x 0 Mirassol"
+      "label": "Chance de cobrança",
+      "value": "Botafogo 0 x 0 Palmeiras"
     },
     {
       "label": "Pressão no Z4",
-      "value": "Flamengo 2 x 0 Mirassol"
+      "value": "Corinthians 1 x 2 Chapecoense"
     },
     {
       "label": "Topo da tabela",
-      "value": "Palmeiras 52 pts; Flamengo 51"
+      "value": "Flamengo 54 pts; Palmeiras 53"
     }
   ],
   "takes": [
@@ -31,7 +31,7 @@
     {
       "voice": "Tadeu",
       "role": "Análise",
-      "title": "Palmeiras (52), Flamengo (51), Athletico-PR (45), Fluminense (42): a parte de cima ainda tem hierarquia.",
+      "title": "Flamengo (54), Palmeiras (53), Athletico-PR (45), Fluminense (45): a parte de cima ainda tem hierarquia.",
       "body": "A tabela ainda protege quem fez gordura, mas a leitura da rodada vai além dos pontos. Resultado em casa, resposta fora e sequência curta pesam muito no começo do returno. A diferença agora é mental: quem absorve o tropeço e quem transforma empate em sintoma."
     },
     {
@@ -42,12 +42,12 @@
     }
   ],
   "praise": [
-    "Flamengo fez o básico com peso de obrigação: venceu e impediu que o tropeço do líder virasse rodada desperdiçada.",
-    "Quem segurou ponto em jogo de pressão mostrou uma coisa simples: ainda tem pulso.",
+    "Quem venceu fora ou sob pressão merece elogio dobrado: no returno, resultado assim muda clima de vestiário.",
+    "Time da parte de baixo que ganha confronto pesado mostra uma coisa simples: ainda tem pulso.",
     "A rodada premiou eficiência. Nem sempre o melhor discurso é posse; às vezes é pontaria e casca."
   ],
   "criticism": [
-    "Palmeiras não pode transformar vantagem em modo espera: empate de líder também entrega argumento para quem vem atrás.",
+    "Perseguidor que empata quando o líder tropeça deixa a rodada com gosto de desperdício.",
     "Quem está perto do Z4 não pode tratar empate em casa como ponto neutro. Na parte de baixo, ponto perdido cobra juros.",
     "Volume sem decisão vira estatística bonita e conversa amarga na segunda-feira."
   ],
@@ -57,19 +57,19 @@
     "Se essa foi a amostra, a próxima mesa já começa com alguém pedindo direito de resposta."
   ],
   "nextAgenda": [
-    "Flamengo precisa provar que a perseguição é sequência, não só rodada favorável.",
-    "Palmeiras joga a próxima rodada com a tabela a favor e o clima cobrando mais do que administração.",
+    "Palmeiras precisa responder se a chance perdida foi acidente ou sintoma.",
+    "Flamengo joga a próxima rodada com a tabela a favor e o clima cobrando mais do que administração.",
     "A briga do Z4 merece quadro fixo: cada vitória muda o humor de meia tabela.",
     "Olho em quem empilhou empate: estabilidade também pode ser só falta de coragem para vencer."
   ],
   "sources": [
     {
       "label": "Placares ESPN início",
-      "url": "https://www.espn.com.br/futebol/resultados/_/liga/bra.1/data/20260901"
+      "url": "https://www.espn.com.br/futebol/resultados/_/liga/bra.1/data/20260904"
     },
     {
       "label": "Placares ESPN fim",
-      "url": "https://www.espn.com.br/futebol/resultados/_/liga/bra.1/data/20260903"
+      "url": "https://www.espn.com.br/futebol/resultados/_/liga/bra.1/data/20260906"
     },
     {
       "label": "Classificação ESPN",

@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-09-06T16:25:18.708Z",
-  "expiresAt": "2026-09-10T16:25:18.708Z",
+  "generatedAt": "2026-09-07T07:31:53.556Z",
+  "expiresAt": "2026-09-11T07:31:53.556Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -16,13 +16,13 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Brasileirão",
       "matchCount": 32,
       "liveCount": 0,
-      "nextMatchAt": "2026-09-06T19:00Z"
+      "nextMatchAt": "2026-09-07T23:00Z"
     },
     {
       "id": "bra.copa_do_brazil",
       "name": "Copa do Brasil",
       "shortName": "Copa do Brasil",
-      "matchCount": 4,
+      "matchCount": 3,
       "liveCount": 0,
       "nextMatchAt": null
     },
@@ -44,33 +44,6 @@ export const RADAR_FALLBACK: RadarPayload = {
     }
   ],
   "matches": [
-    {
-      "id": "401909112",
-      "competitionId": "bra.copa_do_brazil",
-      "competitionName": "Copa do Brasil",
-      "date": "2026-09-02T00:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Arena MRV",
-      "home": {
-        "id": "7632",
-        "name": "Atlético-MG",
-        "shortName": "Atlético-MG",
-        "abbreviation": "CAM",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png"
-      },
-      "away": {
-        "id": "2022",
-        "name": "Cruzeiro",
-        "shortName": "Cruzeiro",
-        "abbreviation": "CRU",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png"
-      },
-      "homeScore": "2",
-      "awayScore": "1",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909112/cruzeiro-atletico-mg"
-    },
     {
       "id": "401913077",
       "competitionId": "bra.1",
@@ -292,8 +265,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
       "date": "2026-09-06T19:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estadio Mineirão",
       "home": {
@@ -310,8 +283,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "CAP",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "3",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841218/athletico-paranaense-cruzeiro"
     },
     {
@@ -319,8 +292,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
       "date": "2026-09-06T19:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estadio Beira-Rio",
       "home": {
@@ -337,8 +310,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "SAN",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "2",
+      "awayScore": "3",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841223/santos-internacional"
     },
     {
@@ -346,8 +319,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
       "date": "2026-09-06T19:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Mangueirão",
       "home": {
@@ -364,8 +337,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "FLA",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "0",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841225/flamengo-remo"
     },
     {
@@ -373,8 +346,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
       "date": "2026-09-06T21:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Joao Havelange Stadium",
       "home": {
@@ -391,8 +364,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "PAL",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "0",
+      "awayScore": "0",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841221/palmeiras-botafogo"
     },
     {
@@ -400,8 +373,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
       "date": "2026-09-06T22:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Neo Química Arena",
       "home": {
@@ -418,8 +391,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "CHA",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "1",
+      "awayScore": "2",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841220/chapecoense-corinthians"
     },
     {
@@ -1399,38 +1372,38 @@ export const RADAR_FALLBACK: RadarPayload = {
     {
       "position": 1,
       "team": {
-        "id": "2029",
-        "name": "Palmeiras",
-        "shortName": "Palmeiras",
-        "abbreviation": "PAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
-      },
-      "points": 52,
-      "played": 25,
-      "wins": 15,
-      "draws": 7,
-      "losses": 3,
-      "goalsFor": 45,
-      "goalsAgainst": 21,
-      "goalDifference": 24
-    },
-    {
-      "position": 2,
-      "team": {
         "id": "819",
         "name": "Flamengo",
         "shortName": "Flamengo",
         "abbreviation": "FLA",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png"
       },
-      "points": 51,
-      "played": 25,
-      "wins": 15,
+      "points": 54,
+      "played": 26,
+      "wins": 16,
       "draws": 6,
       "losses": 4,
-      "goalsFor": 50,
+      "goalsFor": 51,
       "goalsAgainst": 21,
-      "goalDifference": 29
+      "goalDifference": 30
+    },
+    {
+      "position": 2,
+      "team": {
+        "id": "2029",
+        "name": "Palmeiras",
+        "shortName": "Palmeiras",
+        "abbreviation": "PAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
+      },
+      "points": 53,
+      "played": 26,
+      "wins": 15,
+      "draws": 8,
+      "losses": 3,
+      "goalsFor": 45,
+      "goalsAgainst": 21,
+      "goalDifference": 24
     },
     {
       "position": 3,
@@ -1442,13 +1415,13 @@ export const RADAR_FALLBACK: RadarPayload = {
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png"
       },
       "points": 45,
-      "played": 25,
+      "played": 26,
       "wins": 13,
       "draws": 6,
-      "losses": 6,
-      "goalsFor": 37,
-      "goalsAgainst": 25,
-      "goalDifference": 12
+      "losses": 7,
+      "goalsFor": 38,
+      "goalsAgainst": 28,
+      "goalDifference": 10
     },
     {
       "position": 4,
@@ -1495,14 +1468,14 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "CRU",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png"
       },
-      "points": 39,
-      "played": 25,
-      "wins": 11,
+      "points": 42,
+      "played": 26,
+      "wins": 12,
       "draws": 6,
       "losses": 8,
-      "goalsFor": 35,
-      "goalsAgainst": 36,
-      "goalDifference": -1
+      "goalsFor": 38,
+      "goalsAgainst": 37,
+      "goalDifference": 1
     },
     {
       "position": 7,
@@ -1514,13 +1487,13 @@ export const RADAR_FALLBACK: RadarPayload = {
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png"
       },
       "points": 37,
-      "played": 25,
+      "played": 26,
       "wins": 10,
       "draws": 7,
-      "losses": 8,
-      "goalsFor": 33,
-      "goalsAgainst": 33,
-      "goalDifference": 0
+      "losses": 9,
+      "goalsFor": 34,
+      "goalsAgainst": 35,
+      "goalDifference": -1
     },
     {
       "position": 8,
@@ -1586,16 +1559,34 @@ export const RADAR_FALLBACK: RadarPayload = {
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png"
       },
       "points": 32,
+      "played": 26,
+      "wins": 8,
+      "draws": 8,
+      "losses": 10,
+      "goalsFor": 27,
+      "goalsAgainst": 27,
+      "goalDifference": 0
+    },
+    {
+      "position": 12,
+      "team": {
+        "id": "2674",
+        "name": "Santos",
+        "shortName": "Santos",
+        "abbreviation": "SAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
+      },
+      "points": 32,
       "played": 25,
       "wins": 8,
       "draws": 8,
       "losses": 9,
-      "goalsFor": 26,
-      "goalsAgainst": 25,
-      "goalDifference": 1
+      "goalsFor": 37,
+      "goalsAgainst": 38,
+      "goalDifference": -1
     },
     {
-      "position": 12,
+      "position": 13,
       "team": {
         "id": "6086",
         "name": "Botafogo",
@@ -1603,17 +1594,17 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "BOT",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png"
       },
-      "points": 30,
-      "played": 24,
+      "points": 31,
+      "played": 25,
       "wins": 8,
-      "draws": 6,
+      "draws": 7,
       "losses": 10,
       "goalsFor": 37,
       "goalsAgainst": 40,
       "goalDifference": -3
     },
     {
-      "position": 13,
+      "position": 14,
       "team": {
         "id": "3457",
         "name": "Vitória",
@@ -1629,24 +1620,6 @@ export const RADAR_FALLBACK: RadarPayload = {
       "goalsFor": 24,
       "goalsAgainst": 37,
       "goalDifference": -13
-    },
-    {
-      "position": 14,
-      "team": {
-        "id": "2674",
-        "name": "Santos",
-        "shortName": "Santos",
-        "abbreviation": "SAN",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
-      },
-      "points": 29,
-      "played": 24,
-      "wins": 7,
-      "draws": 8,
-      "losses": 9,
-      "goalsFor": 34,
-      "goalsAgainst": 36,
-      "goalDifference": -2
     },
     {
       "position": 15,
@@ -1675,14 +1648,14 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "MIR",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
       },
-      "points": 25,
-      "played": 25,
-      "wins": 6,
+      "points": 28,
+      "played": 26,
+      "wins": 7,
       "draws": 7,
       "losses": 12,
-      "goalsFor": 27,
-      "goalsAgainst": 39,
-      "goalDifference": -12
+      "goalsFor": 29,
+      "goalsAgainst": 40,
+      "goalDifference": -11
     },
     {
       "position": 17,
@@ -1712,13 +1685,13 @@ export const RADAR_FALLBACK: RadarPayload = {
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png"
       },
       "points": 25,
-      "played": 25,
+      "played": 26,
       "wins": 5,
       "draws": 10,
-      "losses": 10,
-      "goalsFor": 26,
-      "goalsAgainst": 31,
-      "goalDifference": -5
+      "losses": 11,
+      "goalsFor": 28,
+      "goalsAgainst": 34,
+      "goalDifference": -6
     },
     {
       "position": 19,
@@ -1730,13 +1703,13 @@ export const RADAR_FALLBACK: RadarPayload = {
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png"
       },
       "points": 23,
-      "played": 25,
+      "played": 26,
       "wins": 5,
       "draws": 8,
-      "losses": 12,
+      "losses": 13,
       "goalsFor": 30,
-      "goalsAgainst": 42,
-      "goalDifference": -12
+      "goalsAgainst": 43,
+      "goalDifference": -13
     },
     {
       "position": 20,
@@ -1747,255 +1720,253 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "CHA",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png"
       },
-      "points": 14,
-      "played": 24,
-      "wins": 2,
+      "points": 17,
+      "played": 25,
+      "wins": 3,
       "draws": 8,
       "losses": 14,
-      "goalsFor": 25,
-      "goalsAgainst": 49,
-      "goalDifference": -24
+      "goalsFor": 27,
+      "goalsAgainst": 50,
+      "goalDifference": -23
     }
   ],
   "news": [
     {
-      "id": "17218193",
-      "title": "De 'peitada' a pênalti: Fluminense se manifesta sobre polêmicas de arbitragem em vitória sobre Vasco",
-      "summary": "Mesmo com a vitória, Tricolor deixou o Maracanã insatisfeito com Davi Lacerda",
-      "url": "https://www.espn.com.br/futebol/fluminense/artigo/_/id/17218193/peitada-penalti-fluminense-manifesta-polemicas-arbitragem-vitoria-vasco",
-      "publishedAt": "2026-09-06T15:40:14Z",
+      "id": "17221401",
+      "title": "Memphis Depay desabafa sobre salários atrasados no Corinthians e minimiza pressão: 'Se você não entende...'",
+      "summary": "Craque holandês do Timão abriu o coração após tropeço contra a Chapecoense pelo Brasileirão",
+      "url": "https://www.espn.com.br/video/clip/_/id/17221401",
+      "publishedAt": "2026-09-07T02:56:23Z",
       "category": "news",
       "teams": [
-        "Fluminense",
-        "Vasco da Gama"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0906/r1712312_1296x729_16-9.jpg",
-      "imageAlt": "Jogadores do Fluminense comemoram gol, com Davi Lacerda ao fundo",
-      "imageCredit": "Wagner Meier/Getty Images"
-    },
-    {
-      "id": "17217564",
-      "title": "Lateral do Fluminense, Guga detona gramado 'desesperador' do Maracanã: 'Não me recordo de jogar em um campo tão ruim'",
-      "summary": "Fluminense venceu o Vasco por 1 a 0, no último sábado (5)",
-      "url": "https://www.espn.com.br/futebol/fluminense/artigo/_/id/17217564/fluminense-guga-detona-gramado-desesperador-maracana-nao-me-recordo-de-jogar-em-um-campo-tao-ruim",
-      "publishedAt": "2026-09-06T13:56:01Z",
-      "category": "news",
-      "teams": [
-        "Fluminense",
-        "Vasco da Gama"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0906/r1712245_1296x729_16-9.jpg",
-      "imageAlt": "Guga, lateral do Fluminense",
-      "imageCredit": "Getty Images"
-    },
-    {
-      "id": "17217437",
-      "title": "Guga critica árbitro de Fluminense x Vasco: 'Tem que ser punido'",
-      "summary": "Lateral do Fluminense fez duras críticas a Davi de Oliveira Lacerda após a vitória por 1 a 0 contra o Vasco",
-      "url": "https://www.espn.com.br/video/clip/_/id/17217437",
-      "publishedAt": "2026-09-06T13:24:51Z",
-      "category": "news",
-      "teams": [
-        "Fluminense",
-        "Vasco da Gama"
+        "Chapecoense",
+        "Corinthians"
       ],
       "imageUrl": null,
-      "imageAlt": "Guga critica árbitro de Fluminense x Vasco: 'Tem que ser punido'",
+      "imageAlt": "Memphis Depay desabafa sobre salários atrasados no Corinthians e minimiza pressão: 'Se você não entende...'",
       "imageCredit": null
     },
     {
-      "id": "17217390",
-      "title": "Guga detona gramado do Maracanã: 'Não me lembro de ter jogado em um campo tão ruim'",
-      "summary": "Lateral do Fluminense fez duras críticas após a vitória por 1 a 0 contra o Vasco",
-      "url": "https://www.espn.com.br/video/clip/_/id/17217390",
-      "publishedAt": "2026-09-06T13:16:54Z",
+      "id": "17221249",
+      "title": "Memphis desabafa sobre momento do Corinthians, diz por que sente falta de Yuri Alberto e é direto sobre salários atrasados: 'Nunca vivi algo assim na carreira'",
+      "summary": "O Corinthians foi derrotado neste domingo (06) de virada para a lanterna Chapecoense, por 2 a 1, em confronto pelo Brasileirão, disputado na Neo Química Arena",
+      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17221249/corinthians-memphis-depay-desabafa-sobre-momento-diz-sente-falta-yuri-alberto-direto-sobre-salarios-atrasados-nunca-vivi-algo-assim-carreira",
+      "publishedAt": "2026-09-07T03:02:27Z",
       "category": "news",
       "teams": [
-        "Fluminense",
-        "Vasco da Gama"
+        "Corinthians"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0907/r1712608_1296x729_16-9.jpg",
+      "imageAlt": "Memphis Depay, em ação pelo Corinthians contra a Chapecoense no Brasileirão",
+      "imageCredit": "Marcello Zambrana/AGIF"
+    },
+    {
+      "id": "17221162",
+      "title": "Abel ironiza microfones após efeito suspensivo: 'Hoje tinham três ali prontinhar para eu chutar, não vou mudar'",
+      "summary": "Treinador voltou à beira do campo após punição e reclamou da arbitragem",
+      "url": "https://www.espn.com.br/video/clip/_/id/17221162",
+      "publishedAt": "2026-09-07T01:56:55Z",
+      "category": "news",
+      "teams": [
+        "Botafogo",
+        "Palmeiras"
       ],
       "imageUrl": null,
-      "imageAlt": "Guga detona gramado do Maracanã: 'Não me lembro de ter jogado em um campo tão ruim'",
+      "imageAlt": "Abel ironiza microfones após efeito suspensivo: 'Hoje tinham três ali prontinhar para eu chutar, não vou mudar'",
       "imageCredit": null
     },
     {
-      "id": "17209502",
-      "title": "De passagem frustrada pelo Corinthians a garçom na Chapecoense: o que aconteceu com autor do primeiro gol na Arena",
-      "summary": "Partida entre Corinthians e Chapecoense marcará o reencontro do clube paulista com Giovanni Augusto",
-      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17209502/giovanni-augusto-passagem-frustrada-corinthians-garcom-chapecoense-autor-do-primeiro-gol-na-arena",
-      "publishedAt": "2026-09-06T12:06:11Z",
+      "id": "17221161",
+      "title": "'Há uma equipe que tem a obrigação de fazer muito mais', diz Abel após Flamengo ultrapassar o Palmeiras no Brasileirão",
+      "summary": "Rubro-Negro venceu o Remo e assumiu a liderança após 19 rodadas seguidas do Palmeiras na ponta",
+      "url": "https://www.espn.com.br/video/clip/_/id/17221161",
+      "publishedAt": "2026-09-07T01:52:40Z",
+      "category": "news",
+      "teams": [
+        "Botafogo",
+        "Palmeiras"
+      ],
+      "imageUrl": null,
+      "imageAlt": "'Há uma equipe que tem a obrigação de fazer muito mais', diz Abel após Flamengo ultrapassar o Palmeiras no Brasileirão",
+      "imageCredit": null
+    },
+    {
+      "id": "17221153",
+      "title": "Abel agradece elogio de Ancelotti, exalta 'valorização do futuro da Seleção Brasileira' no Palmeiras e lamenta 'tubarões da Europa': 'Não temos como competir'",
+      "summary": "Treinador palmeirense abriu o jogo em coletiva após empate contra o Botafogo",
+      "url": "https://www.espn.com.br/video/clip/_/id/17221153",
+      "publishedAt": "2026-09-07T01:48:02Z",
+      "category": "news",
+      "teams": [
+        "Botafogo",
+        "Palmeiras"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Abel agradece elogio de Ancelotti, exalta 'valorização do futuro da Seleção Brasileira' no Palmeiras e lamenta 'tubarões da Europa': 'Não temos como competir'",
+      "imageCredit": null
+    },
+    {
+      "id": "17221054",
+      "title": "Abel 'joga responsabilidade' para o Flamengo e ironiza microfones à sua volta em Botafogo x Palmeiras: 'E vocês não me viram chutar nenhum'",
+      "summary": "Abel Ferreira ironizou a presença de muitos microfones à sua volta em Botafogo x Palmeiras pelo Brasileirão",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17221054/abel-ferreira-joga-responsabilidade-para-flamengo-ironiza-microfones-a-sua-volta-botafogo-x-palmeiras-prontinhos-nao-me-viram-chutar-nenhum",
+      "publishedAt": "2026-09-07T02:27:00Z",
+      "category": "news",
+      "teams": [
+        "Palmeiras",
+        "Flamengo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0907/r1712598_1296x729_16-9.jpg",
+      "imageAlt": "Técnico português Abel Ferreira, do Palmeiras, em partida contra o Botafogo, no Nilton Santos, na Zona Norte do Rio de Janeiro (RJ), pela rodada 26 do Brasileirão de 2026",
+      "imageCredit": "Jorge Rodrigues/AGIF"
+    },
+    {
+      "id": "17221086",
+      "title": "'Time sem vergonha': torcida do Corinthians protesta após derrota para a Chapecoense",
+      "summary": "O Corinthians perdeu para a Chapecoense por 2 a 1 neste domingo (9) e viu a torcida protestar contra o elenco",
+      "url": "https://www.espn.com.br/video/clip/_/id/17221086",
+      "publishedAt": "2026-09-07T01:32:06Z",
+      "category": "news",
+      "teams": [
+        "Chapecoense",
+        "Corinthians"
+      ],
+      "imageUrl": null,
+      "imageAlt": "'Time sem vergonha': torcida do Corinthians protesta após derrota para a Chapecoense",
+      "imageCredit": null
+    },
+    {
+      "id": "17221051",
+      "title": "Barros diz que Marçal deveria ter sido expulso em Botafogo x Palmeiras e é direto sobre briga pelo título do Brasileirão: 'Não vamos cometer os mesmos erros'",
+      "summary": "Após o empate sem gols contra o Botafogo, o Palmeiras perdeu a liderança para o Flamengo neste domingo (06)",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17221051/brasileirao-botafogo-palmeiras-anderson-barros-marcal-deveria-expulso-direto-sobre-briga-titulo-nao-vamos-cometer-mesmos-erros",
+      "publishedAt": "2026-09-07T01:27:21Z",
+      "category": "news",
+      "teams": [
+        "Palmeiras",
+        "Botafogo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2024/0512/r1332095_1296x729_16-9.jpg",
+      "imageAlt": "Anderson Barros, diretor de futebol do Palmeiras",
+      "imageCredit": "Cesar Greco/ S.E. Palmeiras"
+    },
+    {
+      "id": "17220979",
+      "title": "Flamengo dispara em chances de título após assumir a liderança do Brasileirão",
+      "summary": "O Mengo assumiu a liderança do Campeonato Brasileiro neste domingo (06), em confronto pela 26ª rodada do torneio",
+      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17220979/flamengo-dispara-chances-titulo-apos-assumir-lideranca-brasileirao",
+      "publishedAt": "2026-09-07T01:13:17Z",
+      "category": "news",
+      "teams": [
+        "Flamengo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0907/r1712587_1296x729_16-9.jpg",
+      "imageAlt": "Flamengo comemora vitória contra Remo no Brasileirão",
+      "imageCredit": "Fernando Torres/AGIF"
+    },
+    {
+      "id": "17220976",
+      "title": "Corinthians leva virada da 'lanterna' Chapecoense e perde mais uma em casa no Brasileirão; VEJA como foi",
+      "summary": "Equipes se enfrentaram pela 26ª rodada do Brasileirão",
+      "url": "https://www.espn.com.br/video/clip/_/id/17220976",
+      "publishedAt": "2026-09-07T00:49:51Z",
+      "category": "news",
+      "teams": [
+        "Chapecoense",
+        "Corinthians"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Corinthians leva virada da 'lanterna' Chapecoense e perde mais uma em casa no Brasileirão; VEJA como foi",
+      "imageCredit": null
+    },
+    {
+      "id": "17220962",
+      "title": "Corinthians 1 x 2 Chapecoense: os gols da derrota do Timão em casa",
+      "summary": "Equipes se enfrentaram pela 26ª rodada do Brasileirão",
+      "url": "https://www.espn.com.br/video/clip/_/id/17220962",
+      "publishedAt": "2026-09-07T01:01:41Z",
+      "category": "news",
+      "teams": [
+        "Chapecoense",
+        "Corinthians"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Corinthians 1 x 2 Chapecoense: os gols da derrota do Timão em casa",
+      "imageCredit": null
+    },
+    {
+      "id": "17220804",
+      "title": "Corinthians leva virada da 'lanterninha' Chapecoense e perde a 4ª seguida com Diniz no Brasileirão",
+      "summary": "Na Neo Química Arena, o Corinthians levou virada da Chapecoense e perdeu a quarta seguida no Brasileirão",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17220804/corinthians-leva-virada-lanterninha-chapecoense-perde-quarta-seguida-com-fernando-diniz-brasileirao",
+      "publishedAt": "2026-09-07T00:50:11Z",
       "category": "news",
       "teams": [
         "Corinthians",
         "Chapecoense"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2018/0823/r418827_1296x729_16-9.jpg",
-      "imageAlt": "Marquinhos Gabriel e Giovanni Augusto, no vestiário do Corinthians, no Brasileiro de 2016",
-      "imageCredit": "Rodrigo Gazzanel/Agência Corinthians"
+      "imageUrl": "https://a.espncdn.com/photo/2026/0907/r1712578_1296x729_16-9.jpg",
+      "imageAlt": "Jogadores da Chapecoense comemorando virada sobre o Corinthians, na Neo Química Arena, em Itaquera (SP), pela rodada 26 do Brasileirão de 2026",
+      "imageCredit": "Marcello Zambrana/AGIF"
     },
     {
-      "id": "17214270",
-      "title": "As mudanças que Flamengo deve ter no Brasileirão e como Libertadores impacta em time de Jardim",
-      "summary": "Time visita o Remo poucos dias antes de iniciar confronto com o Independiente del Valle",
-      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17214270/mudancas-flamengo-deve-brasileirao-como-libertadores-impacta-time-jardim",
-      "publishedAt": "2026-09-06T11:55:10Z",
+      "id": "17220698",
+      "title": "Palmeiras fica no empate com o Botafogo e perde liderança do Brasileirão para o Flamengo; veja como foi",
+      "summary": "Alviverde esbarrou em grande atuação do goleiro botafoguense e empatou o segundo jogo seguido na Série A",
+      "url": "https://www.espn.com.br/video/clip/_/id/17220698",
+      "publishedAt": "2026-09-06T23:47:57Z",
       "category": "news",
       "teams": [
-        "Flamengo",
-        "Remo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0813/r1701135_1296x729_16-9.jpg",
-      "imageAlt": "Leonardo Jardim durante jogo do Flamengo na Libertadores",
-      "imageCredit": "Pedro Vilela/Getty Images"
-    },
-    {
-      "id": "17216445",
-      "title": "Tem vaga na Seleção de Ancelotti? VEJA gols de Pedro pelo Flamengo em 2026",
-      "summary": "Camisa 9 rubro-negro é esperança de gols contra o Remo pelo Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17216445",
-      "publishedAt": "2026-09-06T02:36:29Z",
-      "category": "news",
-      "teams": [
-        "Flamengo",
-        "Remo"
+        "Botafogo",
+        "Palmeiras"
       ],
       "imageUrl": null,
-      "imageAlt": "Tem vaga na Seleção de Ancelotti? VEJA gols de Pedro pelo Flamengo em 2026",
+      "imageAlt": "Palmeiras fica no empate com o Botafogo e perde liderança do Brasileirão para o Flamengo; veja como foi",
       "imageCredit": null
     },
     {
-      "id": "17216412",
-      "title": "Em jogo 'maluco' de cinco gols, Bahia vira sobre o Bragantino fora de casa e entra no G-4 do Brasileirão",
-      "summary": "Imagens: Globo/Premiere. Tricolor de Aço reagiu e conquistou importante triunfo pelo Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17216412",
-      "publishedAt": "2026-09-06T02:30:29Z",
+      "id": "17220671",
+      "title": "Rua! Barboza leva um amarelo em cada tempo e acaba expulso de Palmeiras x Botafogo em reencontro com ex-clube; VEJA",
+      "summary": "Verdão ficou no empate e perdeu a liderança do Brasileirão para o Flamengo",
+      "url": "https://www.espn.com.br/video/clip/_/id/17220671",
+      "publishedAt": "2026-09-06T23:44:08Z",
       "category": "news",
       "teams": [
-        "Bahia",
-        "Red Bull Bragantino"
+        "Botafogo",
+        "Palmeiras"
       ],
       "imageUrl": null,
-      "imageAlt": "Em jogo 'maluco' de cinco gols, Bahia vira sobre o Bragantino fora de casa e entra no G-4 do Brasileirão",
+      "imageAlt": "Rua! Barboza leva um amarelo em cada tempo e acaba expulso de Palmeiras x Botafogo em reencontro com ex-clube; VEJA",
       "imageCredit": null
     },
     {
-      "id": "17216369",
-      "title": "Fluminense vence Vasco com gol de Lucho Acosta e mantém rival no Z-4 do Brasileirão; VEJA como foi",
-      "summary": "Equipes se enfrentaram pela 26ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17216369",
-      "publishedAt": "2026-09-06T02:19:53Z",
+      "id": "17220160",
+      "title": "Palmeiras tem Alexander Barboza expulso, fica no 0 a 0 com o Botafogo e vê Flamengo tomar liderança do Brasileirão",
+      "summary": "No Nilton Santos, Botafogo e Palmeiras empataram por 0 a 0 pela 26ª rodada do Brasileirão",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17220160/palmeiras-nao-sai-do-0-a-0-com-botafogo-ve-flamengo-tomar-lideranca-brasileirao-alexander-barboza-expulso",
+      "publishedAt": "2026-09-06T23:49:25Z",
       "category": "news",
       "teams": [
-        "Fluminense",
-        "Vasco da Gama"
+        "Botafogo",
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0906/r1712537_1296x729_16-9.jpg",
+      "imageAlt": "Volante brasileiro Marlon Freitas e atacante Arthur Cabral disputam bola em jogo entre Botafogo e Palmeiras, no Nilton Santos, no Rio de Janeiro (RJ), pela rodada 26 do Brasileirão de 2026",
+      "imageCredit": "Vitor Silva/Botafogo"
+    },
+    {
+      "id": "17220292",
+      "title": "Clima tenso na Raposa? Matheus Pereira perde primeiro pênalti, Kaio Jorge pega a bola no segundo, discute com o meia e marca; VEJA",
+      "summary": "Cruzeiro venceu, mas disputa entre Matheus Pereira e Kaio Jorge animou bastidores",
+      "url": "https://www.espn.com.br/video/clip/_/id/17220292",
+      "publishedAt": "2026-09-06T22:22:00Z",
+      "category": "news",
+      "teams": [
+        "Athletico Paranaense",
+        "Cruzeiro"
       ],
       "imageUrl": null,
-      "imageAlt": "Fluminense vence Vasco com gol de Lucho Acosta e mantém rival no Z-4 do Brasileirão; VEJA como foi",
-      "imageCredit": null
-    },
-    {
-      "id": "17216307",
-      "title": "O gol de Lucho Acosta que garantiu a vitória do Fluminense sobre o Vasco no Brasileirão",
-      "summary": "Equipes se enfrentaram pela 26ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17216307",
-      "publishedAt": "2026-09-06T02:07:58Z",
-      "category": "news",
-      "teams": [
-        "Fluminense",
-        "Vasco da Gama"
-      ],
-      "imageUrl": null,
-      "imageAlt": "O gol de Lucho Acosta que garantiu a vitória do Fluminense sobre o Vasco no Brasileirão",
-      "imageCredit": null
-    },
-    {
-      "id": "17215794",
-      "title": "Lucho Acosta dá fim a 'jejum', Fluminense leva a melhor em clássico e mantém Vasco no Z-4 do Brasileirão",
-      "summary": "No Maracanã, o Fluminense venceu o Vasco em clássico pela 26ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17215794/fluminense-vence-vasco-classico-mantem-rival-z4-brasileirao-lucho-acosta-da-fim-a-jejum",
-      "publishedAt": "2026-09-06T02:26:14Z",
-      "category": "news",
-      "teams": [
-        "Fluminense",
-        "Vasco da Gama"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0906/r1712107_1296x729_16-9.jpg",
-      "imageAlt": "Meia argentino Lucho Acosta comemora gol pelo Fluminense sobre o Vasco, no Maracanã, no Rio de Janeiro (RJ), pela rodada 26 do Brasileirão de 2026",
-      "imageCredit": "Marina Garcia/ Fluminense"
-    },
-    {
-      "id": "17216122",
-      "title": "Dorival é direto sobre poupar contra o Palmeiras e vê 'sinergia' entre São Paulo e torcida: 'Aconteceu em 2023 e está se repetindo'",
-      "summary": "O técnico concedeu coletiva após a vitória do São Paulo por 2 a 0 sobre o Atlético-MG neste sábado (05)",
-      "url": "https://www.espn.com.br/futebol/sao-paulo/artigo/_/id/17216122/dorival-junior-direto-sobre-poupar-contra-palmeiras-sinergia-entre-sao-paulo-torcida-aconteceu-2023-esta-repetindo",
-      "publishedAt": "2026-09-06T01:56:19Z",
-      "category": "news",
-      "teams": [
-        "São Paulo",
-        "Atlético-MG"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0906/r1712106_1296x729_16-9.jpg",
-      "imageAlt": "Dorival Junior, técnico do São Paulo, durante jogo contra o Atlético-MG",
-      "imageCredit": "Jota Erre/AGIF"
-    },
-    {
-      "id": "17216118",
-      "title": "Hulk chama árbitro de Fluminense x Vasco de 'sem personalidade' e detona: 'Deu uma peitada no Canobbio, nunca vi isso...'",
-      "summary": "Hulk detonou o árbitro Davi Lacerda durante clássico do Fluminense contra o Vasco pelo Brasileirão",
-      "url": "https://www.espn.com.br/futebol/fluminense/artigo/_/id/17216118/fluminense-x-vasco-hulk-chama-arbitro-sem-personalidade-detona-deu-uma-peitada-canobbio-nunca-vi-isso",
-      "publishedAt": "2026-09-06T01:21:25Z",
-      "category": "news",
-      "teams": [
-        "Fluminense",
-        "Vasco da Gama"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0906/r1712096_1296x729_16-9.jpg",
-      "imageAlt": "Atacante brasileiro Hulk, do Fluminense, em clássico contra o Vasco, no Maracanã, no Rio de Janeiro (RJ), pela rodada 26 do Brasileirão de 2026",
-      "imageCredit": "Marina Garcia/ Fluminense"
-    },
-    {
-      "id": "17216095",
-      "title": "Sinalizadores no setor visitante causam princípio de incêndio em São Paulo x Atlético-MG no Morumbis; veja imagens",
-      "summary": "O São Paulo derrotou o Atlético-MG neste sábado (05) por 2 a 0, em confronto disputado no Morumbis",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17216095/sao-paulo-atletico-mg-sinalizadores-setor-visitante-causa-principio-incendio-morumbis-veja-imagens",
-      "publishedAt": "2026-09-06T01:27:42Z",
-      "category": "news",
-      "teams": [
-        "São Paulo",
-        "Atlético-MG"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0906/r1712078_1296x729_16-9.jpg",
-      "imageAlt": "Sinalizadores na torcida do Atlético-MG, no Morumbis",
-      "imageCredit": "Getty Images"
-    },
-    {
-      "id": "17216028",
-      "title": "Torcida do Atlético-MG causa princípio de incêndio com sinalizadores no Morumbis durante derrota para o São Paulo; ASSISTA",
-      "summary": "São Paulo venceu o Galo por 2 a 0 no Morumbis, e jogo teve cenas de confusão na reta final",
-      "url": "https://www.espn.com.br/video/clip/_/id/17216028",
-      "publishedAt": "2026-09-06T00:54:36Z",
-      "category": "news",
-      "teams": [
-        "Atlético-MG",
-        "São Paulo"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Torcida do Atlético-MG causa princípio de incêndio com sinalizadores no Morumbis durante derrota para o São Paulo; ASSISTA",
-      "imageCredit": null
-    },
-    {
-      "id": "17215871",
-      "title": "São Paulo se impõe contra o Atlético-MG, engata segunda vitória seguida e ganha moral antes de 'decisão' contra o Boca; veja como foi",
-      "summary": "Tricolor marcou com Luciano e Iago Borduchi e venceu no Morumbis",
-      "url": "https://www.espn.com.br/video/clip/_/id/17215871",
-      "publishedAt": "2026-09-06T00:10:09Z",
-      "category": "news",
-      "teams": [
-        "Atlético-MG",
-        "São Paulo"
-      ],
-      "imageUrl": null,
-      "imageAlt": "São Paulo se impõe contra o Atlético-MG, engata segunda vitória seguida e ganha moral antes de 'decisão' contra o Boca; veja como foi",
+      "imageAlt": "Clima tenso na Raposa? Matheus Pereira perde primeiro pênalti, Kaio Jorge pega a bola no segundo, discute com o meia e marca; VEJA",
       "imageCredit": null
     }
   ]
