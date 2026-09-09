@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-09-08T17:28:16.733Z",
-  "expiresAt": "2026-09-12T17:28:16.733Z",
+  "generatedAt": "2026-09-09T17:16:19.696Z",
+  "expiresAt": "2026-09-13T17:16:19.696Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -22,7 +22,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "id": "bra.copa_do_brazil",
       "name": "Copa do Brasil",
       "shortName": "Copa do Brasil",
-      "matchCount": 1,
+      "matchCount": 0,
       "liveCount": 0,
       "nextMatchAt": null
     },
@@ -32,7 +32,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Libertadores",
       "matchCount": 8,
       "liveCount": 0,
-      "nextMatchAt": "2026-09-08T22:00Z"
+      "nextMatchAt": "2026-09-09T22:00Z"
     },
     {
       "id": "conmebol.sudamericana",
@@ -40,37 +40,10 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Sul-Americana",
       "matchCount": 6,
       "liveCount": 0,
-      "nextMatchAt": "2026-09-08T22:00Z"
+      "nextMatchAt": "2026-09-09T22:00Z"
     }
   ],
   "matches": [
-    {
-      "id": "401909114",
-      "competitionId": "bra.copa_do_brazil",
-      "competitionName": "Copa do Brasil",
-      "date": "2026-09-03T23:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Arena do Grêmio",
-      "home": {
-        "id": "6273",
-        "name": "Grêmio",
-        "shortName": "Grêmio",
-        "abbreviation": "GRE",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png"
-      },
-      "away": {
-        "id": "1936",
-        "name": "Internacional",
-        "shortName": "Internacional",
-        "abbreviation": "INT",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png"
-      },
-      "homeScore": "3",
-      "awayScore": "1",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401909114/internacional-gremio"
-    },
     {
       "id": "401841224",
       "competitionId": "bra.1",
@@ -346,8 +319,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.libertadores",
       "competitionName": "CONMEBOL Libertadores",
       "date": "2026-09-08T22:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estadio do Maracana",
       "home": {
@@ -364,8 +337,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "PLA",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "2",
+      "awayScore": "0",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401912518/platense-fluminense"
     },
     {
@@ -373,8 +346,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.sudamericana",
       "competitionName": "CONMEBOL Sudamericana",
       "date": "2026-09-08T22:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estadio Nemesio Camacho El Campín",
       "home": {
@@ -391,8 +364,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "VAS",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "0",
+      "awayScore": "0",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401913960/vasco-da-gama-independiente-santa-fe"
     },
     {
@@ -400,8 +373,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.sudamericana",
       "competitionName": "CONMEBOL Sudamericana",
       "date": "2026-09-09T00:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Alberto José Armando (La Bombonera)",
       "home": {
@@ -418,8 +391,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "SAO",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "1",
+      "awayScore": "0",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401912542/sao-paulo-boca-juniors"
     },
     {
@@ -1651,6 +1624,207 @@ export const RADAR_FALLBACK: RadarPayload = {
   ],
   "news": [
     {
+      "id": "17231423",
+      "title": "Por que Hulk vai desfalcar o Fluminense contra o Atlético-MG neste ano e também em 2027? Entenda razão",
+      "summary": "Destaque na vitória do Fluminense por 2 a 0 sobre o Platense, pela Libertadores, Hulk está fora do duelo contra o Atlético-MG",
+      "url": "https://www.espn.com.br/futebol/fluminense/artigo/_/id/17231423/por-que-hulk-vai-desfalcar-fluminense-contra-atletico-mg-neste-ano-tambem-2027-entenda-razao",
+      "publishedAt": "2026-09-09T16:47:48Z",
+      "category": "news",
+      "teams": [
+        "Fluminense",
+        "Atlético-MG"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0909/r1713797_1296x864_3-2.jpg",
+      "imageAlt": "Hulk comemora gol do Fluminense contra a Platense pela Libertadores",
+      "imageCredit": "Ruano Carneiro/Getty Images"
+    },
+    {
+      "id": "17231182",
+      "title": "Leila Pereira cobra elenco e comissão técnica do Palmeiras após queda do time às vésperas de 'decisão' na Libertadores; VEJA detalhes",
+      "summary": "Um dos motivos da reunião foi a perda da liderança do Brasileirão",
+      "url": "https://www.espn.com.br/video/clip/_/id/17231182",
+      "publishedAt": "2026-09-09T16:57:40Z",
+      "category": "news",
+      "teams": [
+        "Palmeiras"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Leila Pereira cobra elenco e comissão técnica do Palmeiras após queda do time às vésperas de 'decisão' na Libertadores; VEJA detalhes",
+      "imageCredit": null
+    },
+    {
+      "id": "17230783",
+      "title": "Além da 'ajuda' de Neymar: como Santos aliviou cofres para contratar Arthur, Cebolinha e mirar Coutinho",
+      "summary": "Santos fez diversas movimentações no mercado durante a atual janela de transferências",
+      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17230783/alem-ajuda-neymar-como-santos-aliviou-cofres-contratar-arthur-cebolinha-mirar-coutinho",
+      "publishedAt": "2026-09-09T15:16:33Z",
+      "category": "market",
+      "teams": [
+        "Santos"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0909/r1713751_1296x729_16-9.jpg",
+      "imageAlt": "Arthur durante treino do Santos, no CT Rei Pelé",
+      "imageCredit": "Raul Baretta/Santos FC"
+    },
+    {
+      "id": "17230667",
+      "title": "Presidente do Inter se reúne com opositores para discutir saída de Pezzolano e substituto que 'invada' próximo mandato; veja os bastidores",
+      "summary": "Colorado está afundado na zona de rebaixamento do Campeonato Brasileiro",
+      "url": "https://www.espn.com.br/futebol/internacional/artigo/_/id/17230667/presidente-do-inter-se-reune-com-opositores-para-discutir-saida-de-pezzolano-e-substituto-que-invada-proximo-mandato-veja-os-bastidores",
+      "publishedAt": "2026-09-09T14:08:21Z",
+      "category": "news",
+      "teams": [
+        "Internacional"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0122/r1603886_1296x729_16-9.jpg",
+      "imageAlt": "Paulo Pezzolano, técnico do Internacional, no Beira-Rio, durante partida contra o Inter Santa Maria, no Gaúchão 2026",
+      "imageCredit": "Gazeta Press"
+    },
+    {
+      "id": "17230440",
+      "title": "Botafogo recusa nova oferta de quase R$ 46 milhões do Tigres, do México, por Arthur Cabral, que não deve deixar o clube",
+      "summary": "Centroavante deve mesmo permanecer no Glorioso",
+      "url": "https://www.espn.com.br/futebol/botafogo/artigo/_/id/17230440/botafogo-recusa-nova-oferta-de-quase-46-milhoes-do-tigres-do-mexico-por-arthur-cabral-que-nao-deve-deixar-o-clube",
+      "publishedAt": "2026-09-09T13:18:47Z",
+      "category": "market",
+      "teams": [
+        "Botafogo",
+        "Tigres UANL"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2025/0728/r1524598_1296x729_16-9.jpg",
+      "imageAlt": "Arthur Cabral, atacante do Botafogo",
+      "imageCredit": "Vitor Santos / Botafogo"
+    },
+    {
+      "id": "17230216",
+      "title": "Palmeiras tem reunião geral em tom de cobrança após queda de rendimento às vésperas de decisão pela Libertadores",
+      "summary": "Equipe paulista encara a LDU, nesta quarta-feira (9), pelas quartas de final da Libertadores",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17230216/palmeiras-tem-reuniao-geral-em-tom-de-cobranca-apos-queda-de-rendimento-as-vesperas-de-decisao-pela-libertadores",
+      "publishedAt": "2026-09-09T16:04:45Z",
+      "category": "news",
+      "teams": [
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0210/r1613457_1296x729_16-9.jpg",
+      "imageAlt": "Dirigente brasileira Leila Pereira, presidente do Palmeiras, na Supercopa feminina de 2026 entre Palmeiras e Corinthians, na Arena Barueri, em Barueri (SP)",
+      "imageCredit": "Theo Daolio/Mochila Press/Gazeta Press"
+    },
+    {
+      "id": "17222983",
+      "title": "Como 'Barba' transformou Atlético-MG em candidato a dois títulos no ano e o que assistir no Disney+",
+      "summary": "Atlético-MG e Santos se enfrentam pelas quartas de final da CONMEBOL Sul-Americana",
+      "url": "https://www.espn.com.br/futebol/sul-americana/artigo/_/id/17222983/sul-americana-atletico-mg-disneyplus-eduardo-dominguez-transformou-equipe-candidato-dois-titulos-no-ano",
+      "publishedAt": "2026-09-09T03:26:09Z",
+      "category": "news",
+      "teams": [
+        "Atlético-MG",
+        "Santos"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0427/r1649821_1296x729_16-9.jpg",
+      "imageAlt": "Técnico Eduardo Domínguez durante jogo entre Atlético-MG e Flamengo",
+      "imageCredit": "Pedro Souza/Atlético-MG"
+    },
+    {
+      "id": "17229347",
+      "title": "Ziyech desembarca no Rio para fazer exames e assinar com o Botafogo",
+      "summary": "Hakim Ziyech desembarcou no Rio de Janeiro na noite desta terça-feira (8) para realizar exames médicos e assinar com o Botafogo",
+      "url": "https://www.espn.com.br/futebol/botafogo/artigo/_/id/17229347/botafogo-ziyech-desembarca-rio-de-janeiro-para-fazer-exames-assinar-contrato",
+      "publishedAt": "2026-09-09T02:36:04Z",
+      "category": "news",
+      "teams": [
+        "Botafogo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0909/r1713584_1279x719_16-9.jpg",
+      "imageAlt": "Ziyech com a bandeira do Botafogo no desembarque no Rio de Janeiro",
+      "imageCredit": "Vitor Silva / BFR"
+    },
+    {
+      "id": "17229315",
+      "title": "Ziyech chega ao Rio de Janeiro para assinar com o Botafogo",
+      "summary": "Via Botafogo TV/Youtube | Marroquino desembarcou no Rio na noite desta terça-feira (8) com recepção no Galeão",
+      "url": "https://www.espn.com.br/video/clip/_/id/17229315",
+      "publishedAt": "2026-09-09T02:24:12Z",
+      "category": "news",
+      "teams": [
+        "Botafogo"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Ziyech chega ao Rio de Janeiro para assinar com o Botafogo",
+      "imageCredit": null
+    },
+    {
+      "id": "17229197",
+      "title": "Técnico do Vasco comenta interesse em Richarlison: 'Acho que meu silêncio diz tudo'",
+      "summary": "Pedro Emanuel evitou comentar sobre o interesse do Vasco no atacante Richarlison",
+      "url": "https://www.espn.com.br/futebol/vasco/artigo/_/id/17229197/vasco-treinador-comenta-interesse-atacante-richarlison-meu-silencio-diz-tudo",
+      "publishedAt": "2026-09-09T01:49:45Z",
+      "category": "news",
+      "teams": [
+        "Vasco da Gama"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0829/r1708676_1296x729_16-9.jpg",
+      "imageAlt": "Richarlison durante jogo entre Tottenham e Charlton, pela Copa da Liga",
+      "imageCredit": "Shaun Brooks/CameraSport via Getty Images"
+    },
+    {
+      "id": "17229003",
+      "title": "Athletico-PR alinha renovação com Viveros e projeta venda de artilheiro do Brasileirão por cifras milionárias",
+      "summary": "Athletico-PR tem acordo verbal para renovar o contrato do atacante colombiano Kevin Viveros",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17229003/athletico-pr-alinha-renovacao-com-viveros-e-projeta-venda-artilheiro-brasileirao-cifras-milionarias",
+      "publishedAt": "2026-09-09T00:46:19Z",
+      "category": "market",
+      "teams": [
+        "Athletico Paranaense"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0427/r1649769_1296x729_16-9.jpg",
+      "imageAlt": "Viveros comemora mais um gol com a camisa do Athletico-PR",
+      "imageCredit": "Paulo De Tarso/AGIF"
+    },
+    {
+      "id": "17228517",
+      "title": "Empresário altera proposta por SAF do Vasco com seguro de R$ 324 milhões",
+      "summary": "A empresa Almirante Participações, do empresário Marcos Lamacchia, apresentou uma emenda com alterações",
+      "url": "https://www.espn.com.br/futebol/vasco/artigo/_/id/17228517/empresario-altera-proposta-por-saf-do-vasco-com-seguro-de-r-324-milhoes",
+      "publishedAt": "2026-09-09T15:25:15Z",
+      "category": "market",
+      "teams": [
+        "Vasco da Gama"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0904/r1711546_1296x729_16-9.jpg",
+      "imageAlt": "Vista de São Januário antes de jogo do Vasco",
+      "imageCredit": "Matheus Lima/Vasco"
+    },
+    {
+      "id": "17227660",
+      "title": "Melhor Gabigol desde o Flamengo? Jailson Vilas Boas analisa momento do camisa 9 do Santos; VEJA",
+      "summary": "Atacante tem 19 gols pelo Peixe nesta temporada",
+      "url": "https://www.espn.com.br/video/clip/_/id/17227660",
+      "publishedAt": "2026-09-08T20:35:44Z",
+      "category": "news",
+      "teams": [
+        "Brasil",
+        "Santos"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Melhor Gabigol desde o Flamengo? Jailson Vilas Boas analisa momento do camisa 9 do Santos; VEJA",
+      "imageCredit": null
+    },
+    {
+      "id": "17227391",
+      "title": "Philippe Coutinho no Santos? Veja lances do meio-campista pelo Vasco",
+      "summary": "Jogador não entra em campo desde fevereiro de 2026",
+      "url": "https://www.espn.com.br/video/clip/_/id/17227391",
+      "publishedAt": "2026-09-08T19:22:38Z",
+      "category": "news",
+      "teams": [
+        "Santos",
+        "Vasco da Gama"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Philippe Coutinho no Santos? Veja lances do meio-campista pelo Vasco",
+      "imageCredit": null
+    },
+    {
       "id": "17225901",
       "title": "Marcinho marca duas vezes na vitória da Chapecoense e é o craque da 26ª rodada no Bola de Prata ESPN",
       "summary": "Veja como ficou a seleção do Bola de Prata após a 26ª rodada do Brasileirão",
@@ -1669,7 +1843,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "title": "Internacional sonda Eduardo Coudet para possível retorno ao clube",
       "summary": "Segundo apurou a ESPN, Internacional fez sondagem pelo técnico Eduardo Coudet, que estava no River Plate",
       "url": "https://www.espn.com.br/futebol/internacional/artigo/_/id/17225818/internacional-sonda-tecnico-eduardo-coudet-possivel-retorno-clube",
-      "publishedAt": "2026-09-08T15:17:46Z",
+      "publishedAt": "2026-09-08T18:19:05Z",
       "category": "news",
       "teams": [
         "Internacional"
@@ -1677,216 +1851,6 @@ export const RADAR_FALLBACK: RadarPayload = {
       "imageUrl": "https://a.espncdn.com/photo/2026/0908/r1713199_1080x608_16-9.jpg",
       "imageAlt": "Eduardo Coudet durante apresentação como técnico do Internacional",
       "imageCredit": "Ricardo Duarte/Internacional"
-    },
-    {
-      "id": "17225330",
-      "title": "Presidente do Vitória detona Grêmio: 'Seria injustiça perder para um time caloteiro'",
-      "summary": "Presidente do Vitória, Fábio Mota deu entrevista fortíssima após a vitória sobre o Grêmio, pelo Campeonato Brasileiro",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17225330/presidente-do-vitoria-detona-gremio-seria-injustica-perder-time-caloteiro",
-      "publishedAt": "2026-09-08T12:36:49Z",
-      "category": "news",
-      "teams": [
-        "Vitória",
-        "Grêmio"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0908/r1713156_1296x729_16-9.jpg",
-      "imageAlt": "Lance de jogo entre Vitória e Grêmio, pelo Campeonato Brasileiro",
-      "imageCredit": "Celo Gil/Grêmio FBPA"
-    },
-    {
-      "id": "17225257",
-      "title": "Flamengo é indicado a melhor clube do ano na Bola de Ouro; veja concorrentes",
-      "summary": "Flamengo está entre os indicados ao prêmio de clube do ano na 'Bola de Ouro', organizada pela revista France Football",
-      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17225257/flamengo-indicado-melhor-clube-ano-premio-bola-ouro-veja-concorrentes",
-      "publishedAt": "2026-09-08T15:54:53Z",
-      "category": "news",
-      "teams": [
-        "Arsenal",
-        "Bayern Munich",
-        "Bodo/Glimt"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2025/1204/r1584738_1296x729_16-9.jpg",
-      "imageAlt": "Jogadores do Flamengo comemoram a conquista da Libertadores 2025",
-      "imageCredit": "EFE/Paolo Aguilar"
-    },
-    {
-      "id": "17225250",
-      "title": "Jogador do Vitória lembra ida frustrada para o Grêmio e detona clube gaúcho: 'Se não estiverem na zona (de rebaixamento), que entrem e não saiam mais'",
-      "summary": "Créditos: Rafa Reina/Canal do Dinâmico",
-      "url": "https://www.espn.com.br/video/clip/_/id/17225250",
-      "publishedAt": "2026-09-08T10:48:56Z",
-      "category": "news",
-      "teams": [
-        "Grêmio",
-        "Vitória"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Jogador do Vitória lembra ida frustrada para o Grêmio e detona clube gaúcho: 'Se não estiverem na zona (de rebaixamento), que entrem e não saiam mais'",
-      "imageCredit": null
-    },
-    {
-      "id": "17224986",
-      "title": "Jogador do Vitória lembra ida frustrada para o Grêmio, fala em 'sacanagem' do clube gaúcho e dispara: 'Que entre no Z-4 e não saia mais'",
-      "summary": "Volante do Vitória, Caique lembrou ida frustrada para o Grêmio em 2025 e desabafou",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17224986/jogador-vitoria-caique-lembra-ida-frustrada-gremio-fala-em-sacanagem-clube-gaucho-dispara-que-entre-no-z4-nao-saia-mais",
-      "publishedAt": "2026-09-08T10:44:13Z",
-      "category": "news",
-      "teams": [
-        "Vitória",
-        "Grêmio"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0908/r1713096_1296x729_16-9.jpg",
-      "imageAlt": "Volante brasileiro Caique durante treino do Vitória, em Salvador (BA)",
-      "imageCredit": "Victor Ferreira / EC Vitória"
-    },
-    {
-      "id": "17224979",
-      "title": "Elias critica postura de Abel após Palmeiras perder a liderança do Brasileirão para o Flamengo: 'Sempre arruma desculpa'",
-      "summary": "Assista ao Resenha pela ESPN no Plano Premium do Disney+",
-      "url": "https://www.espn.com.br/video/clip/_/id/17224979",
-      "publishedAt": "2026-09-08T03:45:26Z",
-      "category": "news",
-      "teams": [
-        "Botafogo",
-        "Palmeiras"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Elias critica postura de Abel após Palmeiras perder a liderança do Brasileirão para o Flamengo: 'Sempre arruma desculpa'",
-      "imageCredit": null
-    },
-    {
-      "id": "17224931",
-      "title": "De 'não dá para acreditar' a 'desculpa já está aí': Resenha da Rodada debate declaração de Abel após Palmeiras perder liderança do Brasileirão",
-      "summary": "Resenha da Rodada debateu sobre a declaração de Abel Ferreira após o Palmeiras perder a liderança para o Flamengo",
-      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17224931/botafogo-x-palmeiras-resenha-da-rodada-debate-declaracao-abel-ferreira",
-      "publishedAt": "2026-09-08T03:47:41Z",
-      "category": "news",
-      "teams": [
-        "Palmeiras",
-        "Flamengo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0901/r1710015_1296x729_16-9.jpg",
-      "imageAlt": "Abel Ferreira durante jogo entre Palmeiras e Mirassol, pelo Brasileirão",
-      "imageCredit": "Rapha Marques/Sports Press Photo/Getty Images"
-    },
-    {
-      "id": "17224951",
-      "title": "Fábio Luciano analisa trabalho de Fernando Diniz no Corinthians e critica: 'Time sem identidade'",
-      "summary": "Assista ao Resenha pela ESPN no Plano Premium do Disney+",
-      "url": "https://www.espn.com.br/video/clip/_/id/17224951",
-      "publishedAt": "2026-09-08T03:26:55Z",
-      "category": "news",
-      "teams": [
-        "Chapecoense",
-        "Corinthians"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Fábio Luciano analisa trabalho de Fernando Diniz no Corinthians e critica: 'Time sem identidade'",
-      "imageCredit": null
-    },
-    {
-      "id": "17224922",
-      "title": "Vitória vence Grêmio por 1 a 0 e mantém rival 'coladinho' no Z-4 do Brasileirão; VEJA gol",
-      "summary": "Equipes se enfrentaram pela 26ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17224922",
-      "publishedAt": "2026-09-08T03:14:56Z",
-      "category": "news",
-      "teams": [
-        "Grêmio",
-        "Vitória"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Vitória vence Grêmio por 1 a 0 e mantém rival 'coladinho' no Z-4 do Brasileirão; VEJA gol",
-      "imageCredit": null
-    },
-    {
-      "id": "17224908",
-      "title": "Elias brinca sobre ataque do Corinthians após lesão de Yuri Alberto: 'Ruim com ele, pior sem ele'",
-      "summary": "Assista ao Resenha pela ESPN no Plano Premium do Disney+",
-      "url": "https://www.espn.com.br/video/clip/_/id/17224908",
-      "publishedAt": "2026-09-08T03:16:14Z",
-      "category": "news",
-      "teams": [
-        "Chapecoense",
-        "Corinthians"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Elias brinca sobre ataque do Corinthians após lesão de Yuri Alberto: 'Ruim com ele, pior sem ele'",
-      "imageCredit": null
-    },
-    {
-      "id": "17224868",
-      "title": "Vagner Love diz que foi campeão no Corinthians com meses de salários atrasados e cita momento atual: 'Isso aí não é desculpa'",
-      "summary": "No Resenha da Rodada, Vagner Love falou sobre os salários atrasados no Corinthians",
-      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17224868/corinthians-vagner-love-diz-foi-campeao-com-meses-salarios-atrasados-cita-momento-atual-isso-ai-nao-e-desculpa",
-      "publishedAt": "2026-09-08T03:00:44Z",
-      "category": "news",
-      "teams": [
-        "Corinthians"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2020/0222/r669909_1296x729_16-9.jpg",
-      "imageAlt": "Vagner Love durante jogo entre Corinthians e Água Santa, pelo Paulistão",
-      "imageCredit": "Gazeta Press"
-    },
-    {
-      "id": "17224891",
-      "title": "Vagner Love diz que salário atrasado não é desculpa no Corinthians e dispara: 'Jogamos assim em 2015 e fomos campeões'",
-      "summary": "Assista ao Resenha pela ESPN no Plano Premium do Disney+",
-      "url": "https://www.espn.com.br/video/clip/_/id/17224891",
-      "publishedAt": "2026-09-08T02:59:30Z",
-      "category": "news",
-      "teams": [
-        "Chapecoense",
-        "Corinthians"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Vagner Love diz que salário atrasado não é desculpa no Corinthians e dispara: 'Jogamos assim em 2015 e fomos campeões'",
-      "imageCredit": null
-    },
-    {
-      "id": "17224425",
-      "title": "Vitória vence confronto direto no Barradão e mantém Grêmio colado no Z-4 do Brasileirão",
-      "summary": "O resultado foi importante para o Leão, que ganhou força na luta para se distanciar do Z-4 da competição",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17224425/brasileirao-gremio-vitoria-vence-confronto-direto-barradao-mantem-colado-z-4",
-      "publishedAt": "2026-09-08T03:53:01Z",
-      "category": "news",
-      "teams": [
-        "Vitória",
-        "Grêmio"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0908/r1713046_1296x729_16-9.jpg",
-      "imageAlt": "Renê comemora gol marcado pelo Vitória contra o Grêmio, pela Série A",
-      "imageCredit": "Márcio José/AGIF"
-    },
-    {
-      "id": "17224612",
-      "title": "Sport encaminha volta de velho conhecido para assumir o time após demitir Dal Pozzo",
-      "summary": "Segundo apurou a ESPN, o Leão pernambucano tem conversas avançadas com o comandante para assumir o posto deixado por Gilmar Dal Pozzo",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17224612/sport-encaminha-volta-velho-conhecido-asusmir-time-apos-demitir-dal-pozzo",
-      "publishedAt": "2026-09-08T01:26:45Z",
-      "category": "news",
-      "teams": [
-        "Sport"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0908/r1713038_1296x729_16-9.jpg",
-      "imageAlt": "Gilmar Dal Pozzo, em último jogo pelo Sport contra o Ceará",
-      "imageCredit": "Baggio Rodrigues/AGIF"
-    },
-    {
-      "id": "17223649",
-      "title": "Brasileirão: seu time melhorou ou piorou pós-Copa? De Flamengo x Palmeiras ao Z-4, compare campanhas",
-      "summary": "Campeonato nacional voltou a ser disputado já há algum tempo",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17223649/brasileirao-time-melhorou-piorou-pos-copa-flamengo-palmeiras-z-4-compare-campanhas",
-      "publishedAt": "2026-09-08T14:27:11Z",
-      "category": "news",
-      "teams": [
-        "Flamengo",
-        "Palmeiras",
-        "Athletico Paranaense"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0907/r1712930_1296x729_16-9.jpg",
-      "imageAlt": "Jorginho, do Flamengo, Gustavo Gómez, do Palmeiras, e Alan Patrick, do Inter",
-      "imageCredit": "Montagem ESPN/Getty Images"
     }
   ]
 };
