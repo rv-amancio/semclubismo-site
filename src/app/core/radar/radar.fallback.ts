@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-09-09T17:16:19.696Z",
-  "expiresAt": "2026-09-13T17:16:19.696Z",
+  "generatedAt": "2026-09-10T17:10:18.879Z",
+  "expiresAt": "2026-09-14T17:10:18.879Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -32,7 +32,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Libertadores",
       "matchCount": 8,
       "liveCount": 0,
-      "nextMatchAt": "2026-09-09T22:00Z"
+      "nextMatchAt": "2026-09-11T00:30Z"
     },
     {
       "id": "conmebol.sudamericana",
@@ -40,7 +40,7 @@ export const RADAR_FALLBACK: RadarPayload = {
       "shortName": "Sul-Americana",
       "matchCount": 6,
       "liveCount": 0,
-      "nextMatchAt": "2026-09-09T22:00Z"
+      "nextMatchAt": "2026-09-15T22:00Z"
     }
   ],
   "matches": [
@@ -400,8 +400,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.libertadores",
       "competitionName": "CONMEBOL Libertadores",
       "date": "2026-09-09T22:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Allianz Parque",
       "home": {
@@ -418,8 +418,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "LDU",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "1",
+      "awayScore": "0",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401912527/liga-de-quito-palmeiras"
     },
     {
@@ -427,8 +427,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.sudamericana",
       "competitionName": "CONMEBOL Sudamericana",
       "date": "2026-09-09T22:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
       "home": {
@@ -445,8 +445,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "CAM",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "2",
+      "awayScore": "0",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401913073/atletico-mg-santos"
     },
     {
@@ -454,8 +454,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "conmebol.libertadores",
       "competitionName": "CONMEBOL Libertadores",
       "date": "2026-09-10T00:30Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Estadio Jorge Luis Hirschi",
       "home": {
@@ -472,8 +472,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "COR",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "1",
+      "awayScore": "1",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401912541/corinthians-estudiantes-de-la-plata"
     },
     {
@@ -1624,6 +1624,155 @@ export const RADAR_FALLBACK: RadarPayload = {
   ],
   "news": [
     {
+      "id": "17236608",
+      "title": "Cebolinha rebate Boto por fala sobre 'se excluir do Flamengo' e revela o que o irritou no clube após títulos: 'Acabou me chateando...'",
+      "summary": "Apresentado ao Santos nesta quinta-feira (10), Cebolinha foi direto sobre a declaração de José Boto",
+      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17236608/everton-cebolinha-rebate-boto-fala-nao-se-excluir-flamengo-revela-irritou-pos-titulos",
+      "publishedAt": "2026-09-10T16:45:25Z",
+      "category": "news",
+      "teams": [
+        "Santos",
+        "Flamengo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0910/r1714381_1023x576_16-9.jpg",
+      "imageAlt": "Everton Cebolinha em treino do Santos",
+      "imageCredit": "Divulgação Santos"
+    },
+    {
+      "id": "17236434",
+      "title": "Richarlison no Vasco? Diretor da equipe explica situação das negociações pelo atacante: 'Amanhã vocês terão novidades'",
+      "summary": "Janela de transferências fecha nesta sexta-feira (11), às 18h",
+      "url": "https://www.espn.com.br/video/clip/_/id/17236434",
+      "publishedAt": "2026-09-10T16:11:04Z",
+      "category": "market",
+      "teams": [
+        "Brasil",
+        "Tottenham Hotspur",
+        "Vasco da Gama"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Richarlison no Vasco? Diretor da equipe explica situação das negociações pelo atacante: 'Amanhã vocês terão novidades'",
+      "imageCredit": null
+    },
+    {
+      "id": "17236326",
+      "title": "Corinthians prioriza salário de jogadores em meio a crise e sentimento de 'vender almoço para pagar janta'; veja bastidores",
+      "summary": "Salários do mês de agosto do elenco e da comissão técnica estão atrasados",
+      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17236326/corinthians-prioriza-salario-jogadores-meio-crise-sentimento-vender-almoco-para-pagar-janta-veja-bastidores",
+      "publishedAt": "2026-09-10T16:03:55Z",
+      "category": "news",
+      "teams": [
+        "Corinthians"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0828/r1708140_1296x729_16-9.jpg",
+      "imageAlt": "Osmar Stabile, presidente do Corinthians",
+      "imageCredit": "Getty Images"
+    },
+    {
+      "id": "17235940",
+      "title": "E o Sosa? Fora há quase um mês, atacante só deve reforçar Palmeiras após Data Fifa; entenda o planejamento",
+      "summary": "Paraguaio está fora dos gramados desde o dia 15 de agosto",
+      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17235940/palmeiras-sosa-fora-ha-quase-um-mes-so-deve-voltar-apos-data-fifa-entenda-o-planejamento",
+      "publishedAt": "2026-09-10T14:10:33Z",
+      "category": "market",
+      "teams": [
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0506/r1654305_1296x729_16-9.jpg",
+      "imageAlt": "Sosa comemora após marcar para o Palmeiras sobre o Sporting Cristal",
+      "imageCredit": "EFE/Paloma del Solar"
+    },
+    {
+      "id": "17235286",
+      "title": "Zagueiro do Palmeiras se explica nas redes após declaração polêmica: 'Não é fácil encontrar as palavras certas'",
+      "summary": "Alexander Barboza se explicou nas redes após falar sobre o esquema de três zagueiros do Palmeiras",
+      "url": "https://www.espn.com.br/futebol/libertadores/artigo/_/id/17235286/zagueiro-do-palmeiras-se-explica-nas-redes-apos-declaracao-polemica-nao-e-facil-encontrar-as-palavras-certas",
+      "publishedAt": "2026-09-10T11:44:56Z",
+      "category": "news",
+      "teams": [
+        "Palmeiras"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0910/r1714259_1296x729_16-9.jpg",
+      "imageAlt": "Alexander Barboza, zagueiro do Palmeiras",
+      "imageCredit": "Getty Images"
+    },
+    {
+      "id": "17234899",
+      "title": "Caras e bocas de Diniz: como técnico do Corinthians reagiu ao empate com o Estudiantes na Libertadores",
+      "summary": "Timão empatou em 1 a 1 pela partida de ida das quartas de final da Libertadores",
+      "url": "https://www.espn.com.br/video/clip/_/id/17234899",
+      "publishedAt": "2026-09-10T03:55:18Z",
+      "category": "news",
+      "teams": [
+        "Corinthians",
+        "Estudiantes de La Plata"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Caras e bocas de Diniz: como técnico do Corinthians reagiu ao empate com o Estudiantes na Libertadores",
+      "imageCredit": null
+    },
+    {
+      "id": "17234678",
+      "title": "Paredão do Corinthians e da Seleção? A defesaça de Hugo Souza que garantiu empate na Libertadores",
+      "summary": "Goleiro brilhou com linda defesa nos acréscimos contra o Estudiantes",
+      "url": "https://www.espn.com.br/video/clip/_/id/17234678",
+      "publishedAt": "2026-09-10T03:02:28Z",
+      "category": "news",
+      "teams": [
+        "Brasil",
+        "Corinthians"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Paredão do Corinthians e da Seleção? A defesaça de Hugo Souza que garantiu empate na Libertadores",
+      "imageCredit": null
+    },
+    {
+      "id": "17234417",
+      "title": "Cuca abre as portas para Coutinho no Santos: 'Se ele vier...'",
+      "summary": "Treinador falou após vitória sobre o Atlético-MG na Vila Belmiro",
+      "url": "https://www.espn.com.br/video/clip/_/id/17234417",
+      "publishedAt": "2026-09-10T02:09:38Z",
+      "category": "news",
+      "teams": [
+        "Brasil",
+        "Santos",
+        "Vasco da Gama"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Cuca abre as portas para Coutinho no Santos: 'Se ele vier...'",
+      "imageCredit": null
+    },
+    {
+      "id": "17234259",
+      "title": "Gabigol critica gramado da Vila Belmiro após vitória do Santos na Sul-Americana: 'Não está bom'",
+      "summary": "Atacante falou após vitória sobre o Atlético-MG em casa",
+      "url": "https://www.espn.com.br/video/clip/_/id/17234259",
+      "publishedAt": "2026-09-10T01:35:12Z",
+      "category": "news",
+      "teams": [
+        "Brasil",
+        "Santos"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Gabigol critica gramado da Vila Belmiro após vitória do Santos na Sul-Americana: 'Não está bom'",
+      "imageCredit": null
+    },
+    {
+      "id": "17232460",
+      "title": "Neymar liga para Bontempo após convocação para a Seleção Brasileira; VEJA",
+      "summary": "Jovem foi chamado pela primeira vez para defender seleção principal / Via: Santos TV",
+      "url": "https://www.espn.com.br/video/clip/_/id/17232460",
+      "publishedAt": "2026-09-09T19:36:16Z",
+      "category": "news",
+      "teams": [
+        "Brasil",
+        "Santos"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Neymar liga para Bontempo após convocação para a Seleção Brasileira; VEJA",
+      "imageCredit": null
+    },
+    {
       "id": "17231423",
       "title": "Por que Hulk vai desfalcar o Fluminense contra o Atlético-MG neste ano e também em 2027? Entenda razão",
       "summary": "Destaque na vitória do Fluminense por 2 a 0 sobre o Platense, pela Libertadores, Hulk está fora do duelo contra o Atlético-MG",
@@ -1708,149 +1857,6 @@ export const RADAR_FALLBACK: RadarPayload = {
       "imageUrl": "https://a.espncdn.com/photo/2026/0210/r1613457_1296x729_16-9.jpg",
       "imageAlt": "Dirigente brasileira Leila Pereira, presidente do Palmeiras, na Supercopa feminina de 2026 entre Palmeiras e Corinthians, na Arena Barueri, em Barueri (SP)",
       "imageCredit": "Theo Daolio/Mochila Press/Gazeta Press"
-    },
-    {
-      "id": "17222983",
-      "title": "Como 'Barba' transformou Atlético-MG em candidato a dois títulos no ano e o que assistir no Disney+",
-      "summary": "Atlético-MG e Santos se enfrentam pelas quartas de final da CONMEBOL Sul-Americana",
-      "url": "https://www.espn.com.br/futebol/sul-americana/artigo/_/id/17222983/sul-americana-atletico-mg-disneyplus-eduardo-dominguez-transformou-equipe-candidato-dois-titulos-no-ano",
-      "publishedAt": "2026-09-09T03:26:09Z",
-      "category": "news",
-      "teams": [
-        "Atlético-MG",
-        "Santos"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0427/r1649821_1296x729_16-9.jpg",
-      "imageAlt": "Técnico Eduardo Domínguez durante jogo entre Atlético-MG e Flamengo",
-      "imageCredit": "Pedro Souza/Atlético-MG"
-    },
-    {
-      "id": "17229347",
-      "title": "Ziyech desembarca no Rio para fazer exames e assinar com o Botafogo",
-      "summary": "Hakim Ziyech desembarcou no Rio de Janeiro na noite desta terça-feira (8) para realizar exames médicos e assinar com o Botafogo",
-      "url": "https://www.espn.com.br/futebol/botafogo/artigo/_/id/17229347/botafogo-ziyech-desembarca-rio-de-janeiro-para-fazer-exames-assinar-contrato",
-      "publishedAt": "2026-09-09T02:36:04Z",
-      "category": "news",
-      "teams": [
-        "Botafogo"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0909/r1713584_1279x719_16-9.jpg",
-      "imageAlt": "Ziyech com a bandeira do Botafogo no desembarque no Rio de Janeiro",
-      "imageCredit": "Vitor Silva / BFR"
-    },
-    {
-      "id": "17229315",
-      "title": "Ziyech chega ao Rio de Janeiro para assinar com o Botafogo",
-      "summary": "Via Botafogo TV/Youtube | Marroquino desembarcou no Rio na noite desta terça-feira (8) com recepção no Galeão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17229315",
-      "publishedAt": "2026-09-09T02:24:12Z",
-      "category": "news",
-      "teams": [
-        "Botafogo"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Ziyech chega ao Rio de Janeiro para assinar com o Botafogo",
-      "imageCredit": null
-    },
-    {
-      "id": "17229197",
-      "title": "Técnico do Vasco comenta interesse em Richarlison: 'Acho que meu silêncio diz tudo'",
-      "summary": "Pedro Emanuel evitou comentar sobre o interesse do Vasco no atacante Richarlison",
-      "url": "https://www.espn.com.br/futebol/vasco/artigo/_/id/17229197/vasco-treinador-comenta-interesse-atacante-richarlison-meu-silencio-diz-tudo",
-      "publishedAt": "2026-09-09T01:49:45Z",
-      "category": "news",
-      "teams": [
-        "Vasco da Gama"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0829/r1708676_1296x729_16-9.jpg",
-      "imageAlt": "Richarlison durante jogo entre Tottenham e Charlton, pela Copa da Liga",
-      "imageCredit": "Shaun Brooks/CameraSport via Getty Images"
-    },
-    {
-      "id": "17229003",
-      "title": "Athletico-PR alinha renovação com Viveros e projeta venda de artilheiro do Brasileirão por cifras milionárias",
-      "summary": "Athletico-PR tem acordo verbal para renovar o contrato do atacante colombiano Kevin Viveros",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17229003/athletico-pr-alinha-renovacao-com-viveros-e-projeta-venda-artilheiro-brasileirao-cifras-milionarias",
-      "publishedAt": "2026-09-09T00:46:19Z",
-      "category": "market",
-      "teams": [
-        "Athletico Paranaense"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0427/r1649769_1296x729_16-9.jpg",
-      "imageAlt": "Viveros comemora mais um gol com a camisa do Athletico-PR",
-      "imageCredit": "Paulo De Tarso/AGIF"
-    },
-    {
-      "id": "17228517",
-      "title": "Empresário altera proposta por SAF do Vasco com seguro de R$ 324 milhões",
-      "summary": "A empresa Almirante Participações, do empresário Marcos Lamacchia, apresentou uma emenda com alterações",
-      "url": "https://www.espn.com.br/futebol/vasco/artigo/_/id/17228517/empresario-altera-proposta-por-saf-do-vasco-com-seguro-de-r-324-milhoes",
-      "publishedAt": "2026-09-09T15:25:15Z",
-      "category": "market",
-      "teams": [
-        "Vasco da Gama"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0904/r1711546_1296x729_16-9.jpg",
-      "imageAlt": "Vista de São Januário antes de jogo do Vasco",
-      "imageCredit": "Matheus Lima/Vasco"
-    },
-    {
-      "id": "17227660",
-      "title": "Melhor Gabigol desde o Flamengo? Jailson Vilas Boas analisa momento do camisa 9 do Santos; VEJA",
-      "summary": "Atacante tem 19 gols pelo Peixe nesta temporada",
-      "url": "https://www.espn.com.br/video/clip/_/id/17227660",
-      "publishedAt": "2026-09-08T20:35:44Z",
-      "category": "news",
-      "teams": [
-        "Brasil",
-        "Santos"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Melhor Gabigol desde o Flamengo? Jailson Vilas Boas analisa momento do camisa 9 do Santos; VEJA",
-      "imageCredit": null
-    },
-    {
-      "id": "17227391",
-      "title": "Philippe Coutinho no Santos? Veja lances do meio-campista pelo Vasco",
-      "summary": "Jogador não entra em campo desde fevereiro de 2026",
-      "url": "https://www.espn.com.br/video/clip/_/id/17227391",
-      "publishedAt": "2026-09-08T19:22:38Z",
-      "category": "news",
-      "teams": [
-        "Santos",
-        "Vasco da Gama"
-      ],
-      "imageUrl": null,
-      "imageAlt": "Philippe Coutinho no Santos? Veja lances do meio-campista pelo Vasco",
-      "imageCredit": null
-    },
-    {
-      "id": "17225901",
-      "title": "Marcinho marca duas vezes na vitória da Chapecoense e é o craque da 26ª rodada no Bola de Prata ESPN",
-      "summary": "Veja como ficou a seleção do Bola de Prata após a 26ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/futebol/bola-de-prata/artigo/_/id/17225901/marcinho-marca-duas-vezes-vitoria-chapecoense-e-craque-da-26-rodada-bola-de-prata-espn",
-      "publishedAt": "2026-09-08T13:57:45Z",
-      "category": "news",
-      "teams": [
-        "Chapecoense"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0908/r1713210_1296x729_16-9.jpg",
-      "imageAlt": "Marcinho, da Chapecoense, comemora gol contra o Corinthians",
-      "imageCredit": "Ricardo Moreira/Getty Images"
-    },
-    {
-      "id": "17225818",
-      "title": "Internacional sonda Eduardo Coudet para possível retorno ao clube",
-      "summary": "Segundo apurou a ESPN, Internacional fez sondagem pelo técnico Eduardo Coudet, que estava no River Plate",
-      "url": "https://www.espn.com.br/futebol/internacional/artigo/_/id/17225818/internacional-sonda-tecnico-eduardo-coudet-possivel-retorno-clube",
-      "publishedAt": "2026-09-08T18:19:05Z",
-      "category": "news",
-      "teams": [
-        "Internacional"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0908/r1713199_1080x608_16-9.jpg",
-      "imageAlt": "Eduardo Coudet durante apresentação como técnico do Internacional",
-      "imageCredit": "Ricardo Duarte/Internacional"
     }
   ]
 };
