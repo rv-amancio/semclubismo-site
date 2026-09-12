@@ -2,8 +2,8 @@ import { RadarPayload } from './radar.models';
 
 export const RADAR_FALLBACK: RadarPayload = {
   "version": 1,
-  "generatedAt": "2026-09-11T17:11:16.289Z",
-  "expiresAt": "2026-09-15T17:11:16.289Z",
+  "generatedAt": "2026-09-12T16:28:41.047Z",
+  "expiresAt": "2026-09-16T16:28:41.047Z",
   "season": 2026,
   "provider": "Snapshot Sem Clubismo",
   "providerUrl": "https://www.espn.com.br/futebol/",
@@ -14,9 +14,9 @@ export const RADAR_FALLBACK: RadarPayload = {
       "id": "bra.1",
       "name": "Campeonato Brasileiro",
       "shortName": "Brasileirão",
-      "matchCount": 28,
+      "matchCount": 22,
       "liveCount": 0,
-      "nextMatchAt": "2026-09-12T00:00Z"
+      "nextMatchAt": "2026-09-12T19:00Z"
     },
     {
       "id": "bra.copa_do_brazil",
@@ -44,168 +44,6 @@ export const RADAR_FALLBACK: RadarPayload = {
     }
   ],
   "matches": [
-    {
-      "id": "401841219",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-09-06T14:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Couto Pereira",
-      "home": {
-        "id": "3456",
-        "name": "Coritiba",
-        "shortName": "Coritiba",
-        "abbreviation": "CFC",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png"
-      },
-      "away": {
-        "id": "9169",
-        "name": "Mirassol",
-        "shortName": "Mirassol",
-        "abbreviation": "MIR",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
-      },
-      "homeScore": "1",
-      "awayScore": "2",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841219/mirassol-coritiba"
-    },
-    {
-      "id": "401841218",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-09-06T19:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estadio Mineirão",
-      "home": {
-        "id": "2022",
-        "name": "Cruzeiro",
-        "shortName": "Cruzeiro",
-        "abbreviation": "CRU",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png"
-      },
-      "away": {
-        "id": "3458",
-        "name": "Athletico Paranaense",
-        "shortName": "Athletico-PR",
-        "abbreviation": "CAP",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png"
-      },
-      "homeScore": "3",
-      "awayScore": "1",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841218/athletico-paranaense-cruzeiro"
-    },
-    {
-      "id": "401841223",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-09-06T19:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Estadio Beira-Rio",
-      "home": {
-        "id": "1936",
-        "name": "Internacional",
-        "shortName": "Internacional",
-        "abbreviation": "INT",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png"
-      },
-      "away": {
-        "id": "2674",
-        "name": "Santos",
-        "shortName": "Santos",
-        "abbreviation": "SAN",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
-      },
-      "homeScore": "2",
-      "awayScore": "3",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841223/santos-internacional"
-    },
-    {
-      "id": "401841225",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-09-06T19:00Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Mangueirão",
-      "home": {
-        "id": "4936",
-        "name": "Remo",
-        "shortName": "Remo",
-        "abbreviation": "REMO",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png"
-      },
-      "away": {
-        "id": "819",
-        "name": "Flamengo",
-        "shortName": "Flamengo",
-        "abbreviation": "FLA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png"
-      },
-      "homeScore": "0",
-      "awayScore": "1",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841225/flamengo-remo"
-    },
-    {
-      "id": "401841221",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-09-06T21:30Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Joao Havelange Stadium",
-      "home": {
-        "id": "6086",
-        "name": "Botafogo",
-        "shortName": "Botafogo",
-        "abbreviation": "BOT",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png"
-      },
-      "away": {
-        "id": "2029",
-        "name": "Palmeiras",
-        "shortName": "Palmeiras",
-        "abbreviation": "PAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
-      },
-      "homeScore": "0",
-      "awayScore": "0",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841221/palmeiras-botafogo"
-    },
-    {
-      "id": "401841220",
-      "competitionId": "bra.1",
-      "competitionName": "Campeonato Brasileiro",
-      "date": "2026-09-06T22:30Z",
-      "status": "finished",
-      "statusLabel": "Final da Partida",
-      "clock": null,
-      "venue": "Neo Química Arena",
-      "home": {
-        "id": "874",
-        "name": "Corinthians",
-        "shortName": "Corinthians",
-        "abbreviation": "COR",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png"
-      },
-      "away": {
-        "id": "9318",
-        "name": "Chapecoense",
-        "shortName": "Chapecoense",
-        "abbreviation": "CHA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png"
-      },
-      "homeScore": "1",
-      "awayScore": "2",
-      "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841220/chapecoense-corinthians"
-    },
     {
       "id": "401841222",
       "competitionId": "bra.1",
@@ -427,8 +265,8 @@ export const RADAR_FALLBACK: RadarPayload = {
       "competitionId": "bra.1",
       "competitionName": "Campeonato Brasileiro",
       "date": "2026-09-12T00:00Z",
-      "status": "scheduled",
-      "statusLabel": "Agendado",
+      "status": "finished",
+      "statusLabel": "Final da Partida",
       "clock": null,
       "venue": "Couto Pereira",
       "home": {
@@ -445,8 +283,8 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "CAP",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": "3",
+      "awayScore": "3",
       "link": "https://www.espn.com.br/futebol/partida/_/jogoId/401841232/athletico-paranaense-coritiba"
     },
     {
@@ -1225,13 +1063,13 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "CAP",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png"
       },
-      "points": 45,
-      "played": 26,
+      "points": 46,
+      "played": 27,
       "wins": 13,
-      "draws": 6,
+      "draws": 7,
       "losses": 7,
-      "goalsFor": 38,
-      "goalsAgainst": 28,
+      "goalsFor": 41,
+      "goalsAgainst": 31,
       "goalDifference": 10
     },
     {
@@ -1297,13 +1135,13 @@ export const RADAR_FALLBACK: RadarPayload = {
         "abbreviation": "CFC",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png"
       },
-      "points": 37,
-      "played": 26,
+      "points": 38,
+      "played": 27,
       "wins": 10,
-      "draws": 7,
+      "draws": 8,
       "losses": 9,
-      "goalsFor": 34,
-      "goalsAgainst": 35,
+      "goalsFor": 37,
+      "goalsAgainst": 38,
       "goalDifference": -1
     },
     {
@@ -1543,236 +1381,244 @@ export const RADAR_FALLBACK: RadarPayload = {
   ],
   "news": [
     {
-      "id": "17239184",
-      "title": "Palmeiras x São Paulo: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
-      "summary": "Equipes vão disputar o Choque-Rei na noite deste sábado, pela 27ª rodada do Campeonato Brasileiro",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17239184/palmeiras-sao-paulo-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
-      "publishedAt": "2026-09-11T16:57:24Z",
+      "id": "17245706",
+      "title": "Neymar 'anuncia' Coutinho antes do Santos em suas redes; VEJA",
+      "summary": "Créditos: Instagram/@neymarjr",
+      "url": "https://www.espn.com.br/video/clip/_/id/17245706",
+      "publishedAt": "2026-09-12T15:51:11Z",
+      "category": "news",
+      "teams": [
+        "Santos"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Neymar 'anuncia' Coutinho antes do Santos em suas redes; VEJA",
+      "imageCredit": null
+    },
+    {
+      "id": "17245353",
+      "title": "Neymar 'fura' Santos e anuncia contratação de Philippe Coutinho",
+      "summary": "Coutinho estava sem clube desde fevereiro, quando deixou o Vasco",
+      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17245353/philippe-coutinho-neymar-fura-santos-anuncia-contratacao",
+      "publishedAt": "2026-09-12T15:37:01Z",
+      "category": "market",
+      "teams": [
+        "Santos"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2025/0815/r1532296_1296x729_16-9.jpg",
+      "imageAlt": "Atacante brasileiro Neymar e meia brasileiro Philippe Coutinho comemoram gol do Brasil sobre a Costa Rica, na fase de grupos da Copa do Mundo de 2018, em São Petersburgo (RUS)",
+      "imageCredit": "Jean Catuffe/Getty Images"
+    },
+    {
+      "id": "17244958",
+      "title": "Bahia x Remo: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+      "summary": "Confronto encerra a 27ª rodada da competição",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17244958/bahia-x-remo-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
+      "publishedAt": "2026-09-12T13:58:52Z",
+      "category": "news",
+      "teams": [
+        "Bahia",
+        "Remo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0330/r1636068_1296x729_16-9.jpg",
+      "imageAlt": "Vista da Fonte Nova",
+      "imageCredit": "Pedro Vilela/Getty Images"
+    },
+    {
+      "id": "17242228",
+      "title": "De protestos a 'consolação': como último 'mês do desgosto' mudou vidas de Santos e Cruzeiro e trouxe nova realidade",
+      "summary": "Times mudaram totalmente de cenário após serem eliminados por rivais locais na Copa do Brasil",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17242228/protestos-consolacao-ultimomes-desgosto-mudou-vidas-santos-cruzeiro-trouxe-nova-realidade",
+      "publishedAt": "2026-09-12T12:30:35Z",
+      "category": "news",
+      "teams": [
+        "Santos",
+        "Cruzeiro"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0911/r1715030_1296x729_16-9.jpg",
+      "imageAlt": "Oliva e Rollheiser comemoram gol do Santos, enquanto Kaio Jorge e Matheus Pereira conversam em jogo do Cruzeiro",
+      "imageCredit": "Montagem ESPN/Getty Images"
+    },
+    {
+      "id": "17237027",
+      "title": "Poupar? Os dilemas e dúvidas de Abel e Dorival para Palmeiras x São Paulo antes de 'decisões' continentais",
+      "summary": "Palmeiras e São Paulo se encontram no Brasileirão em meio a definições pela Libertadores e pela Sul-Americana",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17237027/poupar-dilemas-duvidas-abel-dorival-palmeiras-x-sao-paulo-antes-decisoes-continentais",
+      "publishedAt": "2026-09-12T12:24:52Z",
       "category": "news",
       "teams": [
         "Palmeiras",
         "São Paulo"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0811/r1700170_1296x729_16-9.jpg",
-      "imageAlt": "Vista geral do Nubank Parque, estádio do Palmeiras",
-      "imageCredit": "Anderson Romão/AGIF"
+      "imageUrl": "https://a.espncdn.com/photo/2026/0910/r1714448_1296x729_16-9.jpg",
+      "imageAlt": "Os técnicos Dorival Júnior (esq), do São Paulo, e Abel Ferreira, do Palmeiras",
+      "imageCredit": "ESPN"
     },
     {
-      "id": "17241043",
-      "title": "MP investiga venda irregular de ingressos e superlotação no Maracanã em jogos de Flamengo e Fluminense",
-      "summary": "Ministério Público do Rio de Janeiro instaurou inquérito civil para investigar irregularidades no Maracanã em jogos de Flamengo e Fluminense",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17241043/mp-investiga-venda-irregular-ingressos-superlotacao-maracana-jogos-flamengo-fluminense",
-      "publishedAt": "2026-09-11T16:03:44Z",
-      "category": "market",
+      "id": "17244666",
+      "title": "Morre Paulo Angioni, histórico dirigente do futebol brasileiro, aos 80 anos",
+      "summary": "Diretor executivo do Fluminense, Paulo Angioni morreu na madrugada deste sábado (12), aos 80 anos",
+      "url": "https://www.espn.com.br/futebol/artigo/_/id/17244666/morre-paulo-angioni-historico-dirigente-futebol-brasileiro-aos-80-anos",
+      "publishedAt": "2026-09-12T12:20:09Z",
+      "category": "news",
       "teams": [
+        "Fluminense",
+        "Vasco da Gama",
+        "Brasil"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0912/r1715277_1296x729_16-9.jpg",
+      "imageAlt": "Dirigente brasileiro Paulo Angioni, diretor executivo de futebol do Fluminense, em coletiva no CT Carlos Castilho, na zona Oeste do Rio de Janeiro (RJ)",
+      "imageCredit": "Lucas Merçon/ Fluminense F.C."
+    },
+    {
+      "id": "17244229",
+      "title": "Coritiba arranca empate heroico com Athletico-PR em clássico com seis gols e 'protocolo Vini Jr'; VEJA como foi",
+      "summary": "Imagens: Sportv/Premiere | Rivais protagonizam duelo caótico em partida nesta sexta-feira (12) no Couto Pereira",
+      "url": "https://www.espn.com.br/video/clip/_/id/17244229",
+      "publishedAt": "2026-09-12T04:27:15Z",
+      "category": "news",
+      "teams": [
+        "Athletico Paranaense",
+        "Coritiba"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Coritiba arranca empate heroico com Athletico-PR em clássico com seis gols e 'protocolo Vini Jr'; VEJA como foi",
+      "imageCredit": null
+    },
+    {
+      "id": "17244183",
+      "title": "Arrascaeta abre o jogo sobre discussão com Samuel Lino e revela papo no Flamengo: 'Jogo com mais dez'",
+      "summary": "Imagens: Pod Boa | Craque rubro-negro abriu o jogo sobre situação polêmica da semana na equipe",
+      "url": "https://www.espn.com.br/video/clip/_/id/17244183",
+      "publishedAt": "2026-09-12T03:54:28Z",
+      "category": "news",
+      "teams": [
+        "Brasil",
+        "Flamengo",
+        "Uruguai"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Arrascaeta abre o jogo sobre discussão com Samuel Lino e revela papo no Flamengo: 'Jogo com mais dez'",
+      "imageCredit": null
+    },
+    {
+      "id": "17244024",
+      "title": "Alô, São Paulo! Ex-Corinthians, Romero assina pintura pelo Boca Juniors antes de 'decisão' pela Sul-Americana; VEJA",
+      "summary": "Atacante paraguaio brilhou com dois gols em vitória sobre o Central Córdoba pelo Argentino",
+      "url": "https://www.espn.com.br/video/clip/_/id/17244024",
+      "publishedAt": "2026-09-12T03:11:27Z",
+      "category": "news",
+      "teams": [
+        "Boca Juniors",
+        "São Paulo",
+        "Águilas Doradas"
+      ],
+      "imageUrl": null,
+      "imageAlt": "Alô, São Paulo! Ex-Corinthians, Romero assina pintura pelo Boca Juniors antes de 'decisão' pela Sul-Americana; VEJA",
+      "imageCredit": null
+    },
+    {
+      "id": "17243795",
+      "title": "Internacional recebe doação de R$ 20 milhões para pagar salários atrasados dos jogadores",
+      "summary": "Internacional vai conseguir pagar os atrasados de jogadores e funcionários",
+      "url": "https://www.espn.com.br/futebol/internacional/artigo/_/id/17243795/internacional-recebe-doacao-pagar-salarios-atrasados-jogadores",
+      "publishedAt": "2026-09-12T01:57:03Z",
+      "category": "news",
+      "teams": [
+        "Internacional"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0312/r1627497_1296x729_16-9.jpg",
+      "imageAlt": "Bandeira do Internacional no Beira-Rio",
+      "imageCredit": "Ricardo Duarte / Internacional"
+    },
+    {
+      "id": "17243678",
+      "title": "Libertadores terá primeira semifinal 100% brasileira? Veja os PALPITES para os jogos de Fluminense, Palmeiras, Corinthians e Flamengo",
+      "summary": "Assista à CONMEBOL Libertadores na ESPN pelo Plano Premium do Disney+",
+      "url": "https://www.espn.com.br/video/clip/_/id/17243678",
+      "publishedAt": "2026-09-12T01:11:16Z",
+      "category": "news",
+      "teams": [
+        "Corinthians",
         "Flamengo",
         "Fluminense"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0911/r1714907_1296x729_16-9.jpg",
-      "imageAlt": "Vista do Maracanã antes de jogo entre Flamengo e Fluminense, pelo Carioca",
-      "imageCredit": "Daniel Castelo Branco/Eurasia Sport Images/Getty Images"
-    },
-    {
-      "id": "17240911",
-      "title": "Quais jogos Abel vai perder pelo Palmeiras após STJD aumentar gancho por chute no microfone",
-      "summary": "Abel Ferreira foi julgado nesta sexta-feira (11) pelo Tribunal Pleno do STJD sobre chute no microfone durante Mirassol x Palmeiras",
-      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17240911/quais-jogos-abel-ferreira-vai-perder-palmeiras-stjd-aumentar-gancho-chute-microfone",
-      "publishedAt": "2026-09-11T15:26:06Z",
-      "category": "news",
-      "teams": [
-        "Palmeiras"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0911/r1714905_1296x729_16-9.jpg",
-      "imageAlt": "Abel Ferreira durante jogo entre Palmeiras e LDU, pela Libertadores",
-      "imageCredit": "EFE/Sebastião Moreira"
-    },
-    {
-      "id": "17240811",
-      "title": "Pleno do STJD aumenta gancho de Abel, do Palmeiras, para três jogos de suspensão por chute no microfone",
-      "summary": "Abel Ferreira foi julgado nesta sexta-feira (11) pelo Tribunal Pleno do STJD sobre chute no microfone durante Mirassol x Palmeiras",
-      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17240811/pleno-stjd-aumenta-gancho-abel-ferreira-palmeiras-tres-jogos-suspensao-chute-microfone",
-      "publishedAt": "2026-09-11T17:02:43Z",
-      "category": "news",
-      "teams": [
-        "Palmeiras"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0911/r1714894_1280x720_16-9.jpg",
-      "imageAlt": "Abel Ferreira durante jogo entre Palmeiras e LDU, pela CONMEBOL Libertadores",
-      "imageCredit": "Cesar Greco/Palmeiras/by Canon"
-    },
-    {
-      "id": "17240826",
-      "title": "Santos fecha 1º semestre com déficit de R$ 119 milhões e dívida superando R$ 1,2 bilhão",
-      "summary": "ESPN teve acesso ao parecer do Conselho Fiscal do Santos sobre as contas do clube no primeiro semestre de 2026",
-      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17240826/santos-fecha-1-semestre-deficit-119-milhoes-divida-superando-12-bilhao",
-      "publishedAt": "2026-09-11T15:00:25Z",
-      "category": "news",
-      "teams": [
-        "Santos"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2024/0226/r1296533_1280x720_16-9.jpg",
-      "imageAlt": "Bandeira com o escudo do Santos",
-      "imageCredit": "Ivan Storti/Santos FC"
-    },
-    {
-      "id": "17240336",
-      "title": "Proposta de Lamacchia por SAF do Vasco prevê R$ 500 milhões só para futebol, R$ 120 milhões no CT e R$ 30 milhões na base; veja detalhes",
-      "summary": "ESPN mostra os detalhes da proposta do empresário Marcos Lamacchia pela SAF do Vasco da Gama",
-      "url": "https://www.espn.com.br/futebol/vasco/artigo/_/id/17240336/proposta-lamacchia-saf-vasco-preve-r-500-milhoes-so-futebol-r-120-milhoes-ct-r-30-milhoes-base-detalhes",
-      "publishedAt": "2026-09-11T15:58:40Z",
-      "category": "market",
-      "teams": [
-        "Vasco da Gama"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0911/r1714854_1296x729_16-9.jpg",
-      "imageAlt": "Vista de São Januário antes de jogo entre Vasco e Olimpia, pela Sul-Americana",
-      "imageCredit": "Matheus Lima/Vasco"
-    },
-    {
-      "id": "17235611",
-      "title": "Por que Palmeiras decidiu apostar na base mesmo após sondar o mercado em busca de reforços após saída de Allan",
-      "summary": "Palmeiras não terá reforços e decidiu apostar na base que tem para este segundo semestre",
-      "url": "https://www.espn.com.br/futebol/palmeiras/artigo/_/id/17235611/palmeiras-reforcos-ultimo-dia-mercado-transferencias-aposta-base-reposicao-saida-allan",
-      "publishedAt": "2026-09-11T10:11:27Z",
-      "category": "market",
-      "teams": [
-        "Palmeiras"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0910/r1714288_1003x564_16-9.png",
-      "imageAlt": "Leila Pereira, presidente do Palmeiras",
-      "imageCredit": "Gabriel Lavieri/Palmeiras/by Canon"
-    },
-    {
-      "id": "17236238",
-      "title": "Quando foi a última vez Coritiba e Athletico-PR, agora com Morisco e Arthur Dias, tiveram convocados para Seleção ao mesmo tempo?",
-      "summary": "Coritiba e Athletico-PR se enfrentam nesta sexta-feira (11), às 21h (de Brasília), no Couto Pereira, pela 27ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17236238/quando-foi-ultima-vez-coritiba-athletico-pr-agora-morisco-arthur-dias-tiveram-convocados-selecao-mesmo-tempo",
-      "publishedAt": "2026-09-11T10:12:17Z",
-      "category": "news",
-      "teams": [
-        "Coritiba",
-        "Athletico Paranaense",
-        "Brasil"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0910/r1714344_1296x729_16-9.jpg",
-      "imageAlt": "Pedro Morisco (Coritiba) x Arthur Dias (Athletico-PR)",
-      "imageCredit": "Getty Images"
-    },
-    {
-      "id": "17238979",
-      "title": "Grêmio x Vasco: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
-      "summary": "Adversários se enfrentam em briga direta contra o Z-4 neste sábado (12), às 16h (de Brasília), em confronto pela 27ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17238979/gremio-vasco-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
-      "publishedAt": "2026-09-11T03:27:19Z",
-      "category": "news",
-      "teams": [
-        "Grêmio",
-        "Vasco da Gama"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0223/r1619119_1296x729_16-9.jpg",
-      "imageAlt": "Vista da Arena do Grêmio antes de jogo",
-      "imageCredit": "Pedro H. Tesch/Getty Images"
-    },
-    {
-      "id": "17238618",
-      "title": "Chapecoense x Internacional: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
-      "summary": "Na lanterna, Chapecoense faz um confronto direto com o Internacional na Arena Condá, neste sábado (12), pelo Brasileirão",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17238618/chapecoense-x-internacional-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
-      "publishedAt": "2026-09-11T03:21:51Z",
-      "category": "news",
-      "teams": [
-        "Chapecoense",
-        "Internacional"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2025/1024/r1565241_1296x729_16-9.jpg",
-      "imageAlt": "Vista da Arena Condá, estádio da Chapecoense",
-      "imageCredit": "Luiz Ferrazzo/Chapecoense"
-    },
-    {
-      "id": "17238345",
-      "title": "Atlético-MG x Fluminense: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
-      "summary": "Equipes se enfrentam na Arena MRV neste sábado (12), às 16h (de Brasília), em confronto pela 27ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17238345/atletico-mg-fluminense-onde-assistir-ao-vivo-horario-palpite-provaveis-escalacoes-jogo-brasileirao",
-      "publishedAt": "2026-09-11T04:20:20Z",
-      "category": "news",
-      "teams": [
-        "Atlético-MG",
-        "Fluminense"
-      ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0814/r1701888_1296x729_16-9.jpg",
-      "imageAlt": "Arena MRV, estádio do Atlético-MG, em Belo Horizonte (MG)",
-      "imageCredit": "Daniela Veiga/ Atlético-MG"
-    },
-    {
-      "id": "17238826",
-      "title": "Com Cebolinha e à espera de Coutinho, como o Santos pode jogar com nova 'seleção'? VEJA",
-      "summary": "Santos x Cruzeiro se enfrentam neste sábado (12), às 21h (de Brasília), pela 27ª rodada do Brasileirão",
-      "url": "https://www.espn.com.br/video/clip/_/id/17238826",
-      "publishedAt": "2026-09-11T01:01:44Z",
-      "category": "news",
-      "teams": [
-        "Cruzeiro",
-        "Santos"
-      ],
       "imageUrl": null,
-      "imageAlt": "Com Cebolinha e à espera de Coutinho, como o Santos pode jogar com nova 'seleção'? VEJA",
+      "imageAlt": "Libertadores terá primeira semifinal 100% brasileira? Veja os PALPITES para os jogos de Fluminense, Palmeiras, Corinthians e Flamengo",
       "imageCredit": null
     },
     {
-      "id": "17238809",
-      "title": "Choque-Rei, Flamengo x Corinthians e mais: o palpitômetro da ESPN para aa 27ª rodada do Brasileirão",
-      "summary": "Rodada acontece a partir desta sexta-feira (11) até segunda (14)",
-      "url": "https://www.espn.com.br/video/clip/_/id/17238809",
-      "publishedAt": "2026-09-11T00:56:36Z",
+      "id": "17243531",
+      "title": "'Retranca porque o Abel odeia enfrentar': Vitor Birner dá dica a Dorival e escala São Paulo ideal para Choque-Rei contra o Palmeiras; VEJA",
+      "summary": "Tricolor visita o rival em clássico pelo Brasileirão neste sábado (12)",
+      "url": "https://www.espn.com.br/video/clip/_/id/17243531",
+      "publishedAt": "2026-09-12T00:45:14Z",
       "category": "news",
-      "teams": [],
+      "teams": [
+        "Palmeiras",
+        "São Paulo"
+      ],
       "imageUrl": null,
-      "imageAlt": "Choque-Rei, Flamengo x Corinthians e mais: o palpitômetro da ESPN para aa 27ª rodada do Brasileirão",
+      "imageAlt": "'Retranca porque o Abel odeia enfrentar': Vitor Birner dá dica a Dorival e escala São Paulo ideal para Choque-Rei contra o Palmeiras; VEJA",
       "imageCredit": null
     },
     {
-      "id": "17237737",
-      "title": "Coutinho chegando no Santos? Felipe Silva atualiza negociação com o jogador; VEJA",
-      "summary": "Meio-campista foi um pedido de Neymar",
-      "url": "https://www.espn.com.br/video/clip/_/id/17237737",
-      "publishedAt": "2026-09-10T20:35:27Z",
-      "category": "market",
+      "id": "17243496",
+      "title": "Arrascaeta quebra silêncio sobre discussão com Samuel Lino e põe panos quentes: 'A gente se resolveu'",
+      "summary": "Arrascaeta minimizou a reclamação de Samuel Lino após não receber um passe durante Flamengo x Remo",
+      "url": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17243496/flamengo-arrascaeta-quebra-silencio-discussao-com-samuel-lino-a-gente-se-resolveu",
+      "publishedAt": "2026-09-12T03:55:01Z",
+      "category": "news",
       "teams": [
-        "Brasil",
-        "Santos",
-        "Vasco da Gama"
+        "Flamengo"
+      ],
+      "imageUrl": "https://a.espncdn.com/photo/2026/0912/r1715149_1296x729_16-9.jpg",
+      "imageAlt": "Samuel Lino e Arrascaeta comemoram gol do Flamengo",
+      "imageCredit": "Ruano Carneiro/Getty Images"
+    },
+    {
+      "id": "17243225",
+      "title": "Corinthians já foi campeão contra o Flamengo em 2026; Relembre final da Supercopa do Brasil",
+      "summary": "Equipes se enfrentam neste domingo (13) pelo Campeonato Brasileiro",
+      "url": "https://www.espn.com.br/video/clip/_/id/17243225",
+      "publishedAt": "2026-09-11T23:13:19Z",
+      "category": "news",
+      "teams": [
+        "Corinthians",
+        "Flamengo"
       ],
       "imageUrl": null,
-      "imageAlt": "Coutinho chegando no Santos? Felipe Silva atualiza negociação com o jogador; VEJA",
+      "imageAlt": "Corinthians já foi campeão contra o Flamengo em 2026; Relembre final da Supercopa do Brasil",
       "imageCredit": null
     },
     {
-      "id": "17237449",
-      "title": "Santos aguarda Coutinho nesta sexta-feira para realizar exames e assinar contrato até o fim da temporada",
-      "summary": "Philippe Coutinho está bem perto de ser o mais novo reforço do Santos",
-      "url": "https://www.espn.com.br/futebol/santos/artigo/_/id/17237449/santos-aguarda-coutinho-nesta-sexta-feira-realizar-exames-assinar-contrato-ate-fim-temporada",
-      "publishedAt": "2026-09-10T20:39:03Z",
-      "category": "market",
+      "id": "17242551",
+      "title": "Mirassol x Vitória: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+      "summary": "Mirassol e Vitória se enfrentam neste domingo (13), no Maião, em jogão pelo Campeonato Brasileiro",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17242551/mirassol-x-vitoria-onde-assistir-ao-vivo-horario-palpite-escalacoes-jogo-brasileirao",
+      "publishedAt": "2026-09-11T22:45:02Z",
+      "category": "news",
       "teams": [
-        "Santos"
+        "Mirassol",
+        "Vitória"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0908/r1713237_1296x729_16-9.jpg",
-      "imageAlt": "Philippe Coutinho durante jogo entre Vasco e Botafogo",
-      "imageCredit": "Matheus Lima/Vasco"
+      "imageUrl": "https://a.espncdn.com/photo/2026/0828/r1708151_1296x729_16-9.jpg",
+      "imageAlt": "Vista da arquibancada do estádio José Maria de Campos Maia, do Mirassol",
+      "imageCredit": "JP Pinheiro/Agência Mirassol"
     },
     {
-      "id": "17237198",
-      "title": "Justiça marca data para leilão da SAF do Vasco e autoriza empréstimo de R$ 150 milhões de Lamacchia",
-      "summary": "Justiça autorizou nesta quinta-feira (10) o leilão da SAF do Vasco e também o empréstimo de R$ 150 milhões ao clube",
-      "url": "https://www.espn.com.br/futebol/vasco/artigo/_/id/17237198/justica-marca-data-leilao-saf-vasco-autoriza-emprestimo-r-150-milhoes-lamacchia",
-      "publishedAt": "2026-09-10T19:15:31Z",
-      "category": "market",
+      "id": "17242471",
+      "title": "Flamengo x Corinthians: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+      "summary": "Flamengo e Corinthians se enfrentam neste domingo (13), no Maracanã, em jogão pelo Campeonato Brasileiro",
+      "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17242471/flamengo-x-corinthians-onde-assistir-ao-vivo-horario-palpite-escalacoes-jogo-brasileirao",
+      "publishedAt": "2026-09-11T22:04:31Z",
+      "category": "news",
       "teams": [
-        "Vasco da Gama"
+        "Flamengo",
+        "Corinthians"
       ],
-      "imageUrl": "https://a.espncdn.com/photo/2026/0910/r1714465_1296x729_16-9.jpg",
-      "imageAlt": "Vista de São Januário antes de jogo entre Vasco e Santos",
-      "imageCredit": "Matheus Lima/Vasco da Gama"
+      "imageUrl": "https://a.espncdn.com/photo/2026/0911/r1715054_1296x729_16-9.jpg",
+      "imageAlt": "Vista do Maracanã antes de jogo entre Flamengo e Corinthians, pela Copa do Brasil",
+      "imageCredit": "Wagner Meier/Getty Images"
     }
   ]
 };
